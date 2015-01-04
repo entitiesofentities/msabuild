@@ -1,0 +1,25 @@
+name: MSA 17
+subtitle: Boston
+permalink: none
+baseurl: /msabuild
+
+delay_5: "-webkit-animation-delay: .5s; -moz-animation-delay: .5s; -ms-animation-delay: 
+.5s; animation-delay: .5s;"
+delay1: "-webkit-animation-delay: 1s; -moz-animation-delay: 1s; -ms-animation-delay: 
+1s; animation-delay: 1s;"
+delay1_5: "-webkit-animation-delay: 1.5s; -moz-animation-delay: 1.5s; -ms-animation-delay: 
+1.5s; animation-delay: 1.5s;"
+delay2: "-webkit-animation-delay: 2s; -moz-animation-delay: 2s; -ms-animation-delay: 
+2s; animation-delay: 2s;"
+delay2_5: "-webkit-animation-delay: 2.5s; -moz-animation-delay: 2.5s; -ms-animation-delay: 
+2.5s; animation-delay: 2.5s;"
+delay3: "-webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 
+3s; animation-delay: 3s;"
+delay3_5: "-webkit-animation-delay: 3.5s; -moz-animation-delay: 3.5s; -ms-animation-delay: 
+3.5s; animation-delay: 3.5s;"
+delay4: "-webkit-animation-delay: 4s; -moz-animation-delay: 4s; -ms-animation-delay: 
+4s; animation-delay: 4s;"
+delay4_5: "-webkit-animation-delay: 4.5s; -moz-animation-delay: 4.5s; -ms-animation-delay: 
+4.5s; animation-delay: 4.5s;"
+delay5: "-webkit-animation-delay: 5s; -moz-animation-delay: 5s; -ms-animation-delay: 
+5s; animation-delay: 5s;"
