@@ -18,7 +18,7 @@ title: Community CFPs for MSA17
 
 1. Look for the hashtag "cfp" on the [MSA Facebook page](https://www.facebook.com/groups/35866051126/?fref=ts).
 
-2. Look for a CFP on the [MSA CFP page](MSA CFP page](http://msa.press.jhu.edu/cgi-bin/cfp_view.cgi).
+2. Look for a CFP on the [MSA CFP page](http://msa.press.jhu.edu/cgi-bin/cfp_view.cgi).
 
 3. Sign up for our mailing list at [http://chaos.press.jhu.edu/mailman/listinfo/msa-discuss](http://chaos.press.jhu.edu/mailman/listinfo/msa-discuss).
 
