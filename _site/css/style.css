@@ -71,6 +71,10 @@ li.title{
 	border-left: 2px solid  rgb(210,35,42);
 }
 
+.post p{
+	padding-left: 10px;
+}
+
 h3{
 	border-bottom: 1px solid rgb(210,35,42);
 	padding-left: 1em;
