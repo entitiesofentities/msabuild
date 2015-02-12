@@ -1,10 +1,12 @@
 var main = function(){
-    
+
+  
     $('#welcome').addClass('animated fadeInDown');
     $('#grads').addClass('animated fadeInDown');
     
     switch(document.title){
             case "MSA 17 CFPs": $('#welcome').removeClass('hidden animated');
+                        		$('#top-nav-one').addClass('');
             break;
             case "MSA 17 grads": $('#grads').removeClass('hidden animated');
             break;
