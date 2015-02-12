@@ -1,0 +1,8 @@
+.hidden{
+	display: none;
+}
+
+.highlighted{
+	border-bottom: 3px solid rgb(210,35,42);
+	cursor: pointer;
+}

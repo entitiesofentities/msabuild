@@ -1,28 +1,31 @@
-<div class="header">
-<!--
-<h1>{{ site.name }} {{ site.subtitle }}</h1>
--->
 <h2>
 <ul class="nav">
-	<li class="title"><a href="{{ site.baseurl }}/home">{{ site.name }} {{ site.subtitle }}</a></li>
-	
-	<li><a href="{{ site.baseurl }}/CFP.html"class="animated fadeInDown" style="{{ site.delay_3 }}">Read the CFP</a></li>
-	<li><a href="{{ site.baseurl}}/community.html"class="animated fadeInDown" style="{{ site.delay_6 }}">Post & View CFPs</a></li>
-	<li><a href="mailto:MSAseventeen@gmail.com"class="animated fadeInDown" style="{{ site.delay1 }}">Contact</a></li>
-	
-										<br>
-
-	<li class="animated fadeInDown" style="{{ site.delay1_5 }}">Submit a proposal:</li>
-
-	<li class="animated fadeInDown" style="{{ site.delay2 }}"><a href="{{ site.baseurl }}/submit/seminar.html">Seminar</a></li>
-	
-	<li class="animated fadeInDown" style="{{ site.delay2_5 }}"><a href="{{ site.baseurl }}/submit/workshop.html">Workshop </a></li>
-	
-	<li class="animated fadeInDown" style="{{ site.delay3 }}"><a href="{{ site.baseurl }}/submit/panel.html">Panel </a></li>
-										
-	<li class="animated fadeInDown" style="{{ site.delay3_5 }}"><a href="{{ site.baseurl }}/submit/roundtable.html">Roundtable</a><li>
-										
-	<li class="animated fadeInDown" style="{{ site.delay4 }}"><a href="{{ site.baseurl }}/submit/exhibit.html">Poster & Digital Exhibit</a><li>
+	<li class="title"><a href="{{ site.baseurl }}/">{{ site.name }} {{ site.subtitle }}</a></li>
+	<li class = 'top-nav' id="top-nav-one">{{ site.data.top-nav.one }}</li>	
+	<li class = 'top-nav' id="top-nav-two">{{ site.data.top-nav.two }}</li>	
+	<li class = 'top-nav' id="top-nav-three">{{ site.data.top-nav.three }}</li>	
+	<li class = 'top-nav' id="top-nav-four">{{ site.data.top-nav.four }}</li>	
+	<li class = 'top-nav' id="top-nav-five">{{ site.data.top-nav.five }}</li>	
+	<li class = 'top-nav' id="top-nav-six">{{ site.data.top-nav.six }}</li>	
+	<li class = 'top-nav' id="top-nav-seven">{{ site.data.top-nav.seven }}</li>	
+	<li class = 'top-nav' id="top-nav-eight">{{ site.data.top-nav.eight }}</li>	
 </ul>
+
+<ul class="bottom-nav hidden" id="welcome">
+	<li >Submit a Proposal:</li>
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'call' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+</ul>
+
+<ul class="bottom-nav hidden" id="grads">
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'grad' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+</li>
 </h2>
-</div>
+<script type='text/javascript' src='script.js'></script>

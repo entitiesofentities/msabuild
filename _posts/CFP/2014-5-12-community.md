@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Community CFPs for MSA17
+layout: CFP
+title: Community CFPs
+category: call
+tag: text
 ---
 
 ###How can I send out a CFP to the MSA Community?

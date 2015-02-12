@@ -1,0 +1,31 @@
+<h2>
+<ul class="nav">
+	<li class="title"><a href="{{ site.baseurl }}/">{{ site.name }} {{ site.subtitle }}</a></li>
+	<li class = 'top-nav animated fadeInDown' id="top-nav-one" style="{{ site.delay_3 }}">{{ site.data.top-nav.one }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-two" style="{{ site.delay_6 }}">{{ site.data.top-nav.two }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-three" style="{{ site.delay1 }}">{{ site.data.top-nav.three }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-four" style="{{ site.delay1_3 }}">{{ site.data.top-nav.four }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-five" style="{{ site.delay1_6 }}">{{ site.data.top-nav.five }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-six" style="{{ site.delay2 }}">{{ site.data.top-nav.six }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-seven" style="">{{ site.data.top-nav.seven }}</li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-eight" style="">{{ site.data.top-nav.eight }}</li>	
+</ul>
+
+<ul class="bottom-nav hidden" id="welcome">
+	<li >Submit a Proposal:</li>
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'call' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+</ul>
+
+<ul class="bottom-nav hidden" id="grads">
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'grad' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+</li>
+</h2>
+<script type='text/javascript' src='script.js'></script>
