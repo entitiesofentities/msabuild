@@ -2,7 +2,44 @@
 layout: welcome
 ---
 
-<div>
-<center><img id="slow" src="{{ site.baseurl }}/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="{{ site.delay2_3 }} -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
-<center><img id="fast" src="{{ site.baseurl }}/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="{{ site.delay_6 }} -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
+<!-- <center><img id="slow" src="{{ site.baseurl }}/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="{{ site.delay2_3 }} -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
+<center><img id="fast" src="{{ site.baseurl }}/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="{{ site.delay_6 }} -webkit-animation-duration: 2s;animation-duration: 2s;" ></center> -->
+
+
+
+<div id = "fast">
+<div class="announce animated fadeIn" style="{{ site.delay1 }}"><h1>MSA 17<br>Modernism & Revolution</h1><br><br><h1>Enter</h1></div>
+    	<div class="main">
+    	  <div class="bg animated fadeIn"  style="{{ site.delay_6 }}" data-ibg-bg="{{ site.baseurl }}/assets/boston.png"></div>
+    	</div>
 </div>
+
+<div id = "slow">
+<div class="announce animated fadeIn" style="{{ site.delay3 }}"><h1>MSA 17<br>Modernism & Revolution</h1><br><br><h1>Enter</h1></div>
+    	<div class="main">
+    	  <div id = "slow" class="bg animated fadeIn"  style="{{ site.delay2_3 }}" data-ibg-bg="{{ site.baseurl }}/assets/boston.png"></div>    	  
+    	</div>    	
+</div>    	
+    	<script type="text/javascript">
+$(".bg").interactive_bg({
+   strength: 500,
+   scale: 1.05,
+   animationSpeed: "100ms",
+   contain: true,
+   wrapContent: false
+ });
+
+$(document).ready(function(){
+    $(".bg").interactive_bg(); // function call
+});
+ 
+  // change background size on window resize
+  $(window).resize(function() {
+      $(".bg > .ibg-bg").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+      })
+   })
+</script>      
+		</div><!-- Container -->
+

@@ -12,11 +12,14 @@
 
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-
 		<!-- Favicon -->		 		 
 		 
 		<!-- Made with Fun Dip -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    	<script type="text/javascript" src="/msabuild/js/jquery.interactive_bg.js"></script>
+
+<script src="http://www.onextrapixel.com/examples/file/js/modernizr.js"></script>
     </head>   
 <header>
 <h2>
@@ -141,10 +144,48 @@
 
 <body>
 
-                <div>
-<center><img id="slow" src="/msabuild/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="-webkit-animation-delay: 2.333s; -moz-animation-delay: 2.333s; -ms-animation-delay: 2.333s; animation-delay: 2.333s; -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
-<center><img id="fast" src="/msabuild/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="-webkit-animation-delay: .666s; -moz-animation-delay: .666s; -ms-animation-delay: .666s; animation-delay: .666s; -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
+                <!-- <center><img id="slow" src="/msabuild/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="-webkit-animation-delay: 2.333s; -moz-animation-delay: 2.333s; -ms-animation-delay: 2.333s; animation-delay: 2.333s; -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
+<center><img id="fast" src="/msabuild/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="-webkit-animation-delay: .666s; -moz-animation-delay: .666s; -ms-animation-delay: .666s; animation-delay: .666s; -webkit-animation-duration: 2s;animation-duration: 2s;" ></center> -->
+
+
+
+<div id = "fast">
+<div class="announce animated fadeIn" style="-webkit-animation-delay: 1s; -moz-animation-delay: 1s; -ms-animation-delay: 1s; animation-delay: 1s;"><h1>MSA 17<br>Modernism & Revolution</h1><br><br><h1>Enter</h1></div>
+    	<div class="main">
+    	  <div class="bg animated fadeIn"  style="-webkit-animation-delay: .666s; -moz-animation-delay: .666s; -ms-animation-delay: .666s; animation-delay: .666s;" data-ibg-bg="/msabuild/assets/boston.png"></div>
+    	</div>
 </div>
+
+<div id = "slow">
+<div class="announce animated fadeIn" style="-webkit-animation-delay: 2.7s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; animation-delay: 3s;"><h1>MSA 17<br>Modernism & Revolution</h1><br><br><h1>Enter</h1></div>
+    	<div class="main">
+    	  <div id = "slow" class="bg animated fadeIn"  style="-webkit-animation-delay: 2.333s; -moz-animation-delay: 2.333s; -ms-animation-delay: 2.333s; animation-delay: 2.333s;" data-ibg-bg="/msabuild/assets/boston.png"></div>    	  
+    	</div>    	
+</div>    	
+    	<script type="text/javascript">
+$(".bg").interactive_bg({
+   strength: 500,
+   scale: 1.05,
+   animationSpeed: "100ms",
+   contain: true,
+   wrapContent: false
+ });
+
+$(document).ready(function(){
+    $(".bg").interactive_bg(); // function call
+});
+ 
+  // change background size on window resize
+  $(window).resize(function() {
+      $(".bg > .ibg-bg").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+      })
+   })
+</script>      
+		</div><!-- Container -->
+
+
 
 </body>
 

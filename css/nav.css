@@ -22,3 +22,25 @@
 .full{
 	display: inline;
 }
+
+.bg {
+  height: 100%;
+  margin: auto;
+}
+
+.main{
+	position: relative	;
+}
+
+.announce{
+	position: absolute;
+	z-index: 99;
+	margin-top: 10%;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+.announce .h1{
+	text-align: center;
+}
