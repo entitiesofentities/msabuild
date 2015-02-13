@@ -48,6 +48,14 @@ var main = function(){
                                 selected = true;
                                 });
         
+        $(".bg").interactive_bg({
+                                strength: 10,
+                                scale: 1.1,
+                                animationSpeed: "100ms",
+                                contain: true,
+                                wrapContent: false
+                                });
+        
     }else{
         if(document.title == "MSA 17"){
             $('#animate').show();
@@ -87,6 +95,14 @@ var main = function(){
                                           $('#grads').addClass('animated');
                                           $('#grads').toggleClass('hidden', 'fadeInDown');
                                           });
+            
+            $(".bg").interactive_bg({
+                                    strength: 75,
+                                    scale: 1.1,
+                                    animationSpeed: "100ms",
+                                    contain: true,
+                                    wrapContent: false
+                                    });
         }else{
             $('#full').show();
             $('#animate').hide();
