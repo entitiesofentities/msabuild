@@ -14,3 +14,11 @@
 .bottom-nav{
 	font-size: .8em;
 }
+
+.mobile{
+	display: flex;
+}
+
+.full{
+	display: inline;
+}
