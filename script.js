@@ -58,7 +58,7 @@ var main = function(){
                                 });
         
         $(".bg").interactive_bg({
-                                strength: 10,
+                                strength: 5,
                                 scale: 1.1,
                                 animationSpeed: "100ms",
                                 contain: true,
