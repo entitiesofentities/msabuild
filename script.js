@@ -26,7 +26,7 @@ var main = function(){
         if(document.title == "MSA 17"){
         $('header').addClass('pretty');
         }
-        
+
         var selected;
         $('ul li').addClass('mobile');
         $('.top-nav').hide();
@@ -46,20 +46,20 @@ var main = function(){
                           }
             });
         
-               var done = true;
+        //var done = true;
         
         $('#mobile #top-nav-one').click(function(){
 
                                         //toggle arrow on open & close
-                                        var arrow = $('<span>\&#8592; \&nbsp;</span>');
+                                        //var arrow = $('<span>\&#8592; \&nbsp;</span>');
 
-                                        if(done){
-                                        done = false;
-                                        $(this).prepend(arrow);}
-                                        else{
-                                        $('#top-nav-one span').hide();
-                                        done = true;
-                                        }
+                                        //if(done){
+                                        //done = false;
+                                        //$(this).prepend(arrow);}
+                                        //else{
+                                        //$('#top-nav-one span').hide();
+                                        //done = true;
+                                        //}
                                         
                                 $('#mobile #top-nav-one').toggleClass('highlighted')
                                 $('#welcome').toggle('show')
@@ -69,16 +69,16 @@ var main = function(){
                                 });
 
         $('#mobile #top-nav-two').click(function(){
-                                        //toggle arrow on open & close                                        
-                                        var arrow = $('<span>\&#8592; \&nbsp;</span>');
+                                        //toggle arrow on open & close
+                                        //var arrow = $('<span>\&#8592; \&nbsp;</span>');
                                         
-                                        if(done){
-                                        done = false;
-                                        $(this).prepend(arrow);}
-                                        else{
-                                        $('#top-nav-two span').hide();
-                                        done = true;
-                                        }
+                                        //if(done){
+                                        //done = false;
+                                        //$(this).prepend(arrow);}
+                                        //else{
+                                        //$('#top-nav-two span').hide();
+                                        //done = true;
+                                        //}
                                         
                                 $('#mobile #top-nav-two').toggleClass('highlighted')
                                 $('#grads').toggle('show')
