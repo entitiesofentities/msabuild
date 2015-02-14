@@ -8,7 +8,7 @@ var main = function(){
       
         var pad;
         pad = $('header').height();
-        $('#padder').height(pad*5);
+        $('#padder').height(pad*4.33);
         $('.padder').height(pad*4);
         
         $('#slow').hide();
@@ -66,8 +66,8 @@ var main = function(){
 
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad/3);
-            $('.padder').height(pad/3);
+            $('#padder').height(pad/3.666);
+            $('.padder').height(pad/3.666);
             
             $('ul li').addClass('full');
             $('#welcome').addClass('animated fadeInDown');

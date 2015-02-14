@@ -1,7 +1,7 @@
 <div class="padder" id="begin">
 </div>
 
-##MSA 17: Modernism & Revolution
+##Welcome to Boston
 
 ####![]({{ site.baseurl }}/assets/msa17Poster.jpg)
 
@@ -22,6 +22,8 @@ Ut vel leo enim. Integer cursus, metus nec aliquam bibendum, neque metus iaculis
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porta, ante ac ultricies vulputate, velit velit feugiat ante, nec viverra mauris orci non nunc. Curabitur feugiat massa eu leo posuere, ac elementum arcu tempor. Nunc volutpat dolor lorem, et pharetra velit pulvinar a. Pellentesque luctus arcu eu accumsan feugiat. Nunc dignissim ipsum ut aliquet lacinia. Morbi eget orci in purus scelerisque sollicitudin vel eu justo. Vivamus auctor vulputate elementum. Cras vel sapien et odio convallis volutpat. Pellentesque quis congue ipsum, non facilisis sem.
 
 ####![]({{ site.baseurl }}/assets/msa17Poster.jpg)
+
+##Conference Theme: Modernism & Revolution
 
 Vestibulum ac semper purus. Vestibulum eleifend ligula a lorem viverra, tempor ultricies arcu dictum. Nam non mi dolor. Etiam aliquet pulvinar lectus blandit mattis. Nulla eget ultrices purus, vel ultricies orci. Vivamus eget mauris metus. Praesent euismod risus eget est dapibus feugiat. Fusce mollis commodo rhoncus. Nulla sit amet quam egestas, aliquam libero nec, dapibus libero. Nunc diam metus, lacinia at sollicitudin nec, consequat non odio.
 
