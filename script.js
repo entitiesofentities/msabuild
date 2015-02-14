@@ -11,10 +11,13 @@ var main = function(){
         $('#padder').height(pad*4.33);
         $('.padder').height(pad*4);
 
-        ann = $(window).height();
-        ann2 = "-" + ann/12 + "px";
+        //change margin-top of announce based on aspect ratio of screen
+        var calc, ann;
+        calc = screen.height/screen.width;
+        ann = "-" + calc*50 + "%";
+        $('.announce').css('margin-top', ann);
+        $('.announce').css('font-size', '1.5em');
         
-        $('.announce').css('margin-top', ann2);
         
         $('#slow').hide();
         $('#fast').show();
@@ -58,7 +61,7 @@ var main = function(){
                                 strength: 5,
                                 scale: 1.1,
                                 animationSpeed: "100ms",
-                                contain: false,
+                                contain: true,
                                 wrapContent: false
                                 });
         
@@ -69,10 +72,13 @@ var main = function(){
             $('#slow').show();
             $('#fast').hide();
 
-ann = $(window).height();
-ann2 = "-" + ann/5 + "px";
+            //change margin-top of announce based on aspect ratio of screen
+            var calc, ann;
+            calc = screen.height/screen.width;
+            ann = "-" + calc*50 + "%";
+            $('.announce').css('margin-top', ann);
+            $('.announce').css('font-size', '2em');
             
-$('.announce').css('margin-top', ann2);
 
             var pad;
             pad = $('header').height();
