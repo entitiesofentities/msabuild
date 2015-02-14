@@ -2,24 +2,39 @@
 layout: welcome
 ---
 
-<!-- <center><img id="slow" src="{{ site.baseurl }}/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="{{ site.delay2_3 }} -webkit-animation-duration: 2s;animation-duration: 2s;" ></center>
-<center><img id="fast" src="{{ site.baseurl }}/assets/msa17Poster.jpg" width="70%" class="animated fadeIn"  style="{{ site.delay_6 }} -webkit-animation-duration: 2s;animation-duration: 2s;" ></center> -->
-
-
-
 <div id = "fast">
-<div class="announce animated fadeIn" style="{{ site.delay1 }}"><h1>MSA 17 Boston</h1><br><br><h1>Enter</h1></div>
-    	<div class="main">
+<h1 class="announce animated fadeIn" style="{{ site.delay1 }}">MSA 17 Boston<br><br><a href="#begin">Enter</a></h1>
     	  <div class="bg animated fadeIn"  style="{{ site.delay_6 }}" data-ibg-bg="{{ site.baseurl }}/assets/boston2.jpg"></div>
-    	</div>
 </div>
 
 <div id = "slow">
-<div class="announce animated fadeIn" style="{{ site.delay3 }}"><h1>MSA 17 Boston</h1><br><br><h1>Enter</h1></div>
-    	<div class="main">
+<h1 class="announce animated fadeIn" style="{{ site.delay3 }}">MSA 17 Boston<br><br><a href="#begin">Enter</a></h1>
     	  <div id = "slow" class="bg animated fadeIn"  style="{{ site.delay2_3 }}" data-ibg-bg="{{ site.baseurl }}/assets/boston2.jpg"></div>    	  
-    	</div>    	
 </div>    	
+
+<div class="content">
+{% capture my_include %}{% include welcome.md %}{% endcapture %}
+{{ my_include | markdownify }}
+</div>
 
 		</div><!-- Container -->
 
+<!-- script for scrolling -->
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	  
+	});
+	</script>

@@ -5,9 +5,11 @@ var main = function(){
     
     if(check){
 
+      
         var pad;
         pad = $('header').height();
         $('#padder').height(pad*5);
+        $('.padder').height(pad*4);
         
         $('#slow').hide();
         $('#fast').show();
@@ -16,7 +18,6 @@ var main = function(){
         $('ul li').addClass('mobile');
         $('.top-nav').hide();
         $('.bottom-nav').hide();
-        
 
         $('.title').click(function(){
                           if(selected){
@@ -66,6 +67,7 @@ var main = function(){
             var pad;
             pad = $('header').height();
             $('#padder').height(pad/3);
+            $('.padder').height(pad/3);
             
             $('ul li').addClass('full');
             $('#welcome').addClass('animated fadeInDown');
