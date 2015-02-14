@@ -14,9 +14,9 @@ var main = function(){
         //change margin-top of announce based on aspect ratio of screen
         var calc, ann;
         calc = screen.height/screen.width;
-        ann = "-" + calc*50 + "%";
+        ann = "-" + calc*25 + "%";
         $('.announce').css('margin-top', ann);
-        $('.announce').css('font-size', '1.5em');
+        $('.announce').css('font-size', '1.3em');
         
         
         $('#slow').hide();
@@ -58,7 +58,7 @@ var main = function(){
                                 });
         
         $(".bg").interactive_bg({
-                                strength: 5,
+                                strength: 10,
                                 scale: 1.1,
                                 animationSpeed: "100ms",
                                 contain: true,
