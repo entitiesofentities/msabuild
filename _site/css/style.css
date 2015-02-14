@@ -1,8 +1,30 @@
 header{
 	position: fixed;
 	z-index: 999;
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(0,0,0,0.5);
 	width: 100%;
+	color: white;
+}
+
+.sticky{
+	background-color: rgba(255,255,255,0.8);
+	color: black;	
+}
+
+header a{
+	color: white;
+}
+
+header a:visited{
+	color: white;
+}
+
+.sticky a{
+	color: black;	
+}
+
+.sticky a:visited{
+	color: black;
 }
 
 h1{

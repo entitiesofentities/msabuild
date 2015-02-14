@@ -12,6 +12,26 @@ body, html {
 	display: none;
 }
 
+    .main {
+      position: relative;
+    }
+    
+        .main h1 {
+      padding:20px 50px 10px;
+      float: left;
+      width: 100%;
+      font-size: 60px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      margin: 0;
+      padding-top: 55px;
+      font-family: 'Open Sans';
+      letter-spacing: -1px;
+      text-transform: capitalize;
+    }
+
 .highlighted{
 	border-bottom: 3px solid rgb(210,35,42);
 	cursor: pointer;
@@ -25,8 +45,13 @@ body, html {
 	font-size: .8em;
 }
 
+
 .mobile{
 	display: flex;
+}
+
+#mobile .title{
+	display: list-item;
 }
 
 .full{
@@ -37,18 +62,15 @@ body, html {
 	height: 100%;
 	width: 100%;
   margin: auto;
-}
-
-.main{
-	position: relative	;
+  position: relative;
 }
 
 .announce{
-	position: absolute;
+    box-sizing: content-box;
+	position: relative;
 	width: 100%;
 	text-align: center;
 	z-index: 99;
-	margin-top: 17%;
 	font-family: raleway;
 	font-size: 1.5em;
 	color: gold;
@@ -98,4 +120,8 @@ body, html {
 	font-size: 2em;
 	color: rgb(210,35,42);
 	font-family: 
+}
+
+.nav{
+
 }

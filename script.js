@@ -10,6 +10,11 @@ var main = function(){
         pad = $('header').height();
         $('#padder').height(pad*4.33);
         $('.padder').height(pad*4);
+
+        ann = $(window).height();
+        ann2 = "-" + ann/12 + "px";
+        
+        $('.announce').css('margin-top', ann2);
         
         $('#slow').hide();
         $('#fast').show();
@@ -50,10 +55,10 @@ var main = function(){
                                 });
         
         $(".bg").interactive_bg({
-                                strength: 10,
+                                strength: 5,
                                 scale: 1.1,
                                 animationSpeed: "100ms",
-                                contain: true,
+                                contain: false,
                                 wrapContent: false
                                 });
         
@@ -63,6 +68,11 @@ var main = function(){
             $('#full').hide();
             $('#slow').show();
             $('#fast').hide();
+
+ann = $(window).height();
+ann2 = "-" + ann/5 + "px";
+            
+$('.announce').css('margin-top', ann2);
 
             var pad;
             pad = $('header').height();
@@ -102,7 +112,7 @@ var main = function(){
                                     strength: 75,
                                     scale: 1.1,
                                     animationSpeed: "100ms",
-                                    contain: true,
+                                    contain: false,
                                     wrapContent: false
                                     });
         }else{
