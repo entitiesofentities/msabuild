@@ -22,6 +22,11 @@ var main = function(){
         $('#slow').hide();
         $('#fast').show();
         $('#mobile').show();
+
+        if(document.title == "MSA 17"){
+        $('header').addClass('pretty');
+        }
+        
         var selected;
         $('ul li').addClass('mobile');
         $('.top-nav').hide();
@@ -41,7 +46,21 @@ var main = function(){
                           }
             });
         
+               var done = true;
+        
         $('#mobile #top-nav-one').click(function(){
+
+                                        //toggle arrow on open & close
+                                        var arrow = $('<span>\&#8592; \&nbsp;</span>');
+
+                                        if(done){
+                                        done = false;
+                                        $(this).prepend(arrow);}
+                                        else{
+                                        $('#top-nav-one span').hide();
+                                        done = true;
+                                        }
+                                        
                                 $('#mobile #top-nav-one').toggleClass('highlighted')
                                 $('#welcome').toggle('show')
                                 $('#mobile .top-nav').not('#welcome').hide;
@@ -50,6 +69,17 @@ var main = function(){
                                 });
 
         $('#mobile #top-nav-two').click(function(){
+                                        //toggle arrow on open & close                                        
+                                        var arrow = $('<span>\&#8592; \&nbsp;</span>');
+                                        
+                                        if(done){
+                                        done = false;
+                                        $(this).prepend(arrow);}
+                                        else{
+                                        $('#top-nav-two span').hide();
+                                        done = true;
+                                        }
+                                        
                                 $('#mobile #top-nav-two').toggleClass('highlighted')
                                 $('#grads').toggle('show')
                                 $('#mobile .top-nav').not('#grads').hide;
@@ -71,6 +101,7 @@ var main = function(){
             $('#full').hide();
             $('#slow').show();
             $('#fast').hide();
+            $('header').addClass('pretty');
 
             //change margin-top of announce based on aspect ratio of screen
             var calc, ann;
