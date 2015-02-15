@@ -93,25 +93,28 @@ body, html {
 }
 
 .content p{
-	font-size: 1em;
+	font-size: 1.1em;
 	text-align: left;
-	font-family: helvetica;
+	font-family: lato;
+	font-weight: 300;
 }
 
 .content{
-	padding-left: 2%;
-	padding-right: 2%;	
+	padding-left: 10%;
+	padding-right: 10%;	
 }
 
 .content h4:nth-child(odd) img{
-	width: 10%;
+    max-width:40% !important;
+    height:auto;
 	float: right;
 	padding-left: 5%;
 	padding-bottom: 1em;
 }
 
 .content h4:nth-child(even) img{
-	width: 10%;
+    max-width:40% !important;
+    height:auto;
 	float: left;
 	padding-right: 5%;
 	padding-bottom: 1em;	
@@ -121,7 +124,8 @@ body, html {
 	text-align: left;
 	font-size: 2em;
 	color: rgb(210,35,42);
-	font-family: 
+	font-family: lato;
+	font-weight: 800;
 }
 
 .nav{
