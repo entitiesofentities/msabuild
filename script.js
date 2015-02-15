@@ -106,7 +106,7 @@ var main = function(){
             //change margin-top of announce based on aspect ratio of screen
             var calc, ann;
             calc = screen.height/screen.width;
-            ann = "-" + calc*25+ "%";
+            ann = "-" + calc*22+ "%";
             $('.announce').css('margin-top', ann);
             $('.announce').css('font-size', '1.75em');
             
