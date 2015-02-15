@@ -39,9 +39,17 @@
 
 
 <ul class="bottom-nav hidden" id="welcome">
-	<li >Submit a Proposal:</li>
+	<li>Submit a Proposal:</li>
     {% for post in site.posts %}
     	   {% if post.categories contains 'call' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+</ul>
+
+<ul class="bottom-nav hidden" id="conf">
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'conf' %}
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
@@ -53,7 +61,16 @@
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
-</li>
+</ul>
+
+<ul class="bottom-nav hidden" id="visit">
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'visit' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+</ul>
+
 </header>
 
 <script type='text/javascript' src='header.js'></script>

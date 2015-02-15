@@ -15,15 +15,17 @@ Quisque quis elementum magna. Pellentesque eu euismod justo. Suspendisse potenti
 
 Vivamus accumsan vulputate massa a scelerisque. Phasellus viverra libero velit, eu tincidunt massa hendrerit id. Nulla eget enim in enim rutrum aliquet. Aliquam pellentesque mauris non metus volutpat, a consequat nibh luctus. Vivamus fringilla auctor odio, in ullamcorper massa sagittis in. Donec id condimentum lorem. Integer interdum ut massa quis luctus. In vel odio urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna sem, rhoncus sit amet ex ut, tempus aliquam nunc.
 
+##Conference Theme: Modernism & Revolution
+
 In volutpat tempus sem, quis tincidunt ante consequat sed. Fusce volutpat pulvinar condimentum. Suspendisse gravida nibh convallis ex sollicitudin fringilla. Duis lobortis, mi eget auctor dictum, orci metus porta ex, sit amet mattis sapien libero quis libero. Phasellus in pulvinar dolor. Nulla magna metus, maximus sed mi et, convallis facilisis erat. Etiam ex risus, iaculis nec lacus ut, pellentesque rutrum quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse arcu erat, vestibulum fermentum luctus quis, suscipit sit amet arcu. Sed sit amet justo ligula. Nunc interdum, dolor in efficitur vehicula, massa libero commodo tellus, vel dictum enim odio eget tellus.
 
 Ut vel leo enim. Integer cursus, metus nec aliquam bibendum, neque metus iaculis nibh, at bibendum libero nunc quis nibh. Pellentesque malesuada mauris id augue vulputate faucibus. Praesent a nisl enim. Vivamus eget ultricies tortor. Nunc et ante at leo tempor ultricies. Nullam pellentesque elit dolor. Vivamus nec tincidunt diam, ac commodo mi. Nunc suscipit mauris dapibus orci rhoncus, et finibus quam lacinia.
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porta, ante ac ultricies vulputate, velit velit feugiat ante, nec viverra mauris orci non nunc. Curabitur feugiat massa eu leo posuere, ac elementum arcu tempor. Nunc volutpat dolor lorem, et pharetra velit pulvinar a. Pellentesque luctus arcu eu accumsan feugiat. Nunc dignissim ipsum ut aliquet lacinia. Morbi eget orci in purus scelerisque sollicitudin vel eu justo. Vivamus auctor vulputate elementum. Cras vel sapien et odio convallis volutpat. Pellentesque quis congue ipsum, non facilisis sem.
 
-####![]({{ site.baseurl }}/assets/msa17Poster.jpg)
+##Modernist Guide to Boston
 
-##Conference Theme: Modernism & Revolution
+####![]({{ site.baseurl }}/assets/msa17Poster.jpg)
 
 Vestibulum ac semper purus. Vestibulum eleifend ligula a lorem viverra, tempor ultricies arcu dictum. Nam non mi dolor. Etiam aliquet pulvinar lectus blandit mattis. Nulla eget ultrices purus, vel ultricies orci. Vivamus eget mauris metus. Praesent euismod risus eget est dapibus feugiat. Fusce mollis commodo rhoncus. Nulla sit amet quam egestas, aliquam libero nec, dapibus libero. Nunc diam metus, lacinia at sollicitudin nec, consequat non odio.
 

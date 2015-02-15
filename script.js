@@ -14,7 +14,7 @@ var main = function(){
         //change margin-top of announce based on aspect ratio of screen
         var calc, ann;
         calc = screen.height/screen.width;
-        ann = "-" + calc*22 + "%";
+        ann = "-" + calc*28 + "%";
         $('.announce').css('margin-top', ann);
         $('.announce').css('font-size', '1em');
         
@@ -67,8 +67,28 @@ var main = function(){
                                 $('#mobile .top-nav').not('#top-nav-one').toggle('hide');
                                 selected = true;
                                 });
-
+                                
         $('#mobile #top-nav-two').click(function(){
+
+                                        //toggle arrow on open & close
+                                        //var arrow = $('<span>\&#8592; \&nbsp;</span>');
+
+                                        //if(done){
+                                        //done = false;
+                                        //$(this).prepend(arrow);}
+                                        //else{
+                                        //$('#top-nav-one span').hide();
+                                        //done = true;
+                                        //}
+                                        
+                                $('#mobile #top-nav-two').toggleClass('highlighted')
+                                $('#conf').toggle('show')
+                                $('#mobile .top-nav').not('#conf').hide;
+                                $('#mobile .top-nav').not('#top-nav-two').toggle('hide');
+                                selected = true;
+                                });                                
+
+        $('#mobile #top-nav-three').click(function(){
                                         //toggle arrow on open & close
                                         //var arrow = $('<span>\&#8592; \&nbsp;</span>');
                                         
@@ -80,12 +100,31 @@ var main = function(){
                                         //done = true;
                                         //}
                                         
-                                $('#mobile #top-nav-two').toggleClass('highlighted')
+                                $('#mobile #top-nav-three').toggleClass('highlighted')
                                 $('#grads').toggle('show')
                                 $('#mobile .top-nav').not('#grads').hide;
-                                $('#mobile .top-nav').not('#top-nav-two').toggle('hide');
+                                $('#mobile .top-nav').not('#top-nav-three').toggle('hide');
                                 selected = true;
                                 });
+                                
+        $('#mobile #top-nav-four').click(function(){
+                                        //toggle arrow on open & close
+                                        //var arrow = $('<span>\&#8592; \&nbsp;</span>');
+                                        
+                                        //if(done){
+                                        //done = false;
+                                        //$(this).prepend(arrow);}
+                                        //else{
+                                        //$('#top-nav-two span').hide();
+                                        //done = true;
+                                        //}
+                                        
+                                $('#mobile #top-nav-four').toggleClass('highlighted')
+                                $('#visit').toggle('show')
+                                $('#mobile .top-nav').not('#visit').hide;
+                                $('#mobile .top-nav').not('#top-nav-four').toggle('hide');
+                                selected = true;
+                                });                                
         
         $(".bg").interactive_bg({
                                 strength: 5,
@@ -106,7 +145,7 @@ var main = function(){
             //change margin-top of announce based on aspect ratio of screen
             var calc, ann;
             calc = screen.height/screen.width;
-            ann = "-" + calc*22+ "%";
+            ann = "-" + calc*25+ "%";
             $('.announce').css('margin-top', ann);
             $('.announce').css('font-size', '1.75em');
             
@@ -117,33 +156,35 @@ var main = function(){
             $('.padder').height(pad/3.666);
             
             $('ul li').addClass('full');
-            $('#welcome').addClass('animated fadeInDown');
-            $('#grads').addClass('animated fadeInDown');
-            
-            switch(document.title){
-                case "MSA 17 CFPs": $('#welcome').removeClass('hidden animated');
-                    $('#top-nav-one').addClass('');
-                    break;
-                case "MSA 17 grads": $('#grads').removeClass('hidden animated');
-                    break;
-            }
-            
+            $('.bottom-nav').addClass('animated fadeInDown');         
             
             $('.top-nav').hover(function(){
                                 $(this).toggleClass('highlighted');
                                 });
             
             $('#animate #top-nav-one').click(function(){
-                                          $('#grads').addClass('hidden');
+                                    $('.bottom-nav').not('#welcome').addClass('hidden');
                                           $('#welcome').addClass('animated');
                                           $('#welcome').toggleClass('hidden', 'fadeInDown');
                                           });
-            
+                                          
             $('#animate #top-nav-two').click(function(){
-                                          $('#welcome').addClass('hidden');
-                                          $('#grads').addClass('animated');
-                                          $('#grads').toggleClass('hidden', 'fadeInDown');
-                                          });
+                                    $('.bottom-nav').not('#conf').addClass('hidden');
+                                          $('#conf').addClass('animated');
+                                          $('#conf').toggleClass('hidden', 'fadeInDown');
+                                          });		                                          
+            
+            $('#animate #top-nav-three').click(function(){
+                                    $('.bottom-nav').not('#grads').addClass('hidden');
+                                    $('#grads').addClass('animated');
+                                    $('#grads').toggleClass('hidden', 'fadeInDown');
+                                    });
+                                          
+            $('#animate #top-nav-four').click(function(){
+                                    $('.bottom-nav').not('#visit').addClass('hidden');
+                                    $('#visit').addClass('animated');
+                                    $('#visit').toggleClass('hidden', 'fadeInDown');
+                                    });                                          
             
             $(".bg").interactive_bg({
                                     strength: 75,
@@ -161,16 +202,9 @@ var main = function(){
             $('#padder').height(pad/3);
             
             $('ul li').addClass('full');
-            $('#welcome').addClass('animated fadeInDown');
-            $('#grads').addClass('animated fadeInDown');
+            $('.bottom-nav').addClass('animated fadeInDown');
             
-            switch(document.title){
-                case "MSA 17 CFPs": $('#welcome').removeClass('hidden animated');
-                    $('#top-nav-one').addClass('');
-                    break;
-                case "MSA 17 grads": $('#grads').removeClass('hidden animated');
-                    break;
-            }
+
             
             
             $('.top-nav').hover(function(){
@@ -178,16 +212,29 @@ var main = function(){
                                 });
             
             $('#full #top-nav-one').click(function(){
-                                    $('#grads').addClass('hidden');
+                                    $('.bottom-nav').not('#welcome').addClass('hidden');
                                     $('#welcome').addClass('animated');
                                     $('#welcome').toggleClass('hidden', 'fadeInDown');
                                     });
-            
+                                    
             $('#full #top-nav-two').click(function(){
-                                    $('#welcome').addClass('hidden');
+                                    $('.bottom-nav').not('#conf').addClass('hidden');
+                                          $('#conf').addClass('animated');
+                                          $('#conf').toggleClass('hidden', 'fadeInDown');
+                                          });                                    
+            
+            $('#full #top-nav-three').click(function(){
+                                    $('.bottom-nav').not('#grads').addClass('hidden');
                                     $('#grads').addClass('animated');
                                     $('#grads').toggleClass('hidden', 'fadeInDown');
                                     });
+                                    
+            $('#full #top-nav-four').click(function(){
+                                    $('.bottom-nav').not('#visit').addClass('hidden');
+                                    $('#visit').addClass('animated');
+                                    $('#visit').toggleClass('hidden', 'fadeInDown');
+                                    });
+                                                                        
         }
         }
     

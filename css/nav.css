@@ -104,14 +104,14 @@ body, html {
 }
 
 .content h4:nth-child(odd) img{
-	width: 30%;
+	width: 10%;
 	float: right;
 	padding-left: 5%;
 	padding-bottom: 1em;
 }
 
 .content h4:nth-child(even) img{
-	width: 30%;
+	width: 10%;
 	float: left;
 	padding-right: 5%;
 	padding-bottom: 1em;	
