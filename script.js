@@ -108,7 +108,7 @@ var main = function(){
             calc = screen.height/screen.width;
             ann = "-" + calc*25+ "%";
             $('.announce').css('margin-top', ann);
-            $('.announce').css('font-size', '2em');
+            $('.announce').css('font-size', '1.75em');
             
 
             var pad;
