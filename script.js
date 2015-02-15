@@ -16,7 +16,7 @@ var main = function(){
         calc = screen.height/screen.width;
         ann = "-" + calc*25 + "%";
         $('.announce').css('margin-top', ann);
-        $('.announce').css('font-size', '1.3em');
+        $('.announce').css('font-size', '1em');
         
         
         $('#slow').hide();
