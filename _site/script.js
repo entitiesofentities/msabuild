@@ -149,7 +149,18 @@ var main = function(){
             $('.announce').css('margin-top', ann);
             $('.announce').css('font-size', '1.75em');
             
-
+            if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)
+            {
+                window.onload = function() {
+                    if(!window.location.hash) {
+                        window.location = window.location + '#loaded';
+                        window.location.reload();
+                    }
+                }
+            }
+            
+            
+            
             var pad;
             pad = $('header').height();
             $('#padder').height(pad/3.666);
