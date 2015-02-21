@@ -92,41 +92,86 @@ body, html {
 }
 
 .content p{
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-align: left;
 	font-family: lato;
 	font-weight: 300;
+	line-height: 2em;
+	text-align: justify;
 }
 
 .content{
-	padding-left: 10%;
-	padding-right: 10%;	
+	padding-left: 15%;
+	padding-right: 15%;	
 }
 
-.content h4:nth-child(odd) img{
-    max-width:40% !important;
+.content ul li{
+	width: 100%;
+	height: 20%;
+}
+
+.content ul:nth-child(odd) img{
+    float: right;
+    position: relative;
+    width: 40%;
+    height: auto;    
+	margin-left: 5%;
+	margin-bottom: 1em;
+	margin-top: 3em;
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.content ul:nth-child(even) img{
+    display: block;
+    width: 40%;
+    height: auto;    	
     height:auto;
-	float: right;
-	padding-left: 5%;
-	padding-bottom: 1em;
+    float: left;
+	margin-right: 5%;
+	margin-bottom: 1em;
+	list-style: none;
+	margin-top: 3em;
+	box-shadow: 2px 2px 2px 2px black;
+	margin-left: -2em;
 }
 
-.content h4:nth-child(even) img{
-    max-width:40% !important;
-    height:auto;
-	float: left;
-	padding-right: 5%;
-	padding-bottom: 1em;	
+
+h4 img{
+
 }
 
-.content h2{
+.content h1{
 	text-align: left;
 	font-size: 2em;
 	color: rgb(210,35,42);
 	font-family: lato;
-	font-weight: 800;
+	font-weight: 600;
+}
+
+.content h2{
+	text-align: left;
+	font-size: 1.5em;
+	color: rgb(210,35,42);
+	font-family: lato;
+	font-weight: 400;
+}
+
+#httpmediadpublicbroadcastingnetpdemowgbhfiles201412mbtagreenlinejpg {
+
 }
 
 .nav{
 
+}
+
+.content a{
+	color: rgb(210,35,42);
+}
+
+.content a:visited{
+	color: rgb(210,35,42);	
+}
+
+.content a:hover{
+	border-bottom: 1px solid rgb(210,35,42);	
 }

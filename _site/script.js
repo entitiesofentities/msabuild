@@ -5,7 +5,7 @@ var main = function(){
     
     if(check){
 
-      
+        
         var pad;
         pad = $('header').height();
         $('#padder').height(pad*4.33);
@@ -15,9 +15,9 @@ var main = function(){
         var calc, ann;
         calc = screen.height/screen.width;
         ann = "-" + calc*28 + "%";
+        
         $('.announce').css('margin-top', ann);
         $('.announce').css('font-size', '1em');
-        
         
         $('#slow').hide();
         $('#fast').show();
