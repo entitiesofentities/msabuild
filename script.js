@@ -163,8 +163,7 @@ var main = function(){
             
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad/3.666);
-            $('.padder').height(pad/3.666);
+            $('.padder').height(pad/6);
             
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');         
