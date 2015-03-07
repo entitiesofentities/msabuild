@@ -146,6 +146,7 @@ var main = function(){
             $('#slow').show();
             $('#fast').hide();
             $('header').addClass('pretty');
+            $('#top-header').show();
           
             //change margin-top of announce based on aspect ratio of screen
             var calc, ann;
