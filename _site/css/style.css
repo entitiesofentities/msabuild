@@ -78,7 +78,7 @@
 }
 
 #b a{
-	font-family: "1942";
+	font-family: "Futura Light";
 	text-transform: lowercase;	
 	color: grey;
 	font-weight: 600;
@@ -94,6 +94,10 @@
 
 #b a:hover{
 	color: rgb(210,35,42);
+}
+
+#b a:visited{
+	color: grey;
 }
 
 /** HEADER **/
