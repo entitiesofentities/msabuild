@@ -91,6 +91,14 @@ body, html {
 	padding: 5px 10px 5px 10px;
 }
 
+/** experimental for welcome page
+.content{
+	border-top: 1px solid black;
+	margin-top: -1%;
+	background-color: #FAEBD7;
+}
+**/
+
 .content p{
 	font-size: 1.2em;
 	text-align: left;
