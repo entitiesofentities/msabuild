@@ -169,7 +169,7 @@ var main = function(){
             
             var pad;
             pad = $('header').height();
-            $('.padder').height(pad/6);
+            $('.padder').height(pad/3);
             
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');         
@@ -212,10 +212,11 @@ var main = function(){
         }else{
             $('#full').show();
             $('#animate').hide();
+            $('header').addClass("sticky");
 
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad/3);
+            $('#padder').height(pad);
             
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
