@@ -160,6 +160,7 @@ var main = function(){
             var pad;
             pad = $('header').height();
             $('.padder').height(pad/3);
+            $('.top-pad').height(pad);
             
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');         
@@ -193,7 +194,7 @@ var main = function(){
                                     });                                          
             
             $(".bg").interactive_bg({
-                                    strength: 75,
+                                    strength: 50,
                                     scale: 1.1,
                                     animationSpeed: "100ms",
                                     contain: true,
