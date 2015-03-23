@@ -10,16 +10,16 @@ var main = function(){
         $('.content img').css('margin-left', '0');
         $('.content img').css('margin-right', '0');        
         $('.content img').css('display', 'inline-block');
-        $('.bg').css('height', '60%');
+        $('.bg').css('height', '65%');
         $('.bg').css('width', '100%');
         $('.bg').css('padding-top', '35%');
-        $('#bottom-header').css('font-size', '3em');
+        $('#bottom-header').css('font-size', '125%');
 
 
         var pad;
         pad = $('header').height();
         $('#padder').height(pad*4.33);
-        $('.padder').height(pad*4);
+        $('.padder').height(pad*2);
         
         $('#slow').hide();
         $('#fast').show();
