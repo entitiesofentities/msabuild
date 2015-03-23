@@ -45,15 +45,6 @@ body, html {
 	font-size: .9em;
 }
 
-
-.mobile{
-	display: flex;
-}
-
-#mobile .title{
-	display: list-item;
-}
-
 .full{
 	display: inline;
 }
@@ -146,9 +137,6 @@ body, html {
 }
 
 
-h4 img{
-
-}
 
 .hidden{
 	display: none;

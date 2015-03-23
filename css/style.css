@@ -1,27 +1,27 @@
 /** FONTS **/
 @font-face {
   font-family: "Futura Light";
-  src: url(../Futura-light.ttf) format("truetype");
+  src: url(../fonts/Futura-light.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Futura Bold";
-  src: url(../Futura-bold.ttf) format("truetype");
+  src: url(../fonts/Futura-bold.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Futura Koyu";
-  src: url(../Futura-koyu.ttf) format("truetype");
+  src: url(../fonts/Futura-koyu.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "1942";
-  src: url(../1942.ttf) format("truetype");
+  src: url(../fonts/1942.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "American-Type";
-  src: url(../american-type.ttf) format("truetype");
+  src: url(../fonts/american-type.ttf) format("truetype");
 }
 
 /** TOP-HEADER **/
@@ -29,10 +29,9 @@
 #top-header{
 	letter-spacing: .1em;
 	text-rendering: optimizeLegibility;
-	width: 100%;
-	height: 15%;
 	float: left;
 	width: 100%;
+	height: 15%;
 	text-align: center;	
 	line-height: 1em;
 	padding-top: 1em;	
@@ -99,7 +98,7 @@
 	text-transform: lowercase;	
 	color: grey;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 
 #c{
@@ -166,8 +165,7 @@ header ul{
 	padding: .2em;
 	font-family: "Futura Light";
 	font-weight: 500;
-	font-size: 1.2em;	
-	line-height: 1%;
+	font-size: 1.2em;
 }
 
 li a:hover{

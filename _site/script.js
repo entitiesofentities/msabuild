@@ -15,22 +15,14 @@ var main = function(){
         pad = $('header').height();
         $('#padder').height(pad*4.33);
         $('.padder').height(pad*4);
-
-        //change margin-top of announce based on aspect ratio of screen
-        var calc, ann;
-        calc = screen.height/screen.width;
-        ann = "-" + calc*28 + "%";
-        
-        $('.announce').css('margin-top', ann);
-        $('.announce').css('font-size', '1em');
         
         $('#slow').hide();
         $('#fast').show();
         $('#mobile').show();
 
-        if(document.title == "MSA 17"){
-        $('header').addClass('pretty');
-        }
+
+        $('header').addClass('sticky');
+
 
         var selected;
         $('ul li').addClass('mobile');
