@@ -10,6 +10,11 @@ var main = function(){
         $('.content img').css('margin-left', '0');
         $('.content img').css('margin-right', '0');        
         $('.content img').css('display', 'inline-block');
+        $('.bg').css('height', '60%');
+        $('.bg').css('width', '100%');
+        $('.bg').css('padding-top', '35%');
+        $('#bottom-header').css('font-size', '3em');
+
 
         var pad;
         pad = $('header').height();
@@ -139,20 +144,29 @@ var main = function(){
             $('#fast').hide();
             $('header').addClass('pretty');
             $('#top-header').show();
-          
-            //change margin-top of announce based on aspect ratio of screen
-            var calc, ann;
-            calc = screen.height/screen.width;
-            ann = "-" + calc*5+ "%";
-            $('.announce').css('margin-top', ann);
-            $('.announce').css('font-size', '1.75em');
             
+            //header scroll code
             
+            var numz;
+            numz = $(window).height();
+            
+            $(window).scroll(function() {
+                             if ($(this).scrollTop() > numz/14){
+                             $('header').addClass("sticky");
+                             $('.title').removeClass('hidden');
+                             $('#top-header').hide();
+                             }
+                             else{
+                             $('header').removeClass("sticky");
+                             $('.title').addClass('hidden');
+                             $('#top-header').show();
+                             }
+                             });
             
             var pad;
             pad = $('header').height();
             $('.padder').height(pad/3);
-            $('.top-pad').height(pad);
+            $('.top-pad').height(pad/1.8);
             
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');         
