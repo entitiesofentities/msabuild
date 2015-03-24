@@ -10,9 +10,8 @@ var main = function(){
         $('.content img').css('margin-left', '0');
         $('.content img').css('margin-right', '0');        
         $('.content img').css('display', 'inline-block');
-        $('.bg').css('height', '65%');
+        $('.bg').css('height', '80%');
         $('.bg').css('width', '100%');
-        $('.bg').css('padding-top', '35%');
         $('#bottom-header').css('font-size', '200%');
 
 
