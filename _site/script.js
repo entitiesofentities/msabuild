@@ -12,7 +12,7 @@ var main = function(){
         $('.content img').css('display', 'inline-block');
         $('.bg').css('height', '80%');
         $('.bg').css('width', '100%');
-        $('#bottom-header').css('font-size', '200%');
+        $('#bottom-header').css('font-size', '125%');
 
 
         var pad;
