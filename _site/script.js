@@ -13,7 +13,7 @@ var main = function(){
         $('.bg').css('height', '65%');
         $('.bg').css('width', '100%');
         $('.bg').css('padding-top', '35%');
-        $('#bottom-header').css('font-size', '125%');
+        $('#bottom-header').css('font-size', '200%');
 
 
         var pad;

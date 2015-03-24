@@ -163,6 +163,10 @@ body, html {
 
 }
 
+#mobile {
+	font-size: 1em;
+}
+
 .content a{
 	color: rgb(210,35,42);
 }
