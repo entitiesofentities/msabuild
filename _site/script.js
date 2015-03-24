@@ -142,6 +142,7 @@ var main = function(){
             $('#slow').show();
             $('#fast').hide();
             $('header').addClass('pretty');
+            $('header').css('line-height', '.5em');
             $('#top-header').show();
             
             //header scroll code
