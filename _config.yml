@@ -34,3 +34,6 @@ delay4_5: "-webkit-animation-delay: 3.9s; -moz-animation-delay: 4.5s; -ms-animat
 4.5s; animation-delay: 4.5s;"
 delay5: "-webkit-animation-delay: 4.1s; -moz-animation-delay: 5s; -ms-animation-delay: 
 5s; animation-delay: 5s;"
+
+modernist_redvolution: rgb(210,35,42);
+hamlindigo_blue: rgb(87,82,180); 
