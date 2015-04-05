@@ -52,9 +52,19 @@ var interactive_bg = function(strength){
                             });
 }
 
+//IMAGE SIZING//
+
 
 var main = function(){
     mobileCheck();
+    
+    //image sizing
+
+    $("img[alt*='sm']").addClass("small");
+    $("img[alt*='med']").addClass("medium");
+    $("img[alt*='lg']").addClass("large");
+    $("img[alt*='left']").addClass("left");
+    $("img[alt*='right']").addClass("right");
     
     //MOBILE
     if(check){

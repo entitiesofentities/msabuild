@@ -109,35 +109,6 @@ body, html {
 	height: 20%;
 }
 
-.content ul:nth-child(odd) img{
-    float: right;
-    position: relative;
-    width: 40%;
-    max-width: 300px;
-    height: auto;    
-	margin-left: 5%;
-	margin-bottom: 1em;
-	margin-top: 3em;
-	box-shadow: 2px 2px 2px 2px black;
-}
-
-.content ul:nth-child(even) img{
-    display: block;
-    width: 40%;
-    max-width: 300px;    
-    height: auto;    	
-    height:auto;
-    float: left;
-	margin-right: 5%;
-	margin-bottom: 1em;
-	list-style: none;
-	margin-top: 3em;
-	box-shadow: 2px 2px 2px 2px black;
-	margin-left: -2em;
-}
-
-
-
 .hidden{
 	display: none;
 }
@@ -177,4 +148,46 @@ body, html {
 
 .content a:hover{
 	border-bottom: 1px solid rgb(210,35,42);	
+}
+
+/** CONTENT IMAGE SIZES **/
+
+.small {
+    position: relative;
+    width: 15%;
+    max-width: 300px;
+    height: auto;    
+	margin-bottom: 1em;
+	margin-top: 3em;
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.medium {
+    position: relative;
+    width: 30%;
+    max-width: 300px;
+    height: auto;    
+	margin-bottom: 1em;
+	margin-top: 1em;	
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.large {
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    height: auto;    
+	margin-bottom: 1em;
+	margin-top: 1em;	
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.right{
+	    float: right;
+		margin-left: 5%;	    
+}
+
+.left{
+	float: left;
+	margin-right: 5%;	    
 }
