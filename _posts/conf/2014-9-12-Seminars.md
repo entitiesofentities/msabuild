@@ -1,5 +1,5 @@
 ---
-layout: grad
+layout: post
 title: Seminars
 category: conf
 ---

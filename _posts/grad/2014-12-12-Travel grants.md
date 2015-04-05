@@ -1,5 +1,5 @@
 ---
-layout: grad
+layout: CFP
 title: Travel grants
 category: grad
 ---

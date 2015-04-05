@@ -175,7 +175,7 @@ var main = function(){
             //content padding
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad);
+            $('#padder').height(pad/3);
             
             //header animation
             $('ul li').addClass('full');

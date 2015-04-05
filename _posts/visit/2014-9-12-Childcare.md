@@ -1,5 +1,5 @@
 ---
-layout: grad
+layout: post
 title: Childcare
 category: visit
 ---
