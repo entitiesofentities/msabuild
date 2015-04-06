@@ -56,15 +56,33 @@ var interactive_bg = function(strength){
     //check for mobile
     mobileCheck();
     
-    //image sizing
-    $("img[alt*='sm']").addClass("small");
-    $("img[alt*='med']").addClass("medium");
-    $("img[alt*='lg']").addClass("large");
-    $("img[alt*='left']").addClass("left");
-    $("img[alt*='right']").addClass("right");
-    
+  
     //MOBILE//
     if(check){
+        
+        $("img").unwrap();
+        $("img").wrap( "<div></div>" );
+        $("img").parent("div").addClass("mobile_img");
+        $("img").parent("div").css('height', '200px');
+        $("img").parent("div").css('width', '150%');
+        $("img").parent("div").css('margin-bottom', '200px');
+        
+        
+//        $("img").parent('.p').replaceWith('<div>');
+//        $("img").parent().addClass('mobile_img');
+        
+//        $("img").each(function(){
+//                      var h = screen.height * 1000 / this.height;
+//                      var w = screen.width * 1000 / this.width;
+//                      alert(h);
+//         $(this).parent().css({"height": h + "%"});
+//                      });
+    
+        
+
+
+        
+        
         
         
         //page styling
@@ -126,6 +144,13 @@ var interactive_bg = function(strength){
             //background img
             interactive_bg(50);
             
+            //image sizing
+            $("img[alt*='sm']").addClass("small");
+            $("img[alt*='med']").addClass("medium");
+            $("img[alt*='lg']").addClass("large");
+            $("img[alt*='left']").addClass("left");
+            $("img[alt*='right']").addClass("right");
+            
             //page styling
             $('#animate').show();
             $('#full').hide();
@@ -173,6 +198,13 @@ var interactive_bg = function(strength){
             
         //FULL//
         }else{
+            
+            //image sizing
+            $("img[alt*='sm']").addClass("small");
+            $("img[alt*='med']").addClass("medium");
+            $("img[alt*='lg']").addClass("large");
+            $("img[alt*='left']").addClass("left");
+            $("img[alt*='right']").addClass("right");
             
             //page styling
             $('#full').show();

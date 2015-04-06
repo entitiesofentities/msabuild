@@ -191,3 +191,7 @@ body, html {
 	float: left;
 	margin-right: 5%;	    
 }
+
+.mobile_img{
+	margin-left: -25%;
+}
