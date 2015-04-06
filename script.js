@@ -52,21 +52,18 @@ var interactive_bg = function(strength){
                             });
 }
 
-//IMAGE SIZING//
-
-
-var main = function(){
+    var main = function(){
+    //check for mobile
     mobileCheck();
     
     //image sizing
-
     $("img[alt*='sm']").addClass("small");
     $("img[alt*='med']").addClass("medium");
     $("img[alt*='lg']").addClass("large");
     $("img[alt*='left']").addClass("left");
     $("img[alt*='right']").addClass("right");
     
-    //MOBILE
+    //MOBILE//
     if(check){
         
         
@@ -122,7 +119,7 @@ var main = function(){
         mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
         
-        //ANIMATED
+    //ANIMATED//
     }else{
         if(document.title == "MSA 17"){
             
@@ -174,7 +171,7 @@ var main = function(){
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
             
-            //FULL
+        //FULL//
         }else{
             
             //page styling
