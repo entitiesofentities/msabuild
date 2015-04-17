@@ -98,6 +98,9 @@ var interactive_bg = function(strength){
         $('#fast').show();
         $('#mobile').show();
         
+        //iframe fix
+        $('#iframe').css('height', screen.height/2 + "px");
+        
         //content padding
         var pad;
         pad = $('header').height();
