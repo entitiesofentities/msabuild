@@ -90,10 +90,9 @@ var interactive_bg = function(strength){
         $('.content img').css('display', 'inline-block');
         $('.content').addClass('little_pad');
         
-        $('header').addClass('sticky');      
-        $('#bottom-header').css('font-size', '1.5em');
+        $('header').addClass('sticky');
+        $('#bottom-header').css('font-size', '2em');
         $('#bottom-header').css('line-height', '1em');
-        $('#bottom-header').css('width', '100%');
         
         $('#slow').hide();
         $('#fast').show();
