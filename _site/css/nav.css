@@ -50,10 +50,11 @@ body, html {
 }
 
 .bg {
-	height: 60%;
+	height: 90%;
 	width: 100%;
 	position: relative;
 }
+
 
 .announce{
     box-sizing: content-box;
