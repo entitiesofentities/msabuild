@@ -91,8 +91,9 @@ var interactive_bg = function(strength){
         $('.content').addClass('little_pad');
         
         $('header').addClass('sticky');
-        $('#bottom-header').css('font-size', '125%');
-        $('#bottom-header').css('line-height', '1em');        
+        $('#bottom-header').css('font-size', '1.5em');
+        $('#bottom-header').css('line-height', '1em');
+        $('#bottom-header').css('overflow', 'contain');
         
         $('#slow').hide();
         $('#fast').show();
