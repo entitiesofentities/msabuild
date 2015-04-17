@@ -92,7 +92,6 @@ body, html {
 **/
 
 .content p{
-	font-size: 1.2em;
 	text-align: left;
 	font-family: lato;
 	font-weight: 300;
@@ -100,9 +99,16 @@ body, html {
 	text-align: justify;
 }
 
-.content{
+.big_pad{
 	padding-left: 15%;
 	padding-right: 15%;	
+	font-size: 1.2em;
+}
+
+.little_pad{
+	font-size: 1em;
+	padding-left: 5%;
+	padding-right: 5%;		
 }
 
 .content ul li{
@@ -191,6 +197,11 @@ body, html {
 .left{
 	float: left;
 	margin-right: 5%;	    
+}
+
+.center{
+	margin: 0 auto;
+	display: block;
 }
 
 .mobile_img{

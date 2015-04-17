@@ -88,7 +88,7 @@ var interactive_bg = function(strength){
         $('.content img').css('margin-left', '0');
         $('.content img').css('margin-right', '0');
         $('.content img').css('display', 'inline-block');
-        $('.content p').css('font-size', '.5em');
+        $('.content').addClass('little_pad');
         
         $('header').addClass('sticky');
         $('#bottom-header').css('font-size', '125%');
@@ -143,6 +143,7 @@ var interactive_bg = function(strength){
             $("img[alt*='lg']").addClass("large");
             $("img[alt*='left']").addClass("left");
             $("img[alt*='right']").addClass("right");
+            $("img[alt*='center']").addClass("center");            
             
             //page styling
             $('#animate').show();
@@ -152,6 +153,7 @@ var interactive_bg = function(strength){
             $('header').addClass('pretty');
             $('header').css('line-height', '.5em');
             $('#top-header').show();
+            $('.content').addClass('big_pad');
             
             //content padding
             var pad;
@@ -203,6 +205,7 @@ var interactive_bg = function(strength){
             $('#full').show();
             $('#animate').hide();
             $('header').addClass("sticky");
+            $('.content').addClass('big_pad');
             
             //content padding
             var pad;
