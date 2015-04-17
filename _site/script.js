@@ -88,7 +88,7 @@ var interactive_bg = function(strength){
         $('.content img').css('margin-left', '0');
         $('.content img').css('margin-right', '0');
         $('.content img').css('display', 'inline-block');
-        
+        $('.content p').css('font-size', '.5em');
         
         $('header').addClass('sticky');
         $('#bottom-header').css('font-size', '125%');
