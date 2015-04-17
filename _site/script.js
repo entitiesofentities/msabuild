@@ -92,6 +92,7 @@ var interactive_bg = function(strength){
         
         $('header').addClass('sticky');
         $('#bottom-header').css('font-size', '125%');
+        $('#bottom-header').css('line-height', '1em');        
         
         $('#slow').hide();
         $('#fast').show();
