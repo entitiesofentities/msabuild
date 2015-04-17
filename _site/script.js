@@ -67,7 +67,7 @@ var interactive_bg = function(strength){
         
         if ($("img").height() > screen.height) {
         $("img").not(".bg").parent("div").css('height', screen.height/$("img").height()/3 * $("img").height() + "px");
-        $("img").not(".bg").parent("div").css('width', '150%');
+        $("img").not(".bg").parent("div").css('width', screen.width + "px");
         $("img").not(".bg").parent("div").css('margin-bottom', $("img").parent().height() + 20 + "px");
         }
 
@@ -143,7 +143,7 @@ var interactive_bg = function(strength){
             $("img[alt*='lg']").addClass("large");
             $("img[alt*='left']").addClass("left");
             $("img[alt*='right']").addClass("right");
-            $("img[alt*='center']").addClass("center");            
+            $("img[alt*='center']").addClass("center");
             
             //page styling
             $('#animate').show();
