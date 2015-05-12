@@ -65,6 +65,11 @@
 
 <ul class="bottom-nav hidden" id="visit">
     {% for post in site.posts %}
+    	   {% if post.categories contains 'visit_link' %}
+			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+    {% for post in site.posts %}
     	   {% if post.categories contains 'visit' %}
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
