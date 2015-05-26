@@ -72,8 +72,8 @@ var interactive_bg = function(strength){
         }
 
         if ($("img").height() < screen.height) {
-        $("img").not(".bg").parent("div").css('height', $("img").height()/3 + "px");
-        $("img").not(".bg").parent("div").css('width', '150%');
+        $("img").not(".bg").parent("div").css('height',  screen.height / $(this).height() * $(this).width() + "px");
+        $("img").not(".bg").parent("div").css('width', screen.width + "px");
         $("img").not(".bg").parent("div").css('margin-bottom', $("img").height()/3 + 20 + "px");
         }
         

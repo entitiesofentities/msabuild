@@ -24,11 +24,3 @@ Our theme will foster discussions of modernism’s revolutionary nature - or lac
 ![med center]({{ site.baseurl }}/assets/freedomtrail.jpg)
 
 We also hope “Modernism and Revolution” will invoke the turning of film reels, tape recordings, and the circular energy imagined by the vortex. The 2015 conference coincides with the centenary of our first photographs of Pluto, the founding of NASA’s predecessor NACA (National Advisory Committee for Aeronautics), and new visions of the planets revolving in orbit. The proposed conference theme invites us to consider as well forms of anti-revolutionary repetition: 2015 marks not only the centenary of D. W. Griffith’s controversial but formally innovative film The Birth of a Nation but also the revival of the Ku Klux Klan at Stone Mountain, Georgia. “Modernism and Revolution” can even encompass the methods identified by Douglas Mao and Rebecca Walkowitz as “the new modernist studies” as well as recent arguments about the far-from revolutionary nature of the field.
-
-#Modernist Guide to Boston
-
-
-Vestibulum ac semper purus. Vestibulum eleifend ligula a lorem viverra, tempor ultricies arcu dictum. Nam non mi dolor. Etiam aliquet pulvinar lectus blandit mattis. Nulla eget ultrices purus, vel ultricies orci. Vivamus eget mauris metus. Praesent euismod risus eget est dapibus feugiat. Fusce mollis commodo rhoncus. Nulla sit amet quam egestas, aliquam libero nec, dapibus libero. Nunc diam metus, lacinia at sollicitudin nec, consequat non odio.
-
-Sed blandit et orci a tincidunt. Donec porttitor lacus ut euismod aliquam. Cras dictum maximus lorem a ultrices. Aliquam eros elit, finibus non diam non, gravida sagittis metus. Nullam fermentum, justo sit amet posuere dapibus, mauris magna feugiat nibh, a volutpat eros ligula eu augue. Vestibulum volutpat lobortis viverra. Vivamus venenatis orci ut laoreet maximus. Praesent massa tellus, vulputate a lorem et, posuere pulvinar est. Donec congue tellus lectus, nec fringilla leo laoreet ut. Pellentesque vitae augue tristique, facilisis nisl vitae, bibendum nisi. Nullam quis congue odio, et dapibus odio. Praesent ac interdum ipsum. Nullam dignissim sit amet arcu eu eleifend. Maecenas cursus ligula metus, non pulvinar augue imperdiet vitae. Fusce efficitur sollicitudin dui venenatis accumsan. Donec ultricies dictum elementum.
-
