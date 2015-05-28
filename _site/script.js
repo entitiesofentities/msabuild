@@ -131,6 +131,7 @@ var interactive_bg = function(strength){
         mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
         mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
+        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');        
         
     //ANIMATED//
     }else{
@@ -194,9 +195,13 @@ var interactive_bg = function(strength){
             animatedHeader('#top-nav-two', '#conf');
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
+            animatedHeader('#top-nav-five', '#events');
             
         //FULL//
         }else{
+            
+
+            
             
             //image sizing
             $("img[alt*='sm']").addClass("small");
@@ -228,6 +233,7 @@ var interactive_bg = function(strength){
             fullHeader('#top-nav-two', '#conf');
             fullHeader('#top-nav-three', '#grads');
             fullHeader('#top-nav-four', '#visit');
+            fullHeader('#top-nav-five', '#events');
         }
     }
     

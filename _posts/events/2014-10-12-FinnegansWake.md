@@ -1,21 +1,8 @@
 ---
 layout: post
-title: Cultural events
-category: Cultural
+title: Finnegans Wake Reading
+category: events
 ---
-
-#POEMJAZZ
-
-##Please join us for an exclusive performance of POEMJAZZ and a reception on Thursday evening, November 19th, after the keynote address.
-
-![lg left]({{ site.baseurl }}/assets/PoemJazz.png)
-
-**POEMJAZZ** combines spoken-word poetry and live jazz into a rich and satisfying musical conversation. Robert Pinsky, the U.S. Poet Laureate from 1997-2000), and jazz pianist Laurence Hobgood have created a jazz form in which the human voice is cast in a role like that of a trumpet or saxaphone. This duet of spoken poetry and music unites the melodies, rhythms, and images of poetry with the improvisational power of jazz.  
-
-**Robert Pinsky** is the only poet to have served as the poet laureate of the United States for three terms. He is the author of 19 books including collections of poetry, literary criticism, and translations. A former saxophonist, the musicality of poetry is extremely important to his work, and he states that he enjoys jazz for its "physical immediacy, improvisation and also the sense that a lifetime of suffering and study and thought and emotion is behind some single phrase." Released in 2012, PoemJazz is a collaborative album combining Pinsky’s performances of poetry with Laurence Hobgood’s jazz piano compositions.
-
-**Laurence Hobgood** won a Grammy in 2010 for Best Vocal Jazz Record, and has been nominated for a Grammy another nine-times as well. He is best known for his work with vocalist Kurt Elling. Since 1995, he’s played on, composed, arranged and co-produced all of Elling’s CDs.With Kurt Elling as well as with his own Laurence Hobgood Trio, Hobgood has performed all over the world.
-
 
 #Special Event: *Finnegans Wake* Reading
 
