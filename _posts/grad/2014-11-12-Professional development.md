@@ -7,7 +7,7 @@ category: grad
 
 #Emerging Scholars Pub Night
 
-![lg right](http://upload.wikimedia.org/wikipedia/commons/b/bd/Gr%C3%BCn_-_Friday_at_the_French_Artists%27_Salon.jpg)
+<!--- ![lg right](http://upload.wikimedia.org/wikipedia/commons/b/bd/Gr%C3%BCn_-_Friday_at_the_French_Artists%27_Salon.jpg) --->
 
 ![lg right]({{ site.baseurl }}/assets/stein_salon.jpg)
 
