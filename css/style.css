@@ -232,7 +232,10 @@ li.title{
 .post{
 	width: 75%;
 	margin: 0 auto;
-	font-family: sans-serif;
+	font-family: lato;
+	font-weight: 300;
+	line-height: 2em;
+	text-align: justify;
 	border-left: 2px solid rgb(210,35,42);
 	font-size: 1em;
 }
