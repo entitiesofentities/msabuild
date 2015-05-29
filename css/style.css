@@ -94,7 +94,7 @@
 	vertical-align: top;
 	}
 
-#b a{
+#b{
 	font-family: "American-Type";
 	text-transform: lowercase;	
 	color: grey;
@@ -108,9 +108,17 @@
 	color: rgb(210,35,42);
 	font-weight: 600;	
 	vertical-align: top;
+	line-height: .1em;	
 }
 
-#b a:hover{
+#d{
+	line-height: .1em;
+	font-size: .4em;
+	font-family: "American-Type";	
+	margin-left: -5%;
+}
+
+#d a:hover{
 	color: rgb(210,35,42);
 }
 
