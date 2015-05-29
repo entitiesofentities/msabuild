@@ -104,7 +104,7 @@ Participants will select digitized texts to analyze with the new Z-Axis 3D mappi
 
 Organizer: Jane E. Fisher (Canisius College)
 
-(Seminar description forthcoming)
+Recognizing the destabilizing effects of 20th century war, pandemic, and revolution on Enlightenment medical science, this seminar will examine how modernist writers, artists, musicians, painters, journalists, and intellectuals reconceived illness and disease in their lives and works, including shifts in public and private, as well as doctor, patient, and caretaker roles. 
 
 ###16. Object-Oriented Ontology and Modernist Studies
 
@@ -199,7 +199,9 @@ This seminar examines relationships between critical geographies, poetics, and t
 
 Organizers: Patrick Deer (New York University), Jonathan Flatley (Wayne State University)
 
-(Seminar description forthcoming)
+Invited Participants: Tavia Nyong’o (New York University)
+
+To what degree was modernism provoked, catalyzed or countered or by belatedly dissenting impulses?  Where and when has belatedness enabled aesthetic or political dissent? What would a dissenting theory or practice of modernist studies itself be?  Examinations of untimely feminist, queer, anti-racist, anti-colonial, communist, anarchist or other dissents welcome.
 
 ###30. WWI: Reconsidering Rupture 
 
