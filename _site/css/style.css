@@ -97,7 +97,7 @@
 #b{
 	font-family: "American-Type";
 	text-transform: lowercase;	
-	color: grey;
+	color: rgb(210,35,42);
 	font-weight: 500;
 	font-size: 1.7em;
 }
@@ -121,6 +121,7 @@
 
 #d a:hover{
 	color: rgb(210,35,42);
+	border-bottom: 1px solid black;
 }
 
 /** HEADER **/
