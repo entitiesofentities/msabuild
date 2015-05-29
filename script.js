@@ -63,6 +63,7 @@ var interactive_bg = function(strength){
         //img resize
         $("img").not(".bg").unwrap();
         $("img").not(".bg").addClass("mobile_img");
+        $('#c').css('line-height', '.95em;');
         
         //background img
         if(document.title == "MSA 17"){
@@ -125,6 +126,7 @@ var interactive_bg = function(strength){
             interactive_bg(50);
             $('.bg').css('height', '60%');
             $('.bg').css('width', '100%');
+
             
             //image sizing
             $("img[alt*='sm']").addClass("small");
