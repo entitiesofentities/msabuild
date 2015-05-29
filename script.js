@@ -60,22 +60,9 @@ var interactive_bg = function(strength){
     //MOBILE//
     if(check){
         
-        //img resize (needs work)
+        //img resize
         $("img").not(".bg").unwrap();
-        $("img").not(".bg").wrap( "<div></div>" );
-        $("img").not(".bg").parent("div").addClass("mobile_img");
-        
-        if ($("img").height() > screen.height) {
-        $("img").not(".bg").parent("div").css('height', screen.height/$("img").height()/3 * $("img").height() + "px");
-        $("img").not(".bg").parent("div").css('width', screen.width + "px");
-        $("img").not(".bg").parent("div").css('margin-bottom', $("img").parent().height() + 20 + "px");
-        }
-
-        if ($("img").height() < screen.height) {
-        $("img").not(".bg").parent("div").css('height',  screen.height / $(this).height() * $(this).width() + "px");
-        $("img").not(".bg").parent("div").css('width', screen.width + "px");
-        $("img").not(".bg").parent("div").css('margin-bottom', $("img").height()/3 + 20 + "px");
-        }
+        $("img").not(".bg").addClass("mobile_img");
         
         //background img
         if(document.title == "MSA 17"){
@@ -83,12 +70,9 @@ var interactive_bg = function(strength){
         }
         
         //page styling
-        $('.content img').css('width', '100%');
-        $('.content img').css('height', '200%');
-        $('.content img').css('margin-left', '0');
-        $('.content img').css('margin-right', '0');
-        $('.content img').css('display', 'inline-block');
         $('.content').addClass('little_pad');
+        $('.post').addClass('mobile_post');
+        $('#reader').css('width', '90%');
         
         $('header').addClass('sticky');
         $('#bottom-header').css('font-size', '2em');
