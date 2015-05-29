@@ -186,8 +186,9 @@ var interactive_bg = function(strength){
         //FULL//
         }else{
             
-
-            
+            $('.vid').click(function(){
+                             $(this).get(0).play();
+                             });
             
             //image sizing
             $("img[alt*='sm']").addClass("small");

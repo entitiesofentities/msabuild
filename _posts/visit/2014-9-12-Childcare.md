@@ -7,7 +7,7 @@ category: visit
 
 #Childcare
 
-![lg right](http://upload.wikimedia.org/wikipedia/commons/3/36/Library_wall_painting.jpg)
+![lg right](http://upload.wikimedia.org/wikipedia/commons/3/36/Library_wall_painting.jpg "Hemmings - Library Wall Painting")
 
 The MSA welcomes families and children to the conference and recommends the following services for childcare: 
 

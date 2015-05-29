@@ -108,13 +108,15 @@
 	color: rgb(210,35,42);
 	font-weight: 600;	
 	vertical-align: top;
+	letter-spacing: 1px;
 }
 
 #d{
 	line-height: .1em;
-	font-size: .4em;
+	font-size: .3em;
 	font-family: "American-Type";	
 	margin-left: -5%;
+	margin-top: -1%;
 }
 
 #d a:hover{
@@ -246,4 +248,13 @@ h3{
 .mobile_post{
 	width: 90%;
 	text-align: left;
+}
+
+.figure{
+	text-align: center;
+	font-size: .5em;
+}
+
+.figure ul{
+margin-top: -20px;
 }
