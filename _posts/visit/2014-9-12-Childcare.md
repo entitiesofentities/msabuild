@@ -7,7 +7,7 @@ category: visit
 
 #Childcare
 
-![lg right](http://upload.wikimedia.org/wikipedia/commons/4/42/Ralph_Hedley_The_tournament_1898.jpg "Hedley - The Tournament")
+![lg right]({{ site.baseurl }}/assets/Preston_childcare.jpg "Photo credit: Carrie Preston")
 
 The MSA welcomes families and children to the conference and recommends the following services for childcare: 
 

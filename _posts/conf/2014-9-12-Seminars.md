@@ -94,7 +94,7 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 “Jargon” labels language as unintelligible—yet was also the self-description of Yiddish belle-lettrists. How might its use be seen within modernist practices that engage and/or resist attitudes toward race, empire, and technology? Papers might consider: constructed/invented languages, recording technologies, migration and modern transit, hierarchies of dialect/standard, transliteration/translation, and difficulty/experimentalism.
 
-###14. Modernist London and the Map
+###14. Modernist London and the Digital Map
 
 Organizers: Stephen Ross (University of Victoria), Katie Tanigawa (University of Victoria), Alex Christie (University of Victoria)
 
