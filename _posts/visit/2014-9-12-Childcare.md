@@ -2,12 +2,13 @@
 layout: post
 title: Childcare
 category: visit
+rel: ../
 ---
 
 
 #Childcare
 
-![lg right]({{ site.baseurl }}/assets/Preston_childcare.jpg "Photo credit: Carrie Preston")
+![lg right]({{ page.rel }}assets/Preston_childcare.jpg "Photo credit: Carrie Preston")
 
 The MSA welcomes families and children to the conference and recommends the following services for childcare: 
 

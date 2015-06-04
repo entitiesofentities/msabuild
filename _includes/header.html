@@ -1,6 +1,6 @@
 <header>
 <ul class="nav" id = "full" hidden>
-	<li class="title"><a href="{{ site.baseurl }}/">{{ site.name }} {{ site.subtitle }}</a></li>
+	<li class="title"><a href="{{ base }}/index.html">{{ site.name }} {{ site.subtitle }}</a></li>
 <!--	<li class = 'top-nav' id="top-nav-one">{{ site.data.top-nav.one }}</li>	-->
 	<li class = 'top-nav' id="top-nav-two">{{ site.data.top-nav.two }}</li>	
 	<li class = 'top-nav' id="top-nav-three">{{ site.data.top-nav.three }}</li>	
@@ -26,7 +26,7 @@
 
 <ul class="nav" id = "mobile" hidden>
 	<li class="title">{{ site.name }} {{ site.subtitle }}</li>
-	<li class = 'top-nav' id="top-nav-zero"><a href="{{ site.baseurl }}/">Welcome</a></li>	
+	<li class = 'top-nav' id="top-nav-zero"><a href="{{ base }}/index.html">Welcome</a></li>	
 <!--	<li class = 'top-nav' id="top-nav-one">{{ site.data.top-nav.one }}</li>	-->
 	<li class = 'top-nav' id="top-nav-two">{{ site.data.top-nav.two }}</li>	
 	<li class = 'top-nav' id="top-nav-three">{{ site.data.top-nav.three }}</li>	
@@ -38,19 +38,19 @@
 </ul>
 
 
-<ul class="bottom-nav hidden" id="welcome">
+<!-- <ul class="bottom-nav hidden" id="welcome">
 	<li>Submit a Proposal:</li>
     {% for post in site.posts %}
     	   {% if post.categories contains 'call' %}
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
-</ul>
+</ul> -->
 
 <ul class="bottom-nav hidden" id="conf">
     {% for post in site.posts %}
     	   {% if post.categories contains 'conf' %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
 </ul>
@@ -58,7 +58,7 @@
 <ul class="bottom-nav hidden" id="grads">
     {% for post in site.posts %}
     	   {% if post.categories contains 'grad' %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
     {% for post in site.posts %}
@@ -71,7 +71,7 @@
 <ul class="bottom-nav hidden" id="events">
     {% for post in site.posts %}
     	   {% if post.categories contains 'events' %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
 </ul>
@@ -84,11 +84,13 @@
 			{% endfor %}
     {% for post in site.posts %}
     	   {% if post.categories contains 'visit' %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
 </ul>
 
 </header>
 
-<script type='text/javascript' src='script.js'></script>
+<script>
+{% include script.js %}
+</script>

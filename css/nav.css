@@ -8,6 +8,8 @@ body, html {
       transition: opacity 400ms;
 }
 
+/** NAV **/
+
 .hidden{
 	display: none;
 }
@@ -49,12 +51,16 @@ body, html {
 	display: inline;
 }
 
+/** BG-IMG **/
+
 .bg {
 	height: 80%;
 	width: 100%;
 	position: relative;
 }
 
+
+/** CONTENT **/
 
 .announce{
     box-sizing: content-box;
@@ -83,17 +89,9 @@ body, html {
 	padding: 5px 10px 5px 10px;
 }
 
-/** experimental for welcome page
-.content{
-	border-top: 1px solid black;
-	margin-top: -1%;
-	background-color: #FAEBD7;
-}
-**/
-
 .content p{
 	text-align: left;
-	font-family: lato;
+	font-family: "lato";
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
@@ -124,7 +122,7 @@ body, html {
 	text-align: left;
 	font-size: 1.5em;
 	color: rgb(210,35,42);
-	font-family: lato;
+	font-family: "lato";
 	font-weight: 600;
 }
 
@@ -132,17 +130,13 @@ body, html {
 	text-align: left;
 	font-size: 1.3em;
 	color: rgb(210,35,42);
-	font-family: lato;
+	font-family: "lato";
 	font-weight: 400;
 }
 
 
-.nav{
-
-}
-
 .mobile {
-	font-size: 1em;
+	font-size: 1.75em;
 }
 
 .content a{
@@ -209,7 +203,7 @@ body, html {
 	width: 111.5%;
 }
 
-/** EXPERIMENTAL NAV **/
+/** READER **/
 
 #reader{
 	width: 50%;

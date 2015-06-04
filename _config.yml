@@ -1,7 +1,8 @@
 name: MSA 17
 subtitle: Boston
 permalink: none
-baseurl: /msabuild
+//baseurl: /msabuild/
+relurl: ../
 
 delay_3: "-webkit-animation-delay: .333s; -moz-animation-delay: .333s; -ms-animation-delay: 
 .333s; animation-delay: .333s;"

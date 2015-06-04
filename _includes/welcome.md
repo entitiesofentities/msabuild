@@ -3,13 +3,13 @@
 
 #Welcome to Boston
 
-![lg left]({{ site.baseurl }}/assets/IrishFamineMemorial.jpg)
+![lg left]({{ base }}assets/IrishFamineMemorial.jpg)
 
 One of Boston’s founders, John Winthrop, envisioned the early New England colony as a model for posterity and famously proclaimed Boston a “Citty Upon a Hill” in 1630. Winthrop was announcing a mission statement for a Christian utopia, one we would hardly understand as revolutionary today. Yet, Boston was a radical enterprise for him, and his proclamation has proved oddly prescient. Historically, politically, intellectually, Boston has become in successive years the origin of numerous sea-changes. Beginning in the 18th century with the Boston Tea Party and subsequent Revolutionary War and extending into the 21st when, in 2004, Massachusetts became the first state to legalize same-sex marriage, Boston has continually crested the waves of revolution. It has been home to authors, artists, and scholars as varied as Louisa May Aclott, Phyllis Wheatley, Aerosmith, Aimee Mann, WEB Du Bois, Winslow Homer, Jack Kerouac, Amy Lowell, Robert Lowell, Jack McCarthy, Conan O’Brian, Sylvia Plath, Edgar Allen Poe, Kahlil Gibran, the Pixies, Anne Sexton, Anne Hutchinson, Thoreau, Emerson, Malcolm X, Martin Luther King, and David Foster Wallace. Which is all to say that the theme of this year’s Modernist Conference has particular significance for its host city and we invite you modernists and revolutionaries to “knitt together in this worke,” of unraveling the thread of revolution. Welcome to Boston!
 
 <br>
 
-![lg right]({{ site.baseurl }}/assets/boats.jpg)
+![lg right]({{ base }}assets/boats.jpg)
 
 MSA 17, Modernism and Revolution, will be held at the Westin Copley Place in the heart of Boston’s historic Back Bay neighborhood. The hotel overlooks the Boston Public Library, the U.S.’s first public library, located in the 1895 McKim Building. It is a short walk to the Boston Common, the nation’s first public park, and just two blocks to the trendy shopping and dining district along Newbury and Boylston Streets. The Freedom Trail passes through Copley Square, which is surrounded by some of the most remarkable architecture in Boston: Trinity Church, Old South Church, John Hancock Tower, and the Fairmont Copley Plaza Hotel.
 
@@ -21,6 +21,6 @@ We welcome MSA 17 to Boston, “center of the American Revolution,” for the an
 
 Our theme will foster discussions of modernism’s revolutionary nature - or lack thereof. We encourage attention to aesthetic modernism’s relationship to political uprisings and wars, but also to the revolutions in technology that drove munitions factories and automobile engines. Armed revolutions occurred across the world in the always-contested period bounds of modernism, including the Russian Revolution of 1905, the Romanian Peasants’ Revolt of 1907, the Mexican Revolution of 1910, the 1911 Xinhai Revolution in China, the 1914 Ten Days War in Colorado, the Irish Easter Rising of 1916, the German Revolution in 1918, among others.  New technologies transformed people’s experiences of everyday life in ways that were less violent but equally profound, as did cultural revolutions tied to gender, sexuality, race, ethnicity, and other identity categories.
 
-![med center]({{ site.baseurl }}/assets/freedomtrail.jpg)
+![med center]({{ base }}assets/freedomtrail.jpg)
 
 We also hope “Modernism and Revolution” will invoke the turning of film reels, tape recordings, and the circular energy imagined by the vortex. The 2015 conference coincides with the centenary of our first photographs of Pluto, the founding of NASA’s predecessor NACA (National Advisory Committee for Aeronautics), and new visions of the planets revolving in orbit. The proposed conference theme invites us to consider as well forms of anti-revolutionary repetition: 2015 marks not only the centenary of D. W. Griffith’s controversial but formally innovative film The Birth of a Nation but also the revival of the Ku Klux Klan at Stone Mountain, Georgia. “Modernism and Revolution” can even encompass the methods identified by Douglas Mao and Rebecca Walkowitz as “the new modernist studies” as well as recent arguments about the far-from revolutionary nature of the field.

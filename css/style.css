@@ -23,6 +23,11 @@
   font-family: "American-Type";
   src: url(../fonts/american-type.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/Lato-Light.ttf) format("truetype");
+}
  
 
 /** TOP-HEADER **/
@@ -192,14 +197,6 @@ a{
 	text-decoration: none;
 }
 
-.post a{
-	color: rgb(210,35,42);
-}
-
-.post a:visited{
-	color: rgb(210,35,42);
-}
-
 .title a{
 	color: rgb(210,35,42);
 }
@@ -219,29 +216,39 @@ a:visited{
 	text-decoration: none;
 }
 
-.wrapper{
-	text-align: center;
-}
-
 li.title{
 	color: rgb(210,35,42);
 	text-transform: uppercase;
 	font-weight: 800;	
 }
 
+/** POST CONTENT **/
+
+.wrapper{
+	text-align: center;
+}
+
 .post{
 	width: 75%;
 	margin: 0 auto;
-	font-family: lato;
+	font-family: "lato";
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
 	border-left: 2px solid rgb(210,35,42);
-	font-size: 1em;
+	font-size: 1em;	
+}
+
+.post a{
+	color: rgb(210,35,42);
+}
+
+.post a:visited{
+	color: rgb(210,35,42);
 }
 
 .post p{
-	padding-left: 10px;	
+	padding-left: 10px;
 }
 
 h3{
@@ -253,6 +260,8 @@ h3{
 	width: 90%;
 	text-align: left;
 }
+
+/** img caption support (experimental) **/
 
 .figure{
 	text-align: center;

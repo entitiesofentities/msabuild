@@ -2,13 +2,14 @@
 layout: post
 title: Finnegans Wake Reading
 category: events
+rel: ../
 ---
 
 #Special Event: *Finnegans Wake* Reading
 
 ##Please join us for a reading of *Finnegans Wake* on Saturday evening, November 21st.
 
-![lg right]({{ site.baseurl }}/assets/SpecialEvent.png)
+![lg right]({{ page.rel }}assets/SpecialEvent.png)
 
 Mary Manning’s *Passages from* Finnegans Wake: *A Free Adaptation for the Theatre* is a theatrical adaptation of James Joyce’s novel first performed in 1955 by the Poets’ Theater, Cambridge.  The Here Comes Everybody Players will present a staged reading of Manning’s rarely performed play that captures Joyce’s dreamlike narrative and playful language to tell the stories of Humphrey Chimpden Earwicker (HCE), Anna Livia Plurabelle (ALP), and their children Shem, Shaun and Issy.
 
