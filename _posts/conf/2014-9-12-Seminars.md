@@ -57,9 +57,9 @@ This interdisciplinary seminar considers the political dimensions and implicatio
 
 ###8. Modernism and the Critique of Historicism
 
-Organizer: Robert Lehman (Boston College) 
+Organizers: Robert Lehman (Boston College), Nathan Brown (Concordia University)
 
-Invited Participants: C. D. Blanton (Berkeley); Julie Beth Napolin (New School)
+Invited Participants: C. D. Blanton (Berkeley), Julie Beth Napolin (New School)
 
 This seminar invites papers that approach modernist texts—both literary and philosophical—as means of engaging critically with historicism, as means of testing traditional assumptions about periodization, causality, and the shape of historical time.
 
