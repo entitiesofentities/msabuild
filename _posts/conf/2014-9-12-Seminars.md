@@ -98,7 +98,7 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 Organizers: Stephen Ross (University of Victoria), Katie Tanigawa (University of Victoria), Alex Christie (University of Victoria)
 
-Participants will select digitized texts to analyze with the new Z-Axis 3D mapping tool. We will use the tool to explore modernist depictions of London’s marginal zones (the Thames, Lambeth, SoHo), experiences (madness, poverty, addiction), people (prostitutes, refugees, extremists), and creatures (strays, livestock, pests). Selected papers will be peer-reviewed and published on [mvp.uvic.ca](mvp.uvic.ca).
+Participants will select digitized texts to analyze with the new Z-Axis 3D mapping tool. We will use the tool to explore modernist depictions of London’s marginal zones (the Thames, Lambeth, SoHo), experiences (madness, poverty, addiction), people (prostitutes, refugees, extremists), and creatures (strays, livestock, pests). Selected papers will be peer-reviewed and published on [mvp.uvic.ca](http://mvp.uvic.ca/).
 
 ###15. Modernist Medicines: Transformative Visions, Bodies, Spaces
 
