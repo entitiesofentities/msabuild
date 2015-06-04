@@ -104,7 +104,7 @@ body, html {
 }
 
 .little_pad{
-	font-size: 1em;
+	font-size: 2em;
 	padding-left: 5%;
 	padding-right: 5%;		
 }
@@ -136,7 +136,7 @@ body, html {
 
 
 .mobile {
-	font-size: 1.75em;
+	font-size: 2.5em;
 }
 
 .content a{
