@@ -74,6 +74,8 @@ var interactive_bg = function(strength){
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
+        $('.content h1').addClass('mobile_h1');
+        $('.content h2').addClass('mobile_h2');
         
         $('header').addClass('sticky');
         $('#bottom-header').css('font-size', '4em');
@@ -145,6 +147,8 @@ var interactive_bg = function(strength){
             $('header').css('line-height', '.5em');
             $('#top-header').show();
             $('.content').addClass('big_pad');
+            $('.content h1').addClass('full_h1');
+            $('.content h2').addClass('full_h2');
             
             //content padding
             var pad;
@@ -202,6 +206,8 @@ var interactive_bg = function(strength){
             $('#animate').hide();
             $('header').addClass("sticky");
             $('.content').addClass('big_pad');
+            $('.content h1').addClass('full_h1');
+            $('.content h2').addClass('full_h2');
             
             //content padding
             var pad;
