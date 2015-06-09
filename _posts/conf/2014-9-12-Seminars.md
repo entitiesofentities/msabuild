@@ -41,7 +41,7 @@ Organizers: Alys Moody (University of Waikato), Stephen Ross (University of Warw
 How do global modernists talk about their own literary and artistic practice? What dialogues emerge between the modernisms of different national and linguistic traditions? How does an examination of global modernist manifestos, essays, letters and critical texts help us to think about translation and modernism’s global reach? 
 ###6. Modern American Literature and Visual Culture
 
-Organizers: Nicholas Gaskill (Harvard University), David Alworth (Rutgers University)
+Organizers: Nicholas Gaskill (Rutgers University), David Alworth (Harvard University)
 
 Invited Participants: Mark Goble (UC-Berkeley); Lisa Florman (Ohio State)
 

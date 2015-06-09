@@ -47,7 +47,7 @@ Early academic career paths are fairly well mapped as we pursue tenure or the fi
 
 **Time: Thursday, 12-1:30**
 
-Organizers: Shawna Ross (University of Reading), Claire Battershill (Arizona State University)
+Organizers: Shawna Ross (Arizona State University), Claire Battershill (University of Reading)
 
 This hands-on workshop is part of the Open Modernisms project, a grant-funded, multi-institution initiative providing a customizable, cost-free modernist anthology. Participants will learn simple, reliable methods for digitizing modernist texts (smartphone and in-browser applications, OCR, CMS). Sample assignment sheets will show how to involve students in Open Modernisms. Each participant should bring a hardcopy text. No prior expertise necessary.
 ###6. What Do Presses Want from First Books?
