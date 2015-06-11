@@ -131,7 +131,7 @@ Modernist studies aspires to expand geographically, chronologically, and across 
 ###19. Remaking Place
 Organizers: Jennifer Chang (George Washington University), Jim Cocola (Worcester Polytechnic Institute)
 
-Invited Participants:  Stephen Burt (Harvard University)
+Invited Participants:  Stephen Burt (Harvard University), Lytle Shaw (New York University)
 How has place-making (whether cartographical, documentary, ecopoetic, or pastoral) changed with the cognizance of the anthropocene and the emergence of ecocriticism? How does the remaking of place propel social revolutions? Welcoming discussions of place across geographies, mediums, and methodologies, this seminar will emphasize modern and contemporary poetry and poetics.
 
 ###20. Resistance and Reform: Modernist Women and Social Engagement
