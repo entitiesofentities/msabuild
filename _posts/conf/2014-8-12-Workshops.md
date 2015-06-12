@@ -25,7 +25,15 @@ Organizer: Paige Reynolds (College of the Holy Cross)
 
 This workshop gathers a diverse group of humanities PhDs who have chosen rewarding careers outside the tenure-track.  Professionals from fields ranging from non-profit and arts administration, publishing and library sciences, advertising and finance will discuss their professional paths, sharing how they pursued and obtained richly satisfying work either within or outside of academia.
 
-###3. How to Survive the Tenure Track and Get Tenure
+###3. Modernist Commons
+
+**Time: Thursday, 10:30-12:00**
+
+Leaders: Dean Irvine (Dalhousie University) and Alan Stanley (Lead Programmer, Discoverygarden)
+
+Participants in this workshop will be introduced to the Modernist Commons ([http://modernistcommons.ca](http://modernistcommons.ca)) — a digital repository, editorial workbench, and critical-edition publication platform designed by Editing Modernism in Canada ([http://editingmodernism.ca](http://editingmodernism.ca)). It integrates a wide range of open-source systems and tools (Islandora, Tesseract OCR, CWRC Writer, Shared Canvas, Internet Archive Viewer, Open Seadragon Viewer, Calliope, and CollateX). With these tools, users can ingest images and generate transcriptions, as well as edit and mark up both transcriptions and images using a single graphical interface, which supports overlapping TEI-XML and RDF markup. Users can also perform algorithmically generated collations of transcriptions, which can be visualized in several ways. The Modernist Commons provides a critical-edition interface so that editors can assemble images, audio and video, critical apparatus, and variant visualizations in a configurable reading environment. 
+
+###4. How to Survive the Tenure Track and Get Tenure
 
 **Time: Thursday, 12-1:30**
 
@@ -33,7 +41,7 @@ Organizer: John Peters (University of North Texas)
 
 This workshop will be directed at current or future assistant professors and will focus on strategies necessary for achieving tenure. A panel of current and/or former department chairs from various kinds of institutions will give advice and take questions.
 
-###4. Mid-Career Modernism: Opportunities and Challenges
+###5. Mid-Career Modernism: Opportunities and Challenges
 
 **Time:  Thursday, 12-1:30**
 
@@ -43,14 +51,14 @@ Invited Participants: Ann Ardis (University of Delaware), Kevin Dettmar (Pomona 
 
 Early academic career paths are fairly well mapped as we pursue tenure or the first book.  We talk less explicitly about subsequent career stages.  This workshop convenes engaged mid-career academics to discuss opportunities they've pursued (or consciously avoided) during this professional stage.  Topics include publication, pedagogy, service, administration, and work-life balance.
 
-###5. Modernist Digital Texts in the Classroom
+###6. Modernist Digital Texts in the Classroom
 
 **Time: Thursday, 12-1:30**
 
 Organizers: Shawna Ross (Arizona State University), Claire Battershill (University of Reading)
 
 This hands-on workshop is part of the Open Modernisms project, a grant-funded, multi-institution initiative providing a customizable, cost-free modernist anthology. Participants will learn simple, reliable methods for digitizing modernist texts (smartphone and in-browser applications, OCR, CMS). Sample assignment sheets will show how to involve students in Open Modernisms. Each participant should bring a hardcopy text. No prior expertise necessary.
-###6. What Do Presses Want from First Books?
+###7. What Do Presses Want from First Books?
 
 **Time: Thursday, 12-1:30**
 
@@ -60,7 +68,7 @@ This workshop will bring together commissioning editors from leading university 
 
 ##Post-Conference Workshops (Sunday)
 
-###7. The Making of Modernist Studies: A Forum
+###8. The Making of Modernist Studies: A Forum
 
 **Time: Sunday, 1-2:30**
 
@@ -68,7 +76,7 @@ Organizers: Sean Latham (University of Tulsa), Gayle Rogers (University of Pitts
 
 A series of six brief presentations on landmark texts and figures in the history of modernist studies, followed by an open discussion on the various shapes that modernist studies has taken over nearly a century and how its past remains pertinent to the future directions of the field.
 
-###8. Modernism and Digital Archives Workshop
+###9. Modernism and Digital Archives Workshop
 
 **Time: Sunday, 1-2:30**
 
