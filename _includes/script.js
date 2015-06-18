@@ -120,7 +120,7 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA 17"){
+        if(document.title == "MSA 17 Boston"){
             
             //background img
             interactive_bg(50);
