@@ -9,6 +9,8 @@ tag: text
 
 ## Pre-Conference Workshops (Thursday)
 
+##Thursday Morning (10:30-12)
+
 ###1. Revolutionize Your Writing
 
 **Time: Thursday, 10:30-12**
@@ -32,6 +34,8 @@ This workshop gathers a diverse group of humanities PhDs who have chosen rewardi
 Leaders: Dean Irvine (Dalhousie University) and Alan Stanley (Lead Programmer, Discoverygarden)
 
 Participants in this workshop will be introduced to the Modernist Commons ([http://modernistcommons.ca](http://modernistcommons.ca)) — a digital repository, editorial workbench, and critical-edition publication platform designed by Editing Modernism in Canada ([http://editingmodernism.ca](http://editingmodernism.ca)). It integrates a wide range of open-source systems and tools (Islandora, Tesseract OCR, CWRC Writer, Shared Canvas, Internet Archive Viewer, Open Seadragon Viewer, Calliope, and CollateX). With these tools, users can ingest images and generate transcriptions, as well as edit and mark up both transcriptions and images using a single graphical interface, which supports overlapping TEI-XML and RDF markup. Users can also perform algorithmically generated collations of transcriptions, which can be visualized in several ways. The Modernist Commons provides a critical-edition interface so that editors can assemble images, audio and video, critical apparatus, and variant visualizations in a configurable reading environment. 
+
+##Thursday Afternoon (12-1:30)
 
 ###4. How to Survive the Tenure Track and Get Tenure
 
