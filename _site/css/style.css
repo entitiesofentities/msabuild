@@ -222,6 +222,34 @@ li.title{
 	font-weight: 800;	
 }
 
+/** FOOTER **/
+
+footer{
+	height: contain;
+	text-align: center;
+	font-family: "lato";
+	font-weight: 300;
+	font-size: 1em;
+	box-shadow: inset 2px 2px 1px 2px black;
+	padding-top: 5px;	
+}
+
+
+footer a{
+	color: rgb(210,35,42);
+}
+
+footer a:visited{
+	color: rgb(210,35,42);
+}
+
+footer a:hover{
+	color: rgb(210,35,42);
+	border-bottom: 1px solid rgb(210,35,42);	
+	text-decoration: none;
+}
+
+
 /** POST CONTENT **/
 
 .wrapper{
