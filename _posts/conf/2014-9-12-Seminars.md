@@ -72,7 +72,10 @@ Invited Participants:  Heather Love (University of Pennsylvania), Janet Lyon (Pe
 
 ###10. Modernism in Scotland
 
-Organizer: Tara Thomson (University of Edinburgh)Many diverse revolutionary voices emerged from 20th century Scottish literature, arts, and culture. This seminar invites participants to explore these voices, or any aspect of modernism in Scotland, including the Scottish Renaissance, late Scottish modernism, Scottish women writers, broader modernism’s engagement with Scotland, or Scottish culture’s relationship with revolutionary politics.
+Organizer: Tara Thomson (University of Edinburgh)
+
+Invited Participants: Jim Benstead (University of Edinburgh)
+Many diverse revolutionary voices emerged from 20th century Scottish literature, arts, and culture. This seminar invites participants to explore these voices, or any aspect of modernism in Scotland, including the Scottish Renaissance, late Scottish modernism, Scottish women writers, broader modernism’s engagement with Scotland, or Scottish culture’s relationship with revolutionary politics.
 
 ###11. Modernism and World Englishes
 
