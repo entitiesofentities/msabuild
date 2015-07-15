@@ -53,6 +53,11 @@
 			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'conf_link' %}
+			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+			{% endif %}
+			{% endfor %}        
 </ul>
 
 <ul class="bottom-nav hidden" id="grads">
