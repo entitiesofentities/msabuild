@@ -5,7 +5,6 @@ category: conf
 tag: text
 ---
 
-
 #Seminars for MSA 17
 
 ###1. All Together Now: The Multimedia Avant-garde
