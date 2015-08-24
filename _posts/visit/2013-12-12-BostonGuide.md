@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interactive Boston Guide
+title: Modernist Interactive Map of Boston
 category: visit
 rel: ../
 ---
