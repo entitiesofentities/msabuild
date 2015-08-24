@@ -24,3 +24,9 @@ Our theme will foster discussions of modernism’s revolutionary nature - or lac
 ![med center]({{ base }}assets/freedomtrail.jpg)
 
 We also hope “Modernism and Revolution” will invoke the turning of film reels, tape recordings, and the circular energy imagined by the vortex. The 2015 conference coincides with the centenary of our first photographs of Pluto, the founding of NASA’s predecessor NACA (National Advisory Committee for Aeronautics), and new visions of the planets revolving in orbit. The proposed conference theme invites us to consider as well forms of anti-revolutionary repetition: 2015 marks not only the centenary of D. W. Griffith’s controversial but formally innovative film The Birth of a Nation but also the revival of the Ku Klux Klan at Stone Mountain, Georgia. “Modernism and Revolution” can even encompass the methods identified by Douglas Mao and Rebecca Walkowitz as “the new modernist studies” as well as recent arguments about the far-from revolutionary nature of the field.
+
+#Modernist Interactive Map of Boston
+
+Launch [Nell Wasserstrom]()'s [Modernist Interactive Map of Boston]({{ base }}visit/BostonGuide.html)
+
+[![lg center]({{ base }}assets/BostonGuide.png)]({{ base }}visit/BostonGuide.html)
