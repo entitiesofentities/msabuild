@@ -27,6 +27,6 @@ We also hope “Modernism and Revolution” will invoke the turning of film reel
 
 #Modernist Interactive Map of Boston
 
-Launch [Nell Wasserstrom]()'s [Modernist Interactive Map of Boston]({{ base }}visit/BostonGuide.html)
+Launch [Nell Wasserstrom](https://www.bc.edu/schools/cas/english/graduate/doctoral/studentemails.html)'s [Modernist Interactive Map of Boston]({{ base }}visit/BostonGuide.html)
 
 [![lg center]({{ base }}assets/BostonGuide.png)]({{ base }}visit/BostonGuide.html)
