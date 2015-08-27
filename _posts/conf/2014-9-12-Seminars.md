@@ -54,7 +54,7 @@ Organizers: Elizabeth Sheehan (Oregon State University), Ilya Parkins (Universit
 
 This interdisciplinary seminar considers the political dimensions and implications of affect studies in the context of modernist cultures. How might a focus on affect shift our ideas about what constitutes revolution and political agency? Which theories of affect best enable us to conceive of the relationship between psychical and political change?
 
-###8. Modernism and the Critique of Historicism
+###8. Modernism and the Critique of Historicism [FULL]
 
 Organizers: Robert Lehman (Boston College), Nathan Brown (Concordia University)
 
