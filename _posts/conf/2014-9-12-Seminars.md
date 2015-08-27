@@ -14,7 +14,7 @@ Invited Participants: Harper Montgomery (Hunter College), Chinghsin Wu (Rutgers 
 
 From Futurist radio programs to Oskar Schlemmer’s Triadic Ballet to Oswald de Andrade’s theater pieces, our avant-garde objects of study often exceed rigid disciplinary frameworks and national boundaries, necessitating analysis across the arts and internationally. This seminar welcomes papers on the diverse and often collaborative output of the international avant-garde.
 
-###2. Beyond Resistance: New Approaches to Modernism and to Empire
+###2. Beyond Resistance: New Approaches to Modernism and to Empire [FULL] 
 
 Organizers: Matthew Eatough (Baruch College, CUNY), Philip Tsang (University of Cincinnati) 
 
@@ -62,7 +62,7 @@ Invited Participants: C. D. Blanton (Berkeley), Julie Beth Napolin (New School)
 
 This seminar invites papers that approach modernist texts—both literary and philosophical—as means of engaging critically with historicism, as means of testing traditional assumptions about periodization, causality, and the shape of historical time.
 
-###9. Modernism and Mental Health
+###9. Modernism and Mental Health [FULL] 
 
 Organizers: Lisa Mendelman (UCLA), Francesca Sawaya (College of William & Mary) 
 
@@ -108,7 +108,7 @@ Organizer: Jane E. Fisher (Canisius College)
 
 Recognizing the destabilizing effects of 20th century war, pandemic, and revolution on Enlightenment medical science, this seminar will examine how modernist writers, artists, musicians, painters, journalists, and intellectuals reconceived illness and disease in their lives and works, including shifts in public and private, as well as doctor, patient, and caretaker roles. 
 
-###16. Object-Oriented Ontology and Modernist Studies
+###16. Object-Oriented Ontology and Modernist Studies [FULL]
 
 Organizer: Roger Rothman (Bucknell University)
 
@@ -130,7 +130,7 @@ Organizers: Andrew Goldstone (Rutgers University), Jonathan Goodwin (University 
 
 Modernist studies aspires to expand geographically, chronologically, and across media, yet modernism's core aesthetic and canon have remained quite stable.  Why? This seminar invites new approaches to studying modernist disciplinarity itself, including (but not limited to) quantitative approaches, to understand stability and transformation in the landscape of modernist scholarship.
 
-###19. Remaking Place
+###19. Remaking Place [FULL]
 Organizers: Jennifer Chang (George Washington University), Jim Cocola (Worcester Polytechnic Institute)
 
 Invited Participants:  Stephen Burt (Harvard University), Lytle Shaw (New York University)
@@ -144,7 +144,7 @@ Invited Participants: Linda Kinnahan (Duquesne University), Jody Cardinal (Stony
 
 Art? Propaganda? Revolution? Legacy of 19th Century reform movements? Reactions to poverty and social inequity? How do we make sense of the varied forms of socially engaged art and writing of the modernist period by women writers, artists, and intellectuals? From Djuna Barnes to Gertrude Stein, Lucia Trent, Anzia Yezierska and others, creative women responded directly to the social and political sphere surrounding them.  This interdisciplinary seminar welcomes papers that explore the ways such women innovated within and against wider experimentations in language, genre and content in the modernist period, ultimately asking what is at stake in their engagement.
 
-###21. Rethinking Character in Modernist Life Narratives
+###21. Rethinking Character in Modernist Life Narratives [FULL]
 
 Organizers: Claire Battershill (Simon Fraser University), Daniel Newman (Concordia University)
 
@@ -189,7 +189,7 @@ Invited Participants: Jane C. Marcus (City College of New York-CUNY), Robin Hack
 
 This seminar honors the extensive career of Jane Marcus, pioneer feminist, Woolf, and modernist scholar, by thinking through ways that feminism has shaped discourses and revolutions within modernism and modernist studies.  We invite discussion of the role of feminism in modernist studies, feminist modernist recuperations, canonical and non-canonical feminist modernist authors, feminist theory and scholarship throughout the generations, and Marcus’s writings.
 
-###28. Uneven Development | Capitalist Crisis | Poetics
+###28. Uneven Development | Capitalist Crisis | Poetics [FULL]
 
 Organizers: Ruth Jennison (UMass-Amherst), Margaret Ronda (UC-Davis) 
 

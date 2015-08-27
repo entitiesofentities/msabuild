@@ -7,7 +7,11 @@
             $('h3').addClass('reader_title');
             $('#reader p').addClass('reader_description');
             $('.reader_description').hide();
-            
+        
+            //code for closed seminars
+            $('h3:contains("FULL")').addClass('greyout');
+            $('h3:contains("FULL")').nextUntil('h3').andSelf().addClass('greyout');
+        
             $('h3').click(function(){
                           $(this).toggleClass('selected');
                           });
