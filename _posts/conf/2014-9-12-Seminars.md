@@ -7,7 +7,7 @@ tag: text
 
 #Seminars for MSA 17
 
-###1. All Together Now: The Multimedia Avant-garde
+###1. All Together Now: The Multimedia Avant-garde [FULL]
 Organizers: Lori Cole (New York University), Bibiana Obler (George Washington University)
 
 Invited Participants: Harper Montgomery (Hunter College), Chinghsin Wu (Rutgers University)
@@ -20,7 +20,7 @@ Organizers: Matthew Eatough (Baruch College, CUNY), Philip Tsang (University of 
 
 Invited Participants: Proseeda Gopinath (Binghamton University, SUNY)
 This seminar takes the counter-intuitive move of decoupling modernism and postcolonialism.  What alternative approaches might we use to theorize early twentieth-century imperialism?  How might such issues as economics, education, geopolitics, immigration, social and political conservatism, and pro-empire sentiment among colonial writers revise our common understandings of modernism and empire? And finally, what can modernism teach us about empire?
-###3. Catastrophe and the Limits of Genre
+###3. Catastrophe and the Limits of Genre [FULL]
 
 Organizers: David Sherman (Brandeis University), Karen Bishop (Rutgers University)
 
@@ -38,7 +38,7 @@ During the Harlem Renaissance, African Americans sought renewed identity and soc
 
 Organizers: Alys Moody (University of Waikato), Stephen Ross (University of Warwick) 
 How do global modernists talk about their own literary and artistic practice? What dialogues emerge between the modernisms of different national and linguistic traditions? How does an examination of global modernist manifestos, essays, letters and critical texts help us to think about translation and modernism’s global reach? 
-###6. Modern American Literature and Visual Culture
+###6. Modern American Literature and Visual Culture [FULL]
 
 Organizers: Nicholas Gaskill (Rutgers University), David Alworth (Harvard University)
 
@@ -116,7 +116,7 @@ Invited Participants: Julie Vandivere (Bloomsburg University),  Jonathan Eburne 
 
 From a wide range of perspectives (including, but not limited to, Bill Brown’s “thing theory,” Graham Harman’s “speculative realism” and Jane Bennett’s  “vibrant matter”) objects have come into to new theoretical focus. This seminar will explore the possibilities (and problems) with approaching modernism through the lens of the new object-oriented ontologies.
 
-###17. Print Culture and Popularity
+###17. Print Culture and Popularity [FULL]
 
 Organizers: Faye Hamill (University of Strathclyde) Mark Hussey (Pace University)
 
@@ -151,7 +151,7 @@ Organizers: Claire Battershill (Simon Fraser University), Daniel Newman (Concord
 Invited Participants: Ella Ophir (University of Saskatchewan), Tobias Boes (University of Notre Dame)
 
 This seminar invites papers that take a broadly narratological approach to character in modernist fiction or life writing. In particular, we will examine how modernist life narratives challenge the ostensibly “natural” paradigm of character development, which sees individual change as gradual and accretive. Possible topics might include characterological changes like epiphanies, reversion, conversion and sex change; stylistic and perspectival shifts; or typographical breaks.
-###22. Revision and Modernism: living and (un)dead texts
+###22. Revision and Modernism: living and (un)dead texts [FULL]
 
 Organizers: Riley Mcdonald (Western University), Michael Groden (Western University) Donald Hinson Calabrese (Western University)
 
@@ -181,7 +181,7 @@ Organizers: Fran Bigman (University of Cambridge), Karen Weingarten (Queens Coll
 
 Early twentieth-century movements to reform and revolutionize laws around reproduction paralleled the rise of the eugenics movement and state-sanctioned policies on sterilization and abortion. Increased access to reproductive technologies enabled alternatives to the standard marriage-parenthood plot but posed new dilemmas. We invite papers on gender and reproduction, especially interdisciplinary approaches connecting reproductive history to other political movements.
 
-###27. Thinking Back Through Our Mothers: Feminist Revolutions in Modernism
+###27. Thinking Back Through Our Mothers: Feminist Revolutions in Modernism [FULL]
 
 Organizers: Linda Camarasana (SUNY College at Old Westbury), J. Ashley Foster (Haverford College)
 
