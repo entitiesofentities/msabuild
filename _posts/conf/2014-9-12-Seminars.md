@@ -185,7 +185,7 @@ Early twentieth-century movements to reform and revolutionize laws around reprod
 
 Organizers: Linda Camarasana (SUNY College at Old Westbury), J. Ashley Foster (Haverford College)
 
-Invited Participants: Jane C. Marcus (City College of New York-CUNY), Robin Hackett (University of New Hampshire) 
+Invited Participants: Robin Hackett (University of New Hampshire) 
 
 This seminar honors the extensive career of Jane Marcus, pioneer feminist, Woolf, and modernist scholar, by thinking through ways that feminism has shaped discourses and revolutions within modernism and modernist studies.  We invite discussion of the role of feminism in modernist studies, feminist modernist recuperations, canonical and non-canonical feminist modernist authors, feminist theory and scholarship throughout the generations, and Marcus’s writings.
 
