@@ -216,7 +216,8 @@ a{
 }
 
 .peas_and_carrots:nth-child(3){
-	margin-left: -.25em;
+	margin-left: -.7em;
+	padding-left: .5em;
 	transition: .5s;
 	-webkit-transition: .5s;
 	-moz-transition: .5s;	
