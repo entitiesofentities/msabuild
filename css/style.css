@@ -211,6 +211,23 @@ a{
 	border-bottom: none;
 }
 
+.peas_and_carrots{
+	border-bottom: 3px solid rgb(210,35,42);
+}
+
+.peas_and_carrots:nth-child(3){
+	margin-left: -.25em;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;	
+}
+
+.parting_ways{
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;	
+}
+
 a:visited{
 	color: black;
 	text-decoration: none;

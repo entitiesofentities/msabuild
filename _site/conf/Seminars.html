@@ -9671,8 +9671,8 @@ $(document).ready(main);
 <header>
 <ul class="nav" id = "full" hidden>
 	<li class="title"><a href="../index.html">MSA 17 Boston</a></li>
-<!--	<li class = 'top-nav' id="top-nav-one">CFP</li>	-->
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
+	<li class = 'top-nav' id="top-nav-one">Program</li>	
 	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
 	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
 	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
@@ -9686,9 +9686,9 @@ $(document).ready(main);
 <div id="top-bottom"><h1 id="venue">westin copley place, november 19-22</h1></div>
 </div>
 <ul class="nav" id = "animate" hidden>
-	<li class="title hidden"><a href="#tippytop">MSA 17 Boston</a></li>
-<!--	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >CFP</li>	-->
-	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >Conference</li>	
+	<li class="title hidden"><a href="#tippytop">MSA 17 Boston</a></li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >Conference</li>
+	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>		
 	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >Emerging Scholars</li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-four" >Travel & Lodging</li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-five" >Cultural Events</li>	
@@ -9700,8 +9700,8 @@ $(document).ready(main);
 <ul class="nav" id = "mobile" hidden>
 	<li class="title">MSA 17 Boston</li>
 	<li class = 'top-nav' id="top-nav-zero"><a href="../index.html">Welcome</a></li>	
-<!--	<li class = 'top-nav' id="top-nav-one">CFP</li>	-->
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
+	<li class = 'top-nav' id="top-nav-one">Program</li>		
 	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
 	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
 	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
@@ -9713,6 +9713,8 @@ $(document).ready(main);
 
 <!-- <ul class="bottom-nav hidden" id="welcome">
 	<li>Submit a Proposal:</li>
+    
+    	   
     
     	   
     
@@ -9795,6 +9797,8 @@ $(document).ready(main);
     	   
     
     	   
+    
+    	   
 			<li><a href="../conf/Speakers.html">Speakers</a></li>
 			
     
@@ -9852,6 +9856,10 @@ $(document).ready(main);
     	   
 			
     	   
+			<li><a href="https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramDraft.pdf">Conference Program</a></li>
+			
+			
+    	   
 			
     	   
 			
@@ -9902,6 +9910,8 @@ $(document).ready(main);
     	   
 			<li><a href="../grad/Travel%20grants.html">Travel grants</a></li>
 			
+    
+    	   
     
     	   
     
@@ -9973,6 +9983,8 @@ $(document).ready(main);
     	   
 			
     	   
+			
+    	   
 			<li><a href="https://www.facebook.com/pages/MSA-17-Emerging-Scholar-Housing-Initiative/662406893886041">Housing</a></li>
 			
 			
@@ -9997,6 +10009,8 @@ $(document).ready(main);
 </ul>
 
 <ul class="bottom-nav hidden" id="events">
+    
+    	   
     
     	   
     
@@ -10108,6 +10122,8 @@ $(document).ready(main);
 			
     	   
 			
+    	   
+			
     
     	   
     
@@ -10122,6 +10138,8 @@ $(document).ready(main);
     	   
 			<li><a href="../visit/Travel.html">Travel</a></li>
 			
+    
+    	   
     
     	   
 			<li><a href="../visit/Tourism.html">Tourism</a></li>
@@ -10283,8 +10301,12 @@ var interactive_bg = function(strength){
                           selected = true;
                           }
                           });
+
+        $('#mobile #top-nav-one').click(function(){
+                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramDraft.pdf';
+                                });
         
-        mobileHeader('#mobile #top-nav-one', '#welcome', '#top-nav-one');
+//        mobileHeader('#mobile #top-nav-one', '#welcome', '#top-nav-one');
         mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
         mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
@@ -10328,6 +10350,15 @@ var interactive_bg = function(strength){
             var numz;
             numz = $(window).height();
             
+            //conference program code
+            $('#animate #top-nav-one').hover(function(){
+                                             $(this).prev().andSelf().toggleClass('peas_and_carrots');
+                                             });
+            
+            $('#animate #top-nav-one').mouseleave(function(){
+                                             $(this).prev().andSelf().addClass('parting_ways');
+                                             });
+            
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
@@ -10348,8 +10379,12 @@ var interactive_bg = function(strength){
             $('.top-nav').hover(function(){
                                 $(this).toggleClass('highlighted');
                                 });
+
+            $('#animate #top-nav-one').click(function(){
+                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramDraft.pdf';
+                                    });
             
-            animatedHeader('#top-nav-one', '#welcome');
+//            animatedHeader('#top-nav-one', '#welcome');
             animatedHeader('#top-nav-two', '#conf');
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
@@ -10384,11 +10419,24 @@ var interactive_bg = function(strength){
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
             
+            //conference program code
+            $('#top-nav-one').hover(function(){
+                                    $(this).prev().andSelf().toggleClass('peas_and_carrots');
+                                    });
+            
+            $('#top-nav-one').mouseleave(function(){
+                                                  $(this).prev().andSelf().addClass('parting_ways');
+                                                  });
+            
             $('.top-nav').hover(function(){
                                 $(this).toggleClass('highlighted');
                                 });
+
+            $('#top-nav-one').click(function(){
+                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramDraft.pdf';
+                                    });
             
-            fullHeader('#top-nav-one', '#welcome');
+//            fullHeader('#top-nav-one', '#welcome');
             fullHeader('#top-nav-two', '#conf');
             fullHeader('#top-nav-three', '#grads');
             fullHeader('#top-nav-four', '#visit');

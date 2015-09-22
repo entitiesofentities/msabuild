@@ -215,7 +215,7 @@ var interactive_bg = function(strength){
             $('.top-nav').hover(function(){
                                 $(this).toggleClass('highlighted');
                                 });
-            
+                        
             fullHeader('#top-nav-one', '#welcome');
             fullHeader('#top-nav-two', '#conf');
             fullHeader('#top-nav-three', '#grads');
