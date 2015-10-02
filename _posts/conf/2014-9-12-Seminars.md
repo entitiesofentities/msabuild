@@ -7,22 +7,22 @@ tag: text
 
 #Seminars for MSA 17
 
-##Seminar registration for MSA 17 is now closed.
+<h2 class="important">Seminar registration for MSA 17 is now closed.</h2>
 
-###1. All Together Now: The Multimedia Avant-garde [FULL]
+###1. All Together Now: The Multimedia Avant-garde
 Organizers: Lori Cole (New York University), Bibiana Obler (George Washington University)
 
 Invited Participants: Harper Montgomery (Hunter College), Chinghsin Wu (Rutgers University)
 
 From Futurist radio programs to Oskar Schlemmer’s Triadic Ballet to Oswald de Andrade’s theater pieces, our avant-garde objects of study often exceed rigid disciplinary frameworks and national boundaries, necessitating analysis across the arts and internationally. This seminar welcomes papers on the diverse and often collaborative output of the international avant-garde.
 
-###2. Beyond Resistance: New Approaches to Modernism and to Empire [FULL] 
+###2. Beyond Resistance: New Approaches to Modernism and to Empire
 
 Organizers: Matthew Eatough (Baruch College, CUNY), Philip Tsang (University of Cincinnati) 
 
 Invited Participants: Proseeda Gopinath (Binghamton University, SUNY)
 This seminar takes the counter-intuitive move of decoupling modernism and postcolonialism.  What alternative approaches might we use to theorize early twentieth-century imperialism?  How might such issues as economics, education, geopolitics, immigration, social and political conservatism, and pro-empire sentiment among colonial writers revise our common understandings of modernism and empire? And finally, what can modernism teach us about empire?
-###3. Catastrophe and the Limits of Genre [FULL]
+###3. Catastrophe and the Limits of Genre 
 
 Organizers: David Sherman (Brandeis University), Karen Bishop (Rutgers University)
 
@@ -40,7 +40,7 @@ During the Harlem Renaissance, African Americans sought renewed identity and soc
 
 Organizers: Alys Moody (University of Waikato), Stephen Ross (University of Warwick) 
 How do global modernists talk about their own literary and artistic practice? What dialogues emerge between the modernisms of different national and linguistic traditions? How does an examination of global modernist manifestos, essays, letters and critical texts help us to think about translation and modernism’s global reach? 
-###6. Modern American Literature and Visual Culture [FULL]
+###6. Modern American Literature and Visual Culture 
 
 Organizers: Nicholas Gaskill (Rutgers University), David Alworth (Harvard University)
 
@@ -56,7 +56,7 @@ Organizers: Elizabeth Sheehan (Oregon State University), Ilya Parkins (Universit
 
 This interdisciplinary seminar considers the political dimensions and implications of affect studies in the context of modernist cultures. How might a focus on affect shift our ideas about what constitutes revolution and political agency? Which theories of affect best enable us to conceive of the relationship between psychical and political change?
 
-###8. Modernism and the Critique of Historicism [FULL]
+###8. Modernism and the Critique of Historicism 
 
 Organizers: Robert Lehman (Boston College), Nathan Brown (Concordia University)
 
@@ -64,7 +64,7 @@ Invited Participants: C. D. Blanton (Berkeley), Julie Beth Napolin (New School)
 
 This seminar invites papers that approach modernist texts—both literary and philosophical—as means of engaging critically with historicism, as means of testing traditional assumptions about periodization, causality, and the shape of historical time.
 
-###9. Modernism and Mental Health [FULL] 
+###9. Modernism and Mental Health  
 
 Organizers: Lisa Mendelman (UCLA), Francesca Sawaya (College of William & Mary) 
 
@@ -78,11 +78,13 @@ Organizer: Tara Thomson (University of Edinburgh)
 Invited Participants: Jim Benstead (University of Edinburgh)
 Many diverse revolutionary voices emerged from 20th century Scottish literature, arts, and culture. This seminar invites participants to explore these voices, or any aspect of modernism in Scotland, including the Scottish Renaissance, late Scottish modernism, Scottish women writers, broader modernism’s engagement with Scotland, or Scottish culture’s relationship with revolutionary politics.
 
+<!--
 ###11. Modernism and World Englishes
 
 Organizer: Judith Paltin (University of British Columbia)
 
 Exploring articulations between experimental dictions of international modernism and burgeoning world englishes: What does modernist linguistic experimentation borrow, directly and indirectly, from global variants of English? Do these sets of literatures share a concern with untranslatability? Should modernist studies see its canon as a palimpsest of mother tongues, pidgins, histories?
+-->
 
 ###12. Modernist Sociologies: Now and Then
 
@@ -92,11 +94,13 @@ Invited Participants: Evan Kindley (Claremont-Mckenna College)
 
 This seminar considers modernism as a site for analyzing the connections between historical sociology and recent theories of social formation. Seeking papers that relate early sociology to current trends in interdisciplinary scholarship, we ask what methodologies help scholars, as Latour writes, “follow the actors?” Additionally, how does modernist literature prefigure the contemporary interest in literary sociology?
 
+<!--
 ###13. Modernist Jargon
 
 Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (University of Michigan-Ann Arbor)
 
 “Jargon” labels language as unintelligible—yet was also the self-description of Yiddish belle-lettrists. How might its use be seen within modernist practices that engage and/or resist attitudes toward race, empire, and technology? Papers might consider: constructed/invented languages, recording technologies, migration and modern transit, hierarchies of dialect/standard, transliteration/translation, and difficulty/experimentalism.
+-->
 
 ###14. Modernist London and the Digital Map
 
@@ -110,7 +114,7 @@ Organizer: Jane E. Fisher (Canisius College)
 
 Recognizing the destabilizing effects of 20th century war, pandemic, and revolution on Enlightenment medical science, this seminar will examine how modernist writers, artists, musicians, painters, journalists, and intellectuals reconceived illness and disease in their lives and works, including shifts in public and private, as well as doctor, patient, and caretaker roles. 
 
-###16. Object-Oriented Ontology and Modernist Studies [FULL]
+###16. Object-Oriented Ontology and Modernist Studies 
 
 Organizer: Roger Rothman (Bucknell University)
 
@@ -118,7 +122,7 @@ Invited Participants: Julie Vandivere (Bloomsburg University),  Jonathan Eburne 
 
 From a wide range of perspectives (including, but not limited to, Bill Brown’s “thing theory,” Graham Harman’s “speculative realism” and Jane Bennett’s  “vibrant matter”) objects have come into to new theoretical focus. This seminar will explore the possibilities (and problems) with approaching modernism through the lens of the new object-oriented ontologies.
 
-###17. Print Culture and Popularity [FULL]
+###17. Print Culture and Popularity 
 
 Organizers: Faye Hamill (University of Strathclyde) Mark Hussey (Pace University)
 
@@ -132,13 +136,13 @@ Organizers: Andrew Goldstone (Rutgers University), Jonathan Goodwin (University 
 
 Modernist studies aspires to expand geographically, chronologically, and across media, yet modernism's core aesthetic and canon have remained quite stable.  Why? This seminar invites new approaches to studying modernist disciplinarity itself, including (but not limited to) quantitative approaches, to understand stability and transformation in the landscape of modernist scholarship.
 
-###19. Remaking Place [FULL]
+###19. Remaking Place 
 Organizers: Jennifer Chang (George Washington University), Jim Cocola (Worcester Polytechnic Institute)
 
 Invited Participants:  Stephen Burt (Harvard University), Lytle Shaw (New York University)
 How has place-making (whether cartographical, documentary, ecopoetic, or pastoral) changed with the cognizance of the anthropocene and the emergence of ecocriticism? How does the remaking of place propel social revolutions? Welcoming discussions of place across geographies, mediums, and methodologies, this seminar will emphasize modern and contemporary poetry and poetics.
 
-###20. Resistance and Reform: Modernist Women and Social Engagement [FULL]
+###20. Resistance and Reform: Modernist Women and Social Engagement 
 
 Organizers: Deirdre Egan-Ryan (St Norbert College) , Julia Lisella (Regis College)
 
@@ -146,25 +150,27 @@ Invited Participants: Linda Kinnahan (Duquesne University), Jody Cardinal (Stony
 
 Art? Propaganda? Revolution? Legacy of 19th Century reform movements? Reactions to poverty and social inequity? How do we make sense of the varied forms of socially engaged art and writing of the modernist period by women writers, artists, and intellectuals? From Djuna Barnes to Gertrude Stein, Lucia Trent, Anzia Yezierska and others, creative women responded directly to the social and political sphere surrounding them.  This interdisciplinary seminar welcomes papers that explore the ways such women innovated within and against wider experimentations in language, genre and content in the modernist period, ultimately asking what is at stake in their engagement.
 
-###21. Rethinking Character in Modernist Life Narratives [FULL]
+###21. Rethinking Character in Modernist Life Narratives 
 
 Organizers: Claire Battershill (Simon Fraser University), Daniel Newman (Concordia University)
 
 Invited Participants: Ella Ophir (University of Saskatchewan), Tobias Boes (University of Notre Dame)
 
 This seminar invites papers that take a broadly narratological approach to character in modernist fiction or life writing. In particular, we will examine how modernist life narratives challenge the ostensibly “natural” paradigm of character development, which sees individual change as gradual and accretive. Possible topics might include characterological changes like epiphanies, reversion, conversion and sex change; stylistic and perspectival shifts; or typographical breaks.
-###22. Revision and Modernism: living and (un)dead texts [FULL]
+###22. Revision and Modernism: living and (un)dead texts 
 
 Organizers: Riley Mcdonald (Western University), Michael Groden (Western University) Donald Hinson Calabrese (Western University)
 
 Invited Participants: Finn Fordham (Royal Holloway-University of London, Hannah Sullivan (New College, University of Oxford)
 
 Our seminar seeks to understand how textual revision has defined the Modernist period. Revision implies a tension between the living and “dead” texts. Are there undead texts? Do they threaten the stability of the living? This seminar will examine how revision potentially rejuvenates texts and powers the various Modernist projects.
-###23. Revolution from the Margins of Modernism: Interwar, Wartime, and the Long Aftermath of Modernist Jewish Writing, Film, and the Plastic Arts
+
+<!--###23. Revolution from the Margins of Modernism: Interwar, Wartime, and the Long Aftermath of Modernist Jewish Writing, Film, and the Plastic Arts
 
 Organizers: Phyllis B Lassner (Northwestern University), Michael T Williamson (University of Pennsylvania)
 
 Expanding Timothy Snyder's call for a reassessment of the narratives that shape our understanding of "commemorative causality" in history, this seminar addresses the following question: "How do Jewish artists, their cultural productions, and representations of the Jew, Judaism, and Jewish history affect the meanings of revolution in modernist studies past, present, and future?"  We encourage reflection upon the various ways in which Jewish studies and the Jewish subject might be placed in revolutionary cultural, aesthetic, and/or political relation to modernist conceptions of history and memory. We welcome papers from the period after 1905, through the Holocaust, and into our time.
+-->
 ###24. The Revolution of Sound Cinema
 
 Organizer: Jesse Schotter (Ohio State University)
@@ -183,7 +189,7 @@ Organizers: Fran Bigman (University of Cambridge), Karen Weingarten (Queens Coll
 
 Early twentieth-century movements to reform and revolutionize laws around reproduction paralleled the rise of the eugenics movement and state-sanctioned policies on sterilization and abortion. Increased access to reproductive technologies enabled alternatives to the standard marriage-parenthood plot but posed new dilemmas. We invite papers on gender and reproduction, especially interdisciplinary approaches connecting reproductive history to other political movements.
 
-###27. Thinking Back Through Our Mothers: Feminist Revolutions in Modernism [FULL]
+###27. Thinking Back Through Our Mothers: Feminist Revolutions in Modernism 
 
 Organizers: Linda Camarasana (SUNY College at Old Westbury), J. Ashley Foster (Haverford College)
 
@@ -191,7 +197,7 @@ Invited Participants: Robin Hackett (University of New Hampshire)
 
 This seminar honors the extensive career of Jane Marcus, pioneer feminist, Woolf, and modernist scholar, by thinking through ways that feminism has shaped discourses and revolutions within modernism and modernist studies.  We invite discussion of the role of feminism in modernist studies, feminist modernist recuperations, canonical and non-canonical feminist modernist authors, feminist theory and scholarship throughout the generations, and Marcus’s writings.
 
-###28. Uneven Development | Capitalist Crisis | Poetics [FULL]
+###28. Uneven Development | Capitalist Crisis | Poetics 
 
 Organizers: Ruth Jennison (UMass-Amherst), Margaret Ronda (UC-Davis) 
 
