@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overflow Hotel
+title: Overflow hotel
 category: visit
 ---
 
