@@ -113,7 +113,7 @@ var interactive_bg = function(strength){
                           });
 
         $('#mobile #top-nav-one').click(function(){
-                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramDraft.pdf';
+                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramFinal.pdf';
                                 });
         
 //        mobileHeader('#mobile #top-nav-one', '#welcome', '#top-nav-one');
@@ -191,7 +191,7 @@ var interactive_bg = function(strength){
                                 });
 
             $('#animate #top-nav-one').click(function(){
-                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramDraft.pdf';
+                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramFinal.pdf';
                                     });
             
 //            animatedHeader('#top-nav-one', '#welcome');
