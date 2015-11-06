@@ -9,11 +9,11 @@ tag: text
 
 ## Pre-Conference Workshops (Thursday)
 
-##Thursday Morning (10:30-12)
+##Thursday Morning (10:00 - 11:30 a.m.)
 
 ###1. Revolutionize Your Writing
 
-**Time: Thursday, 10:30-12**
+**Time: Thursday, 10:00 - 11:30**
 
 Organizer: Helen Sword (University of Aukland)
 
@@ -21,7 +21,7 @@ Organizer: Helen Sword (University of Aukland)
  
 ###2. Beyond the Tenure-Track: Alternative Careers for Modernist PhDs
 
-**Time: Thursday, 10:30-12**
+**Time: Thursday, 10:00 - 11:30**
 
 Organizer: Paige Reynolds (College of the Holy Cross) 
 
@@ -29,17 +29,17 @@ This workshop gathers a diverse group of humanities PhDs who have chosen rewardi
 
 ###3. Modernist Commons
 
-**Time: Thursday, 10:30-12:00**
+**Time: Thursday, 10:00 - 11:30**
 
 Leaders: Dean Irvine (Dalhousie University) and Alan Stanley (Lead Programmer, Discoverygarden)
 
 Participants in this workshop will be introduced to the Modernist Commons ([http://modernistcommons.ca](http://modernistcommons.ca)) — a digital repository, editorial workbench, and critical-edition publication platform designed by Editing Modernism in Canada ([http://editingmodernism.ca](http://editingmodernism.ca)). It integrates a wide range of open-source systems and tools (Islandora, Tesseract OCR, CWRC Writer, Shared Canvas, Internet Archive Viewer, Open Seadragon Viewer, Calliope, and CollateX). With these tools, users can ingest images and generate transcriptions, as well as edit and mark up both transcriptions and images using a single graphical interface, which supports overlapping TEI-XML and RDF markup. Users can also perform algorithmically generated collations of transcriptions, which can be visualized in several ways. The Modernist Commons provides a critical-edition interface so that editors can assemble images, audio and video, critical apparatus, and variant visualizations in a configurable reading environment. 
 
-##Thursday Afternoon (12-1:30)
+##Thursday Afternoon (11:30 a.m. - 1:00 p.m.)
 
 ###4. How to Survive the Tenure Track and Get Tenure
 
-**Time: Thursday, 12-1:30**
+**Time: Thursday, 11:30 - 1:00**
 
 Organizer: John Peters (University of North Texas)
 
@@ -47,7 +47,7 @@ This workshop will be directed at current or future assistant professors and wil
 
 ###5. Mid-Career Modernism: Opportunities and Challenges
 
-**Time:  Thursday, 12-1:30**
+**Time:  Thursday, 11:30 - 1:00**
 
 Organizer: Paige Reynolds (College of the Holy Cross) 
 
@@ -57,24 +57,24 @@ Early academic career paths are fairly well mapped as we pursue tenure or the fi
 
 ###6. Modernist Digital Texts in the Classroom
 
-**Time: Thursday, 12-1:30**
+**Time: Thursday, 11:30 - 1:00**
 
 Organizers: Shawna Ross (Arizona State University), Claire Battershill (University of Reading)
 
 This hands-on workshop is part of the Open Modernisms project, a grant-funded, multi-institution initiative providing a customizable, cost-free modernist anthology. Participants will learn simple, reliable methods for digitizing modernist texts (smartphone and in-browser applications, OCR, CMS). Sample assignment sheets will show how to involve students in Open Modernisms. Each participant should bring a hardcopy text. No prior expertise necessary.
 ###7. What Do Presses Want from First Books?
 
-**Time: Thursday, 12-1:30**
+**Time: Thursday, 11:30 - 1:00**
 
 Organizer: David James (Queens Mary, University of London)
 
 This workshop will bring together commissioning editors from leading university presses (Johns Hopkins and Columbia) and series editors to address a range of practical, intellectual and professional issues involved in  conceiving, writing, and proposing one's first monograph. The session will be open to everyone; but as in previous years, it is designed to appeal especially to graduate students and younger scholars in the field who are looking for pragmatic advice about writing processes and publishing practices. After a 30-40 minute period of initial presentations by each of the speakers, the workshop will then open up to questions from the audience, allowing topics from attendees to shape the conversation.Participants include: Philip Leventhal (Literature editor, Columbia UP), Matt McAdam (Literature editor, Johns Hopkins UP), Paul K. Saint-Amour (series editor: Modernist Latitudes with Columbia UP), Kevin Dettmar (series editor: Modernist Literature and Culture with OUP); Matthew Hart (series editor: Literature Now with Columbia UP); Rebecca Beasley (series editor: Edinburgh Studies in Modernist Literature and Culture with EUP).
 
-##Post-Conference Workshops (Sunday)
+##Post-Conference Workshops (Sunday 1:00 - 2:30 p.m.)
 
 ###8. The Making of Modernist Studies: A Forum
 
-**Time: Sunday, 1-2:30**
+**Time: Sunday, 1:00 - 2:30**
 
 Organizers: Sean Latham (University of Tulsa), Gayle Rogers (University of Pittsburgh) 
 
@@ -82,7 +82,7 @@ A series of six brief presentations on landmark texts and figures in the history
 
 ###9. Modernism and Digital Archives Workshop
 
-**Time: Sunday, 1-2:30**
+**Time: Sunday, 1:00 - 2:30**
 
 Organizer: Charlotte Nunes (Southwestern University)
 
