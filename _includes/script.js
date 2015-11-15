@@ -112,11 +112,11 @@ var interactive_bg = function(strength){
                           }
                           });
 
-        $('#mobile #top-nav-one').click(function(){
-                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
-                                });
+//        $('#mobile #top-nav-one').click(function(){
+//                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
+//                                });
         
-//        mobileHeader('#mobile #top-nav-one', '#welcome', '#top-nav-one');
+        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
         mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
         mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
@@ -190,11 +190,11 @@ var interactive_bg = function(strength){
                                 $(this).toggleClass('highlighted');
                                 });
 
-            $('#animate #top-nav-one').click(function(){
-                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
-                                    });
+//            $('#animate #top-nav-one').click(function(){
+//                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
+//                                    });
             
-//            animatedHeader('#top-nav-one', '#welcome');
+            animatedHeader('#top-nav-one', '#program');
             animatedHeader('#top-nav-two', '#conf');
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
@@ -242,11 +242,11 @@ var interactive_bg = function(strength){
                                 $(this).toggleClass('highlighted');
                                 });
 
-            $('#top-nav-one').click(function(){
-                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
-                                    });
+//            $('#top-nav-one').click(function(){
+//                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
+//                                    });
             
-//            fullHeader('#top-nav-one', '#welcome');
+            fullHeader('#top-nav-one', '#program');
             fullHeader('#top-nav-two', '#conf');
             fullHeader('#top-nav-three', '#grads');
             fullHeader('#top-nav-four', '#visit');

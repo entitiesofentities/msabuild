@@ -178,6 +178,7 @@ var interactive_bg = function(strength){
                                 });
             
             animatedHeader('#top-nav-one', '#welcome');
+            animatedHeader('#top-nav-two', '#program');
             animatedHeader('#top-nav-two', '#conf');
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');

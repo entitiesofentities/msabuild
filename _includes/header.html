@@ -60,6 +60,14 @@
 			{% endfor %}        
 </ul>
 
+<ul class="bottom-nav hidden" id="program">
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'program' %}
+			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+			{% endif %}
+			{% endfor %}        
+</ul>
+
 <ul class="bottom-nav hidden" id="grads">
     {% for post in site.posts %}
     	   {% if post.categories contains 'grad' %}
