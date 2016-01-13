@@ -1,13 +1,24 @@
 //HEADER ANIMATION//
-var animatedHeader = function(a, b){
+var desktopHeader = function(a, b){
     
-    selector = '#animate ' + a;
+    selector = '#desktop ' + a;
     
     $(selector).click(function(){
                       $('.bottom-nav').not(b).addClass('hidden');
-                      $(b).addClass('animated');
+                      $('.top-nav').not(a).toggleClass('hidden');
                       $(b).toggleClass('hidden', 'fadeInDown');
                       });
+}
+
+var brutalHeader = function(a){
+
+    selector = '#desktop ' + a;
+
+    $(selector).click(function(){
+    alert(selector);
+    $(selector).css('color', 'red');
+//        $('#desktop .top-nav').not(selector).hide;
+    });
 }
 
 var fullHeader = function(a, b){
@@ -16,7 +27,7 @@ var fullHeader = function(a, b){
     
     $(selector).click(function(){
                       $('.bottom-nav').not(b).addClass('hidden');
-                      $(b).addClass('animated');
+                      $(b).addClass('desktopd');
                       $(b).toggleClass('hidden', 'fadeInDown');
                       });
 }
@@ -122,16 +133,30 @@ var interactive_bg = function(strength){
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
         mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');        
         
-    //ANIMATED//
+    //DESKTOP//
     }else{
-        if(document.title == "MSA 17 Boston"){
-            
-            //background img
-            interactive_bg(50);
-            $('.bg').css('height', '60%');
-            $('.bg').css('width', '100%');
 
+            $('.bottom-nav-back').click(function(){
+                                        $('.bottom-nav').addClass('hidden');
+                                        $('.top-nav').removeClass('hidden');
+                                        });
+
+        
+            $('header').hide();
             
+            $('#reveal').click(function(){
+                               $('header').toggle();
+                               });
+        
+        
+        $('#top-nav-zero').css('letter-spacing', '300px');
+        $('#top-nav-one').css('letter-spacing', '125px');
+        $('#top-nav-two').css('letter-spacing', '65px');
+        $('#top-nav-three').css('letter-spacing', '13px');
+        $('#top-nav-four').css('letter-spacing', '21px');
+        $('#top-nav-five').css('letter-spacing', '23px');
+        $('#top-nav-six').css('letter-spacing', '125px');
+        
             //image sizing
             $("img[alt*='sm']").addClass("small");
             $("img[alt*='med']").addClass("medium");
@@ -141,34 +166,19 @@ var interactive_bg = function(strength){
             $("img[alt*='center']").addClass("center");
             
             //page styling
-            $('#animate').show();
+            $('#desktop').show();
             $('#full').hide();
-            $('#slow').show();
-            $('#fast').hide();
-            $('header').addClass('pretty');
-            $('header').css('line-height', '.5em');
-            $('#top-header').show();
             $('.content').addClass('big_pad');
             
-            //content padding
-            var pad;
-            pad = $('header').height();
-            $('.padder').height(pad/3);
-            $('.top-pad').height(pad/1.8);
-            
-            //header scroll code
-            var numz;
-            numz = $(window).height();
-            
             //conference program code
-            $('#animate #top-nav-one').hover(function(){
+            $('#desktop #top-nav-one').hover(function(){
                                              $(this).prev().andSelf().toggleClass('peas_and_carrots');
                                              });
             
-            $('#animate #top-nav-one').mouseleave(function(){
+            $('#desktop #top-nav-one').mouseleave(function(){
                                              $(this).prev().andSelf().addClass('parting_ways');
                                              });
-            
+/*
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
@@ -181,78 +191,34 @@ var interactive_bg = function(strength){
                              $('#top-header').show();
                              }
                              });
+ */
             
             //header animation
             $('ul li').addClass('full');
-            $('.bottom-nav').addClass('animated fadeInDown');
+            $('.bottom-nav').addClass('desktopd fadeInDown');
             
             $('.top-nav').hover(function(){
                                 $(this).toggleClass('highlighted');
                                 });
 
-//            $('#animate #top-nav-one').click(function(){
+//            $('#desktop #top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
             
-            animatedHeader('#top-nav-one', '#program');
-            animatedHeader('#top-nav-two', '#conf');
-            animatedHeader('#top-nav-three', '#grads');
-            animatedHeader('#top-nav-four', '#visit');
-            animatedHeader('#top-nav-five', '#events');
+            desktopHeader('#top-nav-one', '#program');
+            desktopHeader('#top-nav-two', '#conf');
+            desktopHeader('#top-nav-three', '#grads');
+            desktopHeader('#top-nav-four', '#visit');
+            desktopHeader('#top-nav-five', '#events');
+
+//            brutalHeader('#top-nav-one');
+//            brutalHeader('#top-nav-two');
+//            brutalHeader('#top-nav-three');
+//            brutalHeader('#top-nav-four');
+//            brutalHeader('#top-nav-five');
             
         //FULL//
-        }else{
-            
-            $('.vid').click(function(){
-                             $(this).get(0).play();
-                             });
-            
-            //image sizing
-            $("img[alt*='sm']").addClass("small");
-            $("img[alt*='med']").addClass("medium");
-            $("img[alt*='lg']").addClass("large");
-            $("img[alt*='left']").addClass("left");
-            $("img[alt*='right']").addClass("right");
-            
-            //page styling
-            $('#full').show();
-            $('#animate').hide();
-            $('header').addClass("sticky");
-            $('.content').addClass('big_pad');
-            
-            //content padding
-            var pad;
-            pad = $('header').height();
-            $('#padder').height(pad/3);
-            
-            //header animation
-            $('ul li').addClass('full');
-            $('.bottom-nav').addClass('animated fadeInDown');
-            
-            //conference program code
-            $('#top-nav-one').hover(function(){
-                                    $(this).prev().andSelf().toggleClass('peas_and_carrots');
-                                    });
-            
-            $('#top-nav-one').mouseleave(function(){
-                                                  $(this).prev().andSelf().addClass('parting_ways');
-                                                  });
-            
-            $('.top-nav').hover(function(){
-                                $(this).toggleClass('highlighted');
-                                });
-
-//            $('#top-nav-one').click(function(){
-//                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
-//                                    });
-            
-            fullHeader('#top-nav-one', '#program');
-            fullHeader('#top-nav-two', '#conf');
-            fullHeader('#top-nav-three', '#grads');
-            fullHeader('#top-nav-four', '#visit');
-            fullHeader('#top-nav-five', '#events');
         }
-    }
     
 }
 

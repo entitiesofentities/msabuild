@@ -1,6 +1,11 @@
 ---
 layout: welcome
 ---
+<div id="extra" hidden=""></div>
+
+<div id="reveal"><p>MENU</p></div>
+
+<!--
 <div id = "fast">
     	  <div class="bg animated fadeIn"  style="{{ site.delay_6 }}" data-ibg-bg="{{ base }}assets/graphic2.jpg">
     	  </div>
@@ -12,12 +17,26 @@ layout: welcome
     	  </div>    	  
 	{% include bottom-header.html %}
 </div>    	
+-->
 
-<div class="content">
-{% capture my_include %}{% include welcome.md %}{% endcapture %}
-{{ my_include | markdownify }}
+<div class="splash" id="top-header">
+
+<div id="top-left"><span id="name">MSA 18</span></div>
+<div id="top-right"><span id="venue">November 17-20, 2016<br>Pasadena, California</span></div>
+
+<div id="bottom-middle"><span id="subtitle-top">Culture</span><br><span id="subtitle-bottom">Industries</span></div>
+
+<div id="bottom-header"><span id="d"><a href="#scrollTo">View the poster</a></span></div>
+
 </div>
 
+<div class="post">
+<div id="scrollTo"></div>
+<img src="assets/msa18poster.jpg" width="110%" style="margin-left:-95px;">
+<!--{% capture my_include %}{% include welcome.md %}{% endcapture %}
+{{ my_include | markdownify }}-->
+
+</div>
 		</div><!-- Container -->
 
 <!-- script for header -->

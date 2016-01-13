@@ -21,6 +21,7 @@
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Kelly+Slab|Black+Ops+One|Antic+Slab|Squada+One|Electrolize|Lato|Raleway|Plaster' rel='stylesheet' type='text/css'>
 					
 		<!-- Favicon -->		 		 
 		 
@@ -9798,6 +9799,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     
 <span id="tippytop"></span>
 <header>
+<!--
 <ul class="nav" id = "full" hidden>
 	<li class="title"><a href="./index.html">MSA 17 Boston</a></li>
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
@@ -9809,21 +9811,17 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>		
 </ul>
-
-<div id="top-header" hidden>
-<div id="top-top"><span id="name">MSA 17</span> <span id="subtitle">Boston</span> <span id="year">2015</span></div>
-<div id="top-bottom"><h1 id="venue">westin copley place, november 19-22</h1></div>
-</div>
-<ul class="nav" id = "animate" hidden>
-	<li class="title hidden"><a href="#tippytop">MSA 17 Boston</a></li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >Conference</li>
-	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>		
-	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >Emerging Scholars</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-four" >Travel & Lodging</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-five" >Cultural Events</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-six" ><a href="mailto:msaseventeen@gmail.com">Contact</a></li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-seven" style=""></li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-eight" style=""></li>
+-->
+<ul class="nav" id = "desktop" hidden>
+	<li class="top-nav animated fadeInLeft" id="top-nav-zero"><a href="./index.html">Home</a></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-two" >Conference</li>
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-one" >Program</li>		
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >Emerging Scholars</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" >Travel & Lodging</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" >Cultural Events</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-six" ><a href="mailto:msaseventeen@gmail.com">Contact</a></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-seven" style=""></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-eight" style=""></li>
 </ul>
 
 <ul class="nav" id = "mobile" hidden>
@@ -10034,6 +10032,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			
     	   
 			        
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="program">
@@ -10095,7 +10094,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
-			        
+			
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="grads">
@@ -10214,7 +10214,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
-			    
+			
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="events">
@@ -10281,6 +10282,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     
     	   
     
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="visit">
@@ -10406,21 +10408,33 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			<li><a href="./visit/BostonGuide.html">Modernist Interactive Map of Boston</a></li>
 			
     
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 </header>
 
 <script>
 //HEADER ANIMATION//
-var animatedHeader = function(a, b){
+var desktopHeader = function(a, b){
     
-    selector = '#animate ' + a;
+    selector = '#desktop ' + a;
     
     $(selector).click(function(){
                       $('.bottom-nav').not(b).addClass('hidden');
-                      $(b).addClass('animated');
+                      $('.top-nav').not(a).toggleClass('hidden');
                       $(b).toggleClass('hidden', 'fadeInDown');
                       });
+}
+
+var brutalHeader = function(a){
+
+    selector = '#desktop ' + a;
+
+    $(selector).click(function(){
+    alert(selector);
+    $(selector).css('color', 'red');
+//        $('#desktop .top-nav').not(selector).hide;
+    });
 }
 
 var fullHeader = function(a, b){
@@ -10429,7 +10443,7 @@ var fullHeader = function(a, b){
     
     $(selector).click(function(){
                       $('.bottom-nav').not(b).addClass('hidden');
-                      $(b).addClass('animated');
+                      $(b).addClass('desktopd');
                       $(b).toggleClass('hidden', 'fadeInDown');
                       });
 }
@@ -10535,16 +10549,30 @@ var interactive_bg = function(strength){
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
         mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');        
         
-    //ANIMATED//
+    //DESKTOP//
     }else{
-        if(document.title == "MSA 17 Boston"){
-            
-            //background img
-            interactive_bg(50);
-            $('.bg').css('height', '60%');
-            $('.bg').css('width', '100%');
 
+            $('.bottom-nav-back').click(function(){
+                                        $('.bottom-nav').addClass('hidden');
+                                        $('.top-nav').removeClass('hidden');
+                                        });
+
+        
+            $('header').hide();
             
+            $('#reveal').click(function(){
+                               $('header').toggle();
+                               });
+        
+        
+        $('#top-nav-zero').css('letter-spacing', '300px');
+        $('#top-nav-one').css('letter-spacing', '125px');
+        $('#top-nav-two').css('letter-spacing', '65px');
+        $('#top-nav-three').css('letter-spacing', '13px');
+        $('#top-nav-four').css('letter-spacing', '21px');
+        $('#top-nav-five').css('letter-spacing', '23px');
+        $('#top-nav-six').css('letter-spacing', '125px');
+        
             //image sizing
             $("img[alt*='sm']").addClass("small");
             $("img[alt*='med']").addClass("medium");
@@ -10554,34 +10582,19 @@ var interactive_bg = function(strength){
             $("img[alt*='center']").addClass("center");
             
             //page styling
-            $('#animate').show();
+            $('#desktop').show();
             $('#full').hide();
-            $('#slow').show();
-            $('#fast').hide();
-            $('header').addClass('pretty');
-            $('header').css('line-height', '.5em');
-            $('#top-header').show();
             $('.content').addClass('big_pad');
             
-            //content padding
-            var pad;
-            pad = $('header').height();
-            $('.padder').height(pad/3);
-            $('.top-pad').height(pad/1.8);
-            
-            //header scroll code
-            var numz;
-            numz = $(window).height();
-            
             //conference program code
-            $('#animate #top-nav-one').hover(function(){
+            $('#desktop #top-nav-one').hover(function(){
                                              $(this).prev().andSelf().toggleClass('peas_and_carrots');
                                              });
             
-            $('#animate #top-nav-one').mouseleave(function(){
+            $('#desktop #top-nav-one').mouseleave(function(){
                                              $(this).prev().andSelf().addClass('parting_ways');
                                              });
-            
+/*
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
@@ -10594,78 +10607,34 @@ var interactive_bg = function(strength){
                              $('#top-header').show();
                              }
                              });
+ */
             
             //header animation
             $('ul li').addClass('full');
-            $('.bottom-nav').addClass('animated fadeInDown');
+            $('.bottom-nav').addClass('desktopd fadeInDown');
             
             $('.top-nav').hover(function(){
                                 $(this).toggleClass('highlighted');
                                 });
 
-//            $('#animate #top-nav-one').click(function(){
+//            $('#desktop #top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
             
-            animatedHeader('#top-nav-one', '#program');
-            animatedHeader('#top-nav-two', '#conf');
-            animatedHeader('#top-nav-three', '#grads');
-            animatedHeader('#top-nav-four', '#visit');
-            animatedHeader('#top-nav-five', '#events');
+            desktopHeader('#top-nav-one', '#program');
+            desktopHeader('#top-nav-two', '#conf');
+            desktopHeader('#top-nav-three', '#grads');
+            desktopHeader('#top-nav-four', '#visit');
+            desktopHeader('#top-nav-five', '#events');
+
+//            brutalHeader('#top-nav-one');
+//            brutalHeader('#top-nav-two');
+//            brutalHeader('#top-nav-three');
+//            brutalHeader('#top-nav-four');
+//            brutalHeader('#top-nav-five');
             
         //FULL//
-        }else{
-            
-            $('.vid').click(function(){
-                             $(this).get(0).play();
-                             });
-            
-            //image sizing
-            $("img[alt*='sm']").addClass("small");
-            $("img[alt*='med']").addClass("medium");
-            $("img[alt*='lg']").addClass("large");
-            $("img[alt*='left']").addClass("left");
-            $("img[alt*='right']").addClass("right");
-            
-            //page styling
-            $('#full').show();
-            $('#animate').hide();
-            $('header').addClass("sticky");
-            $('.content').addClass('big_pad');
-            
-            //content padding
-            var pad;
-            pad = $('header').height();
-            $('#padder').height(pad/3);
-            
-            //header animation
-            $('ul li').addClass('full');
-            $('.bottom-nav').addClass('animated fadeInDown');
-            
-            //conference program code
-            $('#top-nav-one').hover(function(){
-                                    $(this).prev().andSelf().toggleClass('peas_and_carrots');
-                                    });
-            
-            $('#top-nav-one').mouseleave(function(){
-                                                  $(this).prev().andSelf().addClass('parting_ways');
-                                                  });
-            
-            $('.top-nav').hover(function(){
-                                $(this).toggleClass('highlighted');
-                                });
-
-//            $('#top-nav-one').click(function(){
-//                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
-//                                    });
-            
-            fullHeader('#top-nav-one', '#program');
-            fullHeader('#top-nav-two', '#conf');
-            fullHeader('#top-nav-three', '#grads');
-            fullHeader('#top-nav-four', '#visit');
-            fullHeader('#top-nav-five', '#events');
         }
-    }
     
 }
 
@@ -10674,8 +10643,12 @@ $(document).ready(main);
 <div class="top-pad"></div>
 
 <body>
+                <div id="extra" hidden=""></div>
 
-                <div id = "fast">
+<div id="reveal"><p>MENU</p></div>
+
+<!--
+<div id = "fast">
     	  <div class="bg animated fadeIn"  style="-webkit-animation-delay: .666s; -moz-animation-delay: .666s; -ms-animation-delay: .666s; animation-delay: .666s;" data-ibg-bg="assets/graphic2.jpg">
     	  </div>
 	<div id="bottom-header">
@@ -10692,9 +10665,23 @@ $(document).ready(main);
 <p id="d"><a href="#begin">continue reading</a></p>
 </div>
 </div>    	
+-->
 
-<div class="content">
+<div class="splash" id="top-header">
 
+<div id="top-left"><span id="name">MSA 18</span></div>
+<div id="top-right"><span id="venue">November 17-20, 2016<br>Pasadena, California</span></div>
+
+<div id="bottom-middle"><span id="subtitle-top">Culture</span><br><span id="subtitle-bottom">Industries</span></div>
+
+<div id="bottom-header"><span id="d"><a href="#scrollTo">View the poster</a></span></div>
+
+</div>
+
+<div class="post">
+<div id="scrollTo"></div>
+<img src="assets/msa18poster.jpg" width="110%" style="margin-left:-95px;">
+<!--
 <div class="padder" id="begin">
 </div>
 
@@ -10727,9 +10714,9 @@ $(document).ready(main);
 <p>Launch <a href="https://www.bc.edu/schools/cas/english/graduate/doctoral/studentemails.html">Nell Wasserstrom</a>’s <a href="visit/BostonGuide.html">Modernist Interactive Map of Boston</a></p>
 
 <p><a href="visit/BostonGuide.html"><img src="assets/BostonGuide.png" alt="lg center" /></a></p>
+-->
 
 </div>
-
 		</div><!-- Container -->
 
 <!-- script for header -->
@@ -10759,7 +10746,7 @@ $(document).ready(main);
 
 </body>
 
-		<footer>
+<!--		<footer>
 <p>Web Design: <a href="http://web.uvic.ca/~achris">Alex Christie (University of Victoria)</a> Outgoing Webmaster: Matt Huculak (University of Victoria) 
  Graphic Designer: Sharon Matys (College of the Holy Cross)<br>
 <a href="mailto:msaseventeen@gmail.com">Boston Organizing Committee</a>: Carrie Preston (Boston University), Marjorie Howes (Boston College), and Paige Reynolds (College of the Holy Cross)<br>
@@ -10767,6 +10754,6 @@ Student Organizers: Linda Martin, Nicole Rizzo, Bryan Russo, Nell Wasserstrom<br
 Sponsors: Boston University College of Arts & Sciences, Boston University Center for the Humanities, Boston College, College of the Holy Cross, Johns Hopkins University Press.<br>
 <a href="https://msa.press.jhu.edu/">Modernist Studies Association Site</a>
 </p>
-</footer>
+</footer> -->
 
 </html>

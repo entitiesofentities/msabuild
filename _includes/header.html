@@ -1,4 +1,5 @@
 <header>
+<!--
 <ul class="nav" id = "full" hidden>
 	<li class="title"><a href="{{ base }}/index.html">{{ site.name }} {{ site.subtitle }}</a></li>
 	<li class = 'top-nav' id="top-nav-two">{{ site.data.top-nav.two }}</li>	
@@ -10,18 +11,17 @@
 	<li class = 'top-nav' id="top-nav-seven">{{ site.data.top-nav.seven }}</li>	
 	<li class = 'top-nav' id="top-nav-eight">{{ site.data.top-nav.eight }}</li>		
 </ul>
-
-{% include top-header.html %}
-<ul class="nav" id = "animate" hidden>
-	<li class="title hidden"><a href="#tippytop">{{ site.name }} {{ site.subtitle }}</a></li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >{{ site.data.top-nav.two }}</li>
-	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >{{ site.data.top-nav.one }}</li>		
-	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >{{ site.data.top-nav.three }}</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-four" >{{ site.data.top-nav.four }}</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-five" >{{ site.data.top-nav.five }}</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-six" ><a href="mailto:msaseventeen@gmail.com">{{ site.data.top-nav.six }}</a></li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-seven" style="">{{ site.data.top-nav.seven }}</li>	
-	<li class = 'top-nav animated fadeInDown' id="top-nav-eight" style="">{{ site.data.top-nav.eight }}</li>
+-->
+<ul class="nav" id = "desktop" hidden>
+	<li class="top-nav animated fadeInLeft" id="top-nav-zero"><a href="{{ base }}/index.html">Home</a></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-two" >{{ site.data.top-nav.two }}</li>
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-one" >{{ site.data.top-nav.one }}</li>		
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >{{ site.data.top-nav.three }}</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" >{{ site.data.top-nav.four }}</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" >{{ site.data.top-nav.five }}</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-six" ><a href="mailto:msaseventeen@gmail.com">{{ site.data.top-nav.six }}</a></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-seven" style="">{{ site.data.top-nav.seven }}</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-eight" style="">{{ site.data.top-nav.eight }}</li>
 </ul>
 
 <ul class="nav" id = "mobile" hidden>
@@ -58,6 +58,7 @@
 			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
 			{% endif %}
 			{% endfor %}        
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="program">
@@ -65,7 +66,8 @@
     	   {% if post.categories contains 'program' %}
 			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
 			{% endif %}
-			{% endfor %}        
+			{% endfor %}
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="grads">
@@ -78,7 +80,8 @@
     	   {% if post.categories contains 'grad_link' %}
 			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
 			{% endif %}
-			{% endfor %}    
+			{% endfor %}
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="events">
@@ -87,6 +90,7 @@
 			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <ul class="bottom-nav hidden" id="visit">
@@ -100,6 +104,7 @@
 			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 </header>
