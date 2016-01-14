@@ -61,7 +61,7 @@
 }
 
 #name{
-	font-family: "Futura Bold";
+	font-family: "lato";
 	color: white;
 	text-transform: uppercase;
 	font-weight: 50;
@@ -69,17 +69,17 @@
 }
 
 #subtitle-top{
-	font-family: "Futura Light";
+	font-family: "lato";
 	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 1.4em;
+	font-weight: 400;
+	font-size: 1.2em;
 	line-height: 1em;
 }
 
 #subtitle-bottom{
 	font-family: "Futura Light";
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 900;
 	font-size: 1em;
 	line-height: 1em;
 }
@@ -182,11 +182,12 @@
 **/
 
 h1{
-	text-align: center;
+	text-align: center;	
+	font-family: 'raleway';
 }
 
 h2{
-	text-align: center;
+	text-align: center;	
 }
 
 ul{
@@ -289,6 +290,7 @@ footer a:hover{
 .post{
 	width:80%;
 	margin-left: 105px;
+	padding-top: 125px;
 	padding-left: 95px;
 	font-family: "lato";
 	font-weight: 300;
@@ -299,15 +301,22 @@ footer a:hover{
 }
 
 .post a{
-	color: rgb(210,35,42);
+	border-bottom: 2px dotted orange;
 }
 
 .post a:visited{
-	color: rgb(210,35,42);
+	border-bottom: 2px dotted orange;
+}
+
+.post a:hover{
+	border-bottom: 5px dotted orange;
 }
 
 .post p{
 	padding-left: 10px;
+	font-family: 'lato';
+	font-size: 1.1em;
+	font-weight: 300;
 }
 
 h3{

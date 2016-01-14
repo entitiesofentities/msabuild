@@ -14,7 +14,7 @@ tag: text
 3. Announce your CFP using the list-serv MSA Discuss at
 [msa-discuss@jhupress.jhu.edu](msa-discuss@jhupress.jhu.edu).
 
-4. Announce your CFP on Twitter using the [@msatweet](https://twitter.com/msatweet) handle and #msa17 #cfp hashtags.
+4. Announce your CFP on Twitter using the [@msatweet](https://twitter.com/msatweet) handle and #msa18 #cfp hashtags.
 
 ###How can I find CFPs for MSA 17?
 
@@ -24,4 +24,4 @@ tag: text
 
 3. Sign up for our mailing list at [http://chaos.press.jhu.edu/mailman/listinfo/msa-discuss](http://chaos.press.jhu.edu/mailman/listinfo/msa-discuss).
 
-4. Look for CFPs on Twitter using the [@msatweet](https://twitter.com/msatweet) handle and #msa17 #cfp hashtags.
+4. Look for CFPs on Twitter using the [@msatweet](https://twitter.com/msatweet) handle and #msa18 #cfp hashtags.
