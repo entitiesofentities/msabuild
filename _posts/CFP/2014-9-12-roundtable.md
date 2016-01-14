@@ -1,9 +1,7 @@
 ---
 layout: CFP
 title: Roundtable
-category: call
-delay: "-webkit-animation-delay: .75s; -moz-animation-delay: .75s; -ms-animation-delay: 
-.75s; animation-delay: .75s;"
+category: form
 ---
 
 <div>

@@ -1,7 +1,7 @@
 ---
 layout: CFP
 title: Community CFPs
-category: call
+category: cfp
 tag: text
 ---
 

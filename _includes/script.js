@@ -1,3 +1,17 @@
+//WORD SPACING
+var headerSpacing = function(a) {
+    
+    letterWidth = $('#top-nav-zero').width()/4;
+    
+    numLetters = $(a).width()/letterWidth;
+    
+    space = $(window).width() - $(a).width();
+    
+    letterSpacing = space/(numLetters);
+    
+    $(a).css('letter-spacing', letterSpacing + 'px');
+}
+
 //HEADER ANIMATION//
 var desktopHeader = function(a, b){
     
@@ -140,22 +154,43 @@ var interactive_bg = function(strength){
                                         $('.bottom-nav').addClass('hidden');
                                         $('.top-nav').removeClass('hidden');
                                         });
-
         
-            $('header').hide();
-            
+        $('#scrollTo').css('margin-top', '2000 px');
+
+        $(document).ready(function(){
+        var letterWidth = $('#top-nav-zero').width()/4;
+
+        //top-nav-zero
+        var numLetters = $('#top-nav-zero').width()/letterWidth;
+        var space = $(window).width() - $('#top-nav-zero').width();
+        var letterSpacing = space/(numLetters - 1);
+        $('#top-nav-zero').css('letter-spacing', letterSpacing + 'px');
+                          
+                         //top-nav-two
+                          var numLetters = $('#top-nav-two').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-two').width();
+                          var letterSpacing = space/ (numLetters + .7);
+                          $('#top-nav-two').css('letter-spacing', letterSpacing + 'px');
+                          
+                          //top-nav-three
+                          var numLetters = $('#top-nav-three').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-three').width();
+                          var letterSpacing = space/ (numLetters + .7);
+                          $('#top-nav-three').css('letter-spacing', letterSpacing + 'px');
+                          
+                          //top-nav-six
+                          var numLetters = $('#top-nav-six').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-six').width();
+                          var letterSpacing = space/(numLetters - .5);
+                          $('#top-nav-six').css('letter-spacing', letterSpacing + 'px');
+                          
+                          $('header').hide();
+                           });
+        
             $('#reveal').click(function(){
                                $('header').toggle();
                                });
-        
-        
-        $('#top-nav-zero').css('letter-spacing', '300px');
-        $('#top-nav-one').css('letter-spacing', '125px');
-        $('#top-nav-two').css('letter-spacing', '65px');
-        $('#top-nav-three').css('letter-spacing', '13px');
-        $('#top-nav-four').css('letter-spacing', '21px');
-        $('#top-nav-five').css('letter-spacing', '23px');
-        $('#top-nav-six').css('letter-spacing', '125px');
+
         
             //image sizing
             $("img[alt*='sm']").addClass("small");
@@ -205,19 +240,15 @@ var interactive_bg = function(strength){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
             
-            desktopHeader('#top-nav-one', '#program');
-            desktopHeader('#top-nav-two', '#conf');
-            desktopHeader('#top-nav-three', '#grads');
-            desktopHeader('#top-nav-four', '#visit');
-            desktopHeader('#top-nav-five', '#events');
+            desktopHeader('#top-nav-two', '#cfp');
+            desktopHeader('#top-nav-three', '#forms');
 
-//            brutalHeader('#top-nav-one');
-//            brutalHeader('#top-nav-two');
-//            brutalHeader('#top-nav-three');
-//            brutalHeader('#top-nav-four');
-//            brutalHeader('#top-nav-five');
-            
-        //FULL//
+        
+//            desktopHeader('#top-nav-one', '#program');
+//            desktopHeader('#top-nav-two', '#conf');
+//            desktopHeader('#top-nav-three', '#grads');
+//            desktopHeader('#top-nav-four', '#visit');
+//            desktopHeader('#top-nav-five', '#events');
         }
     
 }

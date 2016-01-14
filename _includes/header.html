@@ -7,7 +7,7 @@
 	<li class = 'top-nav' id="top-nav-three">{{ site.data.top-nav.three }}</li>	
 	<li class = 'top-nav' id="top-nav-four">{{ site.data.top-nav.four }}</li>	
 	<li class = 'top-nav' id="top-nav-five">{{ site.data.top-nav.five }}</li>	
-	<li class = 'top-nav' id="top-nav-six"><a href="mailto:msaseventeen@gmail.com">{{ site.data.top-nav.six }}</a></li>	
+	<li class = 'top-nav' id="top-nav-six"><a href="mailto:MSAPasadena@gmail.com">{{ site.data.top-nav.six }}</a></li>	
 	<li class = 'top-nav' id="top-nav-seven">{{ site.data.top-nav.seven }}</li>	
 	<li class = 'top-nav' id="top-nav-eight">{{ site.data.top-nav.eight }}</li>		
 </ul>
@@ -19,7 +19,7 @@
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >{{ site.data.top-nav.three }}</li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" >{{ site.data.top-nav.four }}</li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" >{{ site.data.top-nav.five }}</li>	
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-six" ><a href="mailto:msaseventeen@gmail.com">{{ site.data.top-nav.six }}</a></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-six" ><a href="mailto:MSAPasadena@gmail.com">{{ site.data.top-nav.six }}</a></li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-seven" style="">{{ site.data.top-nav.seven }}</li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-eight" style="">{{ site.data.top-nav.eight }}</li>
 </ul>
@@ -38,15 +38,26 @@
 </ul>
 
 
-<!-- <ul class="bottom-nav hidden" id="welcome">
-	<li>Submit a Proposal:</li>
+<ul class="bottom-nav hidden" id="cfp">
     {% for post in site.posts %}
-    	   {% if post.categories contains 'call' %}
+    	   {% if post.categories contains 'cfp' %}
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
-</ul> -->
+			<li class="bottom-nav-back">back</li>    
+</ul>
 
+<ul class="bottom-nav hidden" id="forms">
+	<li>Submit a Proposal:</li>
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'form' %}
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+    {% endfor %}
+			<li class="bottom-nav-back">back</li>    
+</ul>
+
+<!--
 <ul class="bottom-nav hidden" id="conf">
     {% for post in site.posts %}
     	   {% if post.categories contains 'conf' %}
@@ -106,6 +117,7 @@
     {% endfor %}
 			<li class="bottom-nav-back">back</li>
 </ul>
+-->
 
 </header>
 
