@@ -16,7 +16,7 @@ tag: text
 
 4. Announce your CFP on Twitter using the [@msatweet](https://twitter.com/msatweet) handle and #msa18 #cfp hashtags.
 
-###How can I find CFPs for MSA 17?
+###How can I find CFPs for MSA 18?
 
 1. Look for the hashtag "cfp" on the [MSA Facebook page](https://www.facebook.com/groups/35866051126/?fref=ts).
 

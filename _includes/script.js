@@ -90,12 +90,8 @@ var interactive_bg = function(strength){
         $("img").not(".bg").addClass("mobile_img");
         $('#c').css('line-height', '.95em;');
         
-        //background img
-        if(document.title == "MSA 17 Boston"){
-            interactive_bg(5);
-        }
-        
         //page styling
+        $('#reveal').hide();
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
@@ -107,6 +103,9 @@ var interactive_bg = function(strength){
         $('#slow').hide();
         $('#fast').show();
         $('#mobile').show();
+        $('header').addClass('mobile');
+        
+        $('header .title').css('text-align', 'center');
         
         //iframe fix
         $('#iframe').css('height', screen.height/2 + "px");
@@ -122,6 +121,11 @@ var interactive_bg = function(strength){
         $('ul li').addClass('mobile');
         $('.top-nav').hide();
         $('.bottom-nav').hide();
+        
+        $('.bottom-nav-back').click(function(){
+                                    $('.bottom-nav').hide();
+                                    $('.top-nav').show();
+                                    });
         
         $('.title').click(function(){
                           if(selected){
@@ -141,15 +145,19 @@ var interactive_bg = function(strength){
 //                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                });
         
-        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
-        mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
-        mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
-        mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
-        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');        
+        mobileHeader('#mobile #top-nav-two', '#cfp', '#top-nav-two');
+        mobileHeader('#mobile #top-nav-three', '#forms', '#top-nav-three');
+        
+        
+//        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
+//        mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
+//        mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
+//        mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
+//        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
         
     //DESKTOP//
     }else{
-
+        $('header').addClass('desktop');
             $('.bottom-nav-back').click(function(){
                                         $('.bottom-nav').addClass('hidden');
                                         $('.top-nav').removeClass('hidden');

@@ -216,15 +216,15 @@ a{
 }
 
 .title a{
-	color: rgb(210,35,42);
+	color: orange;
 }
 
 .title a:visited{
-	color: rgb(210,35,42);
+	color: orange;
 }
 
 .title a:hover{
-	color: rgb(210,35,42);
+	color: orange;
 	text-decoration: none;
 	border-bottom: none;
 }
@@ -247,7 +247,7 @@ a:visited{
 }
 
 li.title{
-	color: rgb(210,35,42);
+	color: orange;
 	text-transform: uppercase;
 	font-weight: 800;	
 }
@@ -375,16 +375,24 @@ margin-top: -20px;
 
 /**header testing**/
 header{
-	padding-top: 175px;
 	position: fixed;
 	z-index: 999;
 	background-color: rgba(255,255,255,.9);
 	color: black;
-	height: 100%;
 	background-color: white;
-	font-size: 3em;
-	text-align: justify;
 	width: 100%;
+	text-align: justify;	
+}
+
+.desktop{
+	padding-top: 175px;
+	height: 100%;
+	font-size: 3em;		
+}
+
+.mobile{
+	font-size: 2em;
+	line-height: 1em;
 }
 
 .highlighted{

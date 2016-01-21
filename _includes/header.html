@@ -48,7 +48,6 @@
 </ul>
 
 <ul class="bottom-nav hidden" id="forms">
-	<li>Submit a Proposal:</li>
     {% for post in site.posts %}
     	   {% if post.categories contains 'form' %}
 			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
