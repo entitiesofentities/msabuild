@@ -41,7 +41,7 @@
 <ul class="bottom-nav hidden" id="cfp">
     {% for post in site.posts %}
     	   {% if post.categories contains 'cfp' %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
 			<li class="bottom-nav-back">back</li>    
@@ -50,7 +50,7 @@
 <ul class="bottom-nav hidden" id="forms">
     {% for post in site.posts %}
     	   {% if post.categories contains 'form' %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
 			<li class="bottom-nav-back">back</li>    
