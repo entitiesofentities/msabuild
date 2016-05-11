@@ -49,11 +49,16 @@
 
 <ul class="bottom-nav hidden" id="forms">
     {% for post in site.posts %}
-    	   {% if post.categories contains 'form' %}
+    	   {% if post.categories contains 'conference' %}
 			<li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
     {% endfor %}
-			<li class="bottom-nav-back">back</li>    
+    {% for post in site.posts %}
+    	   {% if post.categories contains 'conference_link' %}
+			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+			{% endif %}
+			{% endfor %}        
+			<li class="bottom-nav-back">back</li>
 </ul>
 
 <!--
