@@ -204,21 +204,22 @@ var interactive_bg = function(strength){
         var ad = Math.round(Math.random()*2) + 1;
 
         if(ad == 1){
+            //$('.advert').css('background-image','url(http://farm6.static.flickr.com/5081/5339096521_3318f48c76.jpg)');
             $('.advert').css('background-color','#AA3939');
             $('.advert').click(function(){
-                              alert('Ad number one');
+                window.location.href = 'https://www.youtube.com/watch?v=_b4Z5Kg08PY';
                               });
         }
         else if(ad == 2){
-            $('.advert').css('background-color','#882D60');
+            $('.advert').css('background-color','#2E4172');
             $('.advert').click(function(){
-                              alert('Ad number two');
+                window.location.href = 'https://www.youtube.com/watch?v=pPd67CEL54E';
                               });
         }
         else if(ad == 3){
-            $('.advert').css('background-color','#AA6C39');
+            $('.advert').css('background-color','#882D60');
             $('.advert').click(function(){
-                               alert('Ad number three');
+                               window.location.href = 'https://www.youtube.com/watch?v=nrythD3kkoA';
                                });
         }
         
