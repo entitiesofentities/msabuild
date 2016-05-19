@@ -26,15 +26,15 @@ layout: welcome
 
 <div id="bottom-middle"><span id="subtitle-top">Culture</span><br><span id="subtitle-bottom">Industries</span></div>
 
-<div id="bottom-header"><span id="d"><a href="#scrollTo">View The Poster</a></span></div>
+<div id="bottom-header"><span id="d"><a href="#scrollTo">continue reading</a></span></div>
 
 </div>
 
 <div class="post">
 <div id="scrollTo" style="clear:both;"></div>
-<img src="assets/msa18poster.jpg" width="110%" style="margin-left:-95px;">
-<!--{% capture my_include %}{% include welcome.md %}{% endcapture %}
-{{ my_include | markdownify }}-->
+<!--<img src="assets/msa18poster.jpg" width="110%" style="margin-left:-95px;">-->
+{% capture my_include %}{% include welcome.md %}{% endcapture %}
+{{ my_include | markdownify }}
 </div>
 		</div><!-- Container -->
 

@@ -15,6 +15,8 @@ MSA 17, Modernism and Revolution, will be held at the Westin Copley Place in the
 
 Central Boston is compact and walkable, and the T, Boston’s trolley and subway system, provides convenient access to Harvard and MIT in Cambridge, Fenway Park, Faneuil Hall, and other celebrated Boston sites. Other attractions include art museums (the MFA, ICA, Isabella Stewart Gardner), the JFK Library and Museum, the New England Aquarium, and the USS Constitution. Various tours are available on land, by water, or in Boston’s famous amphibious Duck boats.
 
+<div class="advert"><h1>sponsor ads will appear here</h1></div>
+
 #Conference Theme: Modernism & Revolution
 
 We welcome MSA 17 to Boston, “center of the American Revolution,” for the annual conference in 2015. Boston actually battles Philadelphia for this title, and MSA members who brave the “Freedom Trail,” the path joining sixteen important historical sites, will learn this fact – as well as others that undermine similar revolutionary myths. For instance, Paul Revere is famous largely because Henry W. Longfellow found it easier to rhyme Revere’s name than that of William Dawes, the most successful of the midnight riders. Our conference theme, “Modernism and Revolution,” invokes characterizations of modernism as a revolutionary movement across the arts, a revolt against tradition, and a renovation of the word, stage, painting, and culture more generally. But it also calls into question the myths of modernism’s revolutionary character including, for example, that audiences spontaneously rioted and rejected the innovations they encountered on modernist stages. In two salient examples, the Parisian audience for Le Sacre du Printemps (1913), long believed to have rioted over Stravinsky’s music, may have simply played along with the Ballets Russes impresario Sergei Diaghilev, who organized the audience’s revolt as a publicity stunt; the riots erupting in response to the 1911 performances of Synge’s *The Playboy of the Western World* in Philadelphia and Boston were similarly scripted acts of rebellion.
@@ -24,9 +26,3 @@ Our theme will foster discussions of modernism’s revolutionary nature - or lac
 ![med center]({{ base }}assets/freedomtrail.jpg)
 
 We also hope “Modernism and Revolution” will invoke the turning of film reels, tape recordings, and the circular energy imagined by the vortex. The 2015 conference coincides with the centenary of our first photographs of Pluto, the founding of NASA’s predecessor NACA (National Advisory Committee for Aeronautics), and new visions of the planets revolving in orbit. The proposed conference theme invites us to consider as well forms of anti-revolutionary repetition: 2015 marks not only the centenary of D. W. Griffith’s controversial but formally innovative film The Birth of a Nation but also the revival of the Ku Klux Klan at Stone Mountain, Georgia. “Modernism and Revolution” can even encompass the methods identified by Douglas Mao and Rebecca Walkowitz as “the new modernist studies” as well as recent arguments about the far-from revolutionary nature of the field.
-
-#Modernist Interactive Map of Boston
-
-Launch [Nell Wasserstrom](https://www.bc.edu/schools/cas/english/graduate/doctoral/studentemails.html)'s [Modernist Interactive Map of Boston]({{ base }}visit/BostonGuide.html)
-
-[![lg center]({{ base }}assets/BostonGuide.png)]({{ base }}visit/BostonGuide.html)

@@ -9,7 +9,9 @@
             $('.reader_description').hide();
         
             //code for closed seminars
-            $('h3:contains("FULL")').addClass('greyout');
+        $('h3:contains("CLOSED")').addClass('greyout');
+        $('h3:contains("CLOSED")').nextUntil('h3').andSelf().addClass('greyout');
+        $('h3:contains("FULL")').addClass('greyout');
             $('h3:contains("FULL")').nextUntil('h3').andSelf().addClass('greyout');
             //seminars are now closed
         if(document.title == "MSA 17 Seminars"){

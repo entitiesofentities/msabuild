@@ -9636,7 +9636,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
             $('.reader_description').hide();
         
             //code for closed seminars
-            $('h3:contains("FULL")').addClass('greyout');
+        $('h3:contains("CLOSED")').addClass('greyout');
+        $('h3:contains("CLOSED")').nextUntil('h3').andSelf().addClass('greyout');
+        $('h3:contains("FULL")').addClass('greyout');
             $('h3:contains("FULL")').nextUntil('h3').andSelf().addClass('greyout');
             //seminars are now closed
         if(document.title == "MSA 17 Seminars"){
@@ -9675,11 +9677,11 @@ $(document).ready(main);
 <!--
 <ul class="nav" id = "full" hidden>
 	<li class="title"><a href="../index.html">MSA 18 Pasadena</a></li>
-	<li class = 'top-nav' id="top-nav-two">Call&nbsp;for&nbsp;papers</li>	
+	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one"></li>	
-	<li class = 'top-nav' id="top-nav-three">conference</li>	
-	<li class = 'top-nav' id="top-nav-four"></li>	
-	<li class = 'top-nav' id="top-nav-five"></li>	
+	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
+	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
+	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
 	<li class = 'top-nav' id="top-nav-six"><a href="mailto:MSAPasadena@gmail.com">Contact</a></li>	
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>		
@@ -9687,11 +9689,11 @@ $(document).ready(main);
 -->
 <ul class="nav" id = "desktop" hidden>
 	<li class="top-nav animated fadeInLeft" id="top-nav-zero"><a href="../index.html">Home</a></li>	
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-two" >Call&nbsp;for&nbsp;papers</li>
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-two" >Conference</li>
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-one" ></li>		
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >conference</li>	
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" ></li>	
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" ></li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >Emerging Scholars</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" >Travel & Lodging</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" >Cultural Events</li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-six" ><a href="mailto:MSAPasadena@gmail.com">Contact</a></li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-seven" style=""></li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-eight" style=""></li>
@@ -9700,17 +9702,17 @@ $(document).ready(main);
 <ul class="nav" id = "mobile" hidden>
 	<li class="title">MSA 18 Pasadena</li>
 	<li class = 'top-nav' id="top-nav-zero"><a href="../index.html">Welcome</a></li>	
-	<li class = 'top-nav' id="top-nav-two">Call&nbsp;for&nbsp;papers</li>	
+	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one"></li>		
-	<li class = 'top-nav' id="top-nav-three">conference</li>	
-	<li class = 'top-nav' id="top-nav-four"></li>	
-	<li class = 'top-nav' id="top-nav-five"></li>	
+	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
+	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
+	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
 	<li class = 'top-nav' id="top-nav-six"><a href="mailto:msaseventeen@gmail.com">Contact</a></li>	
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>	
 </ul>
 
-
+<!--
 <ul class="bottom-nav hidden" id="cfp">
     
     	   
@@ -9781,14 +9783,10 @@ $(document).ready(main);
     
     	   
     
-    	   
-    
 			<li class="bottom-nav-back">back</li>    
 </ul>
 
 <ul class="bottom-nav hidden" id="forms">
-    
-    	   
     
     	   
     
@@ -9916,13 +9914,11 @@ $(document).ready(main);
     	   
 			
     	   
-			
-    	   
 			        
 			<li class="bottom-nav-back">back</li>
 </ul>
+-->
 
-<!--
 <ul class="bottom-nav hidden" id="conf">
     
     	   
@@ -9999,11 +9995,7 @@ $(document).ready(main);
     
     	   
     
-    	   
     
-    
-    	   
-			
     	   
 			
     	   
@@ -10137,8 +10129,6 @@ $(document).ready(main);
 			
     	   
 			
-    	   
-			
 			<li class="bottom-nav-back">back</li>
 </ul>
 
@@ -10175,8 +10165,6 @@ $(document).ready(main);
     	   
 			<li><a href="../grad/Professional%20development.html">Professional development</a></li>
 			
-    
-    	   
     
     	   
     
@@ -10277,8 +10265,6 @@ $(document).ready(main);
 			
     	   
 			
-    	   
-			
 			<li class="bottom-nav-back">back</li>
 </ul>
 
@@ -10354,8 +10340,6 @@ $(document).ready(main);
     
     	   
     
-    	   
-    
 			<li class="bottom-nav-back">back</li>
 </ul>
 
@@ -10370,8 +10354,6 @@ $(document).ready(main);
     	   
 			<li><a href="https://www.starwoodmeeting.com/Book/moderniststudies">Book a hotel room</a></li>
 			
-			
-    	   
 			
     	   
 			
@@ -10498,13 +10480,8 @@ $(document).ready(main);
     
     	   
     
-    	   
-			<li><a href="../visit/BostonGuide.html">Modernist Interactive Map of Boston</a></li>
-			
-    
 			<li class="bottom-nav-back">back</li>
 </ul>
--->
 
 </header>
 
@@ -10656,15 +10633,15 @@ var interactive_bg = function(strength){
 //                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                });
         
-        mobileHeader('#mobile #top-nav-two', '#cfp', '#top-nav-two');
-        mobileHeader('#mobile #top-nav-three', '#forms', '#top-nav-three');
+//        mobileHeader('#mobile #top-nav-two', '#cfp', '#top-nav-two');
+//        mobileHeader('#mobile #top-nav-three', '#forms', '#top-nav-three');
         
         
-//        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
-//        mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
-//        mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
-//        mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
-//        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
+        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
+        mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
+        mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
+        mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
+        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
         
     //DESKTOP//
     }else{
@@ -10710,6 +10687,29 @@ var interactive_bg = function(strength){
                                $('header').toggle();
                                });
 
+        
+            //Ad testing
+        var ad = Math.round(Math.random()*2) + 1;
+
+        if(ad == 1){
+            $('.advert').css('background-color','#AA3939');
+            $('.advert').click(function(){
+                              alert('Ad number one');
+                              });
+        }
+        else if(ad == 2){
+            $('.advert').css('background-color','#882D60');
+            $('.advert').click(function(){
+                              alert('Ad number two');
+                              });
+        }
+        else if(ad == 3){
+            $('.advert').css('background-color','#AA6C39');
+            $('.advert').click(function(){
+                               alert('Ad number three');
+                               });
+        }
+        
         
             //image sizing
             $("img[alt*='sm']").addClass("small");
@@ -10759,15 +10759,15 @@ var interactive_bg = function(strength){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
             
-            desktopHeader('#top-nav-two', '#cfp');
-            desktopHeader('#top-nav-three', '#forms');
+//            desktopHeader('#top-nav-two', '#cfp');
+//            desktopHeader('#top-nav-three', '#forms');
 
         
-//            desktopHeader('#top-nav-one', '#program');
-//            desktopHeader('#top-nav-two', '#conf');
-//            desktopHeader('#top-nav-three', '#grads');
-//            desktopHeader('#top-nav-four', '#visit');
-//            desktopHeader('#top-nav-five', '#events');
+            desktopHeader('#top-nav-one', '#program');
+            desktopHeader('#top-nav-two', '#conf');
+            desktopHeader('#top-nav-three', '#grads');
+            desktopHeader('#top-nav-four', '#visit');
+            desktopHeader('#top-nav-five', '#events');
         }
     
 }
@@ -10776,21 +10776,19 @@ $(document).ready(main);
 </script>
 <div id="padder"></div>
 <body>
-
+<div id="reveal"><p>MENU</p></div>
 
 <div class="post" id="reader">
-                <h1 id="seminars-for-msa-17">Seminars for MSA 17</h1>
+                <h1 id="seminars-for-msa-18">Seminars for MSA 18</h1>
 
-<h2 class="important">Seminar registration for MSA 17 is now closed.</h2>
-
-<h3 id="all-together-now-the-multimedia-avant-garde">1. All Together Now: The Multimedia Avant-garde</h3>
+<h3 id="cruel-modernism">1. Cruel Modernism</h3>
 <p>Organizers: Lori Cole (New York University), Bibiana Obler (George Washington University)</p>
 
 <p>Invited Participants: Harper Montgomery (Hunter College), Chinghsin Wu (Rutgers University)</p>
 
 <p>From Futurist radio programs to Oskar Schlemmer’s Triadic Ballet to Oswald de Andrade’s theater pieces, our avant-garde objects of study often exceed rigid disciplinary frameworks and national boundaries, necessitating analysis across the arts and internationally. This seminar welcomes papers on the diverse and often collaborative output of the international avant-garde.</p>
 
-<h3 id="beyond-resistance-new-approaches-to-modernism-and-to-empire">2. Beyond Resistance: New Approaches to Modernism and to Empire</h3>
+<h3 id="not-quite-left-or-right">2. Not Quite Left or Right</h3>
 
 <p>Organizers: Matthew Eatough (Baruch College, CUNY), Philip Tsang (University of Cincinnati) </p>
 
@@ -10799,13 +10797,13 @@ $(document).ready(main);
 <p>This seminar takes the counter-intuitive move of decoupling modernism and postcolonialism.  What alternative approaches might we use to theorize early twentieth-century imperialism?  How might such issues as economics, education, geopolitics, immigration, social and political conservatism, and pro-empire sentiment among colonial writers revise our common understandings of modernism and empire? And finally, what can modernism teach us about 
 empire?</p>
 
-<h3 id="catastrophe-and-the-limits-of-genre">3. Catastrophe and the Limits of Genre</h3>
+<h3 id="the-place-of-performance-in-modernist-studies">3. The Place of Performance in Modernist Studies</h3>
 
 <p>Organizers: David Sherman (Brandeis University), Karen Bishop (Rutgers University)</p>
 
 <p>This seminar will examine the effects of catastrophic experience, or the experience of radical subversion of established orders, on modern literary genres. Members of the seminar will approach the emergence and evolution of twentieth-century genres as responses to social, economic, military and ecological catastrophes. The seminar will consider genre analysis as a way into a phenomenology of catastrophe, as dynamic description of how catastrophic experience affects the organization of self before self, other, and state. And it will address the possibility that literary genres can themselves both suffer catastrophic damage and provoke catastrophes of literacy in modernizing cultures.  Participants are invited to present work on a wide range of literary genres and catastrophes.</p>
 
-<h3 id="from-the-blues-to-the-internationale-sites-of-resistance-and-radicalism-during-the-harlem-renaissance">4. From the Blues to The Internationale: Sites of Resistance and Radicalism during the Harlem Renaissance</h3>
+<h3 id="modernist-mimeography">4. Modernist Mimeography</h3>
 
 <p>Organizers: Jeanne Scheper (University of California, Irvine) Keith Williams (Saint Anselm College)</p>
 
@@ -10813,13 +10811,13 @@ empire?</p>
 
 <p>During the Harlem Renaissance, African Americans sought renewed identity and social justice through activism as disparate as Garveyism, the Urban League, club women, sexual rebellion and artistic radicalism. This seminar invites an interdisciplinary conversation about black modernisms and the interplay of geography and time in resistance, rebellion, and radicalism.</p>
 
-<h3 id="global-modernists-on-modernism">5. Global Modernists on Modernism</h3>
+<h3 id="modernist-performance-and-global-transmission">5. Modernist Performance and Global Transmission</h3>
 
 <p>Organizers: Alys Moody (University of Waikato), Stephen Ross (University of Warwick) </p>
 
 <p>How do global modernists talk about their own literary and artistic practice? What dialogues emerge between the modernisms of different national and linguistic traditions? How does an examination of global modernist manifestos, essays, letters and critical texts help us to think about translation and modernism’s global reach? </p>
 
-<h3 id="modern-american-literature-and-visual-culture">6. Modern American Literature and Visual Culture</h3>
+<h3 id="hotel-cultures-new-approaches-to-literary-and-material-hetertopias">6. Hotel Cultures: New Approaches to Literary and Material Hetertopias</h3>
 
 <p>Organizers: Nicholas Gaskill (Rutgers University), David Alworth (Harvard University)</p>
 
@@ -10827,7 +10825,7 @@ empire?</p>
 
 <p>Modern American literature emerged within a vibrant and shifting visual culture. This seminar seeks fresh theoretical and methodological approaches to this crucial nexus within modernism. How did writers respond to, register, and shape modern visual culture? What analytical resources and critical procedures might help us to address this topic? </p>
 
-<h3 id="modernism-affect-and-revolution">7. Modernism, Affect, and Revolution</h3>
+<h3 id="modern-poetry-archives-and-estates">7. Modern Poetry, Archives, and Estates</h3>
 
 <p>Organizers: Elizabeth Sheehan (Oregon State University), Ilya Parkins (University of British Columbia, Okanagan)</p>
 
@@ -10835,7 +10833,7 @@ empire?</p>
 
 <p>This interdisciplinary seminar considers the political dimensions and implications of affect studies in the context of modernist cultures. How might a focus on affect shift our ideas about what constitutes revolution and political agency? Which theories of affect best enable us to conceive of the relationship between psychical and political change?</p>
 
-<h3 id="modernism-and-the-critique-of-historicism">8. Modernism and the Critique of Historicism</h3>
+<h3 id="isms">8. Isms</h3>
 
 <p>Organizers: Robert Lehman (Boston College), Nathan Brown (Concordia University)</p>
 
@@ -10843,7 +10841,7 @@ empire?</p>
 
 <p>This seminar invites papers that approach modernist texts—both literary and philosophical—as means of engaging critically with historicism, as means of testing traditional assumptions about periodization, causality, and the shape of historical time.</p>
 
-<h3 id="modernism-and-mental-health">9. Modernism and Mental Health</h3>
+<h3 id="cultures-of-the-mind">9. Cultures of the Mind</h3>
 
 <p>Organizers: Lisa Mendelman (UCLA), Francesca Sawaya (College of William &amp; Mary) </p>
 
@@ -10851,7 +10849,7 @@ empire?</p>
 
 <p>Paradigms of mental health and illness undergo tremendous—some might say revolutionary—change in the first half of the 20th century. How does modernist cultural production engage emergent models of cognition, wellness, and pathology? How do recent frameworks from fields like affect theory and disability studies illuminate modernist forms?</p>
 
-<h3 id="modernism-in-scotland">10. Modernism in Scotland</h3>
+<h3 id="modernist-sitings-in-southern-california-alternative-cultural-industries-and-institutions-beyond-the-silver-screen">10. Modernist Sitings in Southern California: Alternative Cultural Industries and Institutions Beyond the Silver Screen</h3>
 
 <p>Organizer: Tara Thomson (University of Edinburgh)</p>
 
@@ -10859,15 +10857,14 @@ empire?</p>
 
 <p>Many diverse revolutionary voices emerged from 20th century Scottish literature, arts, and culture. This seminar invites participants to explore these voices, or any aspect of modernism in Scotland, including the Scottish Renaissance, late Scottish modernism, Scottish women writers, broader modernism’s engagement with Scotland, or Scottish culture’s relationship with revolutionary politics.</p>
 
-<!--
-###11. Modernism and World Englishes
+<h3 id="modernism-and-religion-theory-and-practice">11. Modernism and Religion: Theory and Practice</h3>
 
-Organizer: Judith Paltin (University of British Columbia)
+<p>Organizer: Judith Paltin (University of British Columbia)</p>
 
-Exploring articulations between experimental dictions of international modernism and burgeoning world englishes: What does modernist linguistic experimentation borrow, directly and indirectly, from global variants of English? Do these sets of literatures share a concern with untranslatability? Should modernist studies see its canon as a palimpsest of mother tongues, pidgins, histories?
--->
+<p>Exploring articulations between experimental dictions of international modernism and burgeoning world englishes: What does modernist linguistic experimentation borrow, directly and indirectly, from global variants of English? Do these sets of literatures share a concern with untranslatability? Should modernist studies see its canon as a palimpsest of mother tongues, pidgins, histories?
+–&gt;</p>
 
-<h3 id="modernist-sociologies-now-and-then">12. Modernist Sociologies: Now and Then</h3>
+<h3 id="modernism-and-the-diy-ethic">12. Modernism and the DIY Ethic</h3>
 
 <p>Organizers: Cecily Swanson (Princeton University), Robert Volpicelli (Randolph-Macon College)</p>
 
@@ -10875,27 +10872,26 @@ Exploring articulations between experimental dictions of international modernism
 
 <p>This seminar considers modernism as a site for analyzing the connections between historical sociology and recent theories of social formation. Seeking papers that relate early sociology to current trends in interdisciplinary scholarship, we ask what methodologies help scholars, as Latour writes, “follow the actors?” Additionally, how does modernist literature prefigure the contemporary interest in literary sociology?</p>
 
-<!--
-###13. Modernist Jargon
+<h3 id="industrious-women-the-feminist-and-cultural-work-of-literary-critics">13. Industrious Women: The Feminist and Cultural Work of Literary Critics</h3>
 
-Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (University of Michigan-Ann Arbor)
+<p>Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (University of Michigan-Ann Arbor)</p>
 
-“Jargon” labels language as unintelligible—yet was also the self-description of Yiddish belle-lettrists. How might its use be seen within modernist practices that engage and/or resist attitudes toward race, empire, and technology? Papers might consider: constructed/invented languages, recording technologies, migration and modern transit, hierarchies of dialect/standard, transliteration/translation, and difficulty/experimentalism.
--->
+<p>“Jargon” labels language as unintelligible—yet was also the self-description of Yiddish belle-lettrists. How might its use be seen within modernist practices that engage and/or resist attitudes toward race, empire, and technology? Papers might consider: constructed/invented languages, recording technologies, migration and modern transit, hierarchies of dialect/standard, transliteration/translation, and difficulty/experimentalism.
+–&gt;</p>
 
-<h3 id="modernist-london-and-the-digital-map">14. Modernist London and the Digital Map</h3>
+<h3 id="women-in-modern-periodical-culture">14. Women in Modern Periodical Culture</h3>
 
 <p>Organizers: Stephen Ross (University of Victoria), Katie Tanigawa (University of Victoria), Alex Christie (University of Victoria)</p>
 
 <p>Participants will select digitized texts to analyze with the new Z-Axis 3D mapping tool. We will use the tool to explore modernist depictions of London’s marginal zones (the Thames, Lambeth, SoHo), experiences (madness, poverty, addiction), people (prostitutes, refugees, extremists), and creatures (strays, livestock, pests). Selected papers will be peer-reviewed and published on <a href="http://mvp.uvic.ca/">mvp.uvic.ca</a>.</p>
 
-<h3 id="modernist-medicines-transformative-visions-bodies-spaces">15. Modernist Medicines: Transformative Visions, Bodies, Spaces</h3>
+<h3 id="anarchist-cultures-and-culture-industries">15. Anarchist Cultures and Culture Industries</h3>
 
 <p>Organizer: Jane E. Fisher (Canisius College)</p>
 
 <p>Recognizing the destabilizing effects of 20th century war, pandemic, and revolution on Enlightenment medical science, this seminar will examine how modernist writers, artists, musicians, painters, journalists, and intellectuals reconceived illness and disease in their lives and works, including shifts in public and private, as well as doctor, patient, and caretaker roles. </p>
 
-<h3 id="object-oriented-ontology-and-modernist-studies">16. Object-Oriented Ontology and Modernist Studies</h3>
+<h3 id="modernism-v-modernity">16. Modernism v. Modernity</h3>
 
 <p>Organizer: Roger Rothman (Bucknell University)</p>
 
@@ -10903,7 +10899,7 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 <p>From a wide range of perspectives (including, but not limited to, Bill Brown’s “thing theory,” Graham Harman’s “speculative realism” and Jane Bennett’s  “vibrant matter”) objects have come into to new theoretical focus. This seminar will explore the possibilities (and problems) with approaching modernism through the lens of the new object-oriented ontologies.</p>
 
-<h3 id="print-culture-and-popularity">17. Print Culture and Popularity</h3>
+<h3 id="speculative-fiction-dystopia-and-the-weird">17. Speculative Fiction, Dystopia, and the Weird</h3>
 
 <p>Organizers: Faye Hamill (University of Strathclyde) Mark Hussey (Pace University)</p>
 
@@ -10911,20 +10907,20 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 <p>This seminar considers the role of print media in determining – and responding to – popularity. How did popular print influence modernist reputations and how did modernist print respond to popularity?  What are the different meanings of ‘popular’ when applied to individual cultural producers (reputations) and to publication media and their audiences?</p>
 
-<h3 id="the-production-of-modernist-disciplinarity">18. The Production of Modernist Disciplinarity</h3>
+<h3 id="modernisms-physiological-aesthetics">18. Modernism’s Physiological Aesthetics</h3>
 
 <p>Organizers: Andrew Goldstone (Rutgers University), Jonathan Goodwin (University of Louisiana-Lafayette)</p>
 
 <p>Modernist studies aspires to expand geographically, chronologically, and across media, yet modernism’s core aesthetic and canon have remained quite stable.  Why? This seminar invites new approaches to studying modernist disciplinarity itself, including (but not limited to) quantitative approaches, to understand stability and transformation in the landscape of modernist scholarship.</p>
 
-<h3 id="remaking-place">19. Remaking Place</h3>
+<h3 id="modernist-energy-regimes">19. Modernist Energy Regimes</h3>
 <p>Organizers: Jennifer Chang (George Washington University), Jim Cocola (Worcester Polytechnic Institute)</p>
 
 <p>Invited Participants:  Stephen Burt (Harvard University), Lytle Shaw (New York University)</p>
 
 <p>How has place-making (whether cartographical, documentary, ecopoetic, or pastoral) changed with the cognizance of the anthropocene and the emergence of ecocriticism? How does the remaking of place propel social revolutions? Welcoming discussions of place across geographies, mediums, and methodologies, this seminar will emphasize modern and contemporary poetry and poetics.</p>
 
-<h3 id="resistance-and-reform-modernist-women-and-social-engagement">20. Resistance and Reform: Modernist Women and Social Engagement</h3>
+<h3 id="rethinking-standardization">20. Rethinking Standardization</h3>
 
 <p>Organizers: Deirdre Egan-Ryan (St Norbert College) , Julia Lisella (Regis College)</p>
 
@@ -10932,7 +10928,7 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 <p>Art? Propaganda? Revolution? Legacy of 19th Century reform movements? Reactions to poverty and social inequity? How do we make sense of the varied forms of socially engaged art and writing of the modernist period by women writers, artists, and intellectuals? From Djuna Barnes to Gertrude Stein, Lucia Trent, Anzia Yezierska and others, creative women responded directly to the social and political sphere surrounding them.  This interdisciplinary seminar welcomes papers that explore the ways such women innovated within and against wider experimentations in language, genre and content in the modernist period, ultimately asking what is at stake in their engagement.</p>
 
-<h3 id="rethinking-character-in-modernist-life-narratives">21. Rethinking Character in Modernist Life Narratives</h3>
+<h3 id="tracking-modern-anxieties">21. Tracking Modern Anxieties</h3>
 
 <p>Organizers: Claire Battershill (Simon Fraser University), Daniel Newman (Concordia University)</p>
 
@@ -10940,7 +10936,7 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 <p>This seminar invites papers that take a broadly narratological approach to character in modernist fiction or life writing. In particular, we will examine how modernist life narratives challenge the ostensibly “natural” paradigm of character development, which sees individual change as gradual and accretive. Possible topics might include characterological changes like epiphanies, reversion, conversion and sex change; stylistic and perspectival shifts; or typographical breaks.</p>
 
-<h3 id="revision-and-modernism-living-and-undead-texts">22. Revision and Modernism: living and (un)dead texts</h3>
+<h3 id="modernism-and-political-institutions">22. Modernism and Political Institutions</h3>
 
 <p>Organizers: Riley Mcdonald (Western University), Michael Groden (Western University) Donald Hinson Calabrese (Western University)</p>
 
@@ -10948,33 +10944,31 @@ Organizers: Logan Wall (University of Michigan-Ann Arbor), Joshua Miller (Univer
 
 <p>Our seminar seeks to understand how textual revision has defined the Modernist period. Revision implies a tension between the living and “dead” texts. Are there undead texts? Do they threaten the stability of the living? This seminar will examine how revision potentially rejuvenates texts and powers the various Modernist projects.</p>
 
-<!--
-###23. Revolution from the Margins of Modernism: Interwar, Wartime, and the Long Aftermath of Modernist Jewish Writing, Film, and the Plastic Arts
+<h3 id="modernism-and-fascism">23. Modernism and Fascism</h3>
 
-Organizers: Phyllis B Lassner (Northwestern University), Michael T Williamson (University of Pennsylvania)
+<p>Organizers: Phyllis B Lassner (Northwestern University), Michael T Williamson (University of Pennsylvania)</p>
 
-Expanding Timothy Snyder's call for a reassessment of the narratives that shape our understanding of "commemorative causality" in history, this seminar addresses the following question: "How do Jewish artists, their cultural productions, and representations of the Jew, Judaism, and Jewish history affect the meanings of revolution in modernist studies past, present, and future?"  We encourage reflection upon the various ways in which Jewish studies and the Jewish subject might be placed in revolutionary cultural, aesthetic, and/or political relation to modernist conceptions of history and memory. We welcome papers from the period after 1905, through the Holocaust, and into our time.
--->
+<p>Expanding Timothy Snyder’s call for a reassessment of the narratives that shape our understanding of “commemorative causality” in history, this seminar addresses the following question: “How do Jewish artists, their cultural productions, and representations of the Jew, Judaism, and Jewish history affect the meanings of revolution in modernist studies past, present, and future?”  We encourage reflection upon the various ways in which Jewish studies and the Jewish subject might be placed in revolutionary cultural, aesthetic, and/or political relation to modernist conceptions of history and memory. We welcome papers from the period after 1905, through the Holocaust, and into our time.</p>
 
-<h3 id="the-revolution-of-sound-cinema">24. The Revolution of Sound Cinema</h3>
+<h3 id="speaking-through-the-archive-global-modernism-and-postcolonial-networks">24. Speaking Through the Archive: Global Modernism and Postcolonial Networks</h3>
 
 <p>Organizer: Jesse Schotter (Ohio State University)</p>
 
 <p>The coming of sound transformed not only individual films but also challenged the notion of cinema as a purely visual medium.  This seminar invites papers concerned with early sound films or the changes in technology and spectatorship caused by the adoption of sound.  It also welcomes papers that focus on how these changes affected modernist novels and poems. </p>
 
-<h3 id="revolutionizing-the-1930s-alternative-politicizations-of-the-decade">25. Revolutionizing the 1930s: Alternative Politicizations of the Decade</h3>
+<h3 id="poetics-of-information-exchange">25. Poetics of Information Exchange</h3>
 
 <p>Organizers: Charles T. Andrews (Whitworth University), Erica Gene Delsandro (Bucknell University)</p>
 
 <p>This seminar investigates literary voices silenced by the Auden and Orwell paradigm.  By examining the diversity of political engagements, motivations, and aesthetic forms constituting 1930s writing, without excluding socialist or communist texts, participants will contribute to the creation of an inclusive reading of the decade, its literature, and its politics.</p>
 
-<h3 id="revolutions-in-reproduction">26. Revolutions in Reproduction</h3>
+<h3 id="dada-at-100">26. Dada at 100</h3>
 
 <p>Organizers: Fran Bigman (University of Cambridge), Karen Weingarten (Queens College-CUNY)</p>
 
 <p>Early twentieth-century movements to reform and revolutionize laws around reproduction paralleled the rise of the eugenics movement and state-sanctioned policies on sterilization and abortion. Increased access to reproductive technologies enabled alternatives to the standard marriage-parenthood plot but posed new dilemmas. We invite papers on gender and reproduction, especially interdisciplinary approaches connecting reproductive history to other political movements.</p>
 
-<h3 id="thinking-back-through-our-mothers-feminist-revolutions-in-modernism">27. Thinking Back Through Our Mothers: Feminist Revolutions in Modernism</h3>
+<h3 id="follow-the-yellow-brick-road-hollywood-genres-and-the-discourses-of-capitalism">27. Follow the Yellow Brick Road: Hollywood Genres and the Discourses of Capitalism</h3>
 
 <p>Organizers: Linda Camarasana (SUNY College at Old Westbury), J. Ashley Foster (Haverford College)</p>
 
@@ -10982,7 +10976,7 @@ Expanding Timothy Snyder's call for a reassessment of the narratives that shape 
 
 <p>This seminar honors the extensive career of Jane Marcus, pioneer feminist, Woolf, and modernist scholar, by thinking through ways that feminism has shaped discourses and revolutions within modernism and modernist studies.  We invite discussion of the role of feminism in modernist studies, feminist modernist recuperations, canonical and non-canonical feminist modernist authors, feminist theory and scholarship throughout the generations, and Marcus’s writings.</p>
 
-<h3 id="uneven-development--capitalist-crisis--poetics">28. Uneven Development | Capitalist Crisis | Poetics</h3>
+<h3 id="black-modernist-movements-and-localities">28. Black Modernist Movements and Localities</h3>
 
 <p>Organizers: Ruth Jennison (UMass-Amherst), Margaret Ronda (UC-Davis) </p>
 
@@ -10990,7 +10984,9 @@ Expanding Timothy Snyder's call for a reassessment of the narratives that shape 
 
 <p>This seminar examines relationships between critical geographies, poetics, and temporal and spatial asymmetries. We invite considerations of ecoideologies as mediation of nature as limit to capital; form as embossment of the obscured spaces and temporal regimes of capital accumulation; genre as register of transition and contradiction; modernist poetics as encodings of crises; Marxist reading methods.</p>
 
-<h3 id="untimely-dissent">29. Untimely Dissent</h3>
+<h3 id="msa-digital-exhibition-workshop-works-in-progress-closed">29. MSA Digital Exhibition Workshop (Works-in-Progress) CLOSED</h3>
+
+<p><strong>THIS SEMINAR IS CLOSED</strong></p>
 
 <p>Organizers: Patrick Deer (New York University), Jonathan Flatley (Wayne State University)</p>
 
@@ -10998,7 +10994,7 @@ Expanding Timothy Snyder's call for a reassessment of the narratives that shape 
 
 <p>To what degree was modernism provoked, catalyzed or countered or by belatedly dissenting impulses?  Where and when has belatedness enabled aesthetic or political dissent? What would a dissenting theory or practice of modernist studies itself be?  Examinations of untimely feminist, queer, anti-racist, anti-colonial, communist, anarchist or other dissents welcome.</p>
 
-<h3 id="wwi-reconsidering-rupture">30. WWI: Reconsidering Rupture</h3>
+<h3 id="the-aesthetics-of-modernism">30. The Aesthetics of Modernism</h3>
 
 <p>Organizers: Pearl James (University of Kentucky), Stacy Hubbard (University of Buffalo) </p>
 
@@ -11006,11 +11002,9 @@ Expanding Timothy Snyder's call for a reassessment of the narratives that shape 
 
 <p>This seminar will consider recent theoretical approaches to issues of revolutionary politics, gender, disability, race, trauma, and machine culture in relation to WWI.  Some possible topics: critical paradigms reconsidered; neglected war texts; the centenary; war literature/art as “modernist” or “anti-modernist”; war bodies; &amp; environmental destruction. </p>
 
-<h2 id="seminar-registration-for-msa-17-is-now-closed">Seminar registration for MSA 17 is now closed.</h2>
-
 </div>
 
-
+<div class="advert"><h1>sponsor ads will appear here</h1></div>
 </body>
 
 </html>

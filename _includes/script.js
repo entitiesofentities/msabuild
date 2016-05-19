@@ -145,15 +145,15 @@ var interactive_bg = function(strength){
 //                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                });
         
-        mobileHeader('#mobile #top-nav-two', '#cfp', '#top-nav-two');
-        mobileHeader('#mobile #top-nav-three', '#forms', '#top-nav-three');
+//        mobileHeader('#mobile #top-nav-two', '#cfp', '#top-nav-two');
+//        mobileHeader('#mobile #top-nav-three', '#forms', '#top-nav-three');
         
         
-//        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
-//        mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
-//        mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
-//        mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
-//        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
+        mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
+        mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
+        mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
+        mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
+        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
         
     //DESKTOP//
     }else{
@@ -199,6 +199,29 @@ var interactive_bg = function(strength){
                                $('header').toggle();
                                });
 
+        
+            //Ad testing
+        var ad = Math.round(Math.random()*2) + 1;
+
+        if(ad == 1){
+            $('.advert').css('background-color','#AA3939');
+            $('.advert').click(function(){
+                              alert('Ad number one');
+                              });
+        }
+        else if(ad == 2){
+            $('.advert').css('background-color','#882D60');
+            $('.advert').click(function(){
+                              alert('Ad number two');
+                              });
+        }
+        else if(ad == 3){
+            $('.advert').css('background-color','#AA6C39');
+            $('.advert').click(function(){
+                               alert('Ad number three');
+                               });
+        }
+        
         
             //image sizing
             $("img[alt*='sm']").addClass("small");
@@ -248,15 +271,15 @@ var interactive_bg = function(strength){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
             
-            desktopHeader('#top-nav-two', '#cfp');
-            desktopHeader('#top-nav-three', '#forms');
+//            desktopHeader('#top-nav-two', '#cfp');
+//            desktopHeader('#top-nav-three', '#forms');
 
         
-//            desktopHeader('#top-nav-one', '#program');
-//            desktopHeader('#top-nav-two', '#conf');
-//            desktopHeader('#top-nav-three', '#grads');
-//            desktopHeader('#top-nav-four', '#visit');
-//            desktopHeader('#top-nav-five', '#events');
+            desktopHeader('#top-nav-one', '#program');
+            desktopHeader('#top-nav-two', '#conf');
+            desktopHeader('#top-nav-three', '#grads');
+            desktopHeader('#top-nav-four', '#visit');
+            desktopHeader('#top-nav-five', '#events');
         }
     
 }
