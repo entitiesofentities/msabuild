@@ -4,9 +4,9 @@ title: Overflow hotel
 category: visit
 ---
 
-#Holiday Inn Boston-Brookline
+# Holiday Inn Boston-Brookline
 
-##Overflow Hotel
+## Overflow Hotel
 
 ![med right](http://www.ichotelsgroup.com/hotelmedia/repository/vfmleonardo/galleries/prod/media/medlib/imageRepo/2/0/67/388/404/BKLMA_3986801906_7515108270_R.jpg)
 

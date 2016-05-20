@@ -6,11 +6,11 @@ rel: ../
 ---
 
 
-#Emerging Scholars Pub Night
+# Emerging Scholars Pub Night
 
-##Thursday, Nov. 19th
+## Thursday, Nov. 19th
 
-##8 pm
+## 8 pm
 
 ![med right]({{ page.rel }}assets/Johnson_BPL.jpg "Photo credit: Brian Johnson, Wikimedia Commons")
 
@@ -18,6 +18,6 @@ In the tradition of Gertrude Stein, Virginia Woolf, and Natalie Clifford Barney,
 
 *Meet fellow Emerging Scholars in the lobby of the Westin Hotel at 8 pm to head over to the BU Pub. Or, just meet us there!
 
-#Conference Workshops
+# Conference Workshops
 
 View the conference workshops for MSA 17 [here]({{ page.rel }}conf/Workshops.html).

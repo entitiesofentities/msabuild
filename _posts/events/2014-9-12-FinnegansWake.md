@@ -5,9 +5,9 @@ category: events
 rel: ../
 ---
 
-#Special Event: *Finnegans Wake* Reading
+# Special Event: *Finnegans Wake* Reading
 
-##Please join us for a reading of *Finnegans Wake* on Saturday evening, November 21st.
+## Please join us for a reading of *Finnegans Wake* on Saturday evening, November 21st.
 
 ![lg right]({{ page.rel }}assets/SpecialEvent.png)
 

@@ -1,8 +1,7 @@
 <div class="padder" id="begin">
 </div>
 
-Welcome to Boston
-===
+# Welcome to Boston
 
 ![lg left]({{ base }}assets/IrishFamineMemorial.jpg)
 
@@ -18,8 +17,7 @@ Central Boston is compact and walkable, and the T, Boston’s trolley and subway
 
 <div class="advert"><h1>sponsor ads will appear here</h1></div>
 
-Conference Theme: Modernism & Revolution
-===
+# Conference Theme: Modernism & Revolution
 
 We welcome MSA 17 to Boston, “center of the American Revolution,” for the annual conference in 2015. Boston actually battles Philadelphia for this title, and MSA members who brave the “Freedom Trail,” the path joining sixteen important historical sites, will learn this fact – as well as others that undermine similar revolutionary myths. For instance, Paul Revere is famous largely because Henry W. Longfellow found it easier to rhyme Revere’s name than that of William Dawes, the most successful of the midnight riders. Our conference theme, “Modernism and Revolution,” invokes characterizations of modernism as a revolutionary movement across the arts, a revolt against tradition, and a renovation of the word, stage, painting, and culture more generally. But it also calls into question the myths of modernism’s revolutionary character including, for example, that audiences spontaneously rioted and rejected the innovations they encountered on modernist stages. In two salient examples, the Parisian audience for Le Sacre du Printemps (1913), long believed to have rioted over Stravinsky’s music, may have simply played along with the Ballets Russes impresario Sergei Diaghilev, who organized the audience’s revolt as a publicity stunt; the riots erupting in response to the 1911 performances of Synge’s *The Playboy of the Western World* in Philadelphia and Boston were similarly scripted acts of rebellion.
 
