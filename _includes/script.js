@@ -177,14 +177,26 @@ var interactive_bg = function(strength){
                          //top-nav-two
                           var numLetters = $('#top-nav-two').width()/letterWidth;
                           var space = $(window).width() - $('#top-nav-two').width();
-                          var letterSpacing = space/ (numLetters + .7);
+                          var letterSpacing = space/ (numLetters - .7);
                           $('#top-nav-two').css('letter-spacing', letterSpacing + 'px');
                           
                           //top-nav-three
                           var numLetters = $('#top-nav-three').width()/letterWidth;
                           var space = $(window).width() - $('#top-nav-three').width();
-                          var letterSpacing = space/ (numLetters + .7);
+                          var letterSpacing = space/ (numLetters - 2);
                           $('#top-nav-three').css('letter-spacing', letterSpacing + 'px');
+                          
+                          //top-nav-four
+                          var numLetters = $('#top-nav-four').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-four').width();
+                          var letterSpacing = space/ (numLetters + .9);
+                          $('#top-nav-four').css('letter-spacing', letterSpacing + 'px');
+                          
+                          //top-nav-five
+                          var numLetters = $('#top-nav-five').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-five').width();
+                          var letterSpacing = space/ (numLetters + .5);
+                          $('#top-nav-five').css('letter-spacing', letterSpacing + 'px');
                           
                           //top-nav-six
                           var numLetters = $('#top-nav-six').width()/letterWidth;

@@ -9649,9 +9649,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	<li class="title"><a href="../index.html">MSA 18 Pasadena</a></li>
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one"></li>	
-	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
-	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
-	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
+	<li class = 'top-nav' id="top-nav-three">Emerging&nbsp;Scholars</li>	
+	<li class = 'top-nav' id="top-nav-four">Travel&nbsp;&&nbsp;Lodging</li>	
+	<li class = 'top-nav' id="top-nav-five">Cultural&nbsp;Events</li>	
 	<li class = 'top-nav' id="top-nav-six"><a href="mailto:MSAPasadena@gmail.com">Contact</a></li>	
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>		
@@ -9661,9 +9661,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	<li class="top-nav animated fadeInLeft" id="top-nav-zero"><a href="/msabuild//index.html">Home</a></li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-two" >Conference</li>
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-one" ></li>		
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >Emerging Scholars</li>	
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" >Travel & Lodging</li>	
-	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" >Cultural Events</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-three" >Emerging&nbsp;Scholars</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-four" >Travel&nbsp;&&nbsp;Lodging</li>	
+	<li class = 'top-nav animated fadeInLeft' id="top-nav-five" >Cultural&nbsp;Events</li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-six" ><a href="mailto:MSAPasadena@gmail.com">Contact</a></li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-seven" style=""></li>	
 	<li class = 'top-nav animated fadeInLeft' id="top-nav-eight" style=""></li>
@@ -9674,9 +9674,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	<li class = 'top-nav' id="top-nav-zero"><a href="/msabuild//index.html">Welcome</a></li>	
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one"></li>		
-	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
-	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
-	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
+	<li class = 'top-nav' id="top-nav-three">Emerging&nbsp;Scholars</li>	
+	<li class = 'top-nav' id="top-nav-four">Travel&nbsp;&&nbsp;Lodging</li>	
+	<li class = 'top-nav' id="top-nav-five">Cultural&nbsp;Events</li>	
 	<li class = 'top-nav' id="top-nav-six"><a href="mailto:msaseventeen@gmail.com">Contact</a></li>	
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>	
@@ -10635,14 +10635,26 @@ var interactive_bg = function(strength){
                          //top-nav-two
                           var numLetters = $('#top-nav-two').width()/letterWidth;
                           var space = $(window).width() - $('#top-nav-two').width();
-                          var letterSpacing = space/ (numLetters + .7);
+                          var letterSpacing = space/ (numLetters - .7);
                           $('#top-nav-two').css('letter-spacing', letterSpacing + 'px');
                           
                           //top-nav-three
                           var numLetters = $('#top-nav-three').width()/letterWidth;
                           var space = $(window).width() - $('#top-nav-three').width();
-                          var letterSpacing = space/ (numLetters + .7);
+                          var letterSpacing = space/ (numLetters - 2);
                           $('#top-nav-three').css('letter-spacing', letterSpacing + 'px');
+                          
+                          //top-nav-four
+                          var numLetters = $('#top-nav-four').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-four').width();
+                          var letterSpacing = space/ (numLetters + .9);
+                          $('#top-nav-four').css('letter-spacing', letterSpacing + 'px');
+                          
+                          //top-nav-five
+                          var numLetters = $('#top-nav-five').width()/letterWidth;
+                          var space = $(window).width() - $('#top-nav-five').width();
+                          var letterSpacing = space/ (numLetters + .5);
+                          $('#top-nav-five').css('letter-spacing', letterSpacing + 'px');
                           
                           //top-nav-six
                           var numLetters = $('#top-nav-six').width()/letterWidth;
