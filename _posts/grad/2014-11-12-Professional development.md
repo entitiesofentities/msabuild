@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Professional development
-category: grad
+category: grad_x
 rel: ../
 ---
 

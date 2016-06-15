@@ -7,6 +7,10 @@ tag: text
 
 # Workshops for MSA 18
 
+## coming soon
+
+<!--
+
 ### 1. Mid-Career Modernism: Opportunities and Challenges
 
 Organizer: Kevin Dettmar (Pomona College)
@@ -27,3 +31,5 @@ Resources to support humanities scholarship are limited, and granting agenciesâ€
 Organizer: Matthew Hart (Columbia University)
 
 This workshop will bring together commissioning editors from leading university presses and series editors to address a range of practical, intellectual and professional issues involved in conceiving, writing, and proposing a monograph in modernist studies and related fields.
+
+-->

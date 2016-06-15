@@ -211,6 +211,8 @@ var interactive_bg = function(strength){
                                $('header').toggle();
                                });
 
+        //hide ads
+        $('.advert').hide();
         
             //Ad testing
         var ad = Math.round(Math.random()*2) + 1;
