@@ -143,7 +143,7 @@ Scholars of modernism are familiar with figures who have opposed standardization
 
 Organizers: Sarah Keller (University of Massachusetts-Boston), Leah Flack (Marquette)
 
-Anxiety, dread, and doubt have exerted a strong influence on modernist cultural production. Whether modernist works mitigate anxiety or exploit its energies, frequently they are marked by it in striking ways. Many of the foundational aspects of modern aesthetics (e.g., fragmentation, discontinuity, displacement) are shaped by and evoke apprehension, suggesting the crucial role anxiety has played in the formation and reception of modernist art.  Moreover, modernist critiques of the culture industry, which are often marked by a mistrust of the ideological workings underpinning entertainment, underscore the prevalence of feeling ill at ease with modern phenomena. This seminar investigates intersections between anxious feelings and the forms and art works that express them, whether obliquely or directly. It invites scholars from multiple disciplines to consider this theme in relation to modernist artists, writers, filmmakers, and their audiences.
+Foundational aspects of modern aesthetics (e.g., fragmentation, discontinuity, displacement) are shaped by and evoke apprehension, suggesting the crucial role anxiety has played in the formation and reception of modernist art. Scholars from multiple disciplines are invited to investigate intersections between anxious feelings and artworks that express them in any modernist medium.
 ### 22. Modernism and Political Institutions
 
 Organizer: Matthew Stratton (UC Davis)
@@ -162,7 +162,7 @@ The seminar investigates the nexus between modernism and fascism. The main traje
 
 Organizers: Sejal Sutaria (King's College London), Dan Morse (University of Nevada, Reno)
 
-This seminar seeks to theorize multi-modal archives of global modernism that document exchanges within international networks. How might such archives uncover the influence of cross-fertilization upon the circulation of modernism in and out of the colonies? Critics regularly turn to diaries, letters, or newspapers to reconstruct these networks. But how might integrating printed archives with modernist modes like radio, personal recordings, or film enhance an understanding of their exchanges? We will investigate how integrating print with media archives illuminates the debates between international modernists. In turn, we will explore how they constructed archives to meet their literary or political aims.
+This seminar seeks to theorize radio, personal recording, and film archives that document exchanges within modernist international networks. We will explore how cross-fertilization influenced the circulation of modernism in and out of the colonies. In turn, we will consider how modernists deployed media archives to meet literary and political aims. 
 
 ### 25. Poetics of Information Exchange
 
