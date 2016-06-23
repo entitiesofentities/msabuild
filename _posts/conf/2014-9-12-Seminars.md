@@ -208,4 +208,6 @@ The Digital Showcase at MSA 2015 in Boston was a great success: it was so well a
 
 Organizer: Robert S. Lehman (Boston College)
 
+Invited Participants: Todd Cronan (Emory University), Jason E. Smith (Art Center College of Design)
+
 How does modernism fit into the history of philosophical aesthetics? Are modernism’s own aesthetic categories—novelty, difficulty, impersonality—still a part of this history? In this seminar, we will understand modernism’s “aesthetics” broadly: as the theoretical discourse on art occasioned by modernist art objects; as the practice of art and literary criticism specific to the modernist period; and as a reimagining of the forms of sensible experience in modernist works themselves.
