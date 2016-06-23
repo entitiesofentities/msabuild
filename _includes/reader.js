@@ -24,6 +24,12 @@
             $('.test').click(function(){
                              $(this).children('p').toggle();
                              });
+        
+        $('h3').first().click(function(){
+                      $('.test p').each(function(){
+                                        $(this).toggle();
+                                        });
+                      });
 }
 
 $(document).ready(main);

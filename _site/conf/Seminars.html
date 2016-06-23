@@ -9651,6 +9651,12 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
             $('.test').click(function(){
                              $(this).children('p').toggle();
                              });
+        
+        $('h3').first().click(function(){
+                      $('.test p').each(function(){
+                                        $(this).toggle();
+                                        });
+                      });
 }
 
 $(document).ready(main);
@@ -10793,6 +10799,8 @@ $(document).ready(main);
 
 <div class="post" id="reader">
                 <h1 id="seminars-for-msa-18">Seminars for MSA 18</h1>
+
+<h3 id="showhide-all">show/hide all</h3>
 
 <h3 id="cruel-modernism">1. Cruel Modernism</h3>
 <p>Organizer: Josh Epstein (Portland State)</p>

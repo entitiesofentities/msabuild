@@ -7,6 +7,8 @@ tag: text
 
 # Seminars for MSA 18
 
+### show/hide all
+
 ###  1. Cruel Modernism
 Organizer: Josh Epstein (Portland State)
 
