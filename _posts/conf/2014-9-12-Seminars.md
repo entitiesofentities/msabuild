@@ -66,7 +66,7 @@ Invited Participants: Judith Roof (Rice University), Janet Lyon (Pennsylvania St
 ### 10. Modernist Sitings in Southern California: Alternative Cultural Industries and Institutions Beyond the Silver Screen
 
 Organizers: Steven Yao (Hamilton College), Colleen Jaurretche (UCLA)
-Though Los Angeles has been described as the postmodern city par excellence, Modernist artists, technologies, and aesthetics have left their collective mark on the cultural and physical environment of the city and its surrounding areas. This legacy of what we call Southern California Modernism goes beyond the well-documented realm of Hollywood and the film industry. Indeed, it stretches from Palm Springs to the shores of the Pacific Ocean, joining disparate neighborhoods, demographics, histories, and cultural traditions into a distinctive cultural region. We invite scholars, artists, and other practitioners of SoCalMo who are interested in exploring this rich and varied terrain. 
+Though Los Angeles has been called the archetypal postmodern city, Modernist artists, technologies, and aesthetics have left their collective mark on the city and surrounding areas. This legacy goes beyond the realm of Hollywood and the film industry, joining disparate neighborhoods, demographics, and artistic traditions into a distinctive cultural region.
 
 ### 11. Modernism and Religion: Theory and Practice
 
