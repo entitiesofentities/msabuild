@@ -70,7 +70,7 @@ Organizers: Steven Yao (Hamilton College), Colleen Jaurretche (UCLA)
 
 ### 11. Modernism and Religion: Theory and Practice
 
-Organizers: Gregory Erickson (NYU), Suzanne Hobson (Queen Mary University of London)
+Organizers: Gregory Erickson (NYU), Suzanne Hobson (Queen Mary University of London), Mimi Winick (Rutgers University), Jenny Hyest (Lehigh University)
 
 Invited Participant: Amy Hollywood
 
