@@ -196,18 +196,18 @@ Organizers: Adam McKible (John Jay College), Jeanne Scheper (UC Irvine)
 
 “The Harlem Renaissance” has come to stand in for a specific moment of black cultural productivity, including cultivation of black literature, arts, theater, and the black press, yet the renaissance flourished and expanded in many cities and was gaining momentum well before the 1920s. As an immediately recognizable marker, "The Harlem Renaissance" signals the manufacture of this global city and its cultural production as destination and export. And while the designation collects a wide variety of practices and participants, it enshrines this one locality at the expense of others. In this respect, the Harlem Renaissance is, indeed, a product of the American culture industry. The goal of this seminar is to examine black modernism’s other movements (i.e., the New Negro movement, the Negro Renaissance, negritude) and other localities (Los Angeles, Paris, Washington, D.C.). Participants are encouraged to explore the Harlem Renaissance as one node in a much larger constellation of eras, practices, and locations and to expand the interdisciplinary work in the field.
 
-### 29. MSA Digital Exhibition Workshop (Works-in-Progress) CLOSED
-
-**THIS SEMINAR IS CLOSED**
-
-Organizers: Suzanne W. Churchill (Davidson College), Nikolaus Wasmoen (University at Buffalo)
-
-The Digital Showcase at MSA 2015 in Boston was a great success: it was so well attended that exhibitors did nothave a chance to visit with each other and learn about the other DH projects. This seminar brings exhibitors together, allowing them to offer project updates and discuss salient issues related to database structures, data visualization, pedagogical applications, and peer review. The seminar will be organized around a set of demos and hands-on exercises, in which participants will sample one another&#39;s technology and share feedback, possibly leading up to a white paper or collaborative report. The seminar is designed to allow MSA members already deeply engaged in digital projects to form a community of practice in modernist digital humanities.
-
-### 30. The Aesthetics of Modernism
+### 29. The Aesthetics of Modernism
 
 Organizer: Robert S. Lehman (Boston College)
 
 Invited Participants: Todd Cronan (Emory University), Jason E. Smith (Art Center College of Design)
 
 How does modernism fit into the history of philosophical aesthetics? Are modernism’s own aesthetic categories—novelty, difficulty, impersonality—still a part of this history? In this seminar, we will understand modernism’s “aesthetics” broadly: as the theoretical discourse on art occasioned by modernist art objects; as the practice of art and literary criticism specific to the modernist period; and as a reimagining of the forms of sensible experience in modernist works themselves.
+
+### 30. MSA Digital Exhibition Workshop (Works-in-Progress) CLOSED
+
+**THIS SEMINAR IS CLOSED**
+
+Organizers: Suzanne W. Churchill (Davidson College), Nikolaus Wasmoen (University at Buffalo)
+
+The Digital Showcase at MSA 2015 in Boston was a great success: it was so well attended that exhibitors did nothave a chance to visit with each other and learn about the other DH projects. This seminar brings exhibitors together, allowing them to offer project updates and discuss salient issues related to database structures, data visualization, pedagogical applications, and peer review. The seminar will be organized around a set of demos and hands-on exercises, in which participants will sample one another&#39;s technology and share feedback, possibly leading up to a white paper or collaborative report. The seminar is designed to allow MSA members already deeply engaged in digital projects to form a community of practice in modernist digital humanities.

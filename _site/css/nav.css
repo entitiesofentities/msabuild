@@ -143,7 +143,6 @@ body, html {
     height: auto;    
 	margin-bottom: 1em;
 	margin-top: 3em;
-	box-shadow: 2px 2px 2px 2px black;
 }
 
 .medium {
@@ -153,7 +152,6 @@ body, html {
     height: auto;    
 	margin-bottom: 1em;
 	margin-top: 1em;	
-	box-shadow: 2px 2px 2px 2px black;
 }
 
 .large {
@@ -163,7 +161,6 @@ body, html {
     height: auto;    
 	margin-bottom: 1em;
 	margin-top: 1em;	
-	box-shadow: 2px 2px 2px 2px black;
 }
 
 .right{
