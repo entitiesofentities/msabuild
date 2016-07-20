@@ -84,11 +84,11 @@ Invited Participant: Riley Wilson
 
 While the origins of DIY ethic are usually traced to punk culture, this seminar investigates modernism as an incubator of the DIY strategy of social change through self-publication. Papers are invited on modernist DIY theory and practice and on correspondences between modernism, punk, Riot Grrrl, zine culture, and independent videogames.
 
-### 13. Industrious Women: The Feminist and Cultural Work of Literary Critics
+### 13. Industrious Women: The Feminist Work of Modern Culture-Making
 
-Organizer: Genevieve Brassard (University of Portland)
+Organizers: Genevieve Brassard (University of Portland), Sarah Cornish (University of Northern Colorado)
 
-Invited Participant: Julie Vandivere
+Invited Participants: Julie Vandivere, Janine Utell
 
 This seminar will foster discussion about the cultural and feminist work women performed, especially those perhaps flying under our radars: writers, editors, reviewers, entrepreneurs, artists, musicians, filmmakers, designers, activists, etc. We welcome papers on less-canonical figures, as well as papers that reframe or remix narratives about well-known modern women.
 
