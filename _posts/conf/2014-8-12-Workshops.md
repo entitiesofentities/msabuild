@@ -7,9 +7,9 @@ tag: text
 
 # Workshops for MSA 18
 
-## coming soon
+## Workshop registration will open soon.
 
-<!--
+### show/hide all
 
 ### 1. Mid-Career Modernism: Opportunities and Challenges
 
@@ -22,6 +22,7 @@ Early academic career paths are fairly well mapped as we pursue tenure or the fi
 ### 2. Preparing an Effective Grant Application
 
 Organizer: Kevin Dettmar (Pomona College)
+
 Invited Participants: TBA
 
 Resources to support humanities scholarship are limited, and granting agencies’ criteria sometimes opaque. Representatives from two large humanities funding agencies will talk about how to identify likely sources of support and how to write a compelling grant application.
@@ -32,4 +33,8 @@ Organizer: Matthew Hart (Columbia University)
 
 This workshop will bring together commissioning editors from leading university presses and series editors to address a range of practical, intellectual and professional issues involved in conceiving, writing, and proposing a monograph in modernist studies and related fields.
 
--->
+### 4. Overcoming Writing Obstacles
+
+Organizers: Elisabeth Joyce (Edinboro University), Katherine Fusco (University of Nevada)
+
+This workshop will assist the early-career writer and academic in developing tools and strategies to be productive in spite of daunting impediments, such as negative criticism or heavy teaching loads.
