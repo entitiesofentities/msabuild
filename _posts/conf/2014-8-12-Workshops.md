@@ -31,6 +31,11 @@ Resources to support humanities scholarship are limited, and granting agenciesâ€
 
 Organizer: Matthew Hart (Columbia University)
 
+Invited participants:<br>Philip Leventhal, Senior Editor, Columbia U. P.<br>
+Douglas Mao, (Johns Hopkins University), Editor, Hopkins Studies in Modernism, Johns Hopkins U. P.<br>
+Jacqueline Norton, Senior Commissioning Editor for Literature, Oxford U. P. (UK)<br>
+Victoria Rosner, (Columbia University), Co-Editor, Gender and Culture Book Series, Columbia U.P.
+
 This workshop will bring together commissioning editors from leading university presses and series editors to address a range of practical, intellectual and professional issues involved in conceiving, writing, and proposing a monograph in modernist studies and related fields.
 
 ### 4. Overcoming Writing Obstacles
@@ -38,3 +43,9 @@ This workshop will bring together commissioning editors from leading university 
 Organizers: Elisabeth Joyce (Edinboro University), Katherine Fusco (University of Nevada)
 
 This workshop will assist the early-career writer and academic in developing tools and strategies to be productive in spite of daunting impediments, such as negative criticism or heavy teaching loads.
+
+### 5. Teaching Modernism
+
+Organizers: Marian Eide (Texas A&M University) and Erin Hollis (California State University, Fullerton)
+
+Modernist studies have changed radically in the last two decades with new access to unpublished and out-of-print sources, a widening geographic range, and ongoing debates regarding periodicity. How have the changes in our collective research and publication changed what we offer to students of modernism?  Have new media and teaching platforms advanced modernist pedagogy?  This workshop will produce a collaborative space in which scholars may share their pedagogical innovations and consider changes to their own curricular content or approach.
