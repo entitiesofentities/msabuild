@@ -7,7 +7,7 @@ tag: text
 
 # Workshops for MSA 18
 
-## Workshop registration will open soon.
+## Register for workshops by following the instructions on the [Registration Information Page](https://msa.press.jhu.edu/conferences/msa18/conf/register.html#pre-conference-workshops).
 
 ### show/hide all
 
