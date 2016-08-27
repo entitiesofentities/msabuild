@@ -124,11 +124,18 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA 17 Boston"){
+        if(document.title == "MSA 19 Amsterdam"){
+            
+            //resize #magic
+            if($(window).height() < '720'){
+                $('.magic').css('height', $(window).height() - 50 + 'px');
+            }else{
+                $('.magic').css('height', '680px');
+            }
             
             //background img
             interactive_bg(50);
-            $('.bg').css('height', '60%');
+            $('.bg').css('height', '100%');
             $('.bg').css('width', '100%');
 
             
@@ -151,14 +158,11 @@ var interactive_bg = function(strength){
             $('.content').addClass('big_pad');
             
             //content padding
-            var pad;
-            pad = $('header').height();
-            $('.padder').height(pad/3);
-            $('.top-pad').height(pad/1.8);
+            //var pad;
+            //pad = $('header').height();
+            //$('.padder').height(pad/3);
+            //$('.top-pad').height(pad/1.8);
             
-            //header scroll code
-            var numz;
-            numz = $(window).height();
             
             //conference program code
             $('#animate #top-nav-one').hover(function(){
@@ -169,18 +173,33 @@ var interactive_bg = function(strength){
                                              $(this).prev().andSelf().addClass('parting_ways');
                                              });
             
+            
+            //header scroll code
+            var numz;
+            numz = screen.height;
+            
+            
+            $('#sub-menu').insertBefore('#main-menu');
             $(window).scroll(function() {
-                             if ($(this).scrollTop() > numz/14){
+                             if ($(this).scrollTop() > numz * .85){
+                             $('header').removeClass("pretty");
                              $('header').addClass("sticky");
                              $('.title').removeClass('hidden');
                              $('#top-header').hide();
+                             $('#main-menu').insertBefore('#sub-menu');
                              }
                              else{
                              $('header').removeClass("sticky");
+                             $('header').addClass("pretty");
                              $('.title').addClass('hidden');
                              $('#top-header').show();
+                             $('#sub-menu').insertBefore('#main-menu');
                              }
                              });
+            
+            $('.pretty').hover(function(){
+                               $('.pretty').toggleClass('darken');
+                               });
             
             //header animation
             $('ul li').addClass('full');
@@ -199,6 +218,7 @@ var interactive_bg = function(strength){
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
             animatedHeader('#top-nav-five', '#events');
+            
             
         //FULL//
         }else{

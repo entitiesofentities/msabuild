@@ -1,17 +1,13 @@
 ---
 layout: welcome
 ---
-<div id = "fast">
-    	  <div class="bg animated fadeIn"  style="{{ site.delay_6 }}" data-ibg-bg="{{ base }}assets/graphic2.jpg">
-    	  </div>
-	{% include bottom-header.html %}
-</div>
+<!-- {% include top-header.html %} -->
 
-<div id = "slow">
-    	  <div id = "slow" class="bg animated fadeIn"  style="" data-ibg-bg="{{ base }}assets/graphic2.jpg" z-index: 2;>
+
+    	  <div id = "slow" class="bf animated fadeIn"  style="" z-index: 2;>
+    	  <img src="assets/TooropToo.jpg" style="width: 100%; height: auto;">
     	  </div>    	  
-	{% include bottom-header.html %}
-</div>    	
+<!--	{% include bottom-header.html %} -->
 
 <div class="content">
 {% capture my_include %}{% include welcome.md %}{% endcapture %}

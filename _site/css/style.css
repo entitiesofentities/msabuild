@@ -134,27 +134,40 @@
 header{
 	z-index: 999;
 	width: 100%;
-	background-color: rgba(255,255,255,.9);
-	color: black;
-	font-size: 1.5em;
+	background-color: rgba(255,255,255,.5);
+	font-size: 2em;
+	bottom: 0;
 }
 
 .pretty{
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
-	background-color: white;    
+	color: white;
+	background-color: rgba(0,0,0,0);    
 	position: absolute;
 }
 
 .sticky{
 	background-color: rgba(255,255,255,.9);
-	color: black;	
+	color: black;
 	margin-top: 0%;
+	position: fixed;
+	top: 0;
+	height: 125px;
+	font-size: 1.8em;
+}
+
+.darken{
+	background-color: rgba(0,0,0,.5);
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
-    transition: all 1s;	
-	position: fixed;
+    transition: all 1s;
+}
+
+.pretty a{
+	color: white;	
+}
+
+.pretty a:visited{
+	color: white;
 }
 
 .sticky a{
@@ -179,12 +192,13 @@ ul{
 
 header ul{
 	padding: .2em;
-	font-family: "Futura Light";
-	font-weight: 500;
-	font-size: 1.2em;
+	font-family: Helvetica;
+	font-weight: 5;
+	font-size: 1em;
 }
 
 header li{
+	font-size: .75em;
 	margin: .2em .3em;	
 }
 

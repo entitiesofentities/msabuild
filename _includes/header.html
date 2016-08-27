@@ -1,4 +1,6 @@
 <header>
+
+<span id="main-menu">
 <ul class="nav" id = "full" hidden>
 	<li class="title"><a href="{{ base }}/index.html">{{ site.name }} {{ site.subtitle }}</a></li>
 	<li class = 'top-nav' id="top-nav-two">{{ site.data.top-nav.two }}</li>	
@@ -11,7 +13,6 @@
 	<li class = 'top-nav' id="top-nav-eight">{{ site.data.top-nav.eight }}</li>		
 </ul>
 
-{% include top-header.html %}
 <ul class="nav" id = "animate" hidden>
 	<li class="title hidden"><a href="#tippytop">{{ site.name }} {{ site.subtitle }}</a></li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >{{ site.data.top-nav.two }}</li>
@@ -36,8 +37,9 @@
 	<li class = 'top-nav' id="top-nav-seven">{{ site.data.top-nav.seven }}</li>	
 	<li class = 'top-nav' id="top-nav-eight">{{ site.data.top-nav.eight }}</li>	
 </ul>
+</span>
 
-
+<span id="sub-menu">
 <!-- <ul class="bottom-nav hidden" id="welcome">
 	<li>Submit a Proposal:</li>
     {% for post in site.posts %}
@@ -101,6 +103,7 @@
 			{% endif %}
     {% endfor %}
 </ul>
+</span>
 
 </header>
 

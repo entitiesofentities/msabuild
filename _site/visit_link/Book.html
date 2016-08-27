@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MSA 17 Book a hotel room</title>
+        <title>MSA 19 Book a hotel room</title>
         <meta name="author" content="Alex Christie, University of Victoria (UVic) and the Boston Organizing Committee. With thanks to Nicole Rizzo (Boston University) for research assistance."        
         <meta name="viewport" content="width=device-width">
 
@@ -9638,8 +9638,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </script>    	
     </head>   
 <header>
+
+<span id="main-menu">
 <ul class="nav" id = "full" hidden>
-	<li class="title"><a href="../index.html">MSA 17 Boston</a></li>
+	<li class="title"><a href="../index.html">MSA 19 Amsterdam</a></li>
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one">Program</li>	
 	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
@@ -9650,12 +9652,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	<li class = 'top-nav' id="top-nav-eight"></li>		
 </ul>
 
-<div id="top-header" hidden>
-<div id="top-top"><span id="name">MSA 17</span> <span id="subtitle">Boston</span> <span id="year">2015</span></div>
-<div id="top-bottom"><h1 id="venue">westin copley place, november 19-22</h1></div>
-</div>
 <ul class="nav" id = "animate" hidden>
-	<li class="title hidden"><a href="#tippytop">MSA 17 Boston</a></li>	
+	<li class="title hidden"><a href="#tippytop">MSA 19 Amsterdam</a></li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >Conference</li>
 	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>		
 	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >Emerging Scholars</li>	
@@ -9667,7 +9665,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </ul>
 
 <ul class="nav" id = "mobile" hidden>
-	<li class="title">MSA 17 Boston</li>
+	<li class="title">MSA 19 Amsterdam</li>
 	<li class = 'top-nav' id="top-nav-zero"><a href="../index.html">Welcome</a></li>	
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one">Program</li>		
@@ -9678,8 +9676,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>	
 </ul>
+</span>
 
-
+<span id="sub-menu">
 <!-- <ul class="bottom-nav hidden" id="welcome">
 	<li>Submit a Proposal:</li>
     
@@ -10247,6 +10246,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			
     
 </ul>
+</span>
 
 </header>
 
@@ -10377,11 +10377,18 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA 17 Boston"){
+        if(document.title == "MSA 19 Amsterdam"){
+            
+            //resize #magic
+            if($(window).height() < '720'){
+                $('.magic').css('height', $(window).height() - 50 + 'px');
+            }else{
+                $('.magic').css('height', '680px');
+            }
             
             //background img
             interactive_bg(50);
-            $('.bg').css('height', '60%');
+            $('.bg').css('height', '100%');
             $('.bg').css('width', '100%');
 
             
@@ -10404,14 +10411,11 @@ var interactive_bg = function(strength){
             $('.content').addClass('big_pad');
             
             //content padding
-            var pad;
-            pad = $('header').height();
-            $('.padder').height(pad/3);
-            $('.top-pad').height(pad/1.8);
+            //var pad;
+            //pad = $('header').height();
+            //$('.padder').height(pad/3);
+            //$('.top-pad').height(pad/1.8);
             
-            //header scroll code
-            var numz;
-            numz = $(window).height();
             
             //conference program code
             $('#animate #top-nav-one').hover(function(){
@@ -10422,18 +10426,33 @@ var interactive_bg = function(strength){
                                              $(this).prev().andSelf().addClass('parting_ways');
                                              });
             
+            
+            //header scroll code
+            var numz;
+            numz = screen.height;
+            
+            
+            $('#sub-menu').insertBefore('#main-menu');
             $(window).scroll(function() {
-                             if ($(this).scrollTop() > numz/14){
+                             if ($(this).scrollTop() > numz * .85){
+                             $('header').removeClass("pretty");
                              $('header').addClass("sticky");
                              $('.title').removeClass('hidden');
                              $('#top-header').hide();
+                             $('#main-menu').insertBefore('#sub-menu');
                              }
                              else{
                              $('header').removeClass("sticky");
+                             $('header').addClass("pretty");
                              $('.title').addClass('hidden');
                              $('#top-header').show();
+                             $('#sub-menu').insertBefore('#main-menu');
                              }
                              });
+            
+            $('.pretty').hover(function(){
+                               $('.pretty').toggleClass('darken');
+                               });
             
             //header animation
             $('ul li').addClass('full');
@@ -10452,6 +10471,7 @@ var interactive_bg = function(strength){
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
             animatedHeader('#top-nav-five', '#events');
+            
             
         //FULL//
         }else{
