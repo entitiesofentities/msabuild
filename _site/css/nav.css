@@ -92,7 +92,7 @@ body, html {
 
 .content p{
 	text-align: left;
-	font-family: "lato";
+	font-family: "Arvo";
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
@@ -122,16 +122,16 @@ body, html {
 .content h1{
 	text-align: left;
 	font-size: 1.5em;	
-	color: rgb(210,35,42);
-	font-family: "lato";
+	color: black;
+	font-family: "Bungee Shade";
 	font-weight: 600;
 }
 
 .content h2{
 	text-align: left;
 	font-size: 1.3em;
-	color: rgb(210,35,42);
-	font-family: "lato";
+	color: grey;
+	font-family: "Arvo";
 	font-weight: 400;
 }
 
@@ -140,15 +140,17 @@ body, html {
 }
 
 .content a{
-	color: rgb(210,35,42);
+	font-family: "Bungee Shade";
+	color: goldenrod;
 }
 
 .content a:visited{
-	color: rgb(210,35,42);	
+	font-family: "Bungee Shade";
+	color: goldenrod;
 }
 
 .content a:hover{
-	border-bottom: 1px solid rgb(210,35,42);	
+	border-bottom: 2px solid black;
 }
 
 .post a:hover{
