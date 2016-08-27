@@ -126,6 +126,8 @@ var interactive_bg = function(strength){
     }else{
         if(document.title == "MSA 19 Amsterdam"){
             
+            $('header').hide();
+            
             //resize #magic
             if($(window).height() < '720'){
                 $('.magic').css('height', $(window).height() - 50 + 'px');
