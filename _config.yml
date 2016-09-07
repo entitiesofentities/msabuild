@@ -1,7 +1,7 @@
 name: MSA 19
 subtitle: Amsterdam
 permalink: none
-baseurl: /msabuild/
+//baseurl: /msabuild/
 relurl: ../
 
 delay_3: "-webkit-animation-delay: .333s; -moz-animation-delay: .333s; -ms-animation-delay: 
