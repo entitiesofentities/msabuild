@@ -47,35 +47,44 @@
 
 #top-top{
 	font-size: 2.5em;
+	font-variant: helvetica;
 	font-weight: bolder;
 }
 
 #top-bottom{
-	font-size: 4.5em;
+	font-size: 6em;
+	font-weight: bolder;
+	font-variant: helvetica;
 	color: white;
     text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;  	
+    -1px -1px 0 #CF5300,
+    1px -1px 0 #CF5300,
+    -1px 1px 0 #CF5300,
+    1px 1px 0 #CF5300;
 }
 
 #top-bottom-2{
 	font-size: 2em;
+	font-weight: bolder;
 	color: white;
+    text-shadow:
+    -1px -1px 0 #CF5300,
+    1px -1px 0 #CF5300,
+    -1px 1px 0 #CF5300,
+    1px 1px 0 #CF5300;
+}
+
+#name{
+	font-family: Helvetica;
+	color: #CF5300;
+	text-transform: uppercase;
+	font-weight: 50;
+	vertical-align: top;
     text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
     -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-#name{
-	font-family: "Bungee Shade";
-	color: white;
-	text-transform: uppercase;
-	font-weight: 50;
-	vertical-align: top;
+    1px 1px 0 black;	
 }
 
 #subtitle{
@@ -85,9 +94,14 @@
 }
 
 #theme{
-	font-family: "Bungee Shade";
-	color: black;
+	font-family: Helvetica;
+	color: #CF5300;
 	font-size: 2em;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 #year{
@@ -113,7 +127,7 @@
 	width: 100%;
 	height: 10%;
 	text-align: center;
-	margin-top: -18%;
+	margin-top: -10%;
 	padding-left: .75%;
 	z-index: 99;
 	position: absolute;
@@ -154,6 +168,7 @@
 #d a{
 	font-weight: bolder;
 	font-size: 1.2em;
+	color: white;
 }
 
 #d a:visited{
