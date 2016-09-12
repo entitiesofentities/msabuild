@@ -46,39 +46,40 @@
 }
 
 #top-top{
-	font-size: 2.5em;
-	font-variant: helvetica;
+	font-size: 4em;
+	font-family: 'Neuton', serif;
 	font-weight: bolder;
 }
 
 #top-bottom{
 	font-size: 6em;
 	font-weight: bolder;
-	font-variant: helvetica;
-	color: white;
+	font-family: 'Neuton', serif;
+	color: #CF5300;
     text-shadow:
-    -1px -1px 0 #CF5300,
-    1px -1px 0 #CF5300,
-    -1px 1px 0 #CF5300,
-    1px 1px 0 #CF5300;
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 #top-bottom-2{
 	font-size: 2em;
 	font-weight: bolder;
-	color: white;
+	font-family: 'Neuton', serif;	
+	color: #CF5300;
     text-shadow:
-    -1px -1px 0 #CF5300,
-    1px -1px 0 #CF5300,
-    -1px 1px 0 #CF5300,
-    1px 1px 0 #CF5300;
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 #name{
-	font-family: Helvetica;
+	font-family: 'Neuton', serif;
 	color: #CF5300;
 	text-transform: uppercase;
-	font-weight: 50;
+	font-weight: bolder;
 	vertical-align: top;
     text-shadow:
     -1px -1px 0 black,
@@ -90,11 +91,11 @@
 #subtitle{
 	font-family: "Futura Bold";
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: bolder;
 }
 
 #theme{
-	font-family: Helvetica;
+	font-family: 'Neuton', serif;
 	color: #CF5300;
 	font-size: 2em;
     text-shadow:
@@ -105,17 +106,17 @@
 }
 
 #year{
-	font-family: "Futura Bold";
+	font-family: 'Neuton', serif;
 	text-transform: uppercase;
 	color: rgb(210,35,42);
-	font-weight: 500;
+	font-weight: bolder;
 }
 
 
 #venue{	
 	font-family: "Futura Bold";
 	text-transform: uppercase;	
-	font-weight: 500;
+	font-weight: bolder;
 	font-size: .3em;
 }
 

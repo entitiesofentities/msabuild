@@ -98,6 +98,10 @@ body, html {
 	text-align: justify;
 }
 
+.content{
+	background-color: #FAFAD2;
+}
+
 .big_pad{
 	padding-left: 15%;
 	padding-right: 15%;	
@@ -107,7 +111,7 @@ body, html {
 .little_pad{
 	font-size: 2em;
 	padding-left: 5%;
-	padding-right: 5%;		
+	padding-right: 5%;
 }
 
 .content ul li{
@@ -121,16 +125,15 @@ body, html {
 
 .content h1{
 	text-align: left;
-	font-size: 1.5em;	
-	color: black;
-	font-family: "Bungee Shade";
+	font-size: 2em;
+	color: #CF5300;
+	font-family: 'Neuton', serif;
 	font-weight: 600;
 }
 
 .content h2{
 	text-align: left;
 	font-size: 1.3em;
-	color: grey;
 	font-family: "Arvo";
 	font-weight: 400;
 }
