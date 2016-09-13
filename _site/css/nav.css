@@ -143,13 +143,15 @@ body, html {
 }
 
 .content a{
-	font-family: "Bungee Shade";
-	color: goldenrod;
+	font-family: 'Neuton', serif;
+	font-variant: small-caps;
+	color: #CF5300;
 }
 
 .content a:visited{
-	font-family: "Bungee Shade";
-	color: goldenrod;
+	font-family: 'Neuton', serif;
+	font-variant: small-caps;
+	color: #CF5300;
 }
 
 .content a:hover{
