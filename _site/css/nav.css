@@ -99,7 +99,7 @@ body, html {
 }
 
 .content{
-	background-color: #FAFAD2;
+	background-color: white;
 }
 
 .big_pad{
@@ -126,7 +126,7 @@ body, html {
 .content h1{
 	text-align: left;
 	font-size: 2em;
-	color: #CF5300;
+	color:  #3C5671;
 	font-family: 'Neuton', serif;
 	font-weight: 600;
 }
@@ -145,13 +145,13 @@ body, html {
 .content a{
 	font-family: 'Neuton', serif;
 	font-variant: small-caps;
-	color: #CF5300;
+	color:  	#3C5671;
 }
 
 .content a:visited{
 	font-family: 'Neuton', serif;
 	font-variant: small-caps;
-	color: #CF5300;
+	color:  	#3C5671;
 }
 
 .content a:hover{
