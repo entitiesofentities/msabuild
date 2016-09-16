@@ -96,10 +96,11 @@ body, html {
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
+	color: #E1CDB3;
 }
 
 .content{
-	background-color: white;
+	background-color: #3C5671;
 }
 
 .big_pad{
@@ -126,7 +127,7 @@ body, html {
 .content h1{
 	text-align: left;
 	font-size: 2em;
-	color:  #3C5671;
+	color:  #E1CDB3;
 	font-family: 'Neuton', serif;
 	font-weight: 600;
 }
@@ -136,6 +137,7 @@ body, html {
 	font-size: 1.3em;
 	font-family: "Arvo";
 	font-weight: 400;
+	color:  #E1CDB3;
 }
 
 .mobile {
@@ -145,13 +147,15 @@ body, html {
 .content a{
 	font-family: 'Neuton', serif;
 	font-variant: small-caps;
-	color:  	#3C5671;
+	font-size: 1.1em;
+	color:  	#BF9A41;
 }
 
 .content a:visited{
 	font-family: 'Neuton', serif;
 	font-variant: small-caps;
-	color:  	#3C5671;
+	font-size: 1.1em;	
+	color:  	#BF9A41;
 }
 
 .content a:hover{
