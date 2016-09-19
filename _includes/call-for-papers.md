@@ -21,7 +21,7 @@
 
 ## Amsterdam School of Cultural Analysis
 
-## OSL# Deadlines:
+## Onderzoekschool Literatuurwetenschap# Deadlines:
 
 ## Seminar and Workshop Proposals: 16 December 2016
 
