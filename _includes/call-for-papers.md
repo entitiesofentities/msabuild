@@ -21,7 +21,9 @@
 
 ## Amsterdam School of Cultural Analysis
 
-## Onderzoekschool Literatuurwetenschap# Deadlines:
+## Onderzoekschool Literatuurwetenschap
+
+##The English Department at Florida State University# Deadlines:
 
 ## Seminar and Workshop Proposals: 16 December 2016
 
