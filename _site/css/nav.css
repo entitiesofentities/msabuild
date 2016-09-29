@@ -35,7 +35,7 @@ body, html {
     }
 
 .highlighted{
-	border-bottom: 3px solid rgb(210,35,42);
+	border-bottom: 3px solid #BF9A41;
 	cursor: pointer;
 }
 
@@ -163,7 +163,7 @@ body, html {
 }
 
 .post a:hover{
-	border-bottom: 1px solid rgb(210,35,42);	
+	border-bottom: 1px solid #3C5671;	
 }
 
 /** CONTENT IMAGE SIZES **/
@@ -234,7 +234,7 @@ body, html {
 .reader_title:hover{
 	text-align: left;
 	cursor: hand;
-	border-bottom: 2px solid rgb(210,35,42);	
+	border-bottom: 2px solid #3C5671;	
 }
 
 .reader_description{
@@ -243,13 +243,13 @@ body, html {
 }
 
 .selected{
-	border-bottom: 3px solid rgb(210,35,42);
+	border-bottom: 3px solid #3C5671;
 	box-shadow: 2px 0px 2px black;
 	text-align: center;
 }
 
 .selected:hover{
-	border-bottom: 1px solid rgb(210,35,42);
+	border-bottom: 1px solid #3C5671;
 	box-shadow: none;
 	text-align: center;
 }
@@ -260,5 +260,5 @@ body, html {
 
 .important{
 	color: rgb(210,35,42);
-	border-bottom: 1px solid rgb(210,35,42);	
+	border-bottom: 1px solid #3C5671;	
 	}

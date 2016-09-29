@@ -60,10 +60,8 @@ var interactive_bg = function(strength){
     //MOBILE//
     if(check){
         
-        window.location.href = 'https://msa.press.jhu.edu/conferences/msa19/index_mobile.html';
+        //window.location.href = 'https://msa.press.jhu.edu/conferences/msa19/index_mobile.html';
         
-        
-        $('header').hide();
         
         //img resize
         $("img").not(".bg").unwrap();
@@ -131,7 +129,6 @@ var interactive_bg = function(strength){
     }else{
         if(document.title == "MSA 19 Amsterdam"){
             
-            $('header').hide();
             
             //resize #magic
             if($(window).height() < '720'){
@@ -186,6 +183,10 @@ var interactive_bg = function(strength){
             numz = screen.height;
             
             
+            $('.pretty').hover(function(){
+                               $('.pretty').toggleClass('darken');
+                               });
+            
             $('#sub-menu').insertBefore('#main-menu');
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz * .85){
@@ -203,10 +204,6 @@ var interactive_bg = function(strength){
                              $('#sub-menu').insertBefore('#main-menu');
                              }
                              });
-            
-            $('.pretty').hover(function(){
-                               $('.pretty').toggleClass('darken');
-                               });
             
             //header animation
             $('ul li').addClass('full');
