@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="../css/nav.css">
 
 		<!-- Web Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">		
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Bungee+Outline|Bungee+Shade|Fira+Sans|Fredericka+the+Great|Lora|Monoton|Open+Sans|Signika" rel="stylesheet">		
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 
 		<!-- Favicon -->		 		 
@@ -9660,8 +9662,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 <ul class="nav" id = "animate" hidden>
 	<li class="title hidden"><a href="#tippytop">MSA 19</a></li>	
+	<li class = 'top-nav animated fadeInDown' id="top-nav-six" ><a href="#begin">About</a></li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >Conference</li>
-	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>		
+	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>
 	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >Emerging Scholars</li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-four" >Travel & Lodging</li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-five" >Cultural Events</li>	
@@ -10421,9 +10424,9 @@ var interactive_bg = function(strength){
             $('.content').addClass('big_pad');
             
             //content padding
-            //var pad;
-            //pad = $('header').height();
-            //$('.padder').height(pad/3);
+            var pad;
+            pad = $('header').height();
+            $('.padder').height(pad/3);
             //$('.top-pad').height(pad/1.8);
             
             
@@ -10514,7 +10517,7 @@ var interactive_bg = function(strength){
             
             //conference program code
             $('#top-nav-one').hover(function(){
-                                    $(this).prev().andSelf().toggleClass('peas_and_carrots');
+                                    $(this).prev().andSelf().toggleClass('peas_and_carrots_full');
                                     });
             
             $('#top-nav-one').mouseleave(function(){
@@ -10542,7 +10545,7 @@ var interactive_bg = function(strength){
 $(document).ready(main);
 </script>
 <div id="padder"></div>
-<body>
+<body style="background-color: #3C5671">
 
 
                 <iframe src="https://docs.google.com/forms/d/1kgsipaM0VFPm6RSSrL_jnG74HbXJ1KlwHbch7I1Pvvw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

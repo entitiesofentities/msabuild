@@ -1,7 +1,6 @@
 body, html {
       margin: 0;
       -webkit-font-smoothing: antialiased;
-      background:#fff;
       text-align: center;
       -webkit-transition: opacity 400ms;
       -moz-transition: opacity 400ms;
@@ -140,6 +139,14 @@ body, html {
 	color:  #E1CDB3;
 }
 
+h3,h4{
+	text-align: left;
+	font-size: 1em;
+	font-family: "Arvo";
+	font-weight: 400;
+	color:  #E1CDB3;
+}
+
 .mobile {
 	font-size: 2.3em;
 }
@@ -159,11 +166,11 @@ body, html {
 }
 
 .content a:hover{
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #BF9A41;
 }
 
 .post a:hover{
-	border-bottom: 1px solid #3C5671;	
+	border-bottom: 2px solid #BF9A41;
 }
 
 /** CONTENT IMAGE SIZES **/
@@ -221,8 +228,8 @@ body, html {
 /** READER **/
 
 #reader{
-	width: 50%;
-	font-family: sans-serif;	
+	width: 80%;
+	font-family: "Arvo";
 }
 
 .reader_title{
@@ -234,7 +241,7 @@ body, html {
 .reader_title:hover{
 	text-align: left;
 	cursor: hand;
-	border-bottom: 2px solid #3C5671;	
+	border-bottom: 2px solid #E1CDB3;	
 }
 
 .reader_description{
@@ -243,13 +250,14 @@ body, html {
 }
 
 .selected{
-	border-bottom: 3px solid #3C5671;
-	box-shadow: 2px 0px 2px black;
+	border-bottom: 3px solid #E1CDB3;
+	box-shadow: 2px 0px 2px #E1CDB3;
+	border-radius: 50px;
 	text-align: center;
 }
 
 .selected:hover{
-	border-bottom: 1px solid #3C5671;
+	border-bottom: 1px solid #E1CDB3;
 	box-shadow: none;
 	text-align: center;
 }

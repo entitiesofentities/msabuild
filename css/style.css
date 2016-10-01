@@ -246,11 +246,19 @@ header{
 }
 
 h1{
-	text-align: center;
+	text-align: left;
+	font-size: 2em;
+	color:  #E1CDB3;
+	font-family: 'Neuton', serif;
+	font-weight: 600;
 }
 
 h2{
-	text-align: center;
+	text-align: left;
+	font-size: 1.3em;
+	font-family: "Arvo";
+	font-weight: 400;
+	color:  #E1CDB3;
 }
 
 ul{
@@ -302,7 +310,19 @@ a{
 	border-bottom: 3px solid #BF9A41;
 }
 
-.peas_and_carrots:nth-child(3){
+.peas_and_carrots:nth-child(4){
+	margin-left: -.7em;
+	padding-left: .4em;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;	
+}
+
+.peas_and_carrots_full{
+	border-bottom: 3px solid #BF9A41;
+}
+
+.peas_and_carrots_full:nth-child(3){
 	margin-left: -.7em;
 	padding-left: .4em;
 	transition: .5s;
@@ -365,24 +385,26 @@ footer a:hover{
 .post{
 	width: 75%;
 	margin: 0 auto;
-	font-family: "lato";
+	font-family: "Arvo";
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
-	border-left: 2px solid rgb(210,35,42);
-	font-size: 1em;	
+	font-size: 1em;
 }
 
 .post a{
-	color: rgb(210,35,42);
+	color: #BF9A41;
+	font-family: 'Neuton', serif;	
 }
 
 .post a:visited{
-	color: rgb(210,35,42);
+	color: #BF9A41;
+	font-family: 'Neuton', serif;	
 }
 
 .post p{
 	padding-left: 10px;
+	color: #E1CDB3;	
 }
 
 h3{

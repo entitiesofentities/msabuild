@@ -162,9 +162,9 @@ var interactive_bg = function(strength){
             $('.content').addClass('big_pad');
             
             //content padding
-            //var pad;
-            //pad = $('header').height();
-            //$('.padder').height(pad/3);
+            var pad;
+            pad = $('header').height();
+            $('.padder').height(pad/3);
             //$('.top-pad').height(pad/1.8);
             
             
@@ -255,7 +255,7 @@ var interactive_bg = function(strength){
             
             //conference program code
             $('#top-nav-one').hover(function(){
-                                    $(this).prev().andSelf().toggleClass('peas_and_carrots');
+                                    $(this).prev().andSelf().toggleClass('peas_and_carrots_full');
                                     });
             
             $('#top-nav-one').mouseleave(function(){
