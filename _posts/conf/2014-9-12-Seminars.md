@@ -7,6 +7,8 @@ tag: text
 
 #Seminars for MSA 17
 
+### show/hide all
+
 ###1. All Together Now: The Multimedia Avant-garde
 Organizers: Lori Cole (New York University), Bibiana Obler (George Washington University)
 

@@ -7,6 +7,8 @@ tag: text
 
 #Workshops for MSA 17
 
+### show/hide all
+
 ## Pre-Conference Workshops (Thursday)
 
 ##Thursday Morning (10:00 - 11:30 a.m.)
