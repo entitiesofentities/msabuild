@@ -127,7 +127,7 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA 19 Amsterdam"){
+        if(document.title == "MSA Amsterdam"){
             
             
             //resize #magic
