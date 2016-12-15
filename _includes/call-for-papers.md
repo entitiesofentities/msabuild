@@ -1,9 +1,11 @@
 <div class="padder" id="begin">
 </div>
 
-# CFP for the Modernist Studies Association’s Annual Conference
+# Call for Papers:
 
 ## “Modernism Today”
+
+## Meeting of the Modernist Studies Association
 
 ## Amsterdam, August 10-13, 2017
 
@@ -58,9 +60,15 @@
 
 *	interdisciplinary ModernismThe conference organizers invite proposals for seminars and pre-conference workshops (now extended to January 1, 2017), panels, roundtables, poster sessions, multimedia/digital exhibitions (due January 13, 2017). We gently encourage proposals relevant to the conference theme and the topics listed above, but welcome panel, seminar, and roundtable proposals on all topics related to modernism. The primary criterion for selection will be the quality of the proposal, not its relevance to the conference theme. We ask that proposals provide complete panels and roundtables. Individuals seeking to create or to participate in a panel or roundtable are encouraged to visit the [MSA CFP page](http://msa.press.jhu.edu/cgi-bin/cfp_view.cgi) or the [MSA Facebook page](https://www.facebook.com/groups/35866051126/) for guidelines to develop and opportunities to promote a panel or roundtable. All proposals requiring A/V equipment must specify those needs. All queries should be directed to [MSA19Amsterdam@gmail.com](mailto:MSA19Amsterdam@gmail.com).
 
-**Special Streams:**
+## Special Streams:
 
-In addition to our regular review of session proposals, the Amsterdam organizers will be accepting panels and roundtables that fit under two special streams: “Pre- and Postwar Art Movements,” which will examine pre- and post-1945 avant-garde movements such as Fluxus, Situationism, and allied arts movements; and “Human Rights, Borders, and Displacements,” which will consider the historical importance of refugee, immigrant, and displaced populations in modernism. We hope these two streams will encourage interdisciplinary and intercultural approaches and draw upon the special opportunities presented by our European location.  If you are interested in proposing a panel linked to either of these streams, please make this clear in your proposal.**Participation:**
+In addition to our regular review of session proposals, the Amsterdam organizers will be accepting panels and roundtables that fit under two special streams: “Pre- and Postwar Art Movements,” which will examine pre- and post-1945 avant-garde movements such as Fluxus, Situationism, and allied arts movements; and “Human Rights, Borders, and Displacements,” which will consider the historical importance of refugee, immigrant, and displaced populations in modernism. We hope these two streams will encourage interdisciplinary and intercultural approaches and draw upon the special opportunities presented by our European location.  If you are interested in proposing a panel linked to either of these streams, please make this clear in your proposal.
+
+The MSA values **diversity** of national origin, race, ethnicity, religion, gender, sexual orientation, migration status, ability, class, employment status, and other forms of identity. We encourage conference participants and organizers to take this into account when making proposals for the conference in Amsterdam.
+
+## Conference Access:
+
+The MSA is committed to ensuring that all conference registrants will be able to participate in conference events.  We ask that all conference attendees give thought to questions of access and work with the conference organizers to create an event that is welcoming to the entire community of participants.## Participation:
 
 Because we wish to involve as many people as possible as active participants, the MSA limits multiple appearances on the program. Thus, you may participate once, but only once, in each of the following categories:*	Seminar, either as leader or as participant 
 *	Panel or roundtable, as participant (you may also chair a different panel or roundtable) 
@@ -70,10 +78,7 @@ Because we wish to involve as many people as possible as active participants, th
 Roundtables may feature as many as 6 speakers. We particularly welcome roundtables featuring participants from multiple disciplines, and we discourage roundtables on single authors. Roundtables composed entirely of participants from a single department at a single institution are not likely to be accepted. Graduate students are welcome as speakers, but roundtables composed entirely of graduate students are less likely to be accepted than those that include postdoctoral presenters together with graduate students.
 
 Submit proposals by completing the following online form by January 13, 2017: [MSA Amsterdam Roundtable Proposal Form](https://docs.google.com/forms/d/e/1FAIpQLSeEZRb37OD2iISGUQQdMYJVs6Cnkn3rbl4pu63gy94qn-JMPg/viewform).# CALL FOR POSTER SESSIONS AND DIGITAL EXHIBITS## Deadline: January 13, 2017Reflecting the growing role of the digital humanities in modernist studies and the proliferation of work that does not lend itself to presentation in the form of a scholarly paper, we invite proposals that provide a short overview (including web links) of 1) the nature, design, and purpose of a digital project; 2) how the project advances modernist studies; and 3) how the presenters would want to exhibit and explain the project at the conference. Be sure to list all participants and institutions involved in the project, and specify who among these would attend the conference. 
-Submit proposals by completing the following online form by January 13, 2017: [MSA Amsterdam Poster Session and Digital Exhibit Form](https://docs.google.com/forms/d/e/1FAIpQLSd8M41RnIENB9ie4Dm11Dwou3BNphD2MnyA7mpPgNuuhha6MQ/viewform).# Conference Access
-
-The MSA is committed to ensuring that all conference registrants will be able to participate in conference events.  We ask that all conference attendees give thought to questions of access and work with the conference organizers to create an event that is welcoming to the entire community of participants.
-
+Submit proposals by completing the following online form by January 13, 2017: [MSA Amsterdam Poster Session and Digital Exhibit Form](https://docs.google.com/forms/d/e/1FAIpQLSd8M41RnIENB9ie4Dm11Dwou3BNphD2MnyA7mpPgNuuhha6MQ/viewform).
 
 # Proposal Information Guide
 
