@@ -25,7 +25,11 @@
 
 ## Onderzoekschool Literatuurwetenschap
 
-##The English Department at Florida State University# Deadlines:
+##The English Department at Florida State University
+
+# News:
+
+View ongoing conference updates and news on the [MSA Amsterdam Facebook page](https://www.facebook.com/Modernism-Today-MSA-19-Amsterdam-1281049635270873/?fref=nf).# Deadlines:
 
 ## Seminar and Workshop Proposals: 16 December 2016 (Now extended to January 1) 
 
