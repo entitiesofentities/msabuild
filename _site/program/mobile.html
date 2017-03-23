@@ -9632,9 +9632,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-63568622-1', 'auto');
+  ga('create', 'UA-88741507-1', 'auto');
   ga('send', 'pageview');
 
 </script>    	
@@ -10480,6 +10480,33 @@ var interactive_bg = function(strength){
             animatedHeader('#top-nav-five', '#events');
             
             
+            //hide ads
+            //$('.advert').hide();
+            
+            //Ad testing
+            var ad = Math.round(Math.random()*2) + 1;
+            
+            if(ad == 1){
+                $('.advert').css('background-image','url(assets/ads/ad1.jpg');
+                $('.advert').click(function(){
+                                   window.location.href = 'https://www.youtube.com/watch?v=KHIdrxD-TNI';
+                                   });
+            }
+            else if(ad == 2){
+                $('.advert').css('background-image','url(assets/ads/ad2.jpg');
+                $('.advert').click(function(){
+                                   window.location.href = 'https://www.youtube.com/watch?v=pPd67CEL54E';
+                                   });
+            }
+            else if(ad == 3){
+                $('.advert').css('background-image','url(assets/ads/ad3.jpg');
+                $('.advert').click(function(){
+                                   window.location.href = 'https://www.youtube.com/watch?v=nrythD3kkoA';
+                                   });
+            }
+
+            
+            
         //FULL//
         }else{
             
@@ -10509,6 +10536,32 @@ var interactive_bg = function(strength){
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
             
+            //hide ads
+            //$('.advert').hide();
+            
+            //Ad testing
+            var ad = Math.round(Math.random()*2) + 1;
+            
+            if(ad == 1){
+                $('.advert').css('background-image','url(http://farm6.static.flickr.com/5081/5339096521_3318f48c76.jpg)');
+                $('.advert').css('background-color','#AA3939');
+                $('.advert').click(function(){
+                                   window.location.href = 'https://www.youtube.com/watch?v=_b4Z5Kg08PY';
+                                   });
+            }
+            else if(ad == 2){
+                $('.advert').css('background-color','#2E4172');
+                $('.advert').click(function(){
+                                   window.location.href = 'https://www.youtube.com/watch?v=pPd67CEL54E';
+                                   });
+            }
+            else if(ad == 3){
+                $('.advert').css('background-color','#882D60');
+                $('.advert').click(function(){
+                                   window.location.href = 'https://www.youtube.com/watch?v=nrythD3kkoA';
+                                   });
+            }
+            
             //conference program code
             $('#top-nav-one').hover(function(){
                                     $(this).prev().andSelf().toggleClass('peas_and_carrots_full');
@@ -10537,6 +10590,7 @@ var interactive_bg = function(strength){
 }
 
 $(document).ready(main);
+
 </script>
 <div id="padder"></div>
 <body>

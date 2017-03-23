@@ -426,3 +426,10 @@ h3{
 .figure ul{
 margin-top: -20px;
 }
+
+/**ADVERTISING**/
+.advert{
+	width: 100%;
+	height: 180px;
+	cursor: hand;
+}
