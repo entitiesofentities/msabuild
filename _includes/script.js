@@ -225,7 +225,7 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-            //$('.advert').hide();
+        $('.advert').hide();
             
             //Ad testing
             var ad = Math.round(Math.random()*2) + 1;
@@ -274,14 +274,14 @@ var interactive_bg = function(strength){
             //content padding
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad/3);
+            $('#padder').height(pad/2);
             
             //header animation
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
             
             //hide ads
-            //$('.advert').hide();
+            $('.advert').hide();
             
             //Ad testing
             var ad = Math.round(Math.random()*2) + 1;
