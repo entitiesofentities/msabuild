@@ -91,7 +91,7 @@ body, html {
 
 .content p{
 	text-align: left;
-	font-family: "Arvo";
+	font-family: 'Neuton', serif;
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
@@ -134,7 +134,7 @@ body, html {
 .content h2{
 	text-align: left;
 	font-size: 1.3em;
-	font-family: "Arvo";
+	font-family: 'Neuton', serif;
 	font-weight: 400;
 	color:  #E1CDB3;
 }
@@ -247,6 +247,7 @@ h3,h4{
 .reader_description{
 	text-align: left;
 	padding-top: 10px;
+	background-color: rgba(0,0,0,.5);
 }
 
 .selected{

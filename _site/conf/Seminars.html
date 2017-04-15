@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MSA POEMJAZZ</title>
+        <title>MSA seminars</title>
         <meta name="author" content="Alex Christie, University of Victoria (UVic) and the Boston Organizing Committee. With thanks to Nicole Rizzo (Boston University) for research assistance."        
         <meta name="viewport" content="width=device-width">
 
@@ -9626,6 +9626,43 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 })( window );
 
 		</script>
+		<script>
+		    var main = function(){
+        
+            $('h3').each(function(){
+                         $(this).nextUntil('h3').andSelf().wrapAll('<div class="test"/>');
+                         });
+            
+            $('h3').addClass('reader_title');
+            $('#reader p').addClass('reader_description');
+            $('.reader_description').hide();
+        
+            //code for closed seminars
+        $('h3:contains("CLOSED")').addClass('greyout');
+        $('h3:contains("CLOSED")').nextUntil('h3').andSelf().addClass('greyout');
+        $('h3:contains("FULL")').addClass('greyout');
+            $('h3:contains("FULL")').nextUntil('h3').andSelf().addClass('greyout');
+            //seminars are now closed
+        if(document.title == "MSA 17 Seminars"){
+        $('h3').nextUntil('h3').andSelf().addClass('greyout');
+        }
+            $('h3').click(function(){
+                          $(this).toggleClass('selected');
+                          });
+            
+            $('.test').click(function(){
+                             $(this).children('p').toggle();
+                             });
+        
+        $('h3').first().click(function(){
+                      $('.test p').each(function(){
+                                        $(this).toggle();
+                                        });
+                      });
+}
+
+$(document).ready(main);
+		</script>
 
     	<!-- Analytics -->
 		<script>
@@ -9639,6 +9676,11 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 </script>    	
     </head>   
+    <style>
+.post{
+	color: black;
+}
+</style>
 <header>
 
 <span id="main-menu">
@@ -10413,37 +10455,123 @@ $(document).ready(main);
 
 </script>
 <div id="padder"></div>
-<body>
-<script>
-.post{
-	color: black;
-}
-</script>
+<body style="background-color: #3C5671">
 
-<div class="content">
-                <h1 id="stedelijk">Stedelijk</h1>
 
-<h2 id="on-friday-night-up-to-250-conference-participants-will-get-guided-tours-and-free-entry-to-the-following-exhibitions-at-the-stedelijk-museum">On Friday night, up to 250 conference participants will get guided tours and free entry to the following exhibitions at the Stedelijk museum.</h2>
+<div class="post" id="reader">
+                <h1 id="seminars-for-msa-amsterdam">Seminars for MSA Amsterdam</h1>
 
-<p><img src="http://images.adsttc.com/media/images/5152/7499/b3fc/4b5f/e500/0059/large_jpg/JHML1210-1299.jpg?1413995502" alt="lg left" /></p>
+<h3 id="showhide-all">show/hide all</h3>
 
-<h2 id="exhibition-program-during-modernism-today-conference-august-2017-stedelijk-museum-amsterdam">Exhibition program during Modernism Today conference, August 2017, Stedelijk Museum Amsterdam</h2>
+<h3 id="film-as-historiography-and-the-question-of-modernist-interpretation">1. Film as Historiography and the Question of Modernist Interpretation</h3>
+<p>Organizers: Phyllis Lassner, Northwestern University
+Alexis Pogerelskin, University of Minnesota, Duluth</p>
 
-<p>Edward Krasinski - http://www.stedelijk.nl/en/exhibitions/edward-krasiski</p>
+<p>Invited Participants: Lisa Mullin, Sarah Cornish</p>
 
-<p>Zanele Muholi - http://www.stedelijk.nl/en/exhibitions/zanele-muholi</p>
+<p>Hollywood films of the 1940s embedded a transnational cultural historiography of the decade.  European filmmakers who emigrated to Britain and the United States to escape Nazi persecution developed German Expressionist anti-authoritarian messages into film noir.  Other filmmakers embedded American and British history in films about World War II.  This seminar will explore political and aesthetic relationships between Hollywood and British feature films of the 1940s and contemporary world cinema about World War II and later wars.  Our aim is to explore how they shed critical light on each other and question the viability of applying a modernist interpretive framework to war films that are political or polemical by design or in effect.</p>
 
-<p>Jana Euler: The Sky of Amsterdam, High in Amsterdam - http://www.stedelijk.nl/en/exhibitions/jana-euler-the-sky-of-amsterdam-high-in-amsterdam</p>
+<h3 id="modernism-and-the-death-of-the-novel">2. Modernism and the Death of the Novel</h3>
+<p>Organizer: Michael Nowlin, Professor of English, University of Victoria </p>
 
-<p>Seth Price, Social Synthetic - http://www.stedelijk.nl/en/exhibitions/seth-price-social-synthetic</p>
+<p>A persistent yet dubious trope launched by modernist literary criticism (Eliot, Ortega y Gasset, Benjamin) is that the novel was dead, dying or in crisis. Why does it get periodically reasserted up to our own time? What are the stakes in its recurrence: for writers, critics, theorists, teachers, and common readers?</p>
 
-<p>Jean Dubuffet, The Deep End – no announcement available yet.</p>
+<h3 id="diagnosing-modernism-then-and-now">3. Diagnosing Modernism, Then and Now</h3>
+<p>Organizers: Lisa Mendelman, Menlo College
+Victoria Papa
+Katherine Fusco</p>
 
-<p>Solution or Utopia? Design for Refugees - http://www.stedelijk.nl/en/exhibitions/solution-or-utopia-design-for-refugees</p>
+<p>Invited Participants: Andrew Gaedtke (University of Illinois at Urbana-Champaign) and Benjamin Kahan (Louisiana State University)</p>
 
-<p>Chris Beekman, De Stijl Defector - http://www.stedelijk.nl/en/exhibitions/chris-beekman-de-stijl-defector</p>
+<p>What was health—mental, physical, social—in modernity? Diagnoses proliferate—much as efforts to define and distinguish modernism persist. This seminar explores questions raised by modernist aesthetics, popularized scientific discourses, and evolving academic disciplines. Papers might address turns to neuroscience, sociology, surface reading, affect, and the diagnostics of social categories.</p>
+
+<h3 id="iberian-and-latin-american-modernismos-planetarity-and-the-challenges-of-periodization">4. Iberian and Latin American modernismos, Planetarity, and the Challenges of Periodization</h3>
+
+<h3 id="radio-modernism-immediacy-intermediality-archive">5. Radio Modernism: Immediacy, Intermediality, Archive</h3>
+
+<h3 id="confronting-fascism-multi-disciplinary-responses-to-wwii-and-its-aftermath">6. Confronting Fascism: Multi-Disciplinary Responses to WWII and Its Aftermath</h3>
+
+<h3 id="postwar-modernism">7. Postwar Modernism</h3>
+
+<h3 id="modernisms-margins">8. Modernism’s Margins</h3>
+
+<h3 id="modernist-parody-past-and-present">9. Modernist Parody, Past and Present</h3>
+
+<p>Organizers: Lauryl Tucker, Sewanee–University of the South, and Bob Volpicelli, Randolph-Macon College</p>
+
+<p>Invited Participant: Leonard Diepeeven</p>
+
+<p>How does modernist parody construct its present in critical relation to a reimagined past? How have middlebrow, late-modernist, and contemporary parodies of modernism shaped our present understanding of the field? We welcome papers that discuss individual parodic texts or approach these questions with a broader theoretical frame.  </p>
+
+<h3 id="law-and-literature-modernism-and-the-questioning-of-normativity-within-and-beyond-legal-discourse">10. Law and Literature: Modernism and the questioning of normativity within and beyond legal discourse</h3>
+
+<p>Organizers: Angela Condell, University of Roma Tre, Tiziano Toracca, University of Perugia/University of Ghent, Alberto Godioli, University of Groningen</p>
+
+<p>Invited Participants: Prof. Dr. Greta Olson, University of Giessen, Prof. Andreas Philippopoulos-Mihalopoulos, University of Westminster</p>
+
+<p>This seminar aims to investigate modernism in a Law and Humanities perspective, with particular regard to: Modernism and legal certainty (Manderson 2012); Normativity and individual experience; The ‘affective life of law’ (Reichman 2009); Guilt and responsibility; Modernism and current juridical discourse.</p>
+
+<h3 id="inventing-modernist-audiences">11. Inventing Modernist Audiences</h3>
+<p>Organizers: Rebecca Kastleman, Harvard University
+Lawrence Switzky, University of Toronto</p>
+
+<p>This seminar explores the reception of modernist performance by critics and other audiences. Modernist performers invented some audiences and disrupted others, while a growing cohort of journalists, scholars, and polemicists responded to these social and artistic transformations. We welcome projects that discuss theater, dance, music, and other live art.</p>
+
+<h3 id="womens-work-and-modernism">12. Women’s Work and Modernism</h3>
+<p>Organizers: Ann Mattis
+Amanda Gradisek</p>
+
+<p>This seminar will focus on aesthetic representations of feminized professions (domestic work, childcare, or prostitution) that have often been relegated to the margins of modernity. Participants might ask: does labor help female subjects stake a claim in modern selfhood or alienate them from modern forms of agency and association?</p>
+
+<h3 id="anti-democratic-modernism">13. Anti-democratic Modernism</h3>
+
+<h3 id="prizing-modernism-now">14. Prizing Modernism Now</h3>
+
+<h3 id="modernisms-and-the-global-south">15. Modernism(s) and the Global South</h3>
+<p>Organizer: Leigh Ann Duck, University of Mississippi</p>
+
+<p>How might mutual investigation of modernism and the Global South complicate understandings of each category’s chronologies and cartographies? Papers’ geographic foci and keywords will vary (commitment, form, language, network, circulation, institution, media, etc.), but each will explore paradigms for analyzing relations between aesthetic innovation and sites distanced from capitalist centers.</p>
+
+<h3 id="modernist-reading-modernist-feeling">16. Modernist Reading, Modernist Feeling</h3>
+<p>Organizer: Dr. Angus Connell Brown (University of Birmingham)</p>
+
+<p>Invited Participants: Dr. David James (Queen Mary University of London)</p>
+
+<p>Over the past and present century, shifts in print and digital culture have changed the feeling of reading. Today as the majority of our reading moves off the page and onto the screen, the material and emotional workings of the book have never been more legible. This seminar will invite participants to explore the affective and material worlds of modernist reading and seek to initiate a dialogue between the disciplines of book history, digital humanities, media studies, literary studies, and affect theory. </p>
+
+<h3 id="modernist-gardens">17. Modernist Gardens?</h3>
+<p>Organizer: Vera Alexander, University of Groningen</p>
+
+<p>Gardens pose ongoing challenges for modernist creativities. This seminar invites participants to analyse the role of gardens in the lives and works of modernist artists, gardens as memory spaces and living boundaries, modernist visions and debates related to gardens, garden writing as a modernist genre, or ecological aspects of gardens.</p>
+
+<h3 id="questions-of-the-present-in-contemporary-poetics">18. Questions of the Present in Contemporary Poetics</h3>
+
+<h3 id="modernist-historiographies">19. Modernist Historiographies</h3>
+<p>Organizers: Tyrus Miller, UCalifornia Santa Cruz, 
+Angeliki Spiropoulou, UPeloponnese/IES-ULondon</p>
+
+<p>The seminar seeks to explore concepts of history and modes of historiography found in literary modernist and avant-garde texts. More specifically, it  invites contributions which reflect on modernism and history, drawing on relevant work by philosophers, theorists and historians, and/or discuss the historiographical methods invented and applied by  individual modernist/avant-garde writers. The seminar also aims at addressing   the question of the extent to which modernist and avant-garde writers concur with or undermine dominant historiographical trends of their times.</p>
+
+<h3 id="the-future-of-modernist-periodical-studies-materiality-media-methodology">20. The Future of Modernist Periodical Studies: Materiality, Media, Methodology</h3>
+<p>Organizer: Louise Kane (College of Coastal Georgia)</p>
+
+<p>Invited Participants: Faye Hammill (University of Strathclyde)
+                                    Clifford Wulfman (Princeton University)</p>
+
+<p>As periodical studies continues to evolve as a distinct discipline, this seminar assesses the variety of approaches through which periodicals have been explored—ranging from Digital Humanities projects to concepts of magazines as media, and other alternative, cross-disciplinary initiatives—with the purpose of generating and developing new potential methodologies for the future study of modernist magazines.                                     </p>
+
+<h3 id="transnational-surrealism--then-and-now">21. Transnational Surrealism:  Then and Now</h3>
+<p>Organizer: Walter Kalaidjian, Emory University</p>
+
+<p>Invited Participants: Susan Aberth (Bard College), Natalya Lusty (University of Sydney)</p>
+
+<p>This seminar welcomes emerging approaches to surrealist aesthetics.  New scholarship is invited on: classic little magazines such as Charles Henri Ford’s New York-based View circle; surrealism’s influence on Négritude, Suzanne Césaire, and Afrosurrealism; the feminist surrealism of Leonora Carrington, Remedios Varo, and Frida Kahlo, up through contemporary, transnational surrealist practices.</p>
+
+<h3 id="the-harlem-renaissance-and-europe">22. The Harlem Renaissance and Europe</h3>
 
 </div>
+
+
 </body>
 
 </html>
