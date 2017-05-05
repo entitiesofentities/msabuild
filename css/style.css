@@ -343,7 +343,8 @@ a:visited{
 }
 
 li.title{
-	color: rgb(210,35,42);
+	color: #BF9A41;
+	font-size: 1.25em;
 	text-transform: uppercase;
 	font-weight: 800;	
 }

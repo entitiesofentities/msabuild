@@ -69,11 +69,16 @@ var interactive_bg = function(strength){
         $('#c').css('line-height', '.95em;');
         
         //background img
-        if(document.title == "MSA 17 Boston"){
+        if(document.title == "MSA Amsterdam"){
+            $('header li').css('font-size','1em');
+            $('#banner_full').hide();
+            $('#banner_mobile').show();
+            $('.content p').css('font-size','.5em');
             interactive_bg(5);
         }
         
         //page styling
+    
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
@@ -92,8 +97,8 @@ var interactive_bg = function(strength){
         //content padding
         var pad;
         pad = $('header').height();
-        $('#padder').height(pad/3);
-        $('.padder').height(pad/3);
+        $('#padder').height(pad/4);
+        $('.padder').height(pad/4);
         
         //header animation
         var selected;
@@ -152,6 +157,7 @@ var interactive_bg = function(strength){
             $("img[alt*='center']").addClass("center");
             
             //page styling
+            $('#banner_mobile').hide();
             $('#animate').show();
             $('#full').hide();
             $('#slow').show();
@@ -266,6 +272,7 @@ var interactive_bg = function(strength){
             $("img[alt*='right']").addClass("right");
             
             //page styling
+            $('#banner_mobile').hide();
             $('#full').show();
             $('#animate').hide();
             $('header').addClass("sticky");
