@@ -1,28 +1,30 @@
 ---
 layout: post
-title: POEMJAZZ
+title: Stedelijk Museum
 category: events
 rel: ../
 ---
 
-# Stedelijk
+# Stedelijk Exhibitions with Guided Tours
 
-## On Friday night, up to 250 conference participants will get guided tours and free entry to the following exhibitions at the Stedelijk museum.
+## Friday, August 11 at 8pm
 
 ![lg left](http://images.adsttc.com/media/images/5152/7499/b3fc/4b5f/e500/0059/large_jpg/JHML1210-1299.jpg?1413995502)
 
+On the evening of Friday, August 11, the world-class Stedelijk Museum is inviting up to 250 conference participants (i.e. about half) to take a guided tour through their ongoing art exhibitions, which are organized around canonically modernist as well as emphatically present-day concerns. The tours begin at around 8.15, so you could begin the evening by having dinner at a nearby restaurant or at the museum restaurant itself, where we have reserved a few tables for the first arrivals. Since this event has a numbers limit (due to the limited amount of space and tour guides), you will need to sign up beforehand and get your ticket on a “first come, first serve” basis. For a preview of the exhibitions themselves, take a look at the following links
+
 ## Exhibition program during Modernism Today conference, August 2017, Stedelijk Museum Amsterdam
  
-Edward Krasinski - http://www.stedelijk.nl/en/exhibitions/edward-krasiski
+[Edward Krasinski](http://www.stedelijk.nl/en/exhibitions/edward-krasiski)
 
-Zanele Muholi - http://www.stedelijk.nl/en/exhibitions/zanele-muholi
+[Zanele Muholi](http://www.stedelijk.nl/en/exhibitions/zanele-muholi)
 
-Jana Euler: The Sky of Amsterdam, High in Amsterdam - http://www.stedelijk.nl/en/exhibitions/jana-euler-the-sky-of-amsterdam-high-in-amsterdam
+[Jana Euler: The Sky of Amsterdam, High in Amsterdam](http://www.stedelijk.nl/en/exhibitions/jana-euler-the-sky-of-amsterdam-high-in-amsterdam)
 
-Seth Price, Social Synthetic - http://www.stedelijk.nl/en/exhibitions/seth-price-social-synthetic
+[Seth Price, Social Synthetic](http://www.stedelijk.nl/en/exhibitions/seth-price-social-synthetic)
 
-Jean Dubuffet, The Deep End – no announcement available yet.
+Jean Dubuffet, The Deep End
 
-Solution or Utopia? Design for Refugees - http://www.stedelijk.nl/en/exhibitions/solution-or-utopia-design-for-refugees
+[Solution or Utopia? Design for Refugees](http://www.stedelijk.nl/en/exhibitions/solution-or-utopia-design-for-refugees)
 
-Chris Beekman, De Stijl Defector - http://www.stedelijk.nl/en/exhibitions/chris-beekman-de-stijl-defector
+[Chris Beekman, De Stijl Defector](http://www.stedelijk.nl/en/exhibitions/chris-beekman-de-stijl-defector)

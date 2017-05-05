@@ -33,6 +33,8 @@
 
 ## **If you already submitted a proposal for MSA Amsterdam via Google Forms, we kindly ask that you *submit your proposal again* using the new platform. Please accept our apologies for any inconvenience.**
 
+[![lg middle](assets/2009065E-LOGO AFKLMTO RVB.jpg)](http://www.airfrance.fr/FR/fr/local/www_airfranceklm-globalmeetings_com.htm?eid=30740AF)
+
 # News:
 
 View ongoing conference updates and news on the [MSA Amsterdam Facebook page](https://www.facebook.com/Modernism-Today-MSA-19-Amsterdam-1281049635270873/?fref=nf).# Deadlines:
@@ -122,3 +124,6 @@ a 500 word abstract that addresses the following:
 * how presenters would want to exhibit and explain the project at the conference.
 
 * &nbsp;
+
+
+[![](assets/AFKLGM.png)](https://msa.press.jhu.edu/conferences/msa19/assets/Page_Web-AFKL_GM.doc)

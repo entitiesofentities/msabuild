@@ -207,8 +207,9 @@ header{
 }
 
 .pretty{
-	color: white;
-	background-color: rgba(0,0,0,0);    
+	color:  white;
+	background-color: rgba(0,0,0,0);
+	font-weight: bolder;
 	position: absolute;
 	bottom: 0;	
 }
@@ -230,11 +231,11 @@ header{
 }
 
 .pretty a{
-	color: white;	
+	color:  white;
 }
 
 .pretty a:visited{
-	color: white;
+	color:  white;
 }
 
 .sticky a{
@@ -267,7 +268,7 @@ ul{
 
 header ul{
 	padding: .2em;
-	font-family: Helvetica;
+	font-family: 'Neuton', serif;	
 	font-weight: 5;
 	font-size: 1em;
 }
@@ -404,7 +405,7 @@ footer a:hover{
 
 .post p{
 	padding-left: 10px;
-	color: #E1CDB3;	
+	color: #E1CDB3;
 }
 
 h3{
