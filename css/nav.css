@@ -5,6 +5,7 @@ body, html {
       -webkit-transition: opacity 400ms;
       -moz-transition: opacity 400ms;
       transition: opacity 400ms;
+      background-color: #3C5671;
 }
 
 /** NAV **/
@@ -99,7 +100,7 @@ body, html {
 }
 
 .content{
-	background-color: #3C5671;
+
 }
 
 .big_pad{
