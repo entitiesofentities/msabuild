@@ -73,9 +73,7 @@ How does modernist parody construct its present in critical relation to a reimag
 
 ### 10. Law and Literature: Modernism and the questioning of normativity within and beyond legal discourse
 
-Organizers: Angela Condell (University of Roma), TreTiziano Toracca  (University of Perugia/University of Ghent), Alberto Godioli (University of Groningen)
-
-Invited Participants (tbc): Prof. Dr. Greta Olson (University of Giessen), Prof., Andreas Philippopoulos-Mihalopoulos (University of Westminster)
+Organizers: Angela Condello (University of Roma Tre), Tiziano Toracca  (University of Perugia/University of Ghent), Alberto Godioli (University of Groningen)
 
 This seminar aims to investigate modernism in a Law and Humanities perspective, with particular regard to: Modernism and legal certainty (Manderson 2012); Normativity and individual experience; The ‘affective life of law’ (Reichman 2009); Guilt and responsibility; Modernism and current juridical discourse.
 
@@ -121,6 +119,8 @@ Gardens pose ongoing challenges for modernist creativities. This seminar invites
 ### 18. Questions of the Present in Contemporary Poetics
 
 Organizer: Barrett Watten (Wayne State University)
+
+Invited Participants: Mia You, Samuel Vriezen
 
 Since 2011, there has been an explosion of new writing in poetics as an academic discourse and a proliferation of new approaches to poetry that unite formal concerns (after Language writing, conceptualism, Flarf, and other avant-gardes) with radical accounts of the millennial present—in a manner reflecting on, but departing from, modernism. This seminar will perform several tasks: first, to survey recent writing in poetics that “question the present,” involving concerns of political economy, ideology and public discourse, documentary and digital sources, gender and sexuality, race and poets of color, hybrid forms, and multi-languaged writing/ translation. Then, it will undertake an overview of new forms of writing that engage these questions of the present. Finally, it will ask how poetry and poetics can create new critical and creative, activist and interventionist, initiatives, to counter deformed public discourse(s) of our presentist epoch. What does it mean to question poetics and poetry as a historicism of the present?
 
