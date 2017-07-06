@@ -23,7 +23,7 @@ On the evening of Friday, August 11, the world-class Stedelijk Museum is invitin
 
 [Seth Price, Social Synthetic](http://www.stedelijk.nl/en/exhibitions/seth-price-social-synthetic){:target="_blank"}
 
-Jean Dubuffet, The Deep End
+[Jean Dubuffet, The Deep End](http://www.stedelijk.nl/en/exhibitions/jean-dubuffet-the-deep-end){:target="_blank"}
 
 [Solution or Utopia? Design for Refugees](http://www.stedelijk.nl/en/exhibitions/solution-or-utopia-design-for-refugees){:target="_blank"}
 
