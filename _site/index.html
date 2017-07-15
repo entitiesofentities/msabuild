@@ -10445,6 +10445,19 @@ var mobileHeader = function(a, b, c){
                });
 }
 
+//THE COLOURS!
+//options: gold, maroon, navy
+
+var colouredHeader = function (a, b, c){
+    
+    selector = a + b;
+    
+    $(selector).hover(function(){
+                      $(this).toggleClass(c);
+                      });
+    
+}
+
 //CHECK FOR MOBILE//
 var check = false;
 var mobileCheck = function(){
@@ -10479,7 +10492,7 @@ var interactive_bg = function(strength){
         $('#c').css('line-height', '.95em;');
         
         //background img
-        if(document.title == "MSA 17 Boston"){
+        if(document.title == "MSA Columbus"){
             interactive_bg(5);
         }
         
@@ -10599,9 +10612,14 @@ var interactive_bg = function(strength){
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
             
-            $('.top-nav').hover(function(){
-                                $(this).toggleClass('highlighted');
-                                });
+            //$('.top-nav').hover(function(){
+            //                    $(this).toggleClass('highlighted');
+            //                    });
+            
+            colouredHeader('#animate ', '#top-nav-two', 'navy');
+            colouredHeader('#animate ', '#top-nav-three', 'maroon');
+            colouredHeader('#animate ', '#top-nav-four', 'navy');
+            colouredHeader('#animate ', '#top-nav-five', 'gold');
 
 //            $('#animate #top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
@@ -10651,9 +10669,14 @@ var interactive_bg = function(strength){
                                                   $(this).prev().andSelf().addClass('parting_ways');
                                                   });
             
-            $('.top-nav').hover(function(){
-                                $(this).toggleClass('highlighted');
-                                });
+            colouredHeader('#full ', '#top-nav-two', 'navy');
+            colouredHeader('#full ', '#top-nav-three', 'maroon');
+            colouredHeader('#full ', '#top-nav-four', 'navy');
+            colouredHeader('#full ', '#top-nav-five', 'gold');
+            
+            //$('.top-nav').hover(function(){
+            //                    $(this).toggleClass('highlighted');
+            //                    });
 
 //            $('#top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';

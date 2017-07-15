@@ -188,8 +188,12 @@ header li{
 	margin: .2em .3em;	
 }
 
+#top-nav-six a:hover{
+	color: #830602;
+}
+
 li a:hover{
-	border-bottom: 3px solid rgb(210,35,42);
+	
 }
 
 a{
@@ -212,7 +216,8 @@ a{
 }
 
 .peas_and_carrots{
-	border-bottom: 3px solid rgb(210,35,42);
+	color: #ffd300;
+	cursor: hand;
 }
 
 .peas_and_carrots:nth-child(3){
@@ -268,6 +273,34 @@ footer a:hover{
 	text-decoration: none;
 }
 
+/** bottomn-nav a:hover colours */
+
+#conf a:hover{
+	color: #830602;
+}
+
+
+#program a:hover{
+	color: #021170;
+}
+
+
+#grads a:hover{
+	color: #021170;
+}
+
+#visit a:hover{
+	color: #ffd300;
+}
+
+#events a:hover{
+	color: #830602;
+}
+
+
+#cfp a:hover{
+	color: #021170;
+}
 
 /** POST CONTENT **/
 
@@ -282,16 +315,16 @@ footer a:hover{
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
-	border-left: 2px solid rgb(210,35,42);
-	font-size: 1em;	
+	border-left: 2px solid #ffd300;
+	font-size: 1em;
 }
 
 .post a{
-	color: rgb(210,35,42);
+	color: pink;
 }
 
 .post a:visited{
-	color: rgb(210,35,42);
+	color: pink;
 }
 
 .post p{
@@ -299,7 +332,7 @@ footer a:hover{
 }
 
 h3{
-	border-bottom: 1px solid rgb(210,35,42);
+	border-bottom: 2px solid #021170;
 	padding-left: 1em;
 }
 
@@ -317,4 +350,21 @@ h3{
 
 .figure ul{
 margin-top: -20px;
+}
+
+/** colours!! **/
+
+.gold{
+	color: #ffd300;
+	cursor: hand;
+}
+
+.maroon{
+	color: #830602;
+	cursor: hand;	
+}
+
+.navy{
+	color: #021170;
+	cursor: hand;	
 }
