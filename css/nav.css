@@ -29,7 +29,7 @@ body, html {
       font-weight: 100;
       margin: 0;
       padding-top: 55px;
-      font-family: 'Open Sans';
+      font-family: geneva;
       letter-spacing: -1px;
       text-transform: capitalize;
     }
@@ -68,7 +68,7 @@ body, html {
 	width: 100%;
 	text-align: center;
 	z-index: 99;
-	font-family: 'Merriweather', serif;
+	font-family: 'Crimson Text';
 	font-size: 1.5em;
 	color: gold;
 	text-shadow:
@@ -92,7 +92,7 @@ body, html {
 
 .content p{
 	text-align: left;
-	font-family: "lato";
+	font-family: "Crimson Text";
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
@@ -122,16 +122,16 @@ body, html {
 .content h1{
 	text-align: left;
 	font-size: 1.5em;	
-	color: pink;
-	font-family: "lato";
+	color: #830602;
+	font-family: geneva;
 	font-weight: 600;
 }
 
 .content h2{
 	text-align: left;
 	font-size: 1.3em;
-	color: pink;
-	font-family: "lato";
+	color: #021170;
+	font-family: geneva;
 	font-weight: 400;
 }
 
@@ -140,19 +140,25 @@ body, html {
 }
 
 .content a{
-	color: pink;
+	color: #e9c040;
 }
 
 .content a:visited{
-	color: pink;	
+	color: #e9c040;	
 }
 
 .content a:hover{
-	border-bottom: 1px solid teal;	
+	font-variant: small-caps;
+	color: grey;
+	letter-spacing: 2px;
+	transition: 2s;
 }
 
 .post a:hover{
-	border-bottom: 1px solid teal;	
+	font-variant: small-caps;
+	color: grey;
+	letter-spacing: 2px;	
+	transition: 2s;
 }
 
 /** CONTENT IMAGE SIZES **/

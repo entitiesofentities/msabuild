@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="../css/nav.css">
 
 		<!-- Web Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
 		<!-- Favicon -->		 		 
 		 
@@ -9645,7 +9645,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </style>
 <header>
 <ul class="nav" id = "full" hidden>
-	<li class="title"><a href="../index.html">MSA Columbus</a></li>
+	<li class="title"><a href="../index.html">MSA 2018</a></li>
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one">Program</li>	
 	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	
@@ -9658,12 +9658,12 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 <!--
 <div id="top-header" hidden>
-<div id="top-top"><span id="name">MSA</span> <span id="subtitle">Columbus</span> <span id="year"></span></div>
+<div id="top-top"><span id="name">MSA</span> <span id="subtitle">2018</span> <span id="year"></span></div>
 <div id="top-bottom"><h1 id="venue">[venue], [dates]</h1></div>
 </div>
 -->
 <ul class="nav" id = "animate" hidden>
-	<li class="title hidden"><a href="#tippytop">MSA Columbus</a></li>	
+	<li class="title"><a href="#tippytop">MSA 2018</a></li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-two" >Conference</li>
 	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>		
 	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >Emerging Scholars</li>	
@@ -9675,7 +9675,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </ul>
 
 <ul class="nav" id = "mobile" hidden>
-	<li class="title">MSA Columbus</li>
+	<li class="title">MSA 2018</li>
 	<li class = 'top-nav' id="top-nav-zero"><a href="../index.html">Welcome</a></li>	
 	<li class = 'top-nav' id="top-nav-two">Conference</li>	
 	<li class = 'top-nav' id="top-nav-one">Program</li>		
@@ -9753,8 +9753,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			<li><a href="/call/community.html">Community CFPs</a></li>
 			
     
-    	   
-    
 </ul> -->
 
 <ul class="bottom-nav hidden" id="conf">
@@ -9823,14 +9821,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     
     	   
     
-    	   
-    
     
     	   
 			<li><a href="https://msa.press.jhu.edu/conferences/msa17/assets/MSA17_ExhibitorRegistrationForm.docx">Information for Exhibitors</a></li>
 			
-			
-    	   
 			
     	   
 			
@@ -9941,8 +9935,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
-			
-    	   
 			        
 </ul>
 
@@ -9973,8 +9965,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="../grad/Professional%20development.html">Professional development</a></li>
 			
-    
-    	   
     
     	   
     
@@ -10060,8 +10050,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
-			
-    	   
 			    
 </ul>
 
@@ -10127,8 +10115,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     
     	   
     
-    	   
-    
 </ul>
 
 <ul class="bottom-nav hidden" id="visit">
@@ -10140,8 +10126,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="https://www.starwoodmeeting.com/Book/moderniststudies">Book a hotel room</a></li>
 			
-			
-    	   
 			
     	   
 			
@@ -10249,10 +10233,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
-    
-    	   
-			<li><a href="../visit/BostonGuide.html">Modernist Interactive Map of Boston</a></li>
-			
     
 </ul>
 
@@ -10398,7 +10378,7 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA Columbus"){
+        if(document.title == "MSA 2018"){
             
             //background img
             interactive_bg(50);
@@ -10446,12 +10426,12 @@ var interactive_bg = function(strength){
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
-                             $('.title').removeClass('hidden');
+                             //$('.title').removeClass('hidden');
                              $('#top-header').hide();
                              }
                              else{
                              $('header').removeClass("sticky");
-                             $('.title').addClass('hidden');
+                             //$('.title').addClass('hidden');
                              $('#top-header').show();
                              }
                              });

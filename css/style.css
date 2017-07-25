@@ -83,12 +83,12 @@
 
 #bottom-header{
 	font-size: 1.5em;
+	font-family: 'Crimson Text';
 	letter-spacing: .1em;
 	text-rendering: optimizeLegibility;
 	width: inherit;
 	height: 10%;	
 	text-align: center;
-	padding-left: 5%;
 }
 
 #a{
@@ -178,7 +178,7 @@ ul{
 
 header ul{
 	padding: .2em;
-	font-family: "Futura Light";
+	font-family: 'Crimson Text';
 	font-weight: 500;
 	font-size: 1.2em;
 }
@@ -201,21 +201,23 @@ a{
 }
 
 .title a{
-	color: rgb(210,35,42);
+	color: grey;
 }
 
 .title a:visited{
-	color: rgb(210,35,42);
+	color: grey;
 }
 
 .title a:hover{
-	color: rgb(210,35,42);
+	color: black;
 	text-decoration: none;
 	border-bottom: none;
+	letter-spacing: 2px;
+	transition: 1s;
 }
 
 .peas_and_carrots{
-	color: #ffd300;
+	color: #e9c040;
 	cursor: hand;
 }
 
@@ -249,7 +251,7 @@ li.title{
 footer{
 	height: contain;
 	text-align: center;
-	font-family: "lato";
+	font-family: 'Crimson Text';
 	font-weight: 300;
 	font-size: .8em;
 	box-shadow: inset 1px 1px 4px 1px black;
@@ -259,17 +261,18 @@ footer{
 
 
 footer a{
-	color: rgb(210,35,42);
+	color: #e9c040;
 }
 
 footer a:visited{
-	color: rgb(210,35,42);
+	color: #e9c040;
 }
 
 footer a:hover{
-	color: rgb(210,35,42);
-	border-bottom: 1px solid rgb(210,35,42);	
-	text-decoration: none;
+	font-variant: small-caps;
+	color: grey;
+	letter-spacing: 2px;
+	transition: 2s;
 }
 
 /** bottomn-nav a:hover colours */
@@ -289,7 +292,7 @@ footer a:hover{
 }
 
 #visit a:hover{
-	color: #ffd300;
+	color: #e9c040;
 }
 
 #events a:hover{
@@ -310,20 +313,20 @@ footer a:hover{
 .post{
 	width: 75%;
 	margin: 0 auto;
-	font-family: "lato";
+	font-family: 'Crimson Text';
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
-	border-left: 2px solid #ffd300;
+	border-left: 2px solid #021170;
 	font-size: 1em;
 }
 
 .post a{
-	color: pink;
+	color: #e9c040;
 }
 
 .post a:visited{
-	color: pink;
+	color: #e9c040;
 }
 
 .post p{
@@ -331,7 +334,7 @@ footer a:hover{
 }
 
 h3{
-	border-bottom: 2px solid #021170;
+	border-bottom: 2px solid #81a9d9;
 	padding-left: 1em;
 }
 
@@ -354,7 +357,7 @@ margin-top: -20px;
 /** colours!! **/
 
 .gold{
-	color: #ffd300;
+	color: #e9c040;
 	cursor: hand;
 }
 
@@ -370,8 +373,9 @@ margin-top: -20px;
 
 .welcome-left{
 	font-size: 3em;
+	font-family: geneva;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 10%;
 	width: 1px;
 	word-wrap: break-word;
@@ -379,26 +383,29 @@ margin-top: -20px;
 
 .welcome-lefter{
 	font-size: 3em;
+	font-family: geneva;	
 	position: absolute;
-	top: 20%;
-	left: 20%;
+	top: 15%;
+	left: 15%;
 	width: 1px;
 	word-wrap: break-word;
 }
 
 .welcome-right{
-	font-size: 3em;
+	font-size: 2.25em;
+	font-family: geneva;
 	position: absolute;
-	top: 20%;
-	left: 80%;
+	top: 15%;
+	left: 85%;
 	width: 1px;
 	word-wrap: break-word;
 }
 
 .welcome-righter{
-	font-size: 2.5em;
+	font-size: 2.25em;
+	font-family: geneva;	
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 90%;
 	width: 1px;
 	word-wrap: break-word;

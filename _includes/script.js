@@ -137,7 +137,7 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA Columbus"){
+        if(document.title == "MSA 2018"){
             
             //background img
             interactive_bg(50);
@@ -185,12 +185,12 @@ var interactive_bg = function(strength){
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
-                             $('.title').removeClass('hidden');
+                             //$('.title').removeClass('hidden');
                              $('#top-header').hide();
                              }
                              else{
                              $('header').removeClass("sticky");
-                             $('.title').addClass('hidden');
+                             //$('.title').addClass('hidden');
                              $('#top-header').show();
                              }
                              });

@@ -7,7 +7,9 @@ tag: text
 
 #Seminars for MSA 17
 
-<h2 class="important">Seminar registration for MSA 17 is now closed.</h2>
+<!--
+<h2 class="important">Seminar registration for MSA n is now closed.</h2>
+-->
 
 ###1. All Together Now: The Multimedia Avant-garde
 Organizers: Lori Cole (New York University), Bibiana Obler (George Washington University)
@@ -221,4 +223,6 @@ Invited Participants:  Bette London (University of Rochester)
 
 This seminar will consider recent theoretical approaches to issues of revolutionary politics, gender, disability, race, trauma, and machine culture in relation to WWI.  Some possible topics: critical paradigms reconsidered; neglected war texts; the centenary; war literature/art as “modernist” or “anti-modernist”; war bodies; & environmental destruction. 
 
-##Seminar registration for MSA 17 is now closed.
+<!--
+##Seminar registration for MSA n is now closed.
+-->
