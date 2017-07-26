@@ -137,7 +137,7 @@ var interactive_bg = function(strength){
         
     //ANIMATED//
     }else{
-        if(document.title == "MSA 2018"){
+        if(document.title == "MSA Columbus"){
             
             //background img
             interactive_bg(50);
