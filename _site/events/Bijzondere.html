@@ -10387,21 +10387,27 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-       // $('.advert').hide();
+    //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10447,18 +10453,24 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10516,6 +10528,13 @@ $(document).ready(main);
 <p>During the entire conference, between 9.30am and 5.30pm, the nearby museum Bijzondere Collectie grants conference badge holders free entry to its exhibition <em>Modernism: In Print</em>. Heading out from the Beurs just stroll down the left bank of the Rokin (a few hundred metres South from our venue) and pop in for an inspiring look around in between all those panels and seminars you’ll attend. You can find out more via <a href="http://bijzonderecollecties.uva.nl/en/what-s-on/next-exhibitions/next-exhibitions.html" target="_blank">this link</a>, which gives you an interesting insight into their preparations (scroll down for a link to their Facebook page).</p>
 
 <p><img src="../assets/Bijzondere.jpg" alt="med right" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
 
 
 </div>

@@ -231,21 +231,27 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-       // $('.advert').hide();
+    //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -291,18 +297,24 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){

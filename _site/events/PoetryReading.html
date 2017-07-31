@@ -10387,21 +10387,27 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-       // $('.advert').hide();
+    //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10447,18 +10453,24 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10514,6 +10526,16 @@ $(document).ready(main);
 <h2 id="friday-august-11-at-8pm">Friday, August 11 at 8pm</h2>
 
 <p>Also on Friday evening, as an alternative to our museum event at the Stedelijk, we are hosting a poetry reading featuring local expat authors writing in English. These writers are more or less loosely associated with the Amsterdam-based poetry magazine Versal, and have long been contributing to Amsterdam’s thriving expat culture. You can take a look at Versal here: <a href="http://www.versaljournal.org/" target="_blank">versaljournal.org</a>.</p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
 
 
 </div>

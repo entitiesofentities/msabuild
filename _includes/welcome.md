@@ -20,11 +20,15 @@ The 2017 meeting of the Modernist Studies Association will not only take place o
 
 ##  Commonwealth Center for the Humanities and Society, University of Louisville
 
+## Amsterdam School of Historical Studies (ASH), University of Amsterdam
+
 ## Amsterdam School of Cultural Analysis
 
 ## Onderzoekschool Literatuurwetenschap
 
 ## The English Department at Florida State University
+
+**This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 645666.**
 
  [![med left](assets/2009065E-LOGO AFKLMTO RVB.jpg)](http://www.airfrance.fr/FR/fr/local/www_airfranceklm-globalmeetings_com.htm?eid=30740AF){:target="_blank"}
 

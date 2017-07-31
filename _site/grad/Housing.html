@@ -10387,21 +10387,27 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-       // $('.advert').hide();
+    //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10447,18 +10453,24 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10512,6 +10524,13 @@ $(document).ready(main);
 <p>The Amsterdam Student hotel offers single double rooms for 97.00 euros a night (including breakfast). You can book by using the promotion code MSAamsterdam on the following website: <a href="https://www.thestudenthotel.com/book/#/" target="_blank">thestudenthotel.com/book</a>. Or you can reach them by email at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#115;&#119;&#101;&#115;&#116;&#064;&#116;&#104;&#101;&#115;&#116;&#117;&#100;&#101;&#110;&#116;&#104;&#111;&#116;&#101;&#108;&#046;&#099;&#111;&#109;">&#109;&#115;&#119;&#101;&#115;&#116;&#064;&#116;&#104;&#101;&#115;&#116;&#117;&#100;&#101;&#110;&#116;&#104;&#111;&#116;&#101;&#108;&#046;&#099;&#111;&#109;</a>. We have specifically requested the option that you can share these rooms, so that you will only pay 48.00 euros per person per night  (separate bed linen will be provided). To find potential roommates and arrange payment we have launched a <a href="https://www.facebook.com/MSA-19-Roommates-1744900759140985/" target="_blank">Facebook page</a>. Here you can post your requests and arrange further details. Please note that transportation between this hotel and the conference venue would require a 15-20 minute tram ride, and members will be responsible for their own transportation.</p>
 
 <p>Learn more about <a href="https://www.thestudenthotel.com/amsterdam-west?gclid=Cj0KEQjw2-bHBRDEh6qk5b6yqKIBEiQAFUz29vG-cybAHZnVByGXAY6H00V5vj_46aw9xvtcBIAntw4aAsJ08P8HAQ" target="_blank">The Student Hotel</a></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
 
 
 </div>

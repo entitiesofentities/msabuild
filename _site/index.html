@@ -10552,21 +10552,27 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-       // $('.advert').hide();
+    //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10612,18 +10618,24 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10710,11 +10722,15 @@ MSA Amsterdam: Modernism Today will be held at the Beurs van Berlage right in th
 
 <h2 id="commonwealth-center-for-the-humanities-and-society-university-of-louisville">Commonwealth Center for the Humanities and Society, University of Louisville</h2>
 
+<h2 id="amsterdam-school-of-historical-studies-ash-university-of-amsterdam">Amsterdam School of Historical Studies (ASH), University of Amsterdam</h2>
+
 <h2 id="amsterdam-school-of-cultural-analysis">Amsterdam School of Cultural Analysis</h2>
 
 <h2 id="onderzoekschool-literatuurwetenschap">Onderzoekschool Literatuurwetenschap</h2>
 
 <h2 id="the-english-department-at-florida-state-university">The English Department at Florida State University</h2>
+
+<p><strong>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 645666.</strong></p>
 
 <p><a href="http://www.airfrance.fr/FR/fr/local/www_airfranceklm-globalmeetings_com.htm?eid=30740AF" target="_blank"><img src="assets/2009065E-LOGO AFKLMTO RVB.jpg" alt="med left" /></a></p>
 

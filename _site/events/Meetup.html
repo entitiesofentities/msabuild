@@ -10387,21 +10387,27 @@ var interactive_bg = function(strength){
             
             
             //hide ads
-       // $('.advert').hide();
+    //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10447,18 +10453,24 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*2) + 1;
+            var ad = Math.round(Math.random()*1) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334';
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 2){
                 $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'http://www.palgrave.com/';
+                                   window.open(
+                                               'http://www.palgrave.com/',
+                                               '_blank'
+                                               );
                                    });
             }
             else if(ad == 3){
@@ -10514,6 +10526,11 @@ $(document).ready(main);
 <p><img src="../assets/AmstLitSoc.jpg" alt="lg right" /></p>
 
 <p>From 6pm on Wednesday, the local conference team members will welcome early arrivals at several picturesque bars in the centre of Amsterdam to allow people to find each other or make some new acquaintances in an informal setting. At 8pm, those interested will be invited to come for a modernism-inspired literary reading – in English – organized and performed by the Amsterdam Literary Society. The precise venue of this – somewhere in the city centre – will be announced both here and on Facebook closer to August. The event is free for conference members, but please let us know if you are interested in attending the event, so we can get a rough idea of audience numbers. The Amsterdam Literary Society have a website (partly in English) that also features a map of literary locations in Amsterdam. Take a look here: <a href="https://amsterdamliterarysociety.com/" target="_blank">amsterdamliterarysociety.com</a></p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
 
 
 </div>
