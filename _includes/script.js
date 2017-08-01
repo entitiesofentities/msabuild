@@ -128,7 +128,41 @@ var interactive_bg = function(strength){
         mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
         mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
-        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');        
+        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
+        
+        //Ad testing
+        var ad = Math.round(Math.random()*2) + 1;
+         if(document.title == "MSA Amsterdam"){
+             $('.advert').hide();
+         }
+        
+        if(ad == 1){
+            $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
+            $('.advert').click(function(){
+                               window.open(
+                                           'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                           '_blank'
+                                           );
+                               });
+        }
+        else if(ad == 2){
+            $('.advert').css('background-image','url(../assets/ads/palgrave.jpg');
+            $('.advert').click(function(){
+                               window.open(
+                                           'http://www.palgrave.com/',
+                                           '_blank'
+                                           );
+                               });
+        }
+        else if(ad == 3){
+            $('.advert').css('background-image','url(../assets/ads/ucalp.jpg');
+            $('.advert').click(function(){
+                               window.open(
+                                           'http://www.ucpress.edu/page.php?q=msa2017&utm_source=modernist_studies&utm_medium=banner&utm_campaign=msa_2017',
+                                           '_blank'
+                                           );
+                               });
+        }
         
     //ANIMATED//
     }else{
@@ -234,7 +268,7 @@ var interactive_bg = function(strength){
     //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*1) + 1;
+            var ad = Math.round(Math.random()*2) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(assets/ads/edinburgh.jpg');
@@ -255,9 +289,12 @@ var interactive_bg = function(strength){
                                    });
             }
             else if(ad == 3){
-                $('.advert').css('background-image','url(assets/ads/ad3.jpg');
+                $('.advert').css('background-image','url(assets/ads/ucalp.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'https://www.youtube.com/watch?v=nrythD3kkoA';
+                                   window.open(
+                                               'http://www.ucpress.edu/page.php?q=msa2017&utm_source=modernist_studies&utm_medium=banner&utm_campaign=msa_2017',
+                                               '_blank'
+                                               );
                                    });
             }
 
@@ -297,7 +334,7 @@ var interactive_bg = function(strength){
             //$('.advert').hide();
             
             //Ad testing
-            var ad = Math.round(Math.random()*1) + 1;
+            var ad = Math.round(Math.random()*2) + 1;
             
             if(ad == 1){
                 $('.advert').css('background-image','url(../assets/ads/edinburgh.jpg');
@@ -318,9 +355,12 @@ var interactive_bg = function(strength){
                                    });
             }
             else if(ad == 3){
-                $('.advert').css('background-image','url(../assets/ads/ad3.jpg');
+                $('.advert').css('background-image','url(../assets/ads/ucalp.jpg');
                 $('.advert').click(function(){
-                                   window.location.href = 'https://www.youtube.com/watch?v=nrythD3kkoA';
+                                   window.open(
+                                               'http://www.ucpress.edu/page.php?q=msa2017&utm_source=modernist_studies&utm_medium=banner&utm_campaign=msa_2017',
+                                               '_blank'
+                                               );
                                    });
             }
             
