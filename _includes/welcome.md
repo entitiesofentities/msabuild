@@ -30,6 +30,13 @@ The 2017 meeting of the Modernist Studies Association will not only take place o
 
 **This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 645666.**
 
+![med left](assets/sponsors/horizon2020.png)
+
+![med left](assets/sponsors/CRIC+Logo+Color.jpg)
+
+![med left](assets/sponsors/flag_yellow_high.jpg)
+
  [![med left](assets/2009065E-LOGO AFKLMTO RVB.jpg)](http://www.airfrance.fr/FR/fr/local/www_airfranceklm-globalmeetings_com.htm?eid=30740AF){:target="_blank"}
 
 [![](assets/AFKLGM.png)](https://msa.press.jhu.edu/conferences/msa19/assets/Page_Web-AFKL_GM.doc)
+
