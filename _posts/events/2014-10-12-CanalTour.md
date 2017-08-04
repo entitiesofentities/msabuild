@@ -5,13 +5,19 @@ category: events
 rel: ../
 ---
 
-# Boat Tour through the Amsterdam Canals
-
-## Thursday-Saturday
+# Canal Cruise
 
 ![lg right](../assets/Canals.png)
 
-During the conference, for a maximum of 10 Euros payable in cash (probably less, depending on numbers), we are organizing boat tours of ca. 1 hour along the canals of the city. This is a wonderful way of seeing the city’s historic sites and architectural gems alone or in small groups of modernist scholars. We will offer at least two opportunities for you to take such a tour every day, so there is some flexibility in timing and you won’t need to miss any particular panel in order to take part. For us to get an idea of numbers, please let us know if you are interested in taking a such boat tour at some point during the conference. 
+In your conference pack you will find a ticket voucher that you can use to take a 1-hour regular cruise (roundtrip) on any boat by the Rederij Kooij. During the cruise, you'll hear explanations about various sights you are passing. These explanations do not strike us as particularly reliable, but at least they are available in 10 different languages, including Dutch, English, German, French and Spanish.
+
+## How to get there
+
+There are docking points at different places in the city where boats leave frequently at regular intervals, but the most convenient one for you will be the one in the photograph. It is located halfway to the Bijzondere Collecties. To get there, again, you just turn left when coming out of the Beurs (our venue) and walk straight ahead, staying on the left side until you see the ticket shack.
+
+## How to get in
+
+Hand over the voucher in your conference pack.
 
 <br>
 <br>

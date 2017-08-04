@@ -5,15 +5,26 @@ category: events
 rel: ../
 ---
 
-# *Modernism: In Print* Exhibition at the Bijzondere Collectie
-
-## Thursday-Sunday
+# Modernism: in print: Dutch Graphic Design 1917-2017
 
 ![lg left](../assets/Bijzondere2.png)
 
-During the entire conference, between 9.30am and 5.30pm, the nearby museum Bijzondere Collectie grants conference badge holders free entry to its exhibition *Modernism: In Print*. Heading out from the Beurs just stroll down the left bank of the Rokin (a few hundred metres South from our venue) and pop in for an inspiring look around in between all those panels and seminars you’ll attend. You can find out more via [this link](http://bijzonderecollecties.uva.nl/en/what-s-on/next-exhibitions/next-exhibitions.html){:target="_blank"}, which gives you an interesting insight into their preparations (scroll down for a link to their Facebook page).
+This exhibition of modernist prints with an emphasis on the Netherlands comes to you by courtesy of the Bijzondere Collecties, one of the museums with ties to the University of Amsterdam. You can stroll through the exhibition at any time during its opening hours. So if you need a break between our panel sessions and crave a short walk and some soothingly angular exhibits – but also if you are on the lookout for research objects or fresh motifs for book or journal covers – don’t forget to consider this convenient opportunity.
 
-![med right](../assets/Bijzondere.jpg)
+**Opening Hours Modernism: in Print**
+<br>Thursday and Friday: 9:30-17:00
+<br>Saturday and Sunday: 13:00-17:00
+<br>
+
+## How to get there
+
+Again, this is easy: if you leave our conference venue, just turn left and go down the street, always straight and staying on the left side until, after crossing the Dam and continuing near a canal, you will find the Bijzondere Collecties (it’s one of the houses on your left, right next to the Allard Pearson museum). **The address is Oude Turfmarkt 129**.
+
+## How to get in
+
+If you show your conference name badge at the entrance, you will get free access to the exhibition.
+
+![med left](../assets/Bijzondere.jpg)
 
 <br>
 <br>
