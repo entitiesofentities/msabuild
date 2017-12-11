@@ -209,11 +209,10 @@ a{
 }
 
 .title a:hover{
-	color: black;
-	text-decoration: none;
-	border-bottom: none;
-	letter-spacing: 2px;
-	transition: 1s;
+	text-shadow: 1px 1px 1px black;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;	
 }
 
 .peas_and_carrots{
@@ -272,7 +271,7 @@ footer a:hover{
 	font-variant: small-caps;
 	color: grey;
 	letter-spacing: 2px;
-	transition: 2s;
+	transition: 1s;
 }
 
 /** bottomn-nav a:hover colours */
@@ -414,4 +413,13 @@ margin-top: -20px;
 .graphic{
 	color: gray;
 	text-transform: uppercase;
+}
+
+#anchorme:hover{
+	box-shadow: 10px 10px 15px 5px black;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    margin-left: -10px;
+    margin-top: -10px;	
 }

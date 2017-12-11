@@ -151,14 +151,14 @@ body, html {
 	font-variant: small-caps;
 	color: grey;
 	letter-spacing: 2px;
-	transition: 2s;
+	transition: 1s;
 }
 
 .post a:hover{
 	font-variant: small-caps;
 	color: grey;
 	letter-spacing: 2px;	
-	transition: 2s;
+	transition: 1s;
 }
 
 /** CONTENT IMAGE SIZES **/
