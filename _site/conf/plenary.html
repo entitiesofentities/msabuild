@@ -9698,6 +9698,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
+    
+    	   
 			<li><a href="/call/panel.html">Panel</a></li>
 			
     
@@ -9742,6 +9744,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
+    
+    	   
+			<li><a href="../conf/Speakers.html">Speaker</a></li>
+			
     
     	   
     
@@ -9805,6 +9811,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
+			
+    	   
 			        
 </ul>
 
@@ -9815,6 +9823,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramBook.pdf">Print Program Booklet</a></li>
 			
+			
+    	   
 			
     	   
 			
@@ -9859,6 +9869,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="../grad/Travel%20grants.html">Travel grants</a></li>
 			
+    
+    	   
     
     	   
     
@@ -9912,6 +9924,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
+			
+    	   
 			<li><a href="https://www.facebook.com/pages/MSA-17-Emerging-Scholar-Housing-Initiative/662406893886041">Housing</a></li>
 			
 			
@@ -9930,6 +9944,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </ul>
 
 <ul class="bottom-nav hidden" id="events">
+    
+    	   
     
     	   
     
@@ -10011,6 +10027,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			
     	   
 			
+    	   
+			
     
     	   
     
@@ -10021,6 +10039,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="../visit/Travel.html">Travel</a></li>
 			
+    
+    	   
     
     	   
     
@@ -10137,14 +10157,21 @@ var interactive_bg = function(strength){
         if(document.title == "MSA Columbus"){
             interactive_bg(5);
         }
+    
+        
         
         //page styling
+        //header fix
+        $('.welcome-left').hide();
+        $('.welcome-right').hide();
+        $('#bottom-header').prepend('<p>Graphic Modernisms</p>');
+        
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
         
         $('header').addClass('sticky');
-        $('#bottom-header').css('font-size', '4em');
+        $('#bottom-header').css('font-size', '3em');
         $('#bottom-header').css('line-height', '1em');
         
         $('#slow').hide();
@@ -10346,21 +10373,15 @@ $(document).ready(main);
 </script>
 
 <div class="content">
-                <h1 id="plenary-roundtable">Plenary Roundtable</h1>
+                <h2 id="plenary-roundtable">Plenary Roundtable</h2>
 
 <p>Our plenary roundtable will consist of a conversation among a group of esteemed scholars who explore various ways of conceptualizing the graphic: in terms of visual culture and the work of images, and in terms of the convergence of graphic aesthetics with questions of race, sexuality, and empire.</p>
 
-<h2 id="tsitsi-ella-jaji">Tsitsi Ella Jaji</h2>
+<p><strong>Tsitsi Ella Jaji</strong> is an associate professor of English at Duke University.  She specializes in African and African American literary and cultural studies, with special interests in music, poetry, and black feminisms. Her book Africa in Stereo: Music, Modernism and Pan-African Solidarity (2014) won the African Literature Association’s First Book Prize; the book traces how exchanges between African American, Ghanaian, Senegalese and South African artists shaped cultural and political liberation projects. She is also the author of two volumes of poetry, Beating the Graves (2017) and the chapbook Carnaval (2014). </p>
 
-<p>is an associate professor of English at Duke University.  She specializes in African and African American literary and cultural studies, with special interests in music, poetry, and black feminisms. Her book Africa in Stereo: Music, Modernism and Pan-African Solidarity (2014) won the African Literature Association’s First Book Prize; the book traces how exchanges between African American, Ghanaian, Senegalese and South African artists shaped cultural and political liberation projects. She is also the author of two volumes of poetry, Beating the Graves (2017) and the chapbook Carnaval (2014). </p>
+<p><strong>Hillary Chute’s</strong> work focuses on comics and graphic novels; contemporary fiction; visual studies; American literature; gender and sexuality studies; literature and the arts; critical theory; and media studies. She is the author of Graphic Women: Life Narrative and Contemporary Comics (2010), Outside the Box: Interviews with Contemporary Cartoonists (2014); Disaster Drawn: Visual Witness, Comics, and Documentary Form (2016), and Why Comics?: From Underground to Everywhere (2017). She is also associate editor of Art Spiegelman’s MetaMaus (2011).  She is a professor in the English department at Northeastern University.</p>
 
-<h2 id="hillary-chutes">Hillary Chute’s</h2>
-
-<p>work focuses on comics and graphic novels; contemporary fiction; visual studies; American literature; gender and sexuality studies; literature and the arts; critical theory; and media studies. She is the author of Graphic Women: Life Narrative and Contemporary Comics (2010), Outside the Box: Interviews with Contemporary Cartoonists (2014); Disaster Drawn: Visual Witness, Comics, and Documentary Form (2016), and Why Comics?: From Underground to Everywhere (2017). She is also associate editor of Art Spiegelman’s MetaMaus (2011).  She is a professor in the English department at Northeastern University.</p>
-
-<h2 id="madelyn-detloff">Madelyn Detloff</h2>
-
-<p>is a professor of English and Women’s, Gender, and Sexuality Studies at Miami University.  Her research interests include cultural studies, queer studies, crip theory, literary modernism (especially Virginia Woolf and H.D.), and trauma studies.  She is the author of two scholarly books, The Value of Woolf (2016) and The Persistence of Modernism: Loss and Mourning in the Twentieth Century (2009), as well as the co-editor of Queer Bloomsbury (2016) and Virginia Woolf: Art, Education, and Internationalism (2008).</p>
+<p><strong>Madelyn Detloff</strong> is a professor of English and Women’s, Gender, and Sexuality Studies at Miami University.  Her research interests include cultural studies, queer studies, crip theory, literary modernism (especially Virginia Woolf and H.D.), and trauma studies.  She is the author of two scholarly books, The Value of Woolf (2016) and The Persistence of Modernism: Loss and Mourning in the Twentieth Century (2009), as well as the co-editor of Queer Bloomsbury (2016) and Virginia Woolf: Art, Education, and Internationalism (2008).</p>
 
 </div>
 </body>

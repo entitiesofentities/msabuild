@@ -82,14 +82,21 @@ var interactive_bg = function(strength){
         if(document.title == "MSA Columbus"){
             interactive_bg(5);
         }
+    
+        
         
         //page styling
+        //header fix
+        $('.welcome-left').hide();
+        $('.welcome-right').hide();
+        $('#bottom-header').prepend('<p>Graphic Modernisms</p>');
+        
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
         
         $('header').addClass('sticky');
-        $('#bottom-header').css('font-size', '4em');
+        $('#bottom-header').css('font-size', '3em');
         $('#bottom-header').css('line-height', '1em');
         
         $('#slow').hide();

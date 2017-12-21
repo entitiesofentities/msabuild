@@ -9698,6 +9698,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
+    
+    	   
 			<li><a href="/call/panel.html">Panel</a></li>
 			
     
@@ -9742,6 +9744,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
+    
+    	   
+			<li><a href="../conf/Speakers.html">Speaker</a></li>
+			
     
     	   
     
@@ -9805,6 +9811,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
+			
+    	   
 			        
 </ul>
 
@@ -9815,6 +9823,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="https://msa.press.jhu.edu/conferences/msa17/assets/MSA17ProgramBook.pdf">Print Program Booklet</a></li>
 			
+			
+    	   
 			
     	   
 			
@@ -9859,6 +9869,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="../grad/Travel%20grants.html">Travel grants</a></li>
 			
+    
+    	   
     
     	   
     
@@ -9912,6 +9924,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
+			
+    	   
 			<li><a href="https://www.facebook.com/pages/MSA-17-Emerging-Scholar-Housing-Initiative/662406893886041">Housing</a></li>
 			
 			
@@ -9930,6 +9944,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </ul>
 
 <ul class="bottom-nav hidden" id="events">
+    
+    	   
     
     	   
     
@@ -10011,6 +10027,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			
     	   
 			
+    	   
+			
     
     	   
     
@@ -10021,6 +10039,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="../visit/Travel.html">Travel</a></li>
 			
+    
+    	   
     
     	   
     
@@ -10137,14 +10157,21 @@ var interactive_bg = function(strength){
         if(document.title == "MSA Columbus"){
             interactive_bg(5);
         }
+    
+        
         
         //page styling
+        //header fix
+        $('.welcome-left').hide();
+        $('.welcome-right').hide();
+        $('#bottom-header').prepend('<p>Graphic Modernisms</p>');
+        
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
         
         $('header').addClass('sticky');
-        $('#bottom-header').css('font-size', '4em');
+        $('#bottom-header').css('font-size', '3em');
         $('#bottom-header').css('line-height', '1em');
         
         $('#slow').hide();
