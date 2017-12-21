@@ -82,8 +82,6 @@ var interactive_bg = function(strength){
         if(document.title == "MSA Columbus"){
             interactive_bg(5);
         }
-    
-        
         
         //page styling
         //header fix
@@ -109,8 +107,8 @@ var interactive_bg = function(strength){
         //content padding
         var pad;
         pad = $('header').height();
-        $('#padder').height(pad/3);
-        $('.padder').height(pad/3);
+        $('#padder').height(pad/1);
+        $('.padder').height(pad/1);
         
         //header animation
         var selected;
