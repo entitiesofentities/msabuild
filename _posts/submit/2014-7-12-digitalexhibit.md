@@ -13,7 +13,9 @@ tag: text
 Please include a 500 word abstract that addresses the following:
 
 * the nature, design, and purpose of the project (including web links).
+
 * how the project advances modernist studies.
+
 * how presenters would want to exhibit and explain the project at the conference.
 
 ### Step 4. Author Information
