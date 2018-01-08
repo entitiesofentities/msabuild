@@ -5,6 +5,9 @@ category: submit
 tag: text
 ---
 
+We are not accepting poster session and digital exhibit proposals at this time. We will begin accepting them in February 2018.
+
+<!--
 # How to submit a Poster Session and Digital Exhibit Proposal
 
 **Please read all instructions on all pages thoroughly and with care.** The information required for submissions remains the same as in years past, though the method of entry is now different. Please consult the following guidelines when submitting your proposal.
@@ -28,8 +31,32 @@ You will receive an e-mail confirming receipt of your submission shortly after t
 
 ### How to edit a proposal after you've submitted it
 
-Once you have submitted a proposal, you may edit it up until the submission deadline. Simply log into your account at [msa2018.exordo.com](https://msa2018.exordo.com). Once logged in, you will see your submissions in the center of the page; click the "edit" button (see image below) to proceed. If you have multiple submissions, click "View in List" to choose the submission you would like to edit.
+Please see your confirmation email from Ex Ordo for instructions on editing your submitted proposal. Proposals may not be edited once the submission deadline has passed.
 
-![lg middle](../assets/eo_edit.jpg)
+# [Click here to submit a poster session and digital exhibit proposal](https://msa2018.exordo.com){:target="_blank"}
 
-# [Click here to submit a poster session and digital exhibit proposal](https://msa2018.exordo.com)
+### Further Information
+
+**Questions about our upcoming conference?**
+
+Contact [MSA2018Columbus@gmail.com](mailto:MSA2018Columbus@gmail.com)
+
+
+**Questions for the program committee?**
+
+Contact [rawalsh@ncsu.edu](mailto:rawalsh@ncsu.edu)
+
+
+**Questions about membership and registration?**
+
+Contact [RWG@press.jhu.edu](mailto:RWG@press.jhu.edu)
+
+
+
+
+**Want to know how our email lists work?**
+
+Visit [https://msa.press.jhu.edu/members/listserv.html](https://msa.press.jhu.edu/members/listserv.html){:target="_blank"}
+
+![lg middle](../assets/msabanner.png)
+-->
