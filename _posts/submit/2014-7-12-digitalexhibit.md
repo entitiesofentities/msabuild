@@ -5,9 +5,10 @@ category: submit
 tag: text
 ---
 
-We are not accepting poster session and digital exhibit proposals at this time. We will begin accepting them in February 2018.
-
 <!--
+We are not accepting poster session and digital exhibit proposals at this time. We will begin accepting them in February 2018.
+-->
+
 # How to submit a Poster Session and Digital Exhibit Proposal
 
 **Please read all instructions on all pages thoroughly and with care.** The information required for submissions remains the same as in years past, though the method of entry is now different. Please consult the following guidelines when submitting your proposal.
@@ -59,4 +60,3 @@ Contact [RWG@press.jhu.edu](mailto:RWG@press.jhu.edu)
 Visit [https://msa.press.jhu.edu/members/listserv.html](https://msa.press.jhu.edu/members/listserv.html){:target="_blank"}
 
 ![lg middle](../assets/MSABanner.png)
--->
