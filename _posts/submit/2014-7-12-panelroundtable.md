@@ -5,10 +5,10 @@ category: submit
 tag: text
 ---
 
-<!--
-We are not accepting panel and roundtable proposals at this time. We will begin accepting them in February 2018.
--->
 
+The deadline to submit panel and roundtable proposals has now passed.
+
+<!--
 ## How to submit a panel or roundtable proposal
 
 **Please read all instructions on all pages thoroughly and with care.** The information required for submissions remains the same as in years past, though the method of entry is now different. Please consult the following guidelines when submitting your proposal.
@@ -33,6 +33,8 @@ You will receive an e-mail confirming receipt of your submission shortly after t
 Please see your confirmation email from Ex Ordo for instructions on editing your submitted proposal. Proposals may not be edited once the submission deadline has passed.
 
 # [Click here to submit a panel or roundtable proposal](https://msa2018.exordo.com){:target="_blank"}
+-->
+
 
 ### Further Information
 
