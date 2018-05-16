@@ -5,9 +5,10 @@ category: submit
 tag: text
 ---
 
+The deadline to submit a poster or digital exhibit proposal has now passed.
+
 <!--
 We are not accepting poster session and digital exhibit proposals at this time. We will begin accepting them in February 2018.
--->
 
 # How to submit a Poster Session and Digital Exhibit Proposal
 
@@ -35,6 +36,8 @@ You will receive an e-mail confirming receipt of your submission shortly after t
 Please see your confirmation email from Ex Ordo for instructions on editing your submitted proposal. Proposals may not be edited once the submission deadline has passed.
 
 # [Click here to submit a poster session and digital exhibit proposal](https://msa2018.exordo.com){:target="_blank"}
+
+-->
 
 ### Further Information
 

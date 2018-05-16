@@ -5,10 +5,10 @@ category: submit
 tag: text
 ---
 
+The deadline to submit workshop proposals has now passed.
+
 <!-- 
 We are not accepting workshop proposals at this time. We will begin accepting them in February 2018.
--->
-
 
 # How to submit a Pre-conference Workshop Proposal
 
@@ -32,6 +32,8 @@ Please see your confirmation email from Ex Ordo for instructions on editing your
 
 
 # [Click here to submit a pre-conference workshop proposal](https://msa2018.exordo.com){:target="_blank"}
+
+-->
 
 ### Further Information
 
