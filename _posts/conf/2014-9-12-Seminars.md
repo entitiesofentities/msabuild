@@ -1,0 +1,187 @@
+---
+layout: reader
+title: Seminars
+category: conf
+tag: text
+---
+
+# Seminars for MSA 18
+
+### show/hide all
+
+###  1. Women's Writing and Social/Political Activism
+Organizers: Lise Shapiro Sanders (Hampshire College)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Carey Snyder (Ohio University)
+
+The modernist era abounded with movements that reshaped women’s lives—including those for women’s suffrage, peace, birth control, and better working conditions, among others. Women writers addressed these issues not only in socially and politically engaged journalism, but also in feminist manifestoes, poetry, fiction, and drama, as well as in graphic forms. This seminar explores the relationship between “modernist” women’s writing / visual culture and social and political activism, all broadly construed, from the 1890s to the 1940s. We welcome papers that shine new light on canonical figures, as well as those that recover lesser known figures and publications.    
+
+###  2. Modern Architecture and Narrative
+Organizers: Katherine Fama (University College Dublin)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Anne Fogarty (Irish Literature, University College Dublin)
+
+Invited Participants: Victoria Rosner  (Columbia University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Kirin Makker (Art and Architecture, Hobart and William Smith Colleges)
+
+Recent years have witnessed an exciting range of scholarship engaging literary and spatial modernism. Our seminar will explore the reciprocal relationship between modern architectural and narrative forms, practices, and aesthetics. We invite consideration of spatial representation and resistance in modernist fiction, and engagement with public, professional, and domestic designs and structures. The seminar takes a broad perspective on architectural actors, including writers, activists, architects, planners, and occupants. We view as central the ways that critical theories of race, gender, class, sexuality, and disability inform these intersections.
+
+###  3. Realism and/or Modernism
+Organizer: Paul Stasi (State University of New York, Albany)
+
+In a 2012 essay entitled "Realism after Modernism," Joe Cleary made the case that Cold War politics hardened the opposition between modernism and realism into a rigid binary between aesthetics and politics, suggesting that the time might now be ripe for a reconsideration of these two aesthetic forms “from the perspective of our current peripheries.” This seminar seeks papers interested in the relationship between realism and modernism, including (but not limited to) work that re-imagines the conceptual relationship between the two terms, seeks to understand their legacy for the literature of decolonization or grounds this relationship in late 19th/early 20th century texts with competing aesthetic forms. 
+
+###  4. Montage
+Organizers: Jesse Matz (Kenyon College)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Catherine Russell (Film Studies, Concordia University)
+
+The power of montage as a cultural form of engagement has always been important to its practice and its theorization, from early Soviet cinema to Hollywood to advertising; in critical work from Eisenstein’s foundational accounts to new forays into transcultural montage.  This seminar invites scholars across the disciplines to explore new approaches to classical montage as well as the emerging forms in which it does its cultural work.  Visual, written and verbal arts along with other forms of cultural engagement and expression will be the broad field of a seminar designed to enhance the foundations and the new prospects of montage studies.   
+
+###  5. Photography and Print Culture
+Organizer: Jordana Mendelson (Art History, New York University)
+
+This seminar welcomes papers that broadly interrogate the relation between photography and print culture, not just the place of photographs on the printed page but also how photography propelled, shifted or disrupted modernist practices of reading and viewing, together and alongside each other. In addition to specific projects on how photography (and photographers) contributed to the popularity of the illustrated press and the growth of photo books, especially in the inter-war period, we also invite papers that explore how photography was used by artists and writers as a tool of modernity to document, call attention to, and sometimes interrupt the integrity (and believability) of the printed page.
+
+###  6. Liberalism and Modernism
+Organizers: Marius Hentea (University of Gothenburg)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Ian Afflerbach (University of North Georgia)
+
+This seminar explores a broad set of modernist engagements with liberalism from the 1930s to the 1960s.  From George Dangerfield’s ‘strange death of liberal England’ to Louis Hartz’s classic account of the triumph of liberalism two decades later, the fortunes of liberalism swung wildly in the modernist period.  Possible topics to discuss include governmental and institutional authors’ associations like the WPA and Mass Observation; the rise of the bureaucratic state more generally; liberalism and free expression; the growing political and aesthetic investment in individualism, autonomy and style; and the status of liberal intellectuals and the canonization of modernism. 
+
+###  7. Photography and Other Media
+Organizers: Alix Beeston (Cardiff University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Laura Hartmann-Villalta (Georgetown University)
+
+This seminar explores the photographic artifacts and cultures of modernism as they are connected to, or in tension with, other media. What exchanges existed between photography and other media forms and artistic practices? How was modernism pictured in or made through photography as part of the media ecology of the period? And what are the aesthetic, ethical, and political implications of examining photography as it sits within the wider visual culture of modernity? Participants may choose to address these and/or related questions through theoretical position papers or historicized analyses of particular images, photographers, genres, or technologies.
+
+###  8. Queering Panaesthetics 
+Organizers: Elizabeth Phillips (Harvard University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Teresa Trout (Harvard University)
+
+Most Modernist narratives about the sororal arts (painting, poetry, drama, gardening, etc.)-- a term, as Lisa Moore has argued, itself imbued with a queer erotics--are actually written by a fraternity. Our seminar seeks to broaden the definition of “panaesthetics,” or the inextricability of art forms, by conducting an overview of queer and feminine perspectives on how the arts may be codependent and inter-reliant. The modifier “Pan” invokes both pansexuality and Pan the prototypically non-binary god; the term “panaesthetics,” then, demands a reformulation of Modernist aesthetics to include non-male and non-binary lexicons of combination and overlap. We invite participants to consider translation, hybridity, chaos, and intermediality, not only as tenets and methodologies of Modernism but also as queer technique.  
+
+###  9. Marginal Modernisms: Feminist Forms and Questions of Belonging
+Organizers: Meghan C. Fox (LaGuardia Community College, City University of New York)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Erica Delsandro (Women’s and Gender Studies, Bucknell University)
+
+The current state of feminist modernist studies, to borrow from Urmila Seshagiri, "cannot afford complacency." Moving beyond canonical women writers (Woolf, Stein, H.D.), our seminar will privilege the margins of modernism, granting sustained attention to questions of belonging with respect to form, genre, gender, sexuality, race, ability, and/or nationality. We seek papers that explore women writers whose feminist forms have excluded them from the canon, anthologies, syllabi, and modernist studies. By highlighting the work of those who trouble what it means to be modernist, we hope to push the boundaries of the field, reshaping it through feminist interventions.
+
+###  10. Critical Prose by Modernist Poets
+Organizers: David E. Chinitz (Loyola University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Jayme Stayer (John Carroll University)
+
+This seminar will explore the work of modernist poets as critics. Papers on the contributions of individual poets to criticism are welcome, as are papers addressing such broader questions as the following. How do modernists revise the idea of the poet-critic? How does the practice of criticism by poets compare across languages and cultures? Are there interesting generalizations to be made about how poets marginalized by race, gender, or sexuality position themselves as critics? We would welcome challenges to the critical shibboleth that theorizing by modernist poets is always self-serving. Also of interest would be papers highlighting textual problems, or issues with contemporary editions of prose by modernist poets.  
+
+###  11. Modernism and Education
+Organizers: Bridget Chalk (Manhattan College)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Benjamin D. Hagen (University of South Dakota)
+
+This seminar will explore relationships between modernism and education. These relationships include (but are not limited to): formal and stylistic pedagogies; scenes of teaching and discipline (e.g., in Joyce, Lawrence, Woolf, etc.); and how modernist writers comment, explicitly or immanently, on institutional education and the lives of individual teachers and students. Linked to modernist accounts of education is the place of modernism within our own institutions. Is modernism good for us? Why teach modernism now? We welcome papers on pedagogical approaches to modernism, modernists as teachers, representations of schooling and university life, and the edifying (or stultifying) properties of modernism.
+
+###  12. Modernism and Mass Observation
+Organizers: Amy Woodbury Tease (Norwich University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Marilyn Reizbaum (Bowdoin College)
+
+Invited Participant: Dr. Fiona Ann Jardine (Design History & Theory, Glasgow School of Art)
+
+This seminar considers the relationship between modernism and the politics of observation. It borrows its concept from Mass Observation, a social research organization that collected data on ordinary British citizens from 1937-1950. Despite its democratizing effort to give voice and agency to the public, Mass Observation became an exercise in surveillance, anticipating the rise of surveillance practices in a postwar world. We encourage papers that take up the theme of observation by exploring intersections between modernism and everyday life – from fashion to pub culture to public transportation. Interdisciplinary approaches welcome.
+
+###  13. Modernist Institutions
+Organizers: Caroline Z. Krzakowski (Northern Michigan University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Megan Faragher (Wright State University–Lake Campus)
+
+In this seminar, we will re-envision the intersection between modernism and institutions. We welcome papers that model new approaches to our understanding of institutions through the lens of modernism’s relationship with cultural, international, and governmental bureaucracies. While modernism has long been understood as an institution in its own right, increasingly subject to boundaries and models constructed by academia in the present, what is to be gained by exploring modernism’s intersections with national and international institutions that helped shape and influence the movement as it developed?
+
+Institutions might include non-profit cultural institutions, cinemas, museums, governmental departments (for ex., the Ministry of Information), intergovernmental and international organizations, and media institutions (the BBC, newspapers).   
+
+###  14. The Harlem Renaissance
+Organizers: Octavio (Tavi) R. González (Wellesley College)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Lisa Mendelman (Menlo College)
+
+The “Harlem” or “New Negro” Renaissance is perennially lost and found in the archives. Critical discoveries continuously redefine the movement’s temporal, geographic, political, cultural, and disciplinary coordinates. Revisionist historiographies and biographies reconstruct (and re-litigate) the movement’s literary legacies, popular icons, transnational boundaries, interplay with period discourses, and present-day resonances. Institutional repositories facilitate these projects, while also offering themselves up as sites of inquiry.  </p><p>Papers might address these concerns in light of recent turns to sensation, institutional studies, material and visual cultures, Afro-Pessimism, the new formalism, digital approaches, the “method wars,” and other ways we continue to make the Renaissance new.    
+
+###  15. Modern Machines
+Organizers: Ann Martin (University of Saskatchewan)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Christopher Townsend (Media Arts, Royal Holloway, University of London)
+
+This seminar explores machines, including the motor-car, motor-cycle, and aeroplane, as metaphors of modernity and material forms of modernism. We invite papers that address how machines come to mean in or as modernist texts. Topics may include the aesthetics of design and of promotion (racing posters, advertisements, postcards, magazines, memoirs); the contexts that place the machine (or its drafted form) as art object, cultural capital, political tool, or part of a mise-en-scène; and the connection between their graphic design and graphic violence, given the potential for disorder—creative and destructive—associated with the mechanical in the twentieth-century.
+
+###  16. Modernism and Lyric Theory
+Organizer: Joshua Adams (University of Louisville)
+
+This seminar will consider how modernist poets contributed to the theory of the lyric -- either in terms that buttress recent accounts of "lyricization,” in which poetry becomes synonymous with “lyric,” or in terms divergent from that project. Do modernist experiments with form, including prosody, image, typography, and design, as well as the incorporation of extra-poetic texts, offer us a way out of lyricization and into poetry's less recognized, but nevertheless vital, manifestations? How might global or internationalist accounts of modernism trouble the Anglo-American matrix from which lyric theory springs? What are the affinities and fissures between the practice of literary criticism and contemporaneous developments in the literary field?    
+
+###  17. Vanguard U: Universities as Infrastructures of the Avant-Garde
+Organizers: Jennifer Buckley (University of Iowa)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Joyce Tsai (College of Education, University of Iowa Museum of Art)   
+
+With the exception of avowedly experimental institutions like Black Mountain College, the New School for Social Research, and Cal Arts, North American universities are not typically imagined as sites of vanguard activity, and scholars rarely consider the ways avant-garde thought and practice rely upon, transform, and even nurture existing public institutions.  And while“avant-garde”  typically conjures images of radical anti-traditionalism, the constitution of any avant-garde is premised upon either the invention or (more often) the seizure and transformation of infrastructures of circulation publications, exhibition spaces, teaching institutions, etc. – to disseminate ideas, artworks, and activities. This seminar aims to account for the presence, practices, and legacies of often self-described avant-garde writers and artists in universities, particularly in large public institutions removed from established coastal urban centers of cultural production. How have universities – as infrastructure and as philosophical enterprise – advanced avant-garde ideas and practices in multiple, and at times coordinated, domains (for example, in collecting, teaching, and practice)? We invite papers that focus on universities as incubators of avant-garde thought and practice, in the past, present, and future, and which open up interdisciplinary approaches to traditional histories or definitions of "avant-garde."  
+
+###  18. Seeing Modernist Reading
+Organizers: Janine Utell (Widener University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Melissa Dinsman (City University of New York—York College)
+
+This seminar will consider ways of seeing reading within modernism, as practice and theory, from analog to digital. How might we visualize, map, or graph modernist reading patterns, networks, practices?  How does adaptation (visual, graphic) serve as a form of reading?  How is reading a form of seeing...or not seeing?  What is left out, what *don’t* we see when we visualize, adapt, map? What can we learn about the dynamic between scopophilia and surveillance through modernist reading?  We invite papers addressing broadly and from a variety of perspectives how we visualize modernist reading, and how modernists visualized themselves reading.  
+
+###  19. Late, Between, Belated, Bereft
+Organizer: Matthew Hart (Columbia University)
+
+Invited Participant: Julia Jordan (University College London)
+
+Late Modernism has forever been the ugly stepchild of modernist studies. Although scholars generally accept that it exists, there's little agreement about when it occurs or whether it's more than a minor hiccup in the transition from high modernism to what comes after -- be it "neo-" or "post-," "meta-" or "alter-," or none of the above. Things get more complicated, still, when modernism goes global: does the fluorescence of modernist style in the Caribbean or Africa after 1945 make writers like Lamming or Achebe "late" and, if so, according to whose developmental clock? And what of late modernism's content or character? Is it defined by the turn to the everyday, as Thomas S. Davis has recently argued, or by the negativity limned by Tyrus Miller in 1999? Or, as Edward Said (2007) and J. M. Bernstein (2006) variously suggested, is modernism in general defined by a sense of temporal lateness and untimeliness? What, finally, of modernism's investments in psychic, affective, and political states of bereavement, disappointment, failure, and in-betweenness? Is "late modernism" less a period category than a condition of wounded being? Open to papers on literature and the arts from any culture, genre, and period in the twentieth century, this seminar would like to meet new perspectives on modernism and belatedness. 
+
+###  20. Theorizing Cinema before World War II
+Organizers: Ryan Friedman (Film Studies and English, Ohio State University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Margaret Flinn (Film Studies and French, Ohio State University)
+
+Invited Participant: Lilya Kaganovsky (Slavic, Comparative Literature, and Cinema Studies, University of Illinois-Urbana-Champaign)
+
+In the first five decades of cinema’s existence, intellectuals and artists—from Vachel Lindsay, to Élie Faure, to Xu Chi—championed the medium, often theorizing its aesthetic, technological, and social dimensions in highly utopian terms. The seminar invites papers from scholars working in a variety of fields and national contexts, which examine how this body of writing shaped and was shaped by contemporary cinema culture, or visual culture broadly speaking. Relevant topics might include: early film theory’s rhetorical strategies (e.g., the universal language metaphor, comparisons with other art forms like theater and music), its philosophical sources (e.g., race theory, esotericism), and the institutional factors (e.g., the writer’s relationships to a particular national film industry) that shaped its production and circulation.
+
+###  21. TV’s Modernist Turn
+Organizer: Elizabeth Alsop (Film Studies, Graduate Center, City University of New York)
+
+The post-network era in American television has yielded a number of series strongly indebted to modernism, whether in their narrative structures, aesthetic tendencies, or in the cognitive demands they place on viewers. This seminar will examine this “modernist turn” in U.S. television, and consider the practical and theoretical implications of locating modernism’s influence within a singularly popular art form. Among the questions seminar participants might explore: How is modernist praxis shaping “new” media? What cultural, industrial, and economic factors have licensed formal experimentation by 21st-century showrunners—and how does it compare to the types of innovation undertaken by modernist writers and filmmakers? How might an intermedial framework help us map modernism both diachronically and across disciplinary boundaries? Finally, how might assumptions about modernism be transformed by recognizing not only its presence within a popular medium—but its pleasures?
+
+###  22. The Afterlives of Taste: Modernism and the Persistence of the Aesthetic
+Organizer: Robert S. Lehman (Boston College) 
+
+How does modernism fit into the history of aesthetics? Are modernism’s own aesthetic categories—novelty, difficulty, impersonality—still a part of this history? This seminar will put literary and visual modernism in contact with issues in philosophical aesthetics (that is, the tradition reaching from Baumgarten and Kant through Adorno and Rancière). Modernism’s “aesthetics” is here understood broadly: as the theoretical discourse on art occasioned by modernist art objects; as the practice of art and literary criticism specific to the modernist period; and as a reimagining of the forms of sensible experience in modernist works themselves. 
+
+###  23.  Video Modern
+Organizers: Martin Harries (University of California, Irvine)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Nicholas Ridout (Theater, Queen Mary, University of London)  
+
+Video, said Fredric Jameson, is the art form par-excellence of late capitalism or  postmodernity. If this may be taken to indicate some complicity between video as a medium and contemporary capitalism's self-representations, might this complicity somehow be undone by an attempt to think about video's potential as a critical engagement with modernity? What would 'video modern' look like? Does it exist today? Has it existed Does video have a 'modernist' pre-history? In poetry, film, painting, music?  
+
+###  24. World War I and Disciplinarity
+Organizers: Josh Gang (University of California, Berkeley)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Sam Alexander (Endicott College)
+
+Invited Participant: Vincent Sherry (Washington University, St. Louis)
+
+On the hundredth anniversary of the war’s end, this seminar invites papers that examine how World War I and the armistice shaped both the modern disciplines and the idea of disciplinarity itself. How did the global catastrophe of the war change how people thought about the transmission of, or boundaries between, bodies of knowledge? How did the effort to grapple with total war affect the formation of disciplines and professional standards across the human, social, and experimental sciences?  And how did these changing conceptions of individual disciplines and disciplinarity shape literary history?  
+
+###  25. Obscenity and Transcultural Performance
+Organizers: Rebecca Kastleman (History and Literature, Harvard University)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Alisa Zhulina (Drama, New York University, Tisch School of the Arts)
+
+This seminar will analyze how performance transformed perceptions of obscenity as it traversed cultural contexts and national borders in modernity. We explore the ways in which a new cultural milieu shapes the reception of dramatic texts, theatre productions, and performance art. How does the term “graphic” change across different cultures and what implications does this have for the performing arts in particular? Which forms of obscenity are intentionally provoked and which are effects of cultural insensitivity or appropriation? We invite papers that focus on any aspect of obscenity, censorship, or audience reception in the context of modernist transcultural performance.

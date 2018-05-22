@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MSA Institute of Contemporary Art Excursion</title>
+        <title>MSA Seminars</title>
         <meta name="author" content="Alex Christie, University of Victoria (UVic) and the Boston Organizing Committee. With thanks to Nicole Rizzo (Boston University) for research assistance."        
         <meta name="viewport" content="width=device-width">
 
@@ -9624,6 +9624,44 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 })( window );
 
 		</script>
+		<script>
+		var main = function(){
+    
+    $('h3').each(function(){
+                 $(this).nextUntil('h3').andSelf().wrapAll('<div class="test"/>');
+                 });
+    
+    $('h3').addClass('reader_title');
+    $('#reader p').addClass('reader_description');
+    $('.reader_description').hide();
+    
+    //code for closed seminars
+    $('h3:contains("CLOSED")').addClass('greyout');
+    $('h3:contains("CLOSED")').nextUntil('h3').andSelf().addClass('greyout');
+    $('h3:contains("FULL")').addClass('greyout');
+    $('h3:contains("FULL")').nextUntil('h3').andSelf().addClass('greyout');
+    //seminars are now closed
+    if(document.title == "MSA 17 Seminars"){
+        $('h3').nextUntil('h3').andSelf().addClass('greyout');
+    }
+    $('h3').click(function(){
+                  $(this).toggleClass('selected');
+                  });
+    
+    $('.test').click(function(){
+                     $(this).children('p').toggle();
+                     });
+    
+    $('h3').first().click(function(){
+                          $('.test p').each(function(){
+                                            $(this).toggle();
+                                            });
+                          });
+}
+
+$(document).ready(main);
+
+		</script>
 
     	<!-- Analytics -->
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -9637,6 +9675,11 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 </script>
     	
     </head>   
+    <style>
+.post{
+	color: black;
+}
+</style>
 <header>
 <ul class="nav" id = "full" hidden>
 	<li class="title"><a href="../index.html">MSA Columbus</a></li>
@@ -9644,7 +9687,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 <!--	<li class = 'top-nav' id="top-nav-one">Program</li>	-->
 <!--	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	-->
 	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
-<!--	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	-->
+	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
 	<li class = 'top-nav' id="top-nav-six"><a href="mailto:MSA2018Columbus@gmail.com">Contact</a></li>	
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>		
@@ -9662,7 +9705,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 <!--	<li class = 'top-nav animated fadeInDown' id="top-nav-one" >Program</li>	-->	
 <!--	<li class = 'top-nav animated fadeInDown' id="top-nav-three" >Emerging Scholars</li>	-->
 	<li class = 'top-nav animated fadeInDown' id="top-nav-four" >Travel & Lodging</li>	
-<!--	<li class = 'top-nav animated fadeInDown' id="top-nav-five" >Cultural Events</li>	-->
+	<li class = 'top-nav animated fadeInDown' id="top-nav-five" >Cultural Events</li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-six" ><a href="mailto:MSA2018Columbus@gmail.com">Contact</a></li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-seven" style=""></li>	
 	<li class = 'top-nav animated fadeInDown' id="top-nav-eight" style=""></li>
@@ -9675,7 +9718,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 <!--	<li class = 'top-nav' id="top-nav-one">Program</li>		-->
 <!--	<li class = 'top-nav' id="top-nav-three">Emerging Scholars</li>	-->
 	<li class = 'top-nav' id="top-nav-four">Travel & Lodging</li>	
-<!--	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	-->
+	<li class = 'top-nav' id="top-nav-five">Cultural Events</li>	
 	<li class = 'top-nav' id="top-nav-six"><a href="mailto:MSA2018Columbus@gmail.com">Contact</a></li>	
 	<li class = 'top-nav' id="top-nav-seven"></li>	
 	<li class = 'top-nav' id="top-nav-eight"></li>	
@@ -9710,10 +9753,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
-    
-    	   
 			<li><a href="/call/roundtable.html">Roundtable</a></li>
 			
+    
+    	   
     
     	   
     
@@ -9736,10 +9779,12 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
-			<li><a href="/call/blank.html">&nbsp; &nbsp; &nbsp;</a></li>
-			
     
     	   
+    
+    	   
+			<li><a href="/call/blank.html">&nbsp; &nbsp; &nbsp;</a></li>
+			
     
     	   
 			<li><a href="/call/community.html">Community CFPs</a></li>
@@ -9780,12 +9825,16 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
-    
-    	   
 			<li><a href="../conf/IntlRoundtable.html">International Modernism Roundtable</a></li>
 			
     
     	   
+    
+    	   
+    
+    	   
+			<li><a href="../conf/Seminars.html">Seminars</a></li>
+			
     
     	   
     
@@ -9816,6 +9865,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 			
     
     
+    	   
+			
     	   
 			
     	   
@@ -9899,10 +9950,12 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
-			
-    	   
 			<li><a href="https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf">Program Schedule (recommended for mobile)</a></li>
 			
+			
+    	   
+			
+    	   
 			
     	   
 			
@@ -9951,6 +10004,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="../grad/Professional%20development.html">Professional development</a></li>
 			
+    
+    	   
     
     	   
     
@@ -10042,6 +10097,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			
     	   
+			
+    	   
 			    
 </ul>
 
@@ -10068,7 +10125,25 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
-			<li><a href="../events/Poemjazz.html">POEMJAZZ</a></li>
+    
+    	   
+    
+    	   
+    
+    	   
+    
+    	   
+    
+    	   
+    
+    	   
+    
+    	   
+			<li><a href="../events/museum.html">Columbus Museum of Art</a></li>
+			
+    
+    	   
+			<li><a href="../events/library.html">Billy Ireland Library/Wexner Center</a></li>
 			
     
     	   
@@ -10078,30 +10153,12 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
-    
-    	   
-			<li><a href="../events/FinnegansWake.html">Finnegans Wake Reading</a></li>
+			<li><a href="../events/openhouse.html">OSU Rare Books and Manuscripts</a></li>
 			
     
     	   
     
     	   
-			<li><a href="../events/ICA:BMC.html">Institute of Contemporary Art Excursion</a></li>
-			
-    
-    	   
-    
-    	   
-    
-    	   
-    
-    	   
-    
-    	   
-    
-    	   
-			<li><a href="../events/ParticipantReading.html">Dig and Be Dug in Return</a></li>
-			
     
     	   
     
@@ -10116,6 +10173,8 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
 			<li><a href="https://aws.passkey.com/event/49550166/owner/9521521/home">Book a hotel room</a></li>
 			
+			
+    	   
 			
     	   
 			
@@ -10197,6 +10256,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     	   
     
     	   
+    
+    	   
+			<li><a href="../visit/Childcare.html">Childcare</a></li>
+			
     
     	   
     
@@ -10516,84 +10579,194 @@ $(document).ready(main);
 </script>
 <div id="padder"></div>
 <body>
-<script>
-.post{
-	color: black;
-}
-</script>
 
-<div class="content">
-                <h1 id="msa-excursion-to-the-institute-of-contemporary-arts-exhibitbrleap-before-you-look-black-mountain-college-1933-1957httpwwwicabostonorgbmc">MSA Excursion to the Institute of Contemporary Art’s exhibit:<br /><em><a href="http://www.icaboston.org/bmc">Leap Before You Look: Black Mountain College 1933-1957</a></em></h1>
 
-<p><img src="../assets/ICA.JPG" alt="lg right" /></p>
+<div class="post" id="reader">
 
-<h2 id="friday-november-20">Friday, November 20</h2>
+                <h1 id="seminars-for-msa-18">Seminars for MSA 18</h1>
 
-<p>Please join us for an evening at Boston’s Institute of Contemporary Art to visit the acclaimed exhibit, <em>Leap Before You Look: Black Mountain College 1933-1957</em>, as well as the rest of the ICA’s <a href="http://www.icaboston.org/bmc">remarkable collection</a>.</p>
+<h3 id="showhide-all">show/hide all</h3>
 
-<p>Buses will load at the Westin Entrance at 5:15, with one return trip at 8: 30 and another at 9 pm. </p>
+<h3 id="womens-writing-and-socialpolitical-activism">1. Women’s Writing and Social/Political Activism</h3>
+<p>Organizers: Lise Shapiro Sanders (Hampshire College)<br />
+                   
+Carey Snyder (Ohio University)</p>
 
-<p>You might consider grabbing a bite at the ICA’s <a href="http://www.icaboston.org/visit/water-cafe/">The Water Café</a> or at a number of nearby restaurants (see our Guide for recommendations).  </p>
+<p>The modernist era abounded with movements that reshaped women’s lives—including those for women’s suffrage, peace, birth control, and better working conditions, among others. Women writers addressed these issues not only in socially and politically engaged journalism, but also in feminist manifestoes, poetry, fiction, and drama, as well as in graphic forms. This seminar explores the relationship between “modernist” women’s writing / visual culture and social and political activism, all broadly construed, from the 1890s to the 1940s. We welcome papers that shine new light on canonical figures, as well as those that recover lesser known figures and publications.    </p>
 
-<p>Cost: $10, inclusive of transportation</p>
+<h3 id="modern-architecture-and-narrative">2. Modern Architecture and Narrative</h3>
+<p>Organizers: Katherine Fama (University College Dublin)<br />
+                   
+Anne Fogarty (Irish Literature, University College Dublin)</p>
 
-<h2 id="description">Description</h2>
+<p>Invited Participants: Victoria Rosner  (Columbia University)<br />
+                                
+Kirin Makker (Art and Architecture, Hobart and William Smith Colleges)</p>
 
-<p><img src="../assets/ICAb.jpeg" alt="med right" /></p>
+<p>Recent years have witnessed an exciting range of scholarship engaging literary and spatial modernism. Our seminar will explore the reciprocal relationship between modern architectural and narrative forms, practices, and aesthetics. We invite consideration of spatial representation and resistance in modernist fiction, and engagement with public, professional, and domestic designs and structures. The seminar takes a broad perspective on architectural actors, including writers, activists, architects, planners, and occupants. We view as central the ways that critical theories of race, gender, class, sexuality, and disability inform these intersections.</p>
 
-<p>Founded in 1933 in North Carolina, Black Mountain College (BMC) was a seminal meeting place for many of the 20th Century’s most influential artists, musicians, dancers, poets, and thinkers: Anni and Josef Albers, Jacob Lawrence, Buckminster Fuller, Elaine and Willem de Kooning, Robert Rauschenberg, Charles Olson, Merce Cunningham, and John Cage. BMC was also a unique, interdisciplinary liberal arts college and an experimental hub for the utopian ideals of the progressive education movement. Having brought the Bauhaus experiments to American modernism, BMC has profoundly influenced art practice and pedagogy in ways that are still evident today.</p>
+<h3 id="realism-andor-modernism">3. Realism and/or Modernism</h3>
+<p>Organizer: Paul Stasi (State University of New York, Albany)</p>
 
-<p><img src="../assets/ICAa.jpeg" alt="med left" /></p>
+<p>In a 2012 essay entitled “Realism after Modernism,” Joe Cleary made the case that Cold War politics hardened the opposition between modernism and realism into a rigid binary between aesthetics and politics, suggesting that the time might now be ripe for a reconsideration of these two aesthetic forms “from the perspective of our current peripheries.” This seminar seeks papers interested in the relationship between realism and modernism, including (but not limited to) work that re-imagines the conceptual relationship between the two terms, seeks to understand their legacy for the literature of decolonization or grounds this relationship in late 19th/early 20th century texts with competing aesthetic forms. </p>
 
-<p><em><a href="http://www.icaboston.org/bmc">Leap Before You Look: Black Mountain College 1933–1957</a></em> is the first comprehensive U.S. museum exhibition on BMC. Organized by Helen Molesworth, the ICA’s former Barbara Lee Chief Curator, with ICA Assistant Curator Ruth Erickson, the exhibit features 261 objects by nearly 100 artists, including, student work, archival materials, a soundscape, a piano and dance floor for performances. </p>
+<h3 id="montage">4. Montage</h3>
+<p>Organizers: Jesse Matz (Kenyon College)<br />
+                   
+Catherine Russell (Film Studies, Concordia University)</p>
 
-<p>In lieu of a Friday evening keynote, a series of gallery talks and discussions will be offered by distinguished experts on BMC, including:</p>
+<p>The power of montage as a cultural form of engagement has always been important to its practice and its theorization, from early Soviet cinema to Hollywood to advertising; in critical work from Eisenstein’s foundational accounts to new forays into transcultural montage.  This seminar invites scholars across the disciplines to explore new approaches to classical montage as well as the emerging forms in which it does its cultural work.  Visual, written and verbal arts along with other forms of cultural engagement and expression will be the broad field of a seminar designed to enhance the foundations and the new prospects of montage studies.   </p>
 
-<p><strong>Ruth Erickson (ICA Curator)</strong>: General introduction to the exhibition. </p>
+<h3 id="photography-and-print-culture">5. Photography and Print Culture</h3>
+<p>Organizer: Jordana Mendelson (Art History, New York University)</p>
 
-<p><strong>Steve Evans (University of Maine)</strong>: From Anni and Josef Albers’ Black Mountain College to Charles Olson’s.
-Room 6: Pottery &amp; Poetry. </p>
+<p>This seminar welcomes papers that broadly interrogate the relation between photography and print culture, not just the place of photographs on the printed page but also how photography propelled, shifted or disrupted modernist practices of reading and viewing, together and alongside each other. In addition to specific projects on how photography (and photographers) contributed to the popularity of the illustrated press and the growth of photo books, especially in the inter-war period, we also invite papers that explore how photography was used by artists and writers as a tool of modernity to document, call attention to, and sometimes interrupt the integrity (and believability) of the printed page.</p>
 
-<p><strong>Stephen Fredman (University of Notre Dame)</strong>: “Art as Experience” for John Dewey and Charles Olson 
-Room 3: Pedagogy.</p>
+<h3 id="liberalism-and-modernism">6. Liberalism and Modernism</h3>
+<p>Organizers: Marius Hentea (University of Gothenburg)<br />
+                   
+Ian Afflerbach (University of North Georgia)</p>
 
-<p><strong>Carrie Noland (University of California, Irvine)</strong>: Merce Cunningham &amp; Robert Rauschenberg 
-Room 5: Haptic.</p>
+<p>This seminar explores a broad set of modernist engagements with liberalism from the 1930s to the 1960s.  From George Dangerfield’s ‘strange death of liberal England’ to Louis Hartz’s classic account of the triumph of liberalism two decades later, the fortunes of liberalism swung wildly in the modernist period.  Possible topics to discuss include governmental and institutional authors’ associations like the WPA and Mass Observation; the rise of the bureaucratic state more generally; liberalism and free expression; the growing political and aesthetic investment in individualism, autonomy and style; and the status of liberal intellectuals and the canonization of modernism. </p>
 
-<p>Check out the series of three roundtables on the MSA Program discussing Black Mountain College and modernism:</p>
+<h3 id="photography-and-other-media">7. Photography and Other Media</h3>
+<p>Organizers: Alix Beeston (Cardiff University)<br />
+                   
+Laura Hartmann-Villalta (Georgetown University)</p>
 
-<h2 id="black-mountain-college-i-interdisciplinarity"><strong>Black Mountain College (I)</strong>: Interdisciplinarity</h2>
+<p>This seminar explores the photographic artifacts and cultures of modernism as they are connected to, or in tension with, other media. What exchanges existed between photography and other media forms and artistic practices? How was modernism pictured in or made through photography as part of the media ecology of the period? And what are the aesthetic, ethical, and political implications of examining photography as it sits within the wider visual culture of modernity? Participants may choose to address these and/or related questions through theoretical position papers or historicized analyses of particular images, photographers, genres, or technologies.</p>
 
-<p>This roundtable will examine the range of interdisciplinary work that Black Mountain College fostered both through its dynamically evolving curriculum and its innovative summer institutes.</p>
+<h3 id="queering-panaesthetics">8. Queering Panaesthetics</h3>
+<p>Organizers: Elizabeth Phillips (Harvard University)<br />
+                   
+Teresa Trout (Harvard University)</p>
 
-<p><strong>Mary Ann Caws (CUNY Graduate School)</strong><br />
-<strong>Steve Evans (University of Maine)</strong><br />
-<strong>Katherine Markoski (Smithsonian American Art Museum/Johns Hopkins University)</strong><br />
-<strong>Carrie Noland (University of California, Irvine)</strong><br />
-<strong>Nancy Perloff (Getty Research Institute)</strong><br /></p>
+<p>Most Modernist narratives about the sororal arts (painting, poetry, drama, gardening, etc.)– a term, as Lisa Moore has argued, itself imbued with a queer erotics–are actually written by a fraternity. Our seminar seeks to broaden the definition of “panaesthetics,” or the inextricability of art forms, by conducting an overview of queer and feminine perspectives on how the arts may be codependent and inter-reliant. The modifier “Pan” invokes both pansexuality and Pan the prototypically non-binary god; the term “panaesthetics,” then, demands a reformulation of Modernist aesthetics to include non-male and non-binary lexicons of combination and overlap. We invite participants to consider translation, hybridity, chaos, and intermediality, not only as tenets and methodologies of Modernism but also as queer technique.  </p>
 
-<h2 id="black-mountain-college-ii-conceptual-underpinnings"><strong>Black Mountain College (II)</strong>: Conceptual Underpinnings</h2>
+<h3 id="marginal-modernisms-feminist-forms-and-questions-of-belonging">9. Marginal Modernisms: Feminist Forms and Questions of Belonging</h3>
+<p>Organizers: Meghan C. Fox (LaGuardia Community College, City University of New York)<br />
+                   
+Erica Delsandro (Women’s and Gender Studies, Bucknell University)</p>
 
-<p>Exploring the conceptual and theoretical underpinnings of the college’s pedagogical and artistic practices, this panel examines Whitehead/Olson, “The Special View of History,” noise aesthetics, “Ruse of the Medusa,” Dewey, Projectivism and Phenomenology, and Cage-Ranciere-Schiller.</p>
+<p>The current state of feminist modernist studies, to borrow from Urmila Seshagiri, “cannot afford complacency.” Moving beyond canonical women writers (Woolf, Stein, H.D.), our seminar will privilege the margins of modernism, granting sustained attention to questions of belonging with respect to form, genre, gender, sexuality, race, ability, and/or nationality. We seek papers that explore women writers whose feminist forms have excluded them from the canon, anthologies, syllabi, and modernist studies. By highlighting the work of those who trouble what it means to be modernist, we hope to push the boundaries of the field, reshaping it through feminist interventions.</p>
 
-<p><strong>Carla Billitteri (University of Maine at Orono)</strong><br />
-<strong>Seth J. Forrest (Coppin State University)</strong><br />
-<strong>Stephen Fredman (University of Notre Dame)</strong><br />
-<strong>Elisabeth Joyce (Edinboro University)</strong> <br />
-<strong>Roger Rothman (Bucknell University)</strong><br /></p>
+<h3 id="critical-prose-by-modernist-poets">10. Critical Prose by Modernist Poets</h3>
+<p>Organizers: David E. Chinitz (Loyola University)<br />
+                   
+Jayme Stayer (John Carroll University)</p>
 
-<h2 id="black-mountain-college-iii-dispersed-publishing-networks"><strong>Black Mountain College (III)</strong>: Dispersed Publishing Networks</h2>
+<p>This seminar will explore the work of modernist poets as critics. Papers on the contributions of individual poets to criticism are welcome, as are papers addressing such broader questions as the following. How do modernists revise the idea of the poet-critic? How does the practice of criticism by poets compare across languages and cultures? Are there interesting generalizations to be made about how poets marginalized by race, gender, or sexuality position themselves as critics? We would welcome challenges to the critical shibboleth that theorizing by modernist poets is always self-serving. Also of interest would be papers highlighting textual problems, or issues with contemporary editions of prose by modernist poets.  </p>
 
-<p>This roundtable explores the dispersed publishing networks associated with the college and its practices of textual scholarship. </p>
+<h3 id="modernism-and-education">11. Modernism and Education</h3>
+<p>Organizers: Bridget Chalk (Manhattan College)<br />
+                   
+Benjamin D. Hagen (University of South Dakota)</p>
 
-<p><strong>Benjamin Friedlander (University of Maine)</strong><br />
-<strong>Kaplan Harris (St. Bonaventure University)</strong><br />
-<strong>Benjamin Lee (University of Tennessee)</strong><br />
-<strong>Brian McAllister (Ohio University)</strong><br />
-<strong>Alessandro Porco (University of North Carolina, Wilmington)</strong><br /></p>
+<p>This seminar will explore relationships between modernism and education. These relationships include (but are not limited to): formal and stylistic pedagogies; scenes of teaching and discipline (e.g., in Joyce, Lawrence, Woolf, etc.); and how modernist writers comment, explicitly or immanently, on institutional education and the lives of individual teachers and students. Linked to modernist accounts of education is the place of modernism within our own institutions. Is modernism good for us? Why teach modernism now? We welcome papers on pedagogical approaches to modernism, modernists as teachers, representations of schooling and university life, and the edifying (or stultifying) properties of modernism.</p>
 
+<h3 id="modernism-and-mass-observation">12. Modernism and Mass Observation</h3>
+<p>Organizers: Amy Woodbury Tease (Norwich University)<br />
+                   
+Marilyn Reizbaum (Bowdoin College)</p>
+
+<p>Invited Participant: Dr. Fiona Ann Jardine (Design History &amp; Theory, Glasgow School of Art)</p>
+
+<p>This seminar considers the relationship between modernism and the politics of observation. It borrows its concept from Mass Observation, a social research organization that collected data on ordinary British citizens from 1937-1950. Despite its democratizing effort to give voice and agency to the public, Mass Observation became an exercise in surveillance, anticipating the rise of surveillance practices in a postwar world. We encourage papers that take up the theme of observation by exploring intersections between modernism and everyday life – from fashion to pub culture to public transportation. Interdisciplinary approaches welcome.</p>
+
+<h3 id="modernist-institutions">13. Modernist Institutions</h3>
+<p>Organizers: Caroline Z. Krzakowski (Northern Michigan University)<br />
+                   
+Megan Faragher (Wright State University–Lake Campus)</p>
+
+<p>In this seminar, we will re-envision the intersection between modernism and institutions. We welcome papers that model new approaches to our understanding of institutions through the lens of modernism’s relationship with cultural, international, and governmental bureaucracies. While modernism has long been understood as an institution in its own right, increasingly subject to boundaries and models constructed by academia in the present, what is to be gained by exploring modernism’s intersections with national and international institutions that helped shape and influence the movement as it developed?</p>
+
+<p>Institutions might include non-profit cultural institutions, cinemas, museums, governmental departments (for ex., the Ministry of Information), intergovernmental and international organizations, and media institutions (the BBC, newspapers).   </p>
+
+<h3 id="the-harlem-renaissance">14. The Harlem Renaissance</h3>
+<p>Organizers: Octavio (Tavi) R. González (Wellesley College)<br />
+                   
+Lisa Mendelman (Menlo College)</p>
+
+<p>The “Harlem” or “New Negro” Renaissance is perennially lost and found in the archives. Critical discoveries continuously redefine the movement’s temporal, geographic, political, cultural, and disciplinary coordinates. Revisionist historiographies and biographies reconstruct (and re-litigate) the movement’s literary legacies, popular icons, transnational boundaries, interplay with period discourses, and present-day resonances. Institutional repositories facilitate these projects, while also offering themselves up as sites of inquiry.  &lt;/p&gt;&lt;p&gt;Papers might address these concerns in light of recent turns to sensation, institutional studies, material and visual cultures, Afro-Pessimism, the new formalism, digital approaches, the “method wars,” and other ways we continue to make the Renaissance new.    </p>
+
+<h3 id="modern-machines">15. Modern Machines</h3>
+<p>Organizers: Ann Martin (University of Saskatchewan)<br />
+                   
+Christopher Townsend (Media Arts, Royal Holloway, University of London)</p>
+
+<p>This seminar explores machines, including the motor-car, motor-cycle, and aeroplane, as metaphors of modernity and material forms of modernism. We invite papers that address how machines come to mean in or as modernist texts. Topics may include the aesthetics of design and of promotion (racing posters, advertisements, postcards, magazines, memoirs); the contexts that place the machine (or its drafted form) as art object, cultural capital, political tool, or part of a mise-en-scène; and the connection between their graphic design and graphic violence, given the potential for disorder—creative and destructive—associated with the mechanical in the twentieth-century.</p>
+
+<h3 id="modernism-and-lyric-theory">16. Modernism and Lyric Theory</h3>
+<p>Organizer: Joshua Adams (University of Louisville)</p>
+
+<p>This seminar will consider how modernist poets contributed to the theory of the lyric – either in terms that buttress recent accounts of “lyricization,” in which poetry becomes synonymous with “lyric,” or in terms divergent from that project. Do modernist experiments with form, including prosody, image, typography, and design, as well as the incorporation of extra-poetic texts, offer us a way out of lyricization and into poetry’s less recognized, but nevertheless vital, manifestations? How might global or internationalist accounts of modernism trouble the Anglo-American matrix from which lyric theory springs? What are the affinities and fissures between the practice of literary criticism and contemporaneous developments in the literary field?    </p>
+
+<h3 id="vanguard-u-universities-as-infrastructures-of-the-avant-garde">17. Vanguard U: Universities as Infrastructures of the Avant-Garde</h3>
+<p>Organizers: Jennifer Buckley (University of Iowa)<br />
+                   
+Joyce Tsai (College of Education, University of Iowa Museum of Art)   </p>
+
+<p>With the exception of avowedly experimental institutions like Black Mountain College, the New School for Social Research, and Cal Arts, North American universities are not typically imagined as sites of vanguard activity, and scholars rarely consider the ways avant-garde thought and practice rely upon, transform, and even nurture existing public institutions.  And while“avant-garde”  typically conjures images of radical anti-traditionalism, the constitution of any avant-garde is premised upon either the invention or (more often) the seizure and transformation of infrastructures of circulation publications, exhibition spaces, teaching institutions, etc. – to disseminate ideas, artworks, and activities. This seminar aims to account for the presence, practices, and legacies of often self-described avant-garde writers and artists in universities, particularly in large public institutions removed from established coastal urban centers of cultural production. How have universities – as infrastructure and as philosophical enterprise – advanced avant-garde ideas and practices in multiple, and at times coordinated, domains (for example, in collecting, teaching, and practice)? We invite papers that focus on universities as incubators of avant-garde thought and practice, in the past, present, and future, and which open up interdisciplinary approaches to traditional histories or definitions of “avant-garde.”  </p>
+
+<h3 id="seeing-modernist-reading">18. Seeing Modernist Reading</h3>
+<p>Organizers: Janine Utell (Widener University)<br />
+                   
+Melissa Dinsman (City University of New York—York College)</p>
+
+<p>This seminar will consider ways of seeing reading within modernism, as practice and theory, from analog to digital. How might we visualize, map, or graph modernist reading patterns, networks, practices?  How does adaptation (visual, graphic) serve as a form of reading?  How is reading a form of seeing…or not seeing?  What is left out, what <em>don’t</em> we see when we visualize, adapt, map? What can we learn about the dynamic between scopophilia and surveillance through modernist reading?  We invite papers addressing broadly and from a variety of perspectives how we visualize modernist reading, and how modernists visualized themselves reading.  </p>
+
+<h3 id="late-between-belated-bereft">19. Late, Between, Belated, Bereft</h3>
+<p>Organizer: Matthew Hart (Columbia University)</p>
+
+<p>Invited Participant: Julia Jordan (University College London)</p>
+
+<p>Late Modernism has forever been the ugly stepchild of modernist studies. Although scholars generally accept that it exists, there’s little agreement about when it occurs or whether it’s more than a minor hiccup in the transition from high modernism to what comes after – be it “neo-“ or “post-,” “meta-“ or “alter-,” or none of the above. Things get more complicated, still, when modernism goes global: does the fluorescence of modernist style in the Caribbean or Africa after 1945 make writers like Lamming or Achebe “late” and, if so, according to whose developmental clock? And what of late modernism’s content or character? Is it defined by the turn to the everyday, as Thomas S. Davis has recently argued, or by the negativity limned by Tyrus Miller in 1999? Or, as Edward Said (2007) and J. M. Bernstein (2006) variously suggested, is modernism in general defined by a sense of temporal lateness and untimeliness? What, finally, of modernism’s investments in psychic, affective, and political states of bereavement, disappointment, failure, and in-betweenness? Is “late modernism” less a period category than a condition of wounded being? Open to papers on literature and the arts from any culture, genre, and period in the twentieth century, this seminar would like to meet new perspectives on modernism and belatedness. </p>
+
+<h3 id="theorizing-cinema-before-world-war-ii">20. Theorizing Cinema before World War II</h3>
+<p>Organizers: Ryan Friedman (Film Studies and English, Ohio State University)<br />
+                   
+Margaret Flinn (Film Studies and French, Ohio State University)</p>
+
+<p>Invited Participant: Lilya Kaganovsky (Slavic, Comparative Literature, and Cinema Studies, University of Illinois-Urbana-Champaign)</p>
+
+<p>In the first five decades of cinema’s existence, intellectuals and artists—from Vachel Lindsay, to Élie Faure, to Xu Chi—championed the medium, often theorizing its aesthetic, technological, and social dimensions in highly utopian terms. The seminar invites papers from scholars working in a variety of fields and national contexts, which examine how this body of writing shaped and was shaped by contemporary cinema culture, or visual culture broadly speaking. Relevant topics might include: early film theory’s rhetorical strategies (e.g., the universal language metaphor, comparisons with other art forms like theater and music), its philosophical sources (e.g., race theory, esotericism), and the institutional factors (e.g., the writer’s relationships to a particular national film industry) that shaped its production and circulation.</p>
+
+<h3 id="tvs-modernist-turn">21. TV’s Modernist Turn</h3>
+<p>Organizer: Elizabeth Alsop (Film Studies, Graduate Center, City University of New York)</p>
+
+<p>The post-network era in American television has yielded a number of series strongly indebted to modernism, whether in their narrative structures, aesthetic tendencies, or in the cognitive demands they place on viewers. This seminar will examine this “modernist turn” in U.S. television, and consider the practical and theoretical implications of locating modernism’s influence within a singularly popular art form. Among the questions seminar participants might explore: How is modernist praxis shaping “new” media? What cultural, industrial, and economic factors have licensed formal experimentation by 21st-century showrunners—and how does it compare to the types of innovation undertaken by modernist writers and filmmakers? How might an intermedial framework help us map modernism both diachronically and across disciplinary boundaries? Finally, how might assumptions about modernism be transformed by recognizing not only its presence within a popular medium—but its pleasures?</p>
+
+<h3 id="the-afterlives-of-taste-modernism-and-the-persistence-of-the-aesthetic">22. The Afterlives of Taste: Modernism and the Persistence of the Aesthetic</h3>
+<p>Organizer: Robert S. Lehman (Boston College) </p>
+
+<p>How does modernism fit into the history of aesthetics? Are modernism’s own aesthetic categories—novelty, difficulty, impersonality—still a part of this history? This seminar will put literary and visual modernism in contact with issues in philosophical aesthetics (that is, the tradition reaching from Baumgarten and Kant through Adorno and Rancière). Modernism’s “aesthetics” is here understood broadly: as the theoretical discourse on art occasioned by modernist art objects; as the practice of art and literary criticism specific to the modernist period; and as a reimagining of the forms of sensible experience in modernist works themselves. </p>
+
+<h3 id="video-modern">23.  Video Modern</h3>
+<p>Organizers: Martin Harries (University of California, Irvine)<br />
+                   
+Nicholas Ridout (Theater, Queen Mary, University of London)  </p>
+
+<p>Video, said Fredric Jameson, is the art form par-excellence of late capitalism or  postmodernity. If this may be taken to indicate some complicity between video as a medium and contemporary capitalism’s self-representations, might this complicity somehow be undone by an attempt to think about video’s potential as a critical engagement with modernity? What would ‘video modern’ look like? Does it exist today? Has it existed Does video have a ‘modernist’ pre-history? In poetry, film, painting, music?  </p>
+
+<h3 id="world-war-i-and-disciplinarity">24. World War I and Disciplinarity</h3>
+<p>Organizers: Josh Gang (University of California, Berkeley)<br />
+                   
+Sam Alexander (Endicott College)</p>
+
+<p>Invited Participant: Vincent Sherry (Washington University, St. Louis)</p>
+
+<p>On the hundredth anniversary of the war’s end, this seminar invites papers that examine how World War I and the armistice shaped both the modern disciplines and the idea of disciplinarity itself. How did the global catastrophe of the war change how people thought about the transmission of, or boundaries between, bodies of knowledge? How did the effort to grapple with total war affect the formation of disciplines and professional standards across the human, social, and experimental sciences?  And how did these changing conceptions of individual disciplines and disciplinarity shape literary history?  </p>
+
+<h3 id="obscenity-and-transcultural-performance">25. Obscenity and Transcultural Performance</h3>
+<p>Organizers: Rebecca Kastleman (History and Literature, Harvard University)<br />
+                   
+Alisa Zhulina (Drama, New York University, Tisch School of the Arts)</p>
+
+<p>This seminar will analyze how performance transformed perceptions of obscenity as it traversed cultural contexts and national borders in modernity. We explore the ways in which a new cultural milieu shapes the reception of dramatic texts, theatre productions, and performance art. How does the term “graphic” change across different cultures and what implications does this have for the performing arts in particular? Which forms of obscenity are intentionally provoked and which are effects of cultural insensitivity or appropriation? We invite papers that focus on any aspect of obscenity, censorship, or audience reception in the context of modernist transcultural performance.</p>
 
 </div>
+
+
 </body>
 
 </html>
