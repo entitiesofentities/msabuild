@@ -163,14 +163,7 @@ Organizer: Robert S. Lehman (Boston College)
 
 How does modernism fit into the history of aesthetics? Are modernism’s own aesthetic categories—novelty, difficulty, impersonality—still a part of this history? This seminar will put literary and visual modernism in contact with issues in philosophical aesthetics (that is, the tradition reaching from Baumgarten and Kant through Adorno and Rancière). Modernism’s “aesthetics” is here understood broadly: as the theoretical discourse on art occasioned by modernist art objects; as the practice of art and literary criticism specific to the modernist period; and as a reimagining of the forms of sensible experience in modernist works themselves. 
 
-###  23.  Video Modern
-Organizers: Martin Harries (University of California, Irvine)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Nicholas Ridout (Theater, Queen Mary, University of London)  
-
-Video, said Fredric Jameson, is the art form par-excellence of late capitalism or  postmodernity. If this may be taken to indicate some complicity between video as a medium and contemporary capitalism's self-representations, might this complicity somehow be undone by an attempt to think about video's potential as a critical engagement with modernity? What would 'video modern' look like? Does it exist today? Has it existed Does video have a 'modernist' pre-history? In poetry, film, painting, music?  
-
-###  24. World War I and Disciplinarity
+###  23. World War I and Disciplinarity
 Organizers: Josh Gang (University of California, Berkeley)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Sam Alexander (Endicott College)
@@ -179,7 +172,7 @@ Invited Participant: Vincent Sherry (Washington University, St. Louis)
 
 On the hundredth anniversary of the war’s end, this seminar invites papers that examine how World War I and the armistice shaped both the modern disciplines and the idea of disciplinarity itself. How did the global catastrophe of the war change how people thought about the transmission of, or boundaries between, bodies of knowledge? How did the effort to grapple with total war affect the formation of disciplines and professional standards across the human, social, and experimental sciences?  And how did these changing conceptions of individual disciplines and disciplinarity shape literary history?  
 
-###  25. Obscenity and Transcultural Performance
+###  24. Obscenity and Transcultural Performance
 Organizers: Rebecca Kastleman (History and Literature, Harvard University)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Alisa Zhulina (Drama, New York University, Tisch School of the Arts)
