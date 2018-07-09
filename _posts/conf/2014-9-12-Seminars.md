@@ -7,6 +7,9 @@ tag: text
 
 # Seminars for MSA 18
 
+## Conference registration will open by the end of July.
+
+
 ### show/hide all
 
 ###  1. Women's Writing and Social/Political Activism
