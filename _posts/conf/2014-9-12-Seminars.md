@@ -107,7 +107,7 @@ In this seminar, we will re-envision the intersection between modernism and inst
 
 Institutions might include non-profit cultural institutions, cinemas, museums, governmental departments (for ex., the Ministry of Information), intergovernmental and international organizations, and media institutions (the BBC, newspapers).   
 
-###  14. The Harlem Renaissance
+###  14. The Harlem Renaissance: : Lost & Found
 Organizers: Octavio (Tavi) R. González (Wellesley College)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Lisa Mendelman (Menlo College)
