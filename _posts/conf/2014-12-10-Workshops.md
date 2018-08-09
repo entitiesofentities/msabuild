@@ -13,10 +13,9 @@ tag: text
 
 ## Pre-conference Workshops<br>(anticipated to run 10am-12pm on Thursday, November 8)
 
-### 1. 	Workshopping Fellowship Applications in the Humanities  [CLOSED]
+### 1. 	Workshopping Fellowship Applications in the Humanities [CLOSED]
 
 **THIS WORKSHOP IS CLOSED**
-
 
 This workshop will give participants an opportunity to see examples of successful fellowship applications and to receive feedback on drafts of their own proposals.  Before the conference, each participant, including conveners, will submit fellowship criteria and a proposal for circulation.   The conveners will help participants  articulate the significance of a research project, often narrowly defined, to a wider audience, many of whom are not specialists in the proposed research topic--the most difficult part of writing applications but also the most important.  Bulson and Kalliney will supplement group conversation with written, individualized feedback for each of the participants and will be available after the MSA conference for consultation.
  
