@@ -22,7 +22,9 @@ This workshop will give participants an opportunity to see examples of successfu
 ### 2.	Journal Publishing in Modernist Studies
 
 
-### 3.	Writing for the Public
+### 3.	Writing for the Public [CLOSED]
+
+**THIS WORKSHOP IS CLOSED**
 
 This workshop is for any scholar at any career stage interested in writing for a public audience, whether they already contribute to popular publications or hope to in the future. Discussion topics will include adapting scholarly interests for nonacademic audiences, pitching articles to appropriate venues, working with editors, managing one’s time within an already busy teaching-research schedule, incorporating public writing into a promotion or job file, etc. The workshop leaders comprise editors at the Los Angeles Review of Books and contributors to publications including BOMB, Bookforum, The Financial Times, The Los Angeles Times, The Nation, N+1, and The New Republic.
 
