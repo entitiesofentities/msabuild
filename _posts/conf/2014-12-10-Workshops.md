@@ -34,7 +34,9 @@ This workshop is for any scholar at any career stage interested in writing for a
 
 ### 5. Mid-career Modernism: Navigating the Profession Mid-stream
 
-### 6. Digital Humanities Methods for Modernist Studies
+### 6. Digital Humanities Methods for Modernist Studies[CLOSED]
+
+**THIS WORKSHOP IS CLOSED**
 
 ### 	7. ModDH Collab: Getting Started with Collaborative Project
 
