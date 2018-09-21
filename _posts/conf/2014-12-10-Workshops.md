@@ -34,10 +34,13 @@ This workshop is for any scholar at any career stage interested in writing for a
 
 ### 5. Mid-career Modernism: Navigating the Profession Mid-stream
 
-### 6. Digital Humanities Methods for Modernist Studies[CLOSED]
+### 6. Digital Humanities Methods for Modernist Studies [CLOSED]
 
 **THIS WORKSHOP IS CLOSED**
 
-### 	7. ModDH Collab: Getting Started with Collaborative Project
+### 	7. ModDH Collab: Getting Started with Collaborative Project [CLOSED]
+
+**THIS WORKSHOP IS CLOSED**
+
 
 Despite the necessity of collaboration in digital humanities projects, it remains difficult. How do you find a collaborator? How do you do so ethically, cross-institutionally, or globally? This workshop will facilitate the development of modernist digital humanities projects by bringing researchers together to find partners for existing projects and workshopping proposals for new ones. It will include full-group discussions as well as breakout pitch sessions. Participants will be asked to formulate position statements and to help assemble a collaboratively sourced ModDH Switchboard, which will serve as a global platform and general resource kit for collaboration. No prior experience necessary.
