@@ -41,10 +41,12 @@ body, html {
 
 .top-nav{
 	font-size: .8em;
+	line-height: 100%;	
 }
 
 .bottom-nav{
 	font-size: .9em;
+	line-height: 100%;	
 }
 
 .full{
