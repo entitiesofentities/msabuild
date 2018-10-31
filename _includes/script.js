@@ -1,8 +1,8 @@
 //HEADER ANIMATION//
 var animatedHeader = function(a, b){
-    
+
     selector = '#animate ' + a;
-    
+
     $(selector).click(function(){
                       $('.bottom-nav').not(b).addClass('hidden');
                       $(b).addClass('animated');
@@ -11,9 +11,9 @@ var animatedHeader = function(a, b){
 }
 
 var fullHeader = function(a, b){
-    
+
     selector = '#full ' + a;
-    
+
     $(selector).click(function(){
                       $('.bottom-nav').not(b).addClass('hidden');
                       $(b).addClass('animated');
@@ -22,7 +22,7 @@ var fullHeader = function(a, b){
 }
 
 var mobileHeader = function(a, b, c){
-    
+
     $(a).click(function(){
                $(a).toggleClass('highlighted');
                $(b).toggle('show');
@@ -36,13 +36,13 @@ var mobileHeader = function(a, b, c){
 //options: gold, maroon, navy
 
 var colouredHeader = function (a, b, c){
-    
+
     selector = a + b;
-    
+
     $(selector).hover(function(){
                       $(this).toggleClass(c);
                       });
-    
+
 }
 
 //CHECK FOR MOBILE//
@@ -55,7 +55,7 @@ var mobileCheck = function(){
 //INTERACTIVE BACKGROUND//
 
 var interactive_bg = function(strength){
-    
+
     $(".bg").interactive_bg({
                             strength: strength,
                             scale: 1.1,
@@ -68,54 +68,54 @@ var interactive_bg = function(strength){
     var main = function(){
     //check for mobile
     mobileCheck();
-    
-  
+
+
     //MOBILE//
     if(check){
-        
+
         //img resize
         $("img").not(".bg").unwrap();
         $("img").not(".bg").addClass("mobile_img");
         $('#c').css('line-height', '.95em;');
-        
+
         //background img
         if(document.title == "MSA Columbus"){
             interactive_bg(5);
         }
-        
+
         //page styling
         //header fix
         $('.welcome-left').hide();
         $('.welcome-right').hide();
         $('#bottom-header').prepend('<p>Graphic Modernisms</p>');
-        
+
         $('.content').addClass('little_pad');
         $('.post').addClass('mobile_post');
         $('#reader').css('width', '90%');
-        
+
         $('header').addClass('sticky');
         $('#bottom-header').css('font-size', '3em');
         $('#bottom-header').css('line-height', '1em');
-        
+
         $('#slow').hide();
         $('#fast').show();
         $('#mobile').show();
-        
+
         //iframe fix
         $('#iframe').css('height', screen.height/2 + "px");
-        
+
         //content padding
         var pad;
         pad = $('header').height();
         $('#padder').height(pad/1.5);
         $('.padder').height(pad/1.5);
-        
+
         //header animation
         var selected;
         $('ul li').addClass('mobile');
         $('.top-nav').hide();
         $('.bottom-nav').hide();
-        
+
         $('.title').click(function(){
                           if(selected){
                           $('.top-nav').hide();
@@ -133,23 +133,23 @@ var interactive_bg = function(strength){
 //        $('#mobile #top-nav-one').click(function(){
 //                                window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                });
-        
+
         mobileHeader('#mobile #top-nav-one', '#program', '#top-nav-one');
         mobileHeader('#mobile #top-nav-two', '#conf', '#top-nav-two');
         mobileHeader('#mobile #top-nav-three', '#grads', '#top-nav-three');
         mobileHeader('#mobile #top-nav-four', '#visit', '#top-nav-four');
-        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');        
-        
+        mobileHeader('#mobile #top-nav-five', '#events', '#top-nav-five');
+
     //ANIMATED//
     }else{
         if(document.title == "MSA Columbus"){
-            
+
             //background img
             interactive_bg(50);
             $('.bg').css('height', '60%');
             $('.bg').css('width', '100%');
 
-            
+
             //image sizing
             $("img[alt*='sm']").addClass("small");
             $("img[alt*='med']").addClass("medium");
@@ -157,7 +157,7 @@ var interactive_bg = function(strength){
             $("img[alt*='left']").addClass("left");
             $("img[alt*='right']").addClass("right");
             $("img[alt*='center']").addClass("center");
-            
+
             //page styling
             $('#animate').show();
             $('#full').hide();
@@ -167,26 +167,26 @@ var interactive_bg = function(strength){
             $('header').css('line-height', '.5em');
             $('#top-header').show();
             $('.content').addClass('big_pad');
-            
+
             //content padding
             var pad;
             pad = $('header').height();
             $('.padder').height(pad/3);
             $('.top-pad').height(pad/1.5);
-            
+
             //header scroll code
             var numz;
             numz = $(window).height();
-            
+
             //conference program code
             $('#animate #top-nav-one').hover(function(){
                                              $(this).prev().andSelf().toggleClass('peas_and_carrots');
                                              });
-            
+
             $('#animate #top-nav-one').mouseleave(function(){
                                              $(this).prev().andSelf().addClass('parting_ways');
                                              });
-            
+
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
@@ -199,15 +199,15 @@ var interactive_bg = function(strength){
                              $('#top-header').show();
                              }
                              });
-            
+
             //header animation
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
-            
+
             //$('.top-nav').hover(function(){
             //                    $(this).toggleClass('highlighted');
             //                    });
-            
+
             colouredHeader('#animate ', '#top-nav-two', 'navy');
             colouredHeader('#animate ', '#top-nav-three', 'maroon');
             colouredHeader('#animate ', '#top-nav-four', 'navy');
@@ -216,56 +216,72 @@ var interactive_bg = function(strength){
 //            $('#animate #top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
-            
+
             animatedHeader('#top-nav-one', '#program');
             animatedHeader('#top-nav-two', '#conf');
             animatedHeader('#top-nav-three', '#grads');
             animatedHeader('#top-nav-four', '#visit');
             animatedHeader('#top-nav-five', '#events');
-            
+
         //FULL//
         }else{
-            
+
             $('.vid').click(function(){
                              $(this).get(0).play();
                              });
-            
+
             //image sizing
             $("img[alt*='sm']").addClass("small");
             $("img[alt*='med']").addClass("medium");
             $("img[alt*='lg']").addClass("large");
             $("img[alt*='left']").addClass("left");
             $("img[alt*='right']").addClass("right");
-            
+
             //page styling
             $('#full').show();
             $('#animate').hide();
             $('header').addClass("sticky");
             $('.content').addClass('big_pad');
-            
+
             //content padding
             var pad;
             pad = $('header').height();
             $('#padder').height(pad/2);
-            
+
+            //ADS
+            var ad = Math.round(Math.random()*2) + 1;
+             if(document.title == "MSA Amsterdam"){
+                 $('.advert').hide();
+             }
+
+            if(ad == 1){
+                $('.advert').css('background-image','url(../assets/ads/UCP.jpg');
+                $('.advert').click(function(){
+                                   window.open(
+                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               '_blank'
+                                               );
+                                   });
+            }
+
             //header animation
             $('ul li').addClass('full');
             $('.bottom-nav').addClass('animated fadeInDown');
-            
+
             //conference program code
             $('#top-nav-one').hover(function(){
                                     $(this).prev().andSelf().toggleClass('peas_and_carrots');
                                     });
-            
+
             $('#top-nav-one').mouseleave(function(){
                                                   $(this).prev().andSelf().addClass('parting_ways');
                                                   });
-            
+
             colouredHeader('#full ', '#top-nav-two', 'navy');
             colouredHeader('#full ', '#top-nav-three', 'maroon');
             colouredHeader('#full ', '#top-nav-four', 'navy');
             colouredHeader('#full ', '#top-nav-five', 'gold');
-            
+
             //$('.top-nav').hover(function(){
             //                    $(this).toggleClass('highlighted');
             //                    });
@@ -273,7 +289,7 @@ var interactive_bg = function(strength){
 //            $('#top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
 //                                    });
-            
+
             fullHeader('#top-nav-one', '#program');
             fullHeader('#top-nav-two', '#conf');
             fullHeader('#top-nav-three', '#grads');
@@ -281,7 +297,7 @@ var interactive_bg = function(strength){
             fullHeader('#top-nav-five', '#events');
         }
     }
-    
+
 }
 
 $(document).ready(main);
