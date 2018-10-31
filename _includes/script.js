@@ -258,11 +258,27 @@ var interactive_bg = function(strength){
                 $('.advert').css('background-image','url(../assets/ads/UCP.jpg');
                 $('.advert').click(function(){
                                    window.open(
-                                               'http://www.euppublishing.com/action/showPublications?category=10.1555%2Fcategory.40036334',
+                                               'https://www.ucpress.edu/page/msa2018?utm_source=MSA&utm_medium=web',
                                                '_blank'
                                                );
                                    });
             }
+
+          /*Failed experiment to dynamically reposition ad
+          var adHeight = $('.advert').offset().top;
+          var docHeight = $(document).height();
+          var adDistance = (eTall - eTop) / 50;
+          var adOffset = Math.round(eBr);
+
+
+          var i = 0;
+
+          while (i < adOffset){
+            $( ".content" ).after( "<p><br></p>" );
+            i ++;
+          }
+          */
+
 
             //header animation
             $('ul li').addClass('full');
