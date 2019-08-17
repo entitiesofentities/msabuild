@@ -142,7 +142,7 @@ var interactive_bg = function(strength){
 
     //ANIMATED//
     }else{
-        if(document.title == "MSA Columbus"){
+        if(document.title == "MSA Brooklyn"){
 
             //background img
             interactive_bg(50);
@@ -171,8 +171,8 @@ var interactive_bg = function(strength){
             //content padding
             var pad;
             pad = $('header').height();
-            $('.padder').height(pad/3);
-            $('.top-pad').height(pad/1.5);
+            $('.padder').height(pad * 0.25);
+            $('.top-pad').height(pad * 0.25);
 
             //header scroll code
             var numz;
@@ -208,10 +208,10 @@ var interactive_bg = function(strength){
             //                    $(this).toggleClass('highlighted');
             //                    });
 
-            colouredHeader('#animate ', '#top-nav-two', 'navy');
-            colouredHeader('#animate ', '#top-nav-three', 'maroon');
-            colouredHeader('#animate ', '#top-nav-four', 'navy');
-            colouredHeader('#animate ', '#top-nav-five', 'gold');
+            colouredHeader('#animate ', '#top-nav-two', 'underline');
+            colouredHeader('#animate ', '#top-nav-three', 'underline');
+            colouredHeader('#animate ', '#top-nav-four', 'underline');
+            colouredHeader('#animate ', '#top-nav-five', 'underline');
 
 //            $('#animate #top-nav-one').click(function(){
 //                                    window.location.href = 'https://msa.press.jhu.edu/conferences/msa17/assets/MSA17FinalProgram.pdf';
@@ -293,10 +293,10 @@ var interactive_bg = function(strength){
                                                   $(this).prev().andSelf().addClass('parting_ways');
                                                   });
 
-            colouredHeader('#full ', '#top-nav-two', 'navy');
-            colouredHeader('#full ', '#top-nav-three', 'maroon');
-            colouredHeader('#full ', '#top-nav-four', 'navy');
-            colouredHeader('#full ', '#top-nav-five', 'gold');
+            colouredHeader('#full ', '#top-nav-two', 'underline');
+            colouredHeader('#full ', '#top-nav-three', 'underline');
+            colouredHeader('#full ', '#top-nav-four', 'underline');
+            colouredHeader('#full ', '#top-nav-five', 'underline');
 
             //$('.top-nav').hover(function(){
             //                    $(this).toggleClass('highlighted');

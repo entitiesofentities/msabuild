@@ -91,6 +91,15 @@ body, html {
 	padding: 5px 10px 5px 10px;
 }
 
+.content {
+	background-color: white;
+}
+
+.content-animate {
+	position: absolute;
+	margin-top: 900px;
+	background-color: white;
+}
 
 .content p{
 	text-align: left;
@@ -124,17 +133,18 @@ body, html {
 .content h1{
 	text-align: left;
 	font-size: 1.5em;	
-	color: #830602;
+	color: rgba(250,50,50,1);
 	font-family: geneva;
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .content h2{
 	text-align: left;
-	font-size: 1.3em;
-	color: #021170;
+	font-size: 1.2em;
+	color: black;
 	font-family: geneva;
 	font-weight: 400;
+	text-decoration: overline;
 }
 
 .mobile {
@@ -142,25 +152,21 @@ body, html {
 }
 
 .content a{
-	color: #e9c040;
+	color: rgba(250,50,50,1);
+	font-variant: small-caps;
 }
 
 .content a:visited{
-	color: #e9c040;	
+	color: rgba(250,50,50,1);	
+	font-variant: small-caps;
 }
 
 .content a:hover{
-	font-variant: small-caps;
-	color: grey;
-	letter-spacing: 2px;
-	transition: 1s;
+	text-decoration: overline;
 }
 
 .post a:hover{
-	font-variant: small-caps;
-	color: grey;
-	letter-spacing: 2px;	
-	transition: 1s;
+	text-decoration: overline;
 }
 
 /** CONTENT IMAGE SIZES **/

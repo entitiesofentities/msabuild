@@ -1,28 +1,8 @@
 ---
 layout: welcome
 ---
-<div class="welcome-left">Graphi<span class="graphic">c</span></div>
-<div class="welcome-lefter"></span></div>
-<div id = "fast">
-<a href="#begin"><img src="{{ base }}assets/Licht.png" width="auto" height="70%"/></a>
-<!--    	  <div class="bg animated fadeIn"  style="{{ site.delay_6 }}" data-ibg-bg="{{ base }}assets/LittleBig.jpg">
-    	  </div>
--->
-	{% include bottom-header.html %}
-</div>
-<div class="welcome-right">Modernism<span class="graphic">s</span></div>
-<div class="welcome-righter"></span></div>
 
-<div id = "slow">
-<a href="#begin"><img id="anchorme" src="{{ base }}assets/Licht.png" width="auto" height="70%"/></a>
-<!--
-    	  <div id = "slow" class="bg animated fadeIn"  style="" data-ibg-bg="{{ base }}assets/LittleBig.jpg" z-index: 2;>
-    	  </div>
--->
-	{% include bottom-header.html %}
-</div>    	
-
-<div class="content">
+<div class="content content-animate">
 {% capture my_include %}{% include welcome.md %}{% endcapture %}
 {{ my_include | markdownify }}
 </div>
@@ -44,7 +24,7 @@ layout: welcome
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	      if (target.length) {
 	        $('html,body').animate({
-	          scrollTop: target.offset().top
+	          scrollTop: target.offset().top - 100
 	        }, 1000);
 	        return false;
 	      }

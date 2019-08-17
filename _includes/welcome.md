@@ -1,9 +1,13 @@
-<div class="padder" id="begin">
+<div class="padder">
 </div>
+
+<div id="begin"></div>
 
 # Welcome to Columbus
 
 The history of Columbus encapsulates the historical and cultural transitions of the last century and a half.  The birthplace of the American labor movement, Columbus saw the founding of both the American Federation of Labor and the United Mine Workers.  Despite those early associations with industrial labor, Columbus developed and expanded primarily in the post-War era; in its varied economy it is closer to Sun Belt cities than more typical Midwestern cities.  Its economy and population continues to expand, with its metro area population recently reaching two million.  Given its varied history, Columbus encompasses the diversity of the American urban environment, ranging from carefully-preserved Victorian neighborhoods to streetcar suburbs, from abandoned warehouses turned into studio spaces for artists to suburban sprawl.  Its architectural highlights include the preserved mid-nineteenth century neighborhood of German Village, the Art Deco LeVeque tower, the Deconstructionist-inspired Wexner Center by Peter Eisenman, and the Frank Lloyd Wright-influenced Usonian community of Rush Creek Village.
+
+
 
 Columbus is arguably the hub of comics culture, with a history of famous cartoonists and comic-influenced artists from Billy Ireland and James Thurber to Roy Lichtenstein and Jeff Smith.  Thanks to the Billy Ireland Cartoon Library, which holds the largest collection of cartoons in the world, it is also the center for the scholarly study of graphic narrative.  Columbus has also increasingly becoming a hotbed for art and fashion, after the 1989 opening of the Wexner Center for the Arts and the recent renovation and expansion of the Columbus Museum of Art and the opening of the Pizzuti Collection of Contemporary Art.
 

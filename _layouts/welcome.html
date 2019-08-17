@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ site.name }} {{ site.subtitle}}</title>
         <meta name="author" content="Alex Christie, University of Victoria (UVic) and the Boston Organizing Committee. With thanks to Nicole Rizzo (Boston University) for research assistance."        
-        <meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- base snippet for relative paths -->
 		{% include base.html %}
@@ -17,7 +17,12 @@
 		<!-- Web Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 					
-		<!-- Favicon -->		 		 
+		<!-- P5JS -->
+		<script src="p5.js"></script>
+		<script src="p5.dom.js"></script>
+		<script src="p5.sound.js"></script>
+		<script src="sketch.js"></script>
+		 		 
 		 
 		<!-- Made with Fun Dip -->
 		<script>
@@ -34,16 +39,25 @@
 		
     </head>   
     
-<span id="tippytop"></span>
-{% include header.html %}
-<div class="top-pad"></div>
 
-<body>
+
+
+<body style="background-color: black;">
+<div id="tippytop"></div>
+{% include header.html %}
+
+<div id="sketch-holder"></div>
+
+<div id="roar"><h1><br>New York City
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#begin">↓</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+October 22-25</h1>
+</div>
+
 
                 {{ content }}
 
 </body>
 
-		{% include footer.html %}
+
 
 </html>
