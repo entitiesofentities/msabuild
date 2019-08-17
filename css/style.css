@@ -160,6 +160,10 @@ header{
 	font-size: 1.5em;
 }
 
+.bottom-nav li{
+	line-height: 1.5em;
+}
+
 .pretty{
     -webkit-transition: all 1s;
     -moz-transition: all 1s;

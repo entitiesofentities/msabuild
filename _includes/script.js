@@ -79,8 +79,8 @@ var interactive_bg = function(strength){
         $('#c').css('line-height', '.95em;');
 
         //background img
-        if(document.title == "MSA Columbus"){
-            interactive_bg(5);
+        if(document.title == "MSA Brooklyn"){
+            $('#sketch-holder').hide();
         }
 
         //page styling

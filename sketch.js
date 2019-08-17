@@ -5,11 +5,11 @@ let canvas;
 function centerCanvas() {
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
-  canvas.position(x, y);
+  canvas.position(x, 90);
 }
 
 function setup() {
-  canvas = createCanvas(1024,500);
+  canvas = createCanvas(1024,550);
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
   centerCanvas();
