@@ -9,7 +9,7 @@ function centerCanvas() {
 }
 
 function setup() {
-  canvas = createCanvas(1024,550);
+  canvas = createCanvas(1024,500);
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
   centerCanvas();
