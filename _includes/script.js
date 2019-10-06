@@ -246,7 +246,7 @@ var interactive_bg = function(strength){
             //content padding
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad/2);
+            $('#padder').height(pad/1.25);
 
             //ADS
             var ad = Math.round(Math.random()*2) + 1;
