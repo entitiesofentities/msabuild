@@ -15,27 +15,30 @@ MSA 2020 will be held in downtown Brooklyn, at the base of the Brooklyn Bridge, 
 
 “Streets” is a capacious rubric, inviting new perspectives on modernist cultural production at a local and global scale. Streets can be imagined as a way of thinking; as sites of overlapping temporalities; as networks; and as material, populated places.
 
-As part of the MSA’s initiative to promote a more diverse Association, the 2020 conference will feature five streams of interrelated interdisciplinary panels, more than any previous MSA conference. Each stream solicits proposals for individual papers and aims to draw speakers and audience members from constituencies historically underrepresented within MSA. 
+As part of the MSA’s initiative to promote a more diverse Association, the 2020 conference will feature five streams of interrelated interdisciplinary panels, more than any previous MSA conference. Each stream solicits proposals for individual papers and aims to draw speakers and audience members from constituencies historically underrepresented within MSA.
 
-Keynote events will include a presentation by novelist Zadie Smith and a plenary roundtable on “The New York Sound,” featuring Daphne Brooks (Yale), Brent Edwards (Columbia), Sara Marcus (USC), and Elena Martinez (Bronx Music Heritage Center). 
+Keynote events will include a presentation by novelist Zadie Smith and a plenary roundtable on “The New York Sound,” featuring Daphne Brooks (Yale), Brent Edwards (Columbia), Sara Marcus (USC), and Elena Martinez (Bronx Music Heritage Center).
 
-###Participation
+### Participation
 
 So as to involve as many people as possible as active participants, the MSA limits multiple appearances on the program. Thus, you may participate once in each of the following categories:
 
-* &bull; Seminar, either as leader or as participant 
+* &bull; Seminar, either as leader or as participant
 
 * &bull; Panel or roundtable, as participant (you may also chair a different panel or roundtable)
 
  * &bull; “What Are You Reading?” session
 
-Thus, you may lead a seminar, present a paper on a panel, and participate in a “What Are You Reading” session, but you may not present two papers. MSA rules do not allow panel or roundtable organizers to chair their own session if they are also speaking in the session; the session chair must be someone who is otherwise not presenting. Panel organizers are encouraged to identify a moderator and include this information with their proposals; the MSA Program Committee can also ask another conference attendee to serve as a moderator. Participation in a pre-conference workshop or in a digital exhibition does not limit other forms of participation.
+ Thus, you may lead a seminar, present a paper on a panel, register for a workshop, and participate in a “What Are You Reading” session, but you may not present two papers.
 
+ MSA rules do not allow panel or roundtable organizers to chair their own session if they are also presenting a paper or substantive remarks in the session; the session chair must be someone who is otherwise not presenting. You may chair as many sessions as you like, so long as you observe this rule.
+
+ Panel organizers are encouraged to identify a chair and include this information with their proposals; the MSA Program Committee can also ask another conference attendee to serve as a chair. Participation in a workshop or in a digital exhibition does not limit other forms of participation.
 
 All those who attend the MSA conference must be members of the organization with dues paid for 2020-2021 (MSA membership runs from July 1 until June 30 each year) and any past dues paid in full. For information on MSA, please check the [Association website](https://msa.press.jhu.edu/). Unless approved by the program committee, speakers are expected to present in person, rather than remotely.
 
 
-###Call for Individual Paper Proposals for MSA Panel Streams
+### Call for Individual Paper Proposals for MSA Panel Streams
 **Deadline: 20 March, 2020 (Friday)**
 
 Individual paper proposals must speak directly to one of this year’s specially selected streams, which link several panels or roundtables that will take place on different days of the conference. Successful proposals will demonstrate the promise to advance new research or ideas relative to those topics. Members of the MSA Program Committee will vet these individual proposals and organize them into panels and roundtables as appropriate. Conference organizers may also solicit papers and groups of papers for streams.
@@ -48,13 +51,13 @@ Submit individual paper proposals for panel streams by **Friday 20 March 2020**.
 
 * &bull; “**Fascism and Populism**” encompasses a broad geographic range including Europe, Asia, and the Americas to explore the ways in which aesthetic forms, objects, and performances are mobilized by authoritarian regimes. This interdisciplinary stream will include a roundtable that explores the link—and differences—between Fascism and Populism in modernist and contemporary contexts.
 
-* &bull; “**Irreconcilable Differences? Modernism and Area Studies**” brings together panels that assess reactions to modernism across humanistic and social-scientific disciplines. Organizations such as the African Literature Association, Caribbean Studies Association, Latina/o Studies Association, and the Association for Asian Studies will be invited to sponsor and/or propose speakers for panels in which scholars will speak to how they conceive of modernism from the vantage of their disciplines. Is it a useful term? An object of critique? A minor term within a wider cultural or disciplinary history? 
+* &bull; “**Irreconcilable Differences? Modernism and Area Studies**” brings together panels that assess reactions to modernism across humanistic and social-scientific disciplines. Organizations such as the African Literature Association, Caribbean Studies Association, Latina/o Studies Association, and the Association for Asian Studies will be invited to sponsor and/or propose speakers for panels in which scholars will speak to how they conceive of modernism from the vantage of their disciplines. Is it a useful term? An object of critique? A minor term within a wider cultural or disciplinary history?
 
 * &bull; “**Teaching Modernism and Activism in an Age of Right-Wing Extremism**” asks whether teaching modernist literature can not only draw connections between the 1920-1940s and our own cultural and political moment, but also encourage modes of resistance in and out of the classroom. How has modernist studies historically contributed to contemporary ideas of white supremacy, and does it invite notions of white supremacy now? How do we make modernism into a more inclusive, multi-perspectival field that reflects the diversity of the US population? Is this a desirable goal?
 
-* &bull; “**Modernism and the Environment**” solicits papers and panels addressing such topics as “modernism and energy regimes,” “modernism in the wilderness,” “modernist land art,” and “modernism, climate, environment”
+* &bull; “**Modernism and the Environment**” solicits papers and panels addressing such topics as “modernism and energy regimes,” “modernism in the wilderness,” “modernist land art,” and “modernism, climate, environment.”
 
-###Call for Seminar Proposals
+### Call for Seminar Proposals
 **Deadline: February 7, 2020 (Friday)**
 
 Seminars are among the unique features of the MSA conference. Participants write brief position papers (5-7 pages) that are circulated and read prior to the conference. Each seminar is limited to 15 participants. Seminars generate lively exchange and often facilitate future collaborations. The format also allows a larger number of conference attendees to seek financial support from their institutions as they educate themselves and their colleagues on subjects of mutual interest. Seminars are two hours in length. Because seminars led solely by graduate students are not likely to be accepted, we encourage interested graduate students to invite a faculty member to lead the seminar with them. Please note that this is the call for seminar leaders. Sign-up for seminar participants will take place on a first-come, first-served basis coinciding with registration for the conference.
@@ -63,53 +66,54 @@ Seminar Topics: There are no limits on topics, but past experience has shown tha
 
 Submit seminar proposals by **Friday 7 February 2020**.
 
-###Call for Pre- and Post-Conference Workshop Proposals
+### Call for Workshop Proposals
 **Deadline: 24 April, 2020 (Friday)**
 
-Pre-conference workshops are held on the Thursday that the conference begins; post- conference workshops are held early on Sunday afternoon. Workshops focus on topics related to professional life, such as publishing, teaching, the job market, mid-career challenges and opportunities, research and the liberal arts college, and alternative/non-academic jobs. Popular workshops in previous years have been on topics such as “What Do Presses Want from a First Book?,” “Digital Approaches to Modernism,” and “Critical Writing.” Participation in a pre- conference workshop does not limit participation in other aspects of the conference. 
+Workshops focus on topics related to professional life, such as publishing, teaching, the job market, mid-career challenges and opportunities, research and the liberal arts college, and alternative/non-academic jobs. Popular workshops in previous years have been on topics such as “What Do Presses Want from a First Book?,” “Digital Approaches to Modernism,” and “Critical Writing.” Participation in a workshop does not limit participation in other aspects of the conference.
 
- 
-Workshops should be participatory in format and can be either 90 or 120 minutes in length. They may be entirely led by one person or may include a panel of experts. Please note that this call is for workshop leaders, and that leaders should be prepared to arrive at the conference venue by Wednesday evening, as scheduling a workshop early in the conference gives it the best chance of robust participation. Registration for workshops will occur at the same time as conference registration.
- 
+Workshops should be participatory in format and can be either 90 or 120 minutes in length. They may be entirely led by one person or may include a panel of experts. Please note that this call is for workshop leaders. Registration for workshops will occur at the same time as conference registration.
+
 Submit workshop proposals by **Friday 24 April 2020**.
 
-###Call for Panel Proposals
+### Call for Panel Proposals
 **Deadline: 20 March, 2020 (Friday)**
 
-Successful panel proposals will introduce topics that promise to expand research and debate on a topic and will present a clear rationale for the papers’ collective goal. Panel proposals that engage recent contentious research, exciting new approaches, or theoretical interventions into the field are encouraged. Topics are not limited to the conference theme. Please be sure to characterize in your proposal what each paper contributes individually to the session as well as how they fit together into a cohesive session. 
+Successful panel proposals will introduce topics that promise to expand research and debate on a topic and will present a clear rationale for the papers’ collective goal. Panel proposals that engage recent contentious research, exciting new approaches, or theoretical interventions into the field are encouraged. Topics are not limited to the conference theme. Please be sure to characterize in your proposal what each paper contributes individually to the session as well as how they fit together into a cohesive session.
 
 * &bull; We encourage interdisciplinary panels and strongly discourage panels on single authors.
 
-* &bull; In order to allow for discussion, preference will be given to panels with three participants (20 minutes each), though panels of four will be considered (15 minutes each). 
+* &bull; In order to allow for discussion, preference will be given to panels with three participants (20 minutes each), though panels of four will be considered (15 minutes each).
 
 * &bull; Panels composed entirely of participants from a single department at a single institution are not likely to be accepted.
 
-* &bull; Graduate students are actively encouraged as panelists, but a panel composed entirely of graduate students is less likely to be accepted than one with a mix of academic ranks
+* &bull; Graduate students are actively encouraged as panelists, but a panel composed entirely of graduate students is less likely to be accepted than one with a mix of academic ranks.
+
+* &bull; If you have recruited someone to chair your panel, please include this information as part of your proposal. If not, the program committee will recruit a chair for you.
 
 Submit panel proposals by **Friday 20 March 2020**.
 
-###Call for Roundtable Proposals
+### Call for Roundtable Proposals
 **Deadline: 20 March, 2020 (Friday)**
 
-All topics will be considered for roundtables. Unlike panels, which generally feature a sequence of 15-20-minute talks followed by discussion, roundtables gather a small group of participants around a shared concern in order to generate discussion among the participants and with the audience. To this end, instead of delivering full-length papers, participants are asked to deliver <u>short position statements of no more than 10 minutes</u> in response to questions distributed in advance by the organizer, or to take turns responding to prompts from the moderator. <u>The bulk of the session should be devoted to discussion</u>. No paper titles are listed in the program, only the names of participants. 
+All topics will be considered for roundtables. Unlike panels, which generally feature a sequence of 15-20-minute talks followed by discussion, roundtables gather a small group of participants around a shared concern in order to generate discussion among the participants and with the audience. To this end, instead of delivering full-length papers, participants are asked to deliver <u>short position statements of no more than 10 minutes</u> in response to questions distributed in advance by the organizer, or to take turns responding to prompts from the moderator. <u>The bulk of the session should be devoted to discussion</u>. No paper titles are listed in the program, only the names of participants.
 
-Please bear in mind these guidelines: 
+Please bear in mind these guidelines:
 
-* &bull; Roundtables may feature as many as 6 speakers but are more likely to be accepted if they include 4 or 5. 
+* &bull; Roundtables may feature as many as 6 speakers but are more likely to be accepted if they include 4 or 5.
 
-* &bull; Roundtable organizers should discourage participants from writing formal papers or from speaking for longer than 10 minutes. 
+* &bull; Roundtable organizers should discourage participants from writing formal papers or from speaking for longer than 10 minutes.
 
-* &bull; We particularly welcome roundtables that include participants from multiple disciplines, and we discourage roundtables on single authors. 
+* &bull; We particularly welcome roundtables that include participants from multiple disciplines, and we discourage roundtables on single authors.
 
-* &bull; Roundtables composed entirely of participants from a single department at a single institution are not likely to be accepted. 
+* &bull; Roundtables composed entirely of participants from a single department at a single institution are not likely to be accepted.
 
 * &bull; Graduate students are actively encouraged as speakers, but a roundtable composed entirely of graduate students is less likely to be accepted than one with a mix of academic ranks.
 
 Submit roundtable proposals by **Friday 20 March 2020**.
 
-###Call for Digital Exhibits 
+### Call for Digital Exhibits and Posters
 **Deadline: 24 April, 2020 (Friday)**
-Reflecting the growing role of the digital humanities in modernist studies and the proliferation of work that does not lend itself to presentation in the form of a scholarly paper, we invite proposals that provide a short overview (including web links) of 1) the nature, design, and purpose of a digital project; 2) how the project advances modernist studies; and 3) how the presenters would want to exhibit and explain the project at the conference. Be sure to list all participants and institutions involved in the project, and specify who among these would attend the conference. 
+Reflecting the growing role of the digital humanities in modernist studies and the proliferation of work that does not lend itself to presentation in the form of a scholarly paper, we invite proposals that provide a short overview (including web links) of 1) the nature, design, and purpose of a digital project; 2) how the project advances modernist studies; and 3) how the presenters would want to exhibit and explain the project at the conference. Be sure to list all participants and institutions involved in the project, and specify who among these would attend the conference.
 
 Submit digital exhibit and poster session proposals by **Friday 24 April 2020**.
 
@@ -117,9 +121,9 @@ Submit digital exhibit and poster session proposals by **Friday 24 April 2020**.
 
 ## Conference Access
 
-The MSA is committed to ensuring that all conference registrants will be able to participate in conference events. 
+The MSA is committed to ensuring that all conference registrants will be able to participate in conference events.
 
-We ask that all conference attendees give thought to questions of access and work with the conference organizers to create an event that is welcoming to the entire community of participants. All speakers should bring a least two paper copies of their presentation for distribution to attendees who would benefit from a reading copy. 
+We ask that all conference attendees give thought to questions of access and work with the conference organizers to create an event that is welcoming to the entire community of participants. All speakers should bring a least two paper copies of their presentation for distribution to attendees who would benefit from a reading copy.
 
 If you would benefit from individual accommodations including, but not limited to, ASL translation, paper copies of session presentations, or large type documents, please contact the conference organizers.
 
