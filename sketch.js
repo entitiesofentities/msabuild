@@ -95,9 +95,17 @@ function crosswalkBG(){
 
 function crosswalkVertical(){
 
+if (mouseY < 600) {
   for (i = -1000; i < 5000; i += 80) {
     rect(width/2 + 250, 20 + i - mouseY, 150, 40);
   }
+}
+
+if (mouseY > 600) {
+  for (i = -1000; i < 5000; i += 80) {
+    rect(width/2 + 250, 20 + i - (millis()/10), 150, 40);
+  }
+}
 
 }
 
@@ -110,7 +118,6 @@ function walkSign(){
   text ("WAIT", 260, height/2 - 50);
   fill('black');
   text ("WALK", 260, height/2 + 100);
-  textSize(f);
 }
 
 if (millis() > 2000) {
