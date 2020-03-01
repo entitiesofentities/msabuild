@@ -1,6 +1,11 @@
 let f = 100;
 let v = 68
 let canvas;
+let arenoFont;
+let img;
+let bg;
+let walkman;
+let mousePos = 600;
 
 function centerCanvas() {
   var x = (windowWidth - width) / 2;
@@ -11,125 +16,109 @@ function centerCanvas() {
 
 function setup() {
   canvas = createCanvas(windowWidth,500);
+  img = loadImage('assets/manhole.png');
+  walkman = loadImage('assets/walkman.png');
+  bg = loadImage('assets/bg-img.jpg');
+  arenoFont = loadFont('fonts/Lato-Light.ttf')
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
   centerCanvas();
   background(255, 0, 200);
+  imageMode(CENTER);
 }
 
 function draw() {
 fill (0);
 rect(0,0,width,height);
+//background(bg);
 fill(255);
 textSize(f);
+textFont(arenoFont);
+//image(bg, width/2, height/2);
 
 var gutterSize = ((windowWidth - 1024)/2) - 50;
 var canvasSize = 1024;
 var gutterSizeAdjusted = gutterSize + 30;
 
-//text(gutterSize,50,100);
-//text(pow(mouseY, 1.1), 50, 200);
+//gutters
+fill(0);
+rect(0, 0, gutterSizeAdjusted, height);
+rect(width - gutterSizeAdjusted, 0, width, height);
+fill(255);
 
-if (mouseY < 50) {
-text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2);
-text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3), height/2);
-text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2);
+crosswalkVertical()
+walkSign();
+fill(255);
+//text(mouseY, 50, 100);
 
-  //gutters
-  fill(0);
-  rect(0, 0, gutterSizeAdjusted, height);
-  rect(width - gutterSizeAdjusted, 0, width, height);
-  fill(255);
+if (mouseY < 599 && millis() > 2000) {
+
+//crosswalkBG();
+
+fill(255);
+text("STREETS", map(mouseY, 0, 1000, -500, 1000), height/2 + 150);
+fill(255);
+
+//crosswalkFG();
+
+translate(400, map(mouseY, 0, 1000, 800, -250));
+rotate(map(mouseY, 0, 1000, 0, 10));
+image(img, 0, 0, img.width/2, img.height/2);
 }
 
-if (mouseY > 50 && mouseY < 100) {
-  text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-  text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2 - (mouseY - 50));
-  text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3), height/2);
-  text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2);
+if (mouseY > 599 && millis() > 2000) {
+//crosswalkBG();
+//crosswalkFG();
 
-    //gutters
-    fill(0);
-    rect(0, 0, gutterSizeAdjusted, height);
-    rect(width - gutterSizeAdjusted, 0, width, height);
-    fill(255);
+fill(255);
+text("STREETS", map(mousePos, 0, 1000, -500, 1000), height/2 + 150);
+
+translate(400, map(mousePos, 0, 1000, 800, -250));
+rotate(map(mousePos, 0, 1000, 0, 10));
+image(img, 0, 0, img.width/2, img.height/2);
 }
 
-if (mouseY > 100 && mouseY < 200) {
-  text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-  text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2 - (mouseY - 50));
-  text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3), height/2);
-  text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2 + (mouseY - 100));
 
-    //gutters
-    fill(0);
-    rect(0, 0, gutterSizeAdjusted, height);
-    rect(width - gutterSizeAdjusted, 0, width, height);
-    fill(255);
 }
 
-if (mouseY > 200 && mouseY < 300) {
-  text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-  text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2 - (mouseY - 50));
-  text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3) + (pow(mouseY,1.05) - 250), height/2);
-  text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2 +(mouseY - 100));
-
-    //gutters
-    fill(0);
-    rect(0, 0, gutterSizeAdjusted, height);
-    rect(width - gutterSizeAdjusted, 0, width, height);
-    fill(255);
+function crosswalkFG(){
+  for (i = 0; i < width; i += 300) {
+    rect(20 + i, 20, 50, height - 20);
+  }
 }
 
-if (mouseY > 300 && mouseY < 410) {
-  text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-  text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2 - (mouseY - 50));
-  text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3) + (pow(mouseY,1.05) - 250), height/2);
-  text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2 + (mouseY - 100));
-  text("M  A", gutterSizeAdjusted + pow(mouseY, 1.2) - 1150, height/2);
-
-    //gutters
-    fill(0);
-    rect(0, 0, gutterSizeAdjusted, height);
-    rect(width - gutterSizeAdjusted, 0, width, height);
-    fill(255);
+function crosswalkBG(){
+  for (i = 150; i < width; i += 300) {
+    rect(20 + i, 20, 50, height - 20);
+  }
 }
 
-if (mouseY > 410 && mouseY < 850) {
-  text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-  text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2 - (mouseY - 50));
-  text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3) + (pow(mouseY,1.05) - 250), height/2);
-  text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2 + (mouseY - 100));
-  text("M  A", gutterSizeAdjusted + 215, height/2);
-  fill(150,map(mouseY, 422, 500, 0, 255));
-  text("Brooklyn", gutterSizeAdjusted + 450, height/2);
+function crosswalkVertical(){
 
-    //gutters
-    fill(0);
-    rect(0, 0, gutterSizeAdjusted, height);
-    rect(width - gutterSizeAdjusted, 0, width, height);
-    fill(255);
+  for (i = -1000; i < 5000; i += 80) {
+    rect(width/2 + 250, 20 + i - mouseY, 150, 40);
+  }
+
 }
 
-if (mouseY > 500) {
-  fill(255);
-  text("S", gutterSizeAdjusted + canvasSize/3.5, height/2);
-  text("TR", gutterSizeAdjusted + canvasSize/3.5 + (v), height/2 - (mouseY - 50));
-  text("EE", gutterSizeAdjusted + canvasSize/3.5 + (v * 3) + (pow(mouseY,1.05) - 250), height/2);
-  text("TS", gutterSizeAdjusted + canvasSize/3.5 + (v * 5), height/2 + (mouseY - 100));
-  text("M  A", gutterSizeAdjusted + 215, height/2);
-  fill(150,255);
-  text("Brooklyn", gutterSizeAdjusted + 450, height/2);
-  fill(250,50,50,255);
-  textSize(f*1.1);
-  text("2020", gutterSizeAdjusted + canvasSize/2.5, height/1.4)
+function walkSign(){
+  fill(100);
 
-  //gutters
-  fill(0);
-  rect(0, 0, gutterSizeAdjusted, height);
-  rect(width - gutterSizeAdjusted, 0, width, height);
-  fill(255);
+  if (millis() < 2000) {
+  rect(250, height/2 - 150, 300, 300);
+  fill('orange');
+  text ("WAIT", 260, height/2 - 50);
+  fill('black');
+  text ("WALK", 260, height/2 + 100);
+  textSize(f);
+}
+
+if (millis() > 2000) {
+  rect(250, height/2 - 150 - mouseY, 300, 300);
+  fill('black');
+  text ("WAIT", 260, height/2 - 50 - mouseY);
+  fill('green');
+  text ("WALK", 260, height/2 + 100 - mouseY);
 }
 
 }

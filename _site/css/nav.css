@@ -1,11 +1,22 @@
 body, html {
       margin: 0;
       -webkit-font-smoothing: antialiased;
-      background:#fff;
       text-align: center;
       -webkit-transition: opacity 400ms;
       -moz-transition: opacity 400ms;
       transition: opacity 400ms;
+}
+
+.post {
+  background-image: url(../assets/bg-img.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.content {
+  background-image: url(../assets/bg-img.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 /** NAV **/
@@ -17,7 +28,7 @@ body, html {
     .main {
       position: relative;
     }
-    
+
         .main h1 {
       padding:20px 50px 10px;
       float: left;
@@ -41,12 +52,12 @@ body, html {
 
 .top-nav{
 	font-size: .8em;
-	line-height: 100%;	
+	line-height: 100%;
 }
 
 .bottom-nav{
 	font-size: .9em;
-	line-height: 100%;	
+	line-height: 100%;
 }
 
 .full{
@@ -77,7 +88,7 @@ body, html {
     	-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
-		1px 1px 0 #000;	
+		1px 1px 0 #000;
 	font-size: 2em;
 }
 
@@ -93,6 +104,7 @@ body, html {
 
 .content {
 	background-color: white;
+  font-family: "lato";
 }
 
 .content-animate {
@@ -103,7 +115,6 @@ body, html {
 
 .content p{
 	text-align: left;
-	font-family: "Crimson Text";
 	font-weight: 300;
 	line-height: 2em;
 	text-align: justify;
@@ -111,14 +122,14 @@ body, html {
 
 .big_pad{
 	padding-left: 15%;
-	padding-right: 15%;	
+	padding-right: 15%;
 	font-size: 1.2em;
 }
 
 .little_pad{
 	font-size: 2em;
 	padding-left: 5%;
-	padding-right: 5%;		
+	padding-right: 5%;
 }
 
 .content ul li{
@@ -132,17 +143,18 @@ body, html {
 
 .content h1{
 	text-align: left;
-	font-size: 1.5em;	
+	font-size: 1.5em;
 	color: rgba(250,50,50,1);
-	font-family: geneva;
 	font-weight: 800;
+  font-variant: small-caps;
+  /**background-image:url(../assets/h1bg.png);
+  background-repeat: no-repeat;**/
 }
 
 .content h2{
 	text-align: left;
 	font-size: 1.2em;
 	color: black;
-	font-family: geneva;
 	font-weight: 400;
 	text-decoration: overline;
 }
@@ -157,7 +169,7 @@ body, html {
 }
 
 .content a:visited{
-	color: rgba(250,50,50,1);	
+	color: rgba(250,50,50,1);
 	font-variant: small-caps;
 }
 
@@ -175,7 +187,7 @@ body, html {
     position: relative;
     width: 15%;
     max-width: 300px;
-    height: auto;    
+    height: auto;
 	margin-bottom: 1em;
 	margin-top: 3em;
 	box-shadow: 2px 2px 2px 2px black;
@@ -185,9 +197,9 @@ body, html {
     position: relative;
     width: 30%;
     max-width: 300px;
-    height: auto;    
+    height: auto;
 	margin-bottom: 1em;
-	margin-top: 1em;	
+	margin-top: 1em;
 	box-shadow: 2px 2px 2px 2px black;
 }
 
@@ -195,20 +207,20 @@ body, html {
     position: relative;
     width: 50%;
     max-width: 500px;
-    height: auto;    
+    height: auto;
 	margin-bottom: 1em;
-	margin-top: 1em;	
+	margin-top: 1em;
 	box-shadow: 2px 2px 2px 2px black;
 }
 
 .right{
 	    float: right;
-		margin-left: 5%;	    
+		margin-left: 5%;
 }
 
 .left{
 	float: left;
-	margin-right: 5%;	    
+	margin-right: 5%;
 }
 
 .center{
@@ -225,7 +237,7 @@ body, html {
 
 #reader{
 	width: 60%;
-	font-family: sans-serif;	
+	font-family: sans-serif;
 }
 
 .reader_title{
@@ -237,7 +249,7 @@ body, html {
 .reader_title:hover{
 	text-align: left;
 	cursor: hand;
-	border-bottom: 2px solid #021170;	
+	border-bottom: 2px solid #021170;
 }
 
 .reader_description{
@@ -263,5 +275,5 @@ body, html {
 
 .important{
 	color: #830602;
-	border-bottom: 1px solid #830602;	
+	border-bottom: 1px solid #830602;
 	}
