@@ -3,142 +3,17 @@
 
 <div id="begin"></div>
 
-# CFP for the Modernist Studies Association’s Annual Conference
+![lg-middle](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/DUMBO_Brooklyn%2C_as_seen_from_the_viewing_gallery_of_One_World_Trade_Center.jpg/1200px-DUMBO_Brooklyn%2C_as_seen_from_the_viewing_gallery_of_One_World_Trade_Center.jpg)
 
-# “Streets”
+# Welcome to Brooklyn
 
-# Brooklyn, NY, October 22-25, 2020
+New York City has long been acknowledged as one of the centers of modernist art and culture, and incubator of the metropolitan perceptions that enabled them. It has been a key stage for what the great New York sociologist and theorist Marshall Berman called “modernism in the streets,” a phenomenon encompassing not only the speed and scale of modernity at large, but also the migrant communities and social movements that have staked their claims at street level and whose contributions the new modernist studies has increasingly sought to capture. From the tenements of the Lower East Side, to African-American social and artistic self-assertion in Harlem, to the spectacle of Times Square and the sweep of Broadway, to the queer life of the West Village and later Chelsea, New York’s teeming streets are where new worlds have come into being, and sites of movement where the demand for such worlds has become legible—a ceaseless process of making the city new, embodied across the long twentieth century in the competing urban visions of figures like Robert Moses and Jane Jacobs.
 
-New York City has long been a stage for what Marshall Berman called “modernism in the streets,” a modernism that encompasses not only the speed and scale of modernity at large, but also the democratic energies of diasporas, migrant communities, and social movements that stake their claims at street level. MSA 2020 will consider the modernist street as a site of movement where the demand for new worlds has become legible in countless creative ways.
+MSA 2020, “Streets,” will be held at Marriott Brooklyn Bridge Hotel in downtown Brooklyn, very near to the bridge that itself was rendered a modernist icon in the paintings of Italian immigrant Joseph Stella, the photographs of Walker Evans, and the poetry of Hart Crane. A separate city until 1898—if it were still separate, it would be the country’s third-largest--Brooklyn’s adjacency to, and important differences from, Manhattan invite renewed reflection on the status of metropoles and peripheries, precisely through the “street-level.” As is well known, the borough whose “ample hills” were extolled by Walt Whitman has undergone a dramatic population shift since the turn of the millennium. Though Brooklyn is still a majority non-white city, gentrification has not only made parts of the borough financially out of reach for many; it has turned a borough famous for its working class (and underclass) neighborhoods into an international brand noted for its artisanal beer, designer pickles, and roof-grown lettuce.
 
-MSA 2020 will be held in downtown Brooklyn, at the base of the Brooklyn Bridge, itself an inspiration for the painter Joseph Stella, photographer Walker Evans, and poets ranging from Hart Crane and Marianne Moore to Vladimir Mayakovsky and Federico García Lorca. A separate city until 1898, Brooklyn’s relations with the other four New York boroughs invite renewed reflection on questions of development at street level. In particular, Brooklyn, whose “ample hills” Walt Whitman extolled, has undergone a dramatic population shift in the new millennium. Though people of color still make up the majority of Brooklyn’s residents, gentrification has not only made parts of the borough financially out of reach for many, it has also turned a borough famous for its working class and ethnic neighborhoods into an international brand.
+The conference hotel is situated in the center of downtown Brooklyn, with myriad options for food and drink all within walking distance. The nearby subway entrances at Jay Street-Metro Tech and Borough Hall provide easy access to Manhattan’s famous monuments, architectural sites of interest, galleries, performance centers, universities, libraries, and museums.
 
-“Streets” is a capacious rubric, inviting new perspectives on modernist cultural production at a local and global scale. Streets can be imagined as a way of thinking; as sites of overlapping temporalities; as networks; and as material, populated places.
 
-As part of the MSA’s initiative to promote a more diverse Association, the 2020 conference will feature five streams of interrelated interdisciplinary panels, more than any previous MSA conference. Each stream solicits proposals for individual papers and aims to draw speakers and audience members from constituencies historically underrepresented within MSA.
+# Theme
 
-Keynote events will include a presentation by novelist Zadie Smith and a plenary roundtable on “The New York Sound,” featuring Daphne Brooks (Yale), Brent Edwards (Columbia), Sara Marcus (USC), and Elena Martinez (Bronx Music Heritage Center).
-
-### Participation
-
-So as to involve as many people as possible as active participants, the MSA limits multiple appearances on the program. Thus, you may participate once in each of the following categories:
-
-* &bull; Seminar, either as leader or as participant
-
-* &bull; Panel or roundtable, as participant (you may also chair a different panel or roundtable)
-
- * &bull; “What Are You Reading?” session
-
- Thus, you may lead a seminar, present a paper on a panel, register for a workshop, and participate in a “What Are You Reading” session, but you may not present two papers.
-
- MSA rules do not allow panel or roundtable organizers to chair their own session if they are also presenting a paper or substantive remarks in the session; the session chair must be someone who is otherwise not presenting. You may chair as many sessions as you like, so long as you observe this rule.
-
- Panel organizers are encouraged to identify a chair and include this information with their proposals; the MSA Program Committee can also ask another conference attendee to serve as a chair. Participation in a workshop or in a digital exhibition does not limit other forms of participation.
-
-All those who attend the MSA conference must be members of the organization with dues paid for 2020-2021 (MSA membership runs from July 1 until June 30 each year) and any past dues paid in full. For information on MSA, please check the [Association website](https://msa.press.jhu.edu/). Unless approved by the program committee, speakers are expected to present in person, rather than remotely.
-
-### Call for Seminar Proposals
-**Deadline: 7 February, 2020 (Friday)**
-
-Seminars are among the unique features of the MSA conference. Participants write brief position papers (5-7 pages) that are circulated and read prior to the conference. Each seminar is limited to 15 participants. Seminars generate lively exchange and often facilitate future collaborations. The format also allows a larger number of conference attendees to seek financial support from their institutions as they educate themselves and their colleagues on subjects of mutual interest. Seminars are two hours in length. The MSA encourages seminars comprising scholars from a diverse range of institutions and of various ranks, including graduate students, postdoctoral fellows, contingent faculty, and independent scholars. Please note that this is the call for seminar leaders. Sign-up for seminar participants will take place on a first-come, first-served basis coinciding with registration for the conference.
-
-Seminar Topics: There are no limits on topics, but past experience has shown that the more clearly defined the topic and the more guidance provided by the leader, the more productive the discussion. “Clearly defined” should not be confused with “narrow,” as extremely narrow seminar topics tend to exclude many potential participants. To scan past seminar topics, go to the Conference Archives on the MSA website, click the link to a prior conference, and then click on “Conference Schedule” or “Conference Program.” You will find seminars listed along with panels and other events. 
-
-Please include a brief (500 word) description of seminar purpose and format. Author bios are limited to 500 words.
-
-Submit seminar proposals by **Friday 7 February 2020** at <a href="https://msa2020.exordo.com" target="_blank">msa2020.exordo.com</a>.
-
-### Call for Individual Paper Proposals for MSA Panel Streams
-**Deadline: 20 March, 2020 (Friday)**
-
-Individual paper proposals must speak directly to one of this year’s specially selected streams, which link several panels or roundtables that will take place on different days of the conference. Successful proposals will demonstrate the promise to advance new research or ideas relative to those topics. Members of the MSA Program Committee will vet these individual proposals and organize them into panels and roundtables as appropriate. Conference organizers may also solicit papers and groups of papers for streams.
-
-Please include a 500 word abstract of the paper. Author bios are limited to 500 words.
-
-Submit individual paper proposals for panel streams by **Friday 20 March 2020** at <a href="https://msa2020.exordo.com" target="_blank">msa2020.exordo.com</a>.
-
-**Stream Topics**
-
-* &bull; “**Crip Modernisms**” inquires into the relationships between non-normative bodyminds and modernist experimentation. How do disability epistemologies expand our understanding of modern subjects’ language use? How does the idea of disability circulate socially and politically, intersecting with other categories of social difference? How might conversations about accessible pedagogies intersect with our analyses of famously inaccessible texts?
-
-* &bull; “**Fascism and Populism**” encompasses a broad geographic range including Europe, Asia, and the Americas to explore the ways in which aesthetic forms, objects, and performances are mobilized by authoritarian regimes. This interdisciplinary stream will include a roundtable that explores the link—and differences—between Fascism and Populism in modernist and contemporary contexts.
-
-* &bull; “**Irreconcilable Differences? Modernism and Area Studies**” brings together panels that assess reactions to modernism across humanistic and social-scientific disciplines. Organizations such as the African Literature Association, Caribbean Studies Association, Latina/o Studies Association, and the Association for Asian Studies will be invited to sponsor and/or propose speakers for panels in which scholars will speak to how they conceive of modernism from the vantage of their disciplines. Is it a useful term? An object of critique? A minor term within a wider cultural or disciplinary history?
-
-* &bull; “**Teaching Modernism and Activism in an Age of White
-Supremacy**” will ask whether the study of modernist literature can not only draw connections between the 1920s-1940s and our own cultural moment's rising racist right-wing extremism, but also encourage modes of resistance in and out of the classroom. It will also consider: how does the field of modernist studies contribute to ideas of white supremacy? and: how can we incorporate and address those effects in our courses.
-
-* &bull; “**Modernism and the Environment**” solicits papers and panels addressing such topics as “modernism and energy regimes,” “modernism in the wilderness,” “modernist land art,” and “modernism, climate, environment.”
-
-### Call for Panel Proposals
-**Deadline: 20 March, 2020 (Friday)**
-
-Successful panel proposals will introduce topics that promise to expand research and debate on a topic and will present a clear rationale for the papers’ collective goal. Panel proposals that engage recent contentious research, exciting new approaches, or theoretical interventions into the field are encouraged. Topics are not limited to the conference theme. Please be sure to characterize in your proposal what each paper contributes individually to the session as well as how they fit together into a cohesive session.
-
-* &bull; We encourage interdisciplinary panels and strongly discourage panels on single authors.
-
-* &bull; In order to allow for discussion, preference will be given to panels with three participants (20 minutes each), though panels of four will be considered (15 minutes each).
-
-* &bull; Panels composed entirely of participants from a single department at a single institution are not likely to be accepted.
-
-* &bull; The MSA encourages panels comprising scholars from a diverse range of institutions and of various ranks, including graduate students, postdoctoral fellows, contingent faculty, and independent scholars.
-
-* &bull; If you have recruited someone to chair your panel, please include this information as part of your proposal. If not, the program committee will recruit a chair for you.
-
-Please include a 500 word abstract of the session. Author bios are limited to 500 words.
-
-Submit panel proposals by **Friday 20 March 2020** at <a href="https://msa2020.exordo.com" target="_blank">msa2020.exordo.com</a>.
-
-### Call for Roundtable Proposals
-**Deadline: 20 March, 2020 (Friday)**
-
-All topics will be considered for roundtables. Unlike panels, which generally feature a sequence of 15-20-minute talks followed by discussion, roundtables gather a small group of participants around a shared concern in order to generate discussion among the participants and with the audience. To this end, instead of delivering full-length papers, participants are asked to deliver <u>short position statements of no more than 10 minutes</u> in response to questions distributed in advance by the organizer, or to take turns responding to prompts from the moderator. <u>The bulk of the session should be devoted to discussion</u>. No paper titles are listed in the program, only the names of participants.
-
-Please bear in mind these guidelines:
-
-* &bull; Roundtables may feature as many as 6 speakers but are more likely to be accepted if they include 4 or 5.
-
-* &bull; Roundtable organizers should discourage participants from writing formal papers or from speaking for longer than 10 minutes.
-
-* &bull; We particularly welcome roundtables that include participants from multiple disciplines, and we discourage roundtables on single authors.
-
-* &bull; The MSA encourages roundtables comprising scholars from a diverse range of institutions and of various ranks, including graduate students, postdoctoral fellows, contingent faculty, and independent scholars.
-
-* &bull; Graduate students are actively encouraged as speakers, but a roundtable composed entirely of graduate students is less likely to be accepted than one with a mix of academic ranks.
-
-Please include a 500 word abstract of the session. Author bios are limited to 500 words.
-
-Submit roundtable proposals by **Friday 20 March 2020** at <a href="https://msa2020.exordo.com" target="_blank">msa2020.exordo.com</a>.
-
-### Call for Workshop Proposals
-**Deadline: 24 April, 2020 (Friday)**
-
-Workshops focus on topics related to professional life, such as publishing, teaching, the job market, mid-career challenges and opportunities, research and the liberal arts college, and alternative/non-academic jobs. Popular workshops in previous years have been on topics such as “What Do Presses Want from a First Book?,” “Digital Approaches to Modernism,” and “Critical Writing.” Participation in a workshop does not limit participation in other aspects of the conference.
-
-Workshops should be participatory in format and can be either 90 or 120 minutes in length. They may be entirely led by one person or may include a panel of experts. Please note that this call is for workshop leaders. Registration for workshops will occur at the same time as conference registration.
-
-Please include a brief (200 word) description of workshop purpose and format. Author bios are limited to 500 words.
-
-Submit workshop proposals by **Friday 24 April 2020** at <a href="https://msa2020.exordo.com" target="_blank">msa2020.exordo.com</a>.
-
-### Call for Digital Exhibits and Posters
-**Deadline: 24 April, 2020 (Friday)**
-Reflecting the growing role of the digital humanities in modernist studies and the proliferation of work that does not lend itself to presentation in the form of a scholarly paper, we invite proposals that provide a short overview (including web links) of 1) the nature, design, and purpose of a digital project; 2) how the project advances modernist studies; and 3) how the presenters would want to exhibit and explain the project at the conference. Be sure to list all participants and institutions involved in the project, and specify who among these would attend the conference.
-
-Please include a 500 word abstract.  Author bios are limited to 500 words.
-
-Submit digital exhibit and poster session proposals by **Friday 24 April 2020** at <a href="https://msa2020.exordo.com" target="_blank">msa2020.exordo.com</a>.
-
-<br>
-
-## Conference Access
-
-The MSA is committed to ensuring that all conference registrants will be able to participate in conference events.
-
-We ask that all conference attendees give thought to questions of access and work with the conference organizers to create an event that is welcoming to the entire community of participants. All speakers should bring a least two paper copies of their presentation for distribution to attendees who would benefit from a reading copy.
-
-If you would benefit from individual accommodations including, but not limited to, ASL translation, paper copies of session presentations, or large type documents, please contact the conference organizers.
-
-## Statement on Transgender Inclusion
-
-The Modernist Studies Association affirms and stands in support of the rights and dignity of our transgender and gender non-binary members and all other persons associated with our organization and conference. We believe that inclusivity, diversity, access, and equality are critical to the strength of our organization and the effectiveness of our academic mission. We are committed to maintaining a welcoming and inclusive organization where everyone can be their full self. This goal includes the practice of using individuals’ preferred name and pronoun reference when introducing speakers or citing their work or ideas.
+Our theme of “Streets” aims to foster discussion not only of modernisms that have sought to remake the streets but also those modernisms (perhaps not going by that name) that have arisen from them. It also aims to bring the study of global modernism to bear on the streets of this most genuinely global of global cities, but also on the streets that have helped to shape key moments in modernist art, from those running through the Dublin of 1904 and the London of 1922 to those spanning the Paris of 1924 and the Chandigarh of 1951. We offer “Streets” as a capacious rubric inviting new perspectives on modernist production and the histories that produce it. Streets can be imagined as a way of thinking; as sites of overlapping temporalities; as networks; as material, populated places; but also as infrastructure joining together remote towns and villages. The theme is thus one that not only encompasses work in literary studies, visual art and music, but also anthropology, political science, urban studies, and histories of race and immigration.
