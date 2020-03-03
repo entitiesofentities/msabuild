@@ -142,9 +142,14 @@ body, html {
 }
 
 .content h1{
+  background-color: rgba(250,50,50,1);
+  color: white;
+  /*color: rgba(250,50,50,1);*/
+  padding: 10px;
+  transform:rotate(-1deg);
+  /*clip-path: polygon(0 0,100% 0vw,100% 50%,0 100%);*/
 	text-align: left;
 	font-size: 1.5em;
-	color: rgba(250,50,50,1);
 	font-weight: 800;
   font-variant: small-caps;
   /**background-image:url(../assets/h1bg.png);

@@ -14,6 +14,7 @@ MSA 2020, “Streets,” will be held at Marriott Brooklyn Bridge Hotel in downt
 The conference hotel is situated in the center of downtown Brooklyn, with myriad options for food and drink all within walking distance. The nearby subway entrances at Jay Street-Metro Tech and Borough Hall provide easy access to Manhattan’s famous monuments, architectural sites of interest, galleries, performance centers, universities, libraries, and museums.
 
 
+
 # Theme
 
 Our theme of “Streets” aims to foster discussion not only of modernisms that have sought to remake the streets but also those modernisms (perhaps not going by that name) that have arisen from them. It also aims to bring the study of global modernism to bear on the streets of this most genuinely global of global cities, but also on the streets that have helped to shape key moments in modernist art, from those running through the Dublin of 1904 and the London of 1922 to those spanning the Paris of 1924 and the Chandigarh of 1951. We offer “Streets” as a capacious rubric inviting new perspectives on modernist production and the histories that produce it. Streets can be imagined as a way of thinking; as sites of overlapping temporalities; as networks; as material, populated places; but also as infrastructure joining together remote towns and villages. The theme is thus one that not only encompasses work in literary studies, visual art and music, but also anthropology, political science, urban studies, and histories of race and immigration.
