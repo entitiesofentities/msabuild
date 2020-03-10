@@ -30,11 +30,11 @@ textSize(40)
 
 crosswalkHorizontal(gapL, gapR)
 
-if (mouseY < 1000) {
+if (mouseY < 1000 && mouseY > 0) {
 textSize(500)
 fill(254, 10, 10)
 //if(map(mouseY, 0, height, 0, width/2) < (width/2 + 100)) {
-text("MSA", -900 + map(mouseY, 0, height, 0, width), height/1.18)
+text("MSA", -1100 + map(mouseY, 0, height, 0, width), height/1.18)
 //}
 
 fill(84, 215, 215)
