@@ -27,27 +27,29 @@ let gapL = width/2 - 300;
 let gapR = width/2 + 180;
 
 textSize(40)
+
 crosswalkHorizontal(gapL, gapR)
 
 if (mouseY < 1000) {
-textSize(400)
+textSize(500)
 fill(254, 10, 10)
 //if(map(mouseY, 0, height, 0, width/2) < (width/2 + 100)) {
-text("MSA", -900 + map(mouseY, 0, height, 0, width), height/1.25)
+text("MSA", -900 + map(mouseY, 0, height, 0, width), height/1.18)
 //}
 
 fill(84, 215, 215)
 //if(map(mouseY, 0, height, 0, width/2) < (width/2 + 100)) {
-text("NYC", width - map(mouseY, 0, height, 0, width), height/1.25)
+text("NYC", width - map(mouseY, 0, height, 0, width), height/1.18)
 //}
 }
 
 crosswalkHorizontal_FG()
+
 fill(0)
 rect((gapL + 60), 0, (gapR - gapL + 20), height)
 
 translate(width/2, height/2);
-rotate(map(mouseY, 0, height, 10, 0));
+rotate(map(mouseY, 0, height, 0, 10));
 image(img, 0, 0, img.width/map(mouseY, 0, height, 1.25, 1), img.height/map(mouseY, 0, height, 1.25, 1));
 
 }
