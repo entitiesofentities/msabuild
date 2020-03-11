@@ -49,7 +49,7 @@ fill(0)
 rect((gapL + 60), 0, (gapR - gapL + 20), height)
 
 translate(width/2, height/2);
-rotate(map(mouseY, 0, height, 0, 10));
+rotate(map(mouseY, 0, height, 0, PI));
 image(img, 0, 0, img.width/map(mouseY, 0, height, 1.25, 1), img.height/map(mouseY, 0, height, 1.25, 1));
 
 }
