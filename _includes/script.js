@@ -80,8 +80,8 @@ var interactive_bg = function(strength){
 
         //background img
         if(document.title == "MSA Brooklyn"){
-            $('#sketch-holder').hide();
-            $('#mobile-image').show();
+            //$('#sketch-holder').hide();
+            //$('#mobile-image').show();
         }
 
         //page styling
