@@ -46,7 +46,7 @@ text("NYC", width - map(mouseY, 0, height, 0, width), height/1.18)
 crosswalkHorizontal_FG()
 
 fill(0)
-rect((gapL + 60), 0, (gapR - gapL + 20), height)
+rect((gapL), 0, (gapR - gapL + 150), height)
 
 translate(width/2, height/2);
 rotate(map(mouseY, 0, height, 0, PI));
@@ -74,7 +74,7 @@ function crosswalkHorizontal_FG(){
   for (i = -1000; i < 4000; i += 200) {
     fill(0);
     xPos = 20 + i - mouseY;
-    if (i < gapL || i > gapR) {
+    if (i < gapL || i > gapR - 100) {
     rect(120 + i, 50, 100, 400);
   }
   }
