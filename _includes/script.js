@@ -250,6 +250,7 @@ var interactive_bg = function(strength){
             $('#padder').height(pad/1.25);
 
             //ADS
+            /*
             var ad = Math.round(Math.random()*2) + 1;
              if(document.title == "MSA Amsterdam"){
                  $('.advert').hide();
@@ -264,6 +265,7 @@ var interactive_bg = function(strength){
                                                );
                                    });
             }
+            */
 
           /*Failed experiment to dynamically reposition ad
           var adHeight = $('.advert').offset().top;
