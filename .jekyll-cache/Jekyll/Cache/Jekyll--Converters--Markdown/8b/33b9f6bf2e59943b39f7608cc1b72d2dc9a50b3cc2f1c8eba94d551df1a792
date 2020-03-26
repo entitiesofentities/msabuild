@@ -1,20 +1,13 @@
----
-layout: CFP
-title: Registration
-category: conf
-tag: text
----
+I"Î<h1 id="registration-information-page">Registration Information Page</h1>
 
-# Registration Information Page
-
-## Registration Rates for MSA 2020
+<h2 id="registration-rates-for-msa-2020">Registration Rates for MSA 2020</h2>
 
 <h4 style="text-align: center">Before August 20: Reduced Rate: $100 | Early Registration Rate: $190</h4>
 <h4 style="text-align: center">After August 20: Reduced Rate: $125 | Regular Registration Rate: $215</h4>
 
 <h4 style="text-align: center; font-weight: normal;">*The reduced registration rate is available to students, non-affiliated scholars, and retired scholars.</h4>
 
-**The registration portal will open in June. Please check back then.**
+<h2 id="the-registration-portal-will-open-in-june-please-check-back-then">The registration portal will open in June. Please check back then.</h2>
 
 <!--
 ## The link to register is at the bottom of this page. Please consult the registration information guidelines below before continuing.
@@ -87,3 +80,4 @@ Did we forget something? Please use this box to let us know.
 ## Registration Process: [Click here to register online](https://msa.press.jhu.edu/membership/conference ){:target="_blank"}
 
 -->
+:ET
