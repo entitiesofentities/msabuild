@@ -34,7 +34,6 @@
   src: url(../fonts/Lato-Regular.ttf) format("truetype");
 }
 
-
 /** TOP-HEADER **/
 
 #top-header{
@@ -152,7 +151,7 @@
 }
 
 #d a:hover{
-	color: rgb(210,35,42);
+	color: 	color: rgb(210,35,42);;
 	border-bottom: 1px solid black;
 }
 
