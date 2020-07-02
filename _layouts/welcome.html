@@ -6,8 +6,6 @@
         <meta name="author" content="Alex Christie, Brock University."
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="refresh" content="0; URL='https://msa.press.jhu.edu/conferences/msa2020/#begin'" />
-
 		<!-- base snippet for relative paths -->
 		{% include base.html %}
 
@@ -33,6 +31,15 @@
 		<script>
 		{% include jquery.interactive_bg.js %}
 		</script>
+    <script>
+    $( document ).ready(function() {
+      //var elmnt = document.getElementById("begin");
+      //elmnt.scrollIntoView();
+      $('html, body').animate({
+                    scrollTop: $("#begin").offset().top
+                }, 1500);
+    });
+    </script>
 <!--		<script src="http://www.onextrapixel.com/examples/file/js/modernizr.js"></script> -->
 
     	<!-- Analytics -->

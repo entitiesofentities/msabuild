@@ -1,9 +1,9 @@
 <div class="padder">
 </div>
 
-![lg-middle](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/DUMBO_Brooklyn%2C_as_seen_from_the_viewing_gallery_of_One_World_Trade_Center.jpg/1200px-DUMBO_Brooklyn%2C_as_seen_from_the_viewing_gallery_of_One_World_Trade_Center.jpg)
-
 <div id="begin"></div>
+
+![lg-middle](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/DUMBO_Brooklyn%2C_as_seen_from_the_viewing_gallery_of_One_World_Trade_Center.jpg/1200px-DUMBO_Brooklyn%2C_as_seen_from_the_viewing_gallery_of_One_World_Trade_Center.jpg)
 
 # MSA Brooklyn Rescheduled for October 2023
 
