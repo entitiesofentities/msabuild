@@ -55,6 +55,11 @@
 			{% endif %}
     {% endfor %}
 		-->
+		{% for post in site.posts %}
+			 {% if post.categories contains 'conf_online' %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endif %}
+		{% endfor %}
     {% for post in site.posts %}
     	   {% if post.categories contains 'conf_link' %}
 			<li><a href="{{ post.link }}">{{ post.title }}</a></li>
