@@ -21,3 +21,7 @@ View special offers from Duke University Press at <a href="https://www.dukeupres
 ![lg middle](../assets/online/cup.png)
 
 View special offers from Columbia University Press at <a href="URL" target="_blank">URL</a>.
+
+![lg middle](../assets/online/scholars_choice.jpg)
+
+View special offers from Scholar's Choice at <a href="URL" target="_blank">URL</a>.
