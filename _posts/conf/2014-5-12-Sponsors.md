@@ -15,7 +15,7 @@ View special offers from the University of California Press at <a href="https://
 
 ![lg middle](../assets/online/dup.png)
 
-View special offers from Duke University Press at <a href="URL" target="_blank">URL</a>.
+View special offers from Duke University Press at <a href="https://www.dukeupress.edu/Conferences/MSA2020" target="_blank">https://www.dukeupress.edu/Conferences/MSA2020</a>.
 
 
 ![lg middle](../assets/online/cup.png)
