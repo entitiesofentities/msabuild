@@ -20,7 +20,7 @@ View special offers from Duke University Press at <a href="https://www.dukeupres
 
 ![lg middle](../assets/online/cup.png)
 
-View special offers from Columbia University Press at <a href="URL" target="_blank">URL</a>.
+View special offers from Columbia University Press at <a href="https://cup.columbia.edu/book/msa-titles-on-display" target="_blank">https://cup.columbia.edu/book/msa-titles-on-display</a>.
 
 
 ![lg middle](../assets/online/florida.png)
