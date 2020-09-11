@@ -30,9 +30,8 @@ View special offers from Columbia University Press at <a href="https://cup.colum
 
 View special offers from University Press of Florida at <a href="http://upress.ufl.edu/MSA20" target="_blank">http://upress.ufl.edu/MSA20</a>.
 
-
-![lg middle](../assets/online/scholars_choice.jpg)
-
 <!--
-View special offers from Scholar's Choice at <a href="URL" target="_blank">URL</a>.
+![lg middle](../assets/online/scholars_choice.jpg)
 -->
+
+Download the special offers from Scholar's Choice by clicking <a href="https://msa.press.jhu.edu/conferences/msa2020/assets/online/Modernist_virtual_book_exhibit.pdf" target="_blank">here</a>.
