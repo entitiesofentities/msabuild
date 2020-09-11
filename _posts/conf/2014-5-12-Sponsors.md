@@ -18,16 +18,21 @@ View special offers from the University of California Press at <a href="https://
 View special offers from Duke University Press at <a href="https://www.dukeupress.edu/Conferences/MSA2020" target="_blank">https://www.dukeupress.edu/Conferences/MSA2020</a>.
 
 
-![lg middle](../assets/online/cup.png)
+![lg middle](../assets/online/cup.jpg)
+
+![lg middle](../assets/online/cup2.jpg)
 
 View special offers from Columbia University Press at <a href="https://cup.columbia.edu/book/msa-titles-on-display" target="_blank">https://cup.columbia.edu/book/msa-titles-on-display</a>.
 
-
+<!--
 ![lg middle](../assets/online/florida.png)
+-->
 
 View special offers from University Press of Florida at <a href="http://upress.ufl.edu/MSA20" target="_blank">http://upress.ufl.edu/MSA20</a>.
 
 
 ![lg middle](../assets/online/scholars_choice.jpg)
 
+<!--
 View special offers from Scholar's Choice at <a href="URL" target="_blank">URL</a>.
+-->
