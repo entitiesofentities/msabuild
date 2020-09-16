@@ -239,7 +239,7 @@ var interactive_bg = function(strength){
             $("img[alt*='right']").addClass("right");
 
             //page styling
-            $('#full').show();
+            $('#full').hide();
             $('#animate').hide();
             $('header').addClass("sticky");
             $('.content').addClass('big_pad');
@@ -247,7 +247,7 @@ var interactive_bg = function(strength){
             //content padding
             var pad;
             pad = $('header').height();
-            $('#padder').height(pad/1.25);
+            $('#padder').height(100);
 
             //ADS
             /*
