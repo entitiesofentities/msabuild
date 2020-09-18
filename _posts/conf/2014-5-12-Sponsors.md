@@ -24,9 +24,7 @@ View special offers from Duke University Press at <a href="https://www.dukeupres
 
 View special offers from Columbia University Press at <a href="https://cup.columbia.edu/book/msa-titles-on-display" target="_blank">https://cup.columbia.edu/book/msa-titles-on-display</a>.
 
-<!--
-![lg middle](../assets/online/florida.png)
--->
+![lg middle](../assets/online/UPF_Graphic_MSA.jpg)
 
 View special offers from University Press of Florida at <a href="http://upress.ufl.edu/MSA20" target="_blank">http://upress.ufl.edu/MSA20</a>.
 
