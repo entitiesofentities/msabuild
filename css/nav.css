@@ -210,8 +210,8 @@ body, html {
 
 .large {
     position: relative;
-    width: 50%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 1000px;
     height: auto;
 	margin-bottom: 1em;
 	margin-top: 1em;
