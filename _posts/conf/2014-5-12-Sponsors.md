@@ -47,4 +47,4 @@ Download the special offers from Scholar's Choice by clicking <a href="https://m
 <!-- Bloomsbury -->
 ![lg middle](../assets/online/bloomsbury.jpg)
 
-<!--Download the special offers from Bloomsbury by clicking <a href="" target="_blank">here</a>.-->
+View special offers from Bloomsbury at <a href="https://www.bloomsbury.com/us/superpage/modernist-studies-association-virtual-book-exhibit-2020/" target="_blank">https://www.bloomsbury.com/us/superpage/modernist-studies-association-virtual-book-exhibit-2020/</a>.
