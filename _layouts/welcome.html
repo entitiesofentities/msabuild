@@ -33,12 +33,7 @@
 		</script>
     <script>
     $( document ).ready(function() {
-      //var elmnt = document.getElementById("begin");
-      //elmnt.scrollIntoView();
-      $('html, body').animate({
-                    scrollTop: $("#begin").offset().top
-                }, 1500);
-    });
+
     </script>
 <!--		<script src="http://www.onextrapixel.com/examples/file/js/modernizr.js"></script> -->
 
@@ -51,17 +46,16 @@
 
 
 
-<body style="background-color: black;">
+<body>
 <div id="tippytop"></div>
-{% include header.html %}
+{% include alt-header.html %}
 
+<!--
 <div id="sketch-holder"></div>
 <image id="mobile-image" src="assets/manhole.png" style="padding-top: 20%; padding-left: 5%; width: 40%;" hidden></image>
+-->
 
-<div id="roar"><h1>New York City
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#begin">↓</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-October 2023</h1>
-</div>
+<img src="assets/migration_standard.jpg">
 
 
                 {{ content }}

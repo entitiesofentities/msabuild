@@ -1,10 +1,3 @@
----
-layout: CFP
-title: CFP
-category: conf-cfp
-tag: text
----
-
 **CFP for the Modernist Studies Association's Annual Conference**
 
 **MIGRATION**
@@ -106,7 +99,7 @@ All those who attend the MSA conference must be members of the
 organization with dues paid for 2020-2021 (MSA membership runs from July
 1 until June 30 each year) and any past dues paid in full. For
 information on MSA, please consult the [Association
-website](https://msa.press.jhu.edu/){:target="_blank"}. Except in cases pre-approved by
+website](https://msa.press.jhu.edu/). Except in cases pre-approved by
 the program committee, MSA speakers are generally expected to present in
 person, rather than remotely. The MSA21 organizers will revisit this
 rule as pandemic conditions and advisories continue to unfold.
@@ -198,7 +191,7 @@ archives, personal archives, indigenous archives, and the evolving
 protocols pertaining to archiving such recent events as Barack Obama's
 history of activism in Chicago, and the present crises of pandemic and
 protest (for instance, [the Blackivists'
-statement](https://sixtyinchesfromcenter.org/the-blackivists-five-tips-for-organizers-protestors-and-anyone-documenting-movements/){:target="_blank"}).
+statement](https://sixtyinchesfromcenter.org/the-blackivists-five-tips-for-organizers-protestors-and-anyone-documenting-movements/)).
 Participants might also consider the relationship between archives and
 storytelling, between empirical documentation and narrative form, and
 between lost or silenced histories, obliterated records, and fictional
@@ -288,10 +281,10 @@ generally feature a sequence of 15-20-minute talks followed by
 discussion, roundtables gather a group of participants around a shared
 concern in order to generate discussion among the participants and with
 the audience. To this end, instead of delivering full-length papers,
-presenters are asked to deliver <ins>short position statements</ins> in
+presenters are asked to deliver [short position statements]{.ul} in
 response to questions distributed in advance by the organizer, or to
-take turns responding to prompts from the moderator. <ins>The bulk of the
-session should be devoted to discussion</ins> No paper titles are
+take turns responding to prompts from the moderator. [The bulk of the
+session should be devoted to discussion]{.ul}. No paper titles are
 listed in the program, only the names of participants.
 
 Please bear in mind these guidelines:

@@ -1,0 +1,50 @@
+<header>
+<ul class="nav" id = "full" hidden>
+	<li class="title"><a href="./{{ base }}/index.html">{{ site.name }} {{ site.subtitle }}</a></li>
+	{% for post in site.posts %}
+		 {% if post.categories contains 'conf-cfp' %}
+	<li><a href="./{{ base }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}
+{% endfor %}
+{% for post in site.posts %}
+		 {% if post.categories contains 'conf_link' %}
+	<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+</ul>
+
+
+<ul class="nav" id = "animate" hidden>
+	<li class="title"><a href="#tippytop">{{ site.name }} {{ site.subtitle }}</a></li>
+	{% for post in site.posts %}
+		 {% if post.categories contains 'conf-cfp' %}
+	<li><a href="./{{ base }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}
+{% endfor %}
+{% for post in site.posts %}
+		 {% if post.categories contains 'conf_link' %}
+	<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+</ul>
+
+<ul class="nav" id = "mobile" hidden>
+	<li class="title">{{ site.name }} {{ site.subtitle }}</li>
+	{% for post in site.posts %}
+		 {% if post.categories contains 'conf-cfp' %}
+	<li><a href="./{{ base }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}
+{% endfor %}
+{% for post in site.posts %}
+		 {% if post.categories contains 'conf_link' %}
+	<li><a href="{{ post.link }}">{{ post.title }}</a></li>
+	{% endif %}
+	{% endfor %}
+</ul>
+
+
+</header>
+
+<script>
+{% include script.js %}
+</script>

@@ -79,7 +79,7 @@ var interactive_bg = function(strength){
         $('#c').css('line-height', '.95em;');
 
         //background img
-        if(document.title == "MSA Brooklyn"){
+        if(document.title == "MSA Chicago"){
             //$('#sketch-holder').hide();
             //$('#mobile-image').show();
         }
@@ -143,7 +143,7 @@ var interactive_bg = function(strength){
 
     //ANIMATED//
     }else{
-        if(document.title == "MSA Brooklyn"){
+        if(document.title == "MSA Chicago"){
 
             //background img
             interactive_bg(50);
@@ -239,7 +239,7 @@ var interactive_bg = function(strength){
             $("img[alt*='right']").addClass("right");
 
             //page styling
-            $('#full').hide();
+            $('#full').show();
             $('#animate').hide();
             $('header').addClass("sticky");
             $('.content').addClass('big_pad');
