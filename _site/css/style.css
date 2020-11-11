@@ -174,25 +174,27 @@ header{
     transition: all 1s;
 	background-color: white;
 	position: absolute;
-	color: rgb(196, 50, 37);
+  color: rgb(196, 50, 37);
+  letter-spacing: 4px;
 }
 
 .sticky{
-	background-color: rgba(28,77,71,0.8);
-	color: rgb(196, 50, 37);
+	background-color: rgba(30,70,58,0.9);
+  color: rgb(196, 50, 37);
 	margin-top: 0%;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     transition: all 1s;
 	position: fixed;
+    letter-spacing: 4px;
 }
 
 .sticky a{
-	color: rgb(219,143,127);
+  color: rgb(196, 50, 37);
 }
 
 .sticky a:visited{
-  color: rgb(219,143,127);
+  color: rgb(196, 50, 37);
 }
 
 .sticky a:hover{
@@ -252,11 +254,11 @@ header li{
 }
 
 li a:hover{
-  color: rgb(28,77,71);
+  color: rgb(196, 50, 37);;
 }
 
 a{
-	color: rgb(28,77,71);
+	color: rgb(196, 50, 37);;
 	text-decoration: none;
 }
 
