@@ -179,7 +179,7 @@ header{
 }
 
 .sticky{
-	background-color: rgba(30,70,58,0.9);
+	background-color: white;
   color: rgb(196, 50, 37);
 	margin-top: 0%;
     -webkit-transition: all 1s;

@@ -164,7 +164,7 @@ var interactive_bg = function(strength){
             $('#full').hide();
             $('#slow').show();
             $('#fast').hide();
-            $('header').addClass('pretty');
+            $('header').addClass('sticky');
             $('header').css('line-height', '.5em');
             $('#top-header').show();
             $('.content').addClass('big_pad');
@@ -187,7 +187,7 @@ var interactive_bg = function(strength){
             $('#animate #top-nav-one').mouseleave(function(){
                                              $(this).prev().andSelf().addClass('parting_ways');
                                              });
-
+/*
             $(window).scroll(function() {
                              if ($(this).scrollTop() > numz/14){
                              $('header').addClass("sticky");
@@ -200,6 +200,7 @@ var interactive_bg = function(strength){
                              $('#top-header').show();
                              }
                              });
+*/
 
             //header animation
             $('ul li').addClass('full');
