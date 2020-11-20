@@ -157,7 +157,7 @@ body, html {
 }
 
 .post h1{
-  background-color: rgba(210,49,48,1);
+  background-color: rgba(35,117,103,1);
   color: white;
   /*color: rgba(250,50,50,1);*/
   padding: 10px;
@@ -173,7 +173,7 @@ body, html {
 }
 
 .post h2{
-  background-color: rgba(35,117,103,1);
+  background-color: rgba(221,152,49,1);
   color: white;
   /*color: rgba(250,50,50,1);*/
   padding: 5px;
@@ -189,7 +189,7 @@ body, html {
 }
 
 .post h4{
-  background-color: rgba(221,152,49,1);
+  background-color: rgba(210,49,48,1);
   color: white;
   /*color: rgba(250,50,50,1);*/
   padding: 10px;
