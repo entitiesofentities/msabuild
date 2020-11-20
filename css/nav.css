@@ -156,8 +156,40 @@ body, html {
   background-repeat: no-repeat;**/
 }
 
+.post h1{
+  background-color: rgba(210,49,48,1);
+  color: white;
+  /*color: rgba(250,50,50,1);*/
+  padding: 10px;
+  /*transform:rotate(-1deg);*/
+  /*clip-path: polygon(0 0,100% 0vw,100% 50%,0 100%);*/
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 800;
+  font-variant: small-caps;
+  /**background-image:url(../assets/h1bg.png);
+  background-repeat: no-repeat;**/
+  width: 75%;
+}
+
+.post h2{
+  background-color: rgba(35,117,103,1);
+  color: white;
+  /*color: rgba(250,50,50,1);*/
+  padding: 5px;
+  /*transform:rotate(-1deg);*/
+  /*clip-path: polygon(0 0,100% 0vw,100% 50%,0 100%);*/
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: 800;
+  font-variant: small-caps;
+  /**background-image:url(../assets/h1bg.png);
+  background-repeat: no-repeat;**/
+  width: 50%;
+}
+
 .post h4{
-  background-color: rgba(210,47,50,1);
+  background-color: rgba(221,152,49,1);
   color: white;
   /*color: rgba(250,50,50,1);*/
   padding: 10px;
